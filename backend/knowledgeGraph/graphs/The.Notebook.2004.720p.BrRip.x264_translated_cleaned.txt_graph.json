@@ -1,0 +1,891 @@
+{
+  "movie": {
+    "id": "movie_the_notebook_2004",
+    "title": "The Notebook",
+    "year": 2004,
+    "plot_summary": "An elderly man named Duke reads a love story to a woman suffering from dementia, revealing their own past. The narrative flashes back to 1940, where young, working-class Noah Calhoun falls for affluent Allie Hamilton. Their passionate summer romance is cut short by Allie's disapproving parents and class differences, leading to a heartbreaking separation. Noah writes hundreds of unanswered letters before enlisting in the military, while Allie moves on, attending university and becoming engaged to the wealthy Lon Hammond. Years later, Noah rebuilds an old plantation, holding onto hope for Allie's return. Allie, seeing Noah's photo, visits him, sparking unresolved feelings. In the present, older Noah's devotion to Allie is complicated by her memory loss, Lon Jr.'s presence, and the revelation that Allie's mother hid Noah's letters. Allie struggles with her rekindled love for Noah and her commitment to Lon, eventually choosing Noah. Despite Allie's deteriorating condition and Noah's own health issues, their enduring love and unwavering bond remain, culminating in Allie questioning if their love can create miracles.",
+    "themes": [
+      "Enduring Love",
+      "Memory and Forgetfulness",
+      "Social Class Conflict",
+      "Parental Disapproval",
+      "Second Chances",
+      "Devotion and Persistence",
+      "Fate vs. Free Will",
+      "Heartbreak and Loss",
+      "Sacrifice"
+    ],
+    "mood": "Romantic, Poignant, Heartbreaking, Hopeful, Tender"
+  },
+  "characters": [
+    {
+      "id": "char_duke",
+      "name": "Duke",
+      "role": "Narrator, Protagonist (Older Noah)",
+      "archetype": "The Devoted Lover, The Storyteller",
+      "description": "An elderly man who reads a love story to an unresponsive woman, later revealed to be an older Noah Calhoun, dedicated to his wife Allie."
+    },
+    {
+      "id": "char_allie_hamilton",
+      "name": "Allie Hamilton",
+      "role": "Protagonist",
+      "archetype": "The Star-Crossed Lover, The Dutiful Daughter, The Free Spirit (suppressed)",
+      "description": "A young, affluent woman with a passion for painting and a structured life, who falls in love with Noah Calhoun. In her old age, she suffers from severe memory loss."
+    },
+    {
+      "id": "char_noah_calhoun",
+      "name": "Noah Calhoun",
+      "role": "Protagonist",
+      "archetype": "The Free Spirit, The Persistent Lover, The Working-Class Hero",
+      "description": "A young, persistent, working-class man with a free spirit who instantly falls in love with Allie Hamilton. He is unwavering in his love and dedication, even years later."
+    },
+    {
+      "id": "char_frank_calhoun",
+      "name": "Frank Calhoun",
+      "role": "Supporting",
+      "archetype": "The Supportive Parent",
+      "description": "Noah's father, who is warm, accepting, and supportive of Noah and Allie's relationship."
+    },
+    {
+      "id": "char_fin",
+      "name": "Fin",
+      "role": "Supporting",
+      "archetype": "The Loyal Friend",
+      "description": "Allie's friend who reports that Allie's parents have deployed the police to find her."
+    },
+    {
+      "id": "char_allie_mother",
+      "name": "Allie's Mother",
+      "role": "Antagonist (early)",
+      "archetype": "The Social Gatekeeper, The Controlling Parent",
+      "description": "Allie's mother, who disapproves of Noah due to his working-class background and actively intervenes to separate him from Allie, even hiding his letters."
+    },
+    {
+      "id": "char_allie_father",
+      "name": "Allie's Father",
+      "role": "Supporting",
+      "archetype": "The Authoritative Parent",
+      "description": "Allie's father, who supports his wife's disapproval of Noah and takes Allie home after the breakup."
+    },
+    {
+      "id": "char_lon_hammond",
+      "name": "Lon Hammond Jr.",
+      "role": "Love Interest (Allie)",
+      "archetype": "The Suitor, The Stable Partner",
+      "description": "A charming and wealthy man Allie meets during her time at university and eventually becomes engaged to. He represents a stable, socially acceptable future for Allie."
+    },
+    {
+      "id": "char_allie_children",
+      "name": "Allie's Children",
+      "role": "Supporting (present day)",
+      "archetype": "The Concerned Family",
+      "description": "The children of Allie and Noah, who express concern for their mother and urge Noah to move on."
+    }
+  ],
+  "scenes": [
+    {
+      "id": "scene_1_elderly_duke_reading",
+      "sequence_number": 1,
+      "summary": "An elderly man, Duke, reflects on his life's success through love as he attempts to read a story to an unresponsive older woman, implied to be Allie.",
+      "emotional_tone": "Poignant, Tender, Melancholic",
+      "key_quotes": []
+    },
+    {
+      "id": "scene_2_carnival_meeting",
+      "sequence_number": 2,
+      "summary": "A flashback to 1940 introduces a young, persistent Noah Calhoun who becomes instantly smitten with the affluent Allie Hamilton at a carnival. Noah's bold pursuit culminates in him dramatically hanging from a Ferris wheel to secure a date with Allie, who initially resists but eventually agrees.",
+      "emotional_tone": "Vibrant, Romantic, Rebellious, Playful",
+      "key_quotes": []
+    },
+    {
+      "id": "scene_3_first_date_spontaneity",
+      "sequence_number": 3,
+      "summary": "Noah and Allie's first date involves a movie, then a walk where Allie describes her highly scheduled life, while Noah encourages her to embrace freedom and spontaneity, sharing a daring moment lying in the street. Allie reveals her passion for painting, and their connection deepens through playful banter and an impromptu street dance.",
+      "emotional_tone": "Romantic, Free-spirited, Joyful, Spontaneous",
+      "key_quotes": []
+    },
+    {
+      "id": "scene_4_summer_romance",
+      "sequence_number": 4,
+      "summary": "The burgeoning, passionate summer romance between Noah and Allie, showcasing their adventurous spirit through activities like street dancing and jumping into the water, and their deep connection as they discuss their dreams, including Noah's desire to restore an old plantation. Allie is warmly received by Noah's father, Frank.",
+      "emotional_tone": "Passionate, Adventurous, Affectionate",
+      "key_quotes": []
+    },
+    {
+      "id": "scene_5_tense_dinner_and_intervention",
+      "sequence_number": 5,
+      "summary": "Allie's parents express subtle disapproval of Noah's working-class background during a tense dinner. Despite their differing personalities and frequent arguments, Noah and Allie's love intensifies, leading to an intimate moment where Allie expresses her profound feelings. Their time together is abruptly cut short when Fin reports Allie's parents have deployed the police.",
+      "emotional_tone": "Tense, Romantic, Foreboding",
+      "key_quotes": []
+    },
+    {
+      "id": "scene_6_breakup_and_separation",
+      "sequence_number": 6,
+      "summary": "Allie's parents and the police discover Noah and Allie, leading to a heated confrontation where Allie's mother forbids her from seeing Noah. This precipitates a devastating breakup as they separate amidst accusations and heartbreak. Noah leaves after Allie expresses her love and sorrow. The next day, Allie is forcibly taken home by her parents.",
+      "emotional_tone": "Intense, Heartbreaking, Angry, Sorrowful",
+      "key_quotes": []
+    },
+    {
+      "id": "scene_7_years_apart_new_paths",
+      "sequence_number": 7,
+      "summary": "Noah writes hundreds of unanswered letters before enlisting in the military. Years later, Allie is attending university and working as a nursing assistant when she meets the charming and wealthy Lon Hammond, quickly falling in love and accepting his marriage proposal.",
+      "emotional_tone": "Melancholic, Hopeful (for Allie), Moving On",
+      "key_quotes": []
+    },
+    {
+      "id": "scene_8_noah_rebuilds_plantation",
+      "sequence_number": 8,
+      "summary": "Lon successfully proposes to Allie, who accepts while secretly thinking of Noah. Simultaneously, Noah's father sells his house to enable Noah to buy and rebuild the Windsor plantation, a project Noah obsessively undertakes for years in the belief it will bring Allie back to him.",
+      "emotional_tone": "Driven, Hopeful, Persistent, Poignant",
+      "key_quotes": []
+    },
+    {
+      "id": "scene_9_allie_visits_noah",
+      "sequence_number": 9,
+      "summary": "Before her wedding to Lon, Allie sees Noah's photo in the newspaper and visits him, seeking clarity about her feelings. This complex flashback is framed by an older Noah reading the story to an older Allie, who is suffering from memory loss and struggles to recognize him.",
+      "emotional_tone": "Conflicted, Nostalgic, Tender, Poignant",
+      "key_quotes": []
+    },
+    {
+      "id": "scene_10_revelation_and_conflict",
+      "sequence_number": 10,
+      "summary": "An older Noah's unwavering devotion as he reads to Allie, who suffers from senile dementia, occasionally sparking intense memories of their shared past. Despite Allie's engagement to Lon Hammond Jr., who arrives searching for her, and her children urging Noah to move on, Noah remains dedicated. Allie's mother confesses to deliberately hiding Noah's 365 letters, leaving Allie deeply torn.",
+      "emotional_tone": "Devoted, Tense, Revealing, Distressed",
+      "key_quotes": []
+    },
+    {
+      "id": "scene_11_passionate_choice",
+      "sequence_number": 11,
+      "summary": "Allie is distraught over her affair with Noah. Noah confronts her about her engagement to Lon and passionately declares his desire for her to choose him, not the 'easy way.'",
+      "emotional_tone": "Distraught, Passionate, Confrontational, Urgent",
+      "key_quotes": [
+        "choose him, not the 'easy way'"
+      ]
+    },
+    {
+      "id": "scene_12_enduring_bond",
+      "sequence_number": 12,
+      "summary": "Older Noah recounts their love story to an ailing Allie, who experiences moments of clarity interspersed with panic and confusion due to severe memory loss. Despite her deteriorating condition and his own medical emergency, Noah remains fiercely devoted, persistently returning to her side. Allie questions if their love can create miracles and take them together.",
+      "emotional_tone": "Poignant, Devoted, Desperate, Miraculous, Hopeful",
+      "key_quotes": [
+        "if their love can create miracles and take them together"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "event_first_meeting_carnival",
+      "name": "Noah and Allie Meet at Carnival",
+      "type": "Romantic Encounter",
+      "description": "Young Noah Calhoun meets affluent Allie Hamilton at a carnival in 1940 and is instantly smitten.",
+      "significance": "Initiates the central romance of the story."
+    },
+    {
+      "id": "event_ferris_wheel_date_proposal",
+      "name": "Ferris Wheel Date Proposal",
+      "type": "Courtship",
+      "description": "Noah dramatically hangs from a Ferris wheel to convince Allie to go on a date with him.",
+      "significance": "Highlights Noah's persistence and Allie's initial resistance, leading to their first date."
+    },
+    {
+      "id": "event_first_date",
+      "name": "First Date and Spontaneity",
+      "type": "Romantic Milestone",
+      "description": "Noah and Allie go to a movie, walk, lie in the street, and dance, with Noah encouraging Allie's free spirit.",
+      "significance": "Deepens their connection and establishes Noah's influence on Allie."
+    },
+    {
+      "id": "event_allie_reveals_painting",
+      "name": "Allie Reveals Passion for Painting",
+      "type": "Personal Revelation",
+      "description": "Allie shares her deep love and talent for painting with Noah.",
+      "significance": "Reveals a core aspect of Allie's personality and dreams."
+    },
+    {
+      "id": "event_noah_plantation_dream",
+      "name": "Noah Shares Plantation Dream",
+      "type": "Personal Dream",
+      "description": "Noah tells Allie about his dream of buying and restoring an old plantation.",
+      "significance": "Establishes a long-term goal for Noah that becomes a symbol of his love for Allie."
+    },
+    {
+      "id": "event_allie_meets_frank",
+      "name": "Allie Meets Frank Calhoun",
+      "type": "Family Interaction",
+      "description": "Allie is warmly received by Noah's father, Frank Calhoun, strengthening her bond with Noah's family.",
+      "significance": "Shows the contrast with Allie's own parents' disapproval."
+    },
+    {
+      "id": "event_tense_dinner_with_parents",
+      "name": "Tense Dinner with Allie's Parents",
+      "type": "Family Conflict, Social Conflict",
+      "description": "Allie's parents express subtle disapproval of Noah's working-class background during a dinner.",
+      "significance": "Introduces the central class conflict threatening their romance."
+    },
+    {
+      "id": "event_police_intervention",
+      "name": "Police Intervention and Parental Confrontation",
+      "type": "External Conflict",
+      "description": "Allie's parents deploy the police to find her, leading to a heated confrontation where Allie's mother forbids her from seeing Noah.",
+      "significance": "Directly causes the breakup of Noah and Allie's summer romance."
+    },
+    {
+      "id": "event_devastating_breakup",
+      "name": "Devastating Breakup",
+      "type": "Separation",
+      "description": "Allie and Noah separate amidst accusations and heartbreak due to parental intervention and class differences.",
+      "significance": "The primary separation event that defines much of the film's conflict."
+    },
+    {
+      "id": "event_noah_writes_letters",
+      "name": "Noah Writes Unanswered Letters",
+      "type": "Attempted Reconciliation",
+      "description": "Noah writes hundreds of letters to Allie after their breakup, which go unanswered.",
+      "significance": "Highlights Noah's persistence and Allie's mother's interference."
+    },
+    {
+      "id": "event_noah_enlists",
+      "name": "Noah Enlists in Military",
+      "type": "Life Change",
+      "description": "After the breakup, Noah enlists in the military.",
+      "significance": "Represents Noah moving on, or trying to, after the heartbreak."
+    },
+    {
+      "id": "event_allie_meets_lon",
+      "name": "Allie Meets Lon Hammond",
+      "type": "Romantic Encounter",
+      "description": "Years later, Allie meets the charming and wealthy Lon Hammond while attending university.",
+      "significance": "Introduces Allie's new life path and another romantic interest."
+    },
+    {
+      "id": "event_lon_proposes",
+      "name": "Lon Hammond's Proposal",
+      "type": "Romantic Milestone",
+      "description": "Lon Hammond successfully proposes marriage to Allie, which she accepts.",
+      "significance": "Marks Allie's commitment to a new future, seemingly leaving Noah behind."
+    },
+    {
+      "id": "event_noah_rebuilds_plantation",
+      "name": "Noah Rebuilds Windsor Plantation",
+      "type": "Personal Quest, Dedication",
+      "description": "With his father's help, Noah buys and obsessively rebuilds the Windsor plantation, believing it will bring Allie back.",
+      "significance": "A profound act of dedication and hope, symbolizing his enduring love."
+    },
+    {
+      "id": "event_allie_sees_photo",
+      "name": "Allie Sees Noah's Photo",
+      "type": "Catalyst",
+      "description": "Before her wedding, Allie sees Noah's photo in the newspaper, sparking her memories and unresolved feelings.",
+      "significance": "Triggers Allie's decision to revisit Noah and question her choices."
+    },
+    {
+      "id": "event_allie_visits_noah",
+      "name": "Allie Visits Noah at Plantation",
+      "type": "Reunion, Seeking Clarity",
+      "description": "Allie visits Noah at the restored Windsor plantation to confront her feelings.",
+      "significance": "Forces Allie to choose between her past love and her present engagement."
+    },
+    {
+      "id": "event_mother_confesses_letters",
+      "name": "Allie's Mother Confesses Hiding Letters",
+      "type": "Revelation, Past Injustice",
+      "description": "Allie's mother confesses that she deliberately hid Noah's 365 letters years ago.",
+      "significance": "Reveals a major plot point, explaining why Noah's letters went unanswered and fueling Allie's emotional turmoil."
+    },
+    {
+      "id": "event_allie_torn_choice",
+      "name": "Allie Torn Between Loves",
+      "type": "Internal Conflict, Emotional Distress",
+      "description": "Allie is deeply torn and emotionally distressed, struggling to choose between her enduring love for Noah and her commitment to Lon.",
+      "significance": "The climax of Allie's emotional journey and her ultimate decision."
+    },
+    {
+      "id": "event_noah_confronts_allie_choice",
+      "name": "Noah Confronts Allie About Choice",
+      "type": "Romantic Conflict, Declaration of Love",
+      "description": "Noah confronts Allie about her engagement to Lon and passionately declares his desire for her to choose him.",
+      "significance": "Forces Allie to make a definitive choice, highlighting Noah's unwavering passion."
+    },
+    {
+      "id": "event_allie_questions_miracles",
+      "name": "Allie Questions Love's Miracles",
+      "type": "Profound Reflection",
+      "description": "Allie, amidst her memory loss, questions Noah if their love can create miracles and take them together.",
+      "significance": "Symbolizes the depth of their enduring love and its transcendental nature."
+    }
+  ],
+  "locations": [
+    {
+      "id": "loc_carnival_1940",
+      "name": "Carnival (1940)",
+      "type": "Public Space",
+      "description": "The lively setting where Noah and Allie first meet."
+    },
+    {
+      "id": "loc_street",
+      "name": "Street",
+      "type": "Urban Setting",
+      "description": "A public street where Noah encourages Allie's spontaneity and they share a daring moment.",
+      "significance": "Symbolizes their early, rebellious love."
+    },
+    {
+      "id": "loc_allie_parents_home",
+      "name": "Allie's Parents' Home",
+      "type": "Residence (Affluent)",
+      "description": "The home of Allie's affluent parents, where Noah experiences disapproval and Allie is later forcibly taken.",
+      "significance": "Represents the societal barrier between Noah and Allie."
+    },
+    {
+      "id": "loc_military_base",
+      "name": "Military Base",
+      "type": "Military Facility",
+      "description": "The place where Noah serves after enlisting in the military.",
+      "significance": "Represents Noah's life path after the breakup."
+    },
+    {
+      "id": "loc_university",
+      "name": "University",
+      "type": "Educational Institution",
+      "description": "Where Allie attends after the breakup and meets Lon Hammond.",
+      "significance": "Represents Allie's new life and opportunities."
+    },
+    {
+      "id": "loc_nursing_home",
+      "name": "Nursing Home",
+      "type": "Care Facility",
+      "description": "The facility where the older Allie resides, suffering from dementia, and where older Noah reads to her.",
+      "significance": "The primary present-day setting for the enduring love story."
+    },
+    {
+      "id": "loc_windsor_plantation",
+      "name": "Windsor Plantation",
+      "type": "Residence (Historic)",
+      "description": "An old, dilapidated plantation that Noah dreams of buying and restoring, later becoming his home and a symbol of his love for Allie.",
+      "significance": "A central location symbolizing Noah's dedication and hope."
+    }
+  ],
+  "objects": [
+    {
+      "id": "obj_ferris_wheel",
+      "name": "Ferris Wheel",
+      "type": "Amusement Ride",
+      "significance": "The object Noah dramatically hangs from to secure his first date with Allie."
+    },
+    {
+      "id": "obj_letters",
+      "name": "Letters",
+      "type": "Personal Documents",
+      "significance": "Hundreds of letters written by Noah to Allie that were hidden by Allie's mother, symbolizing missed communication and deliberate interference."
+    },
+    {
+      "id": "obj_newspaper_photo",
+      "name": "Newspaper Photo",
+      "type": "Media",
+      "significance": "A photo of Noah in the newspaper that Allie sees before her wedding, acting as a catalyst for her to revisit him."
+    }
+  ],
+  "themes": [
+    {
+      "id": "theme_enduring_love",
+      "name": "Enduring Love",
+      "category": "Relationship"
+    },
+    {
+      "id": "theme_memory_loss",
+      "name": "Memory and Forgetfulness",
+      "category": "Human Condition"
+    },
+    {
+      "id": "theme_class_conflict",
+      "name": "Social Class Conflict",
+      "category": "Social Issue"
+    },
+    {
+      "id": "theme_parental_disapproval",
+      "name": "Parental Disapproval",
+      "category": "Family Dynamics"
+    },
+    {
+      "id": "theme_second_chances",
+      "name": "Second Chances",
+      "category": "Personal Growth"
+    },
+    {
+      "id": "theme_devotion_persistence",
+      "name": "Devotion and Persistence",
+      "category": "Personal Trait"
+    },
+    {
+      "id": "theme_spontaneity_structure",
+      "name": "Spontaneity vs. Structure",
+      "category": "Life Philosophy"
+    },
+    {
+      "id": "theme_heartbreak_loss",
+      "name": "Heartbreak and Loss",
+      "category": "Emotion"
+    },
+    {
+      "id": "theme_sacrifice",
+      "name": "Sacrifice",
+      "category": "Personal Trait"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "movie_the_notebook_2004",
+      "target": "theme_enduring_love",
+      "type": "EXPLORES"
+    },
+    {
+      "source": "movie_the_notebook_2004",
+      "target": "theme_memory_loss",
+      "type": "EXPLORES"
+    },
+    {
+      "source": "movie_the_notebook_2004",
+      "target": "theme_class_conflict",
+      "type": "EXPLORES"
+    },
+    {
+      "source": "movie_the_notebook_2004",
+      "target": "theme_parental_disapproval",
+      "type": "EXPLORES"
+    },
+    {
+      "source": "movie_the_notebook_2004",
+      "target": "theme_second_chances",
+      "type": "EXPLORES"
+    },
+    {
+      "source": "movie_the_notebook_2004",
+      "target": "theme_devotion_persistence",
+      "type": "EXPLORES"
+    },
+    {
+      "source": "movie_the_notebook_2004",
+      "target": "theme_spontaneity_structure",
+      "type": "EXPLORES"
+    },
+    {
+      "source": "movie_the_notebook_2004",
+      "target": "theme_heartbreak_loss",
+      "type": "EXPLORES"
+    },
+    {
+      "source": "movie_the_notebook_2004",
+      "target": "theme_sacrifice",
+      "type": "EXPLORES"
+    },
+    {
+      "source": "char_duke",
+      "target": "char_allie_hamilton",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "char_duke",
+      "target": "char_noah_calhoun",
+      "type": "REPRESENTS"
+    },
+    {
+      "source": "char_noah_calhoun",
+      "target": "char_allie_hamilton",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "char_allie_hamilton",
+      "target": "char_lon_hammond",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "char_noah_calhoun",
+      "target": "char_frank_calhoun",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "char_allie_hamilton",
+      "target": "char_allie_mother",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "char_allie_hamilton",
+      "target": "char_allie_father",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "char_allie_mother",
+      "target": "char_noah_calhoun",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "char_duke",
+      "target": "scene_1_elderly_duke_reading",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_allie_hamilton",
+      "target": "scene_1_elderly_duke_reading",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_noah_calhoun",
+      "target": "scene_2_carnival_meeting",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_allie_hamilton",
+      "target": "scene_2_carnival_meeting",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_noah_calhoun",
+      "target": "scene_3_first_date_spontaneity",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_allie_hamilton",
+      "target": "scene_3_first_date_spontaneity",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_noah_calhoun",
+      "target": "scene_4_summer_romance",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_allie_hamilton",
+      "target": "scene_4_summer_romance",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_frank_calhoun",
+      "target": "scene_4_summer_romance",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_allie_mother",
+      "target": "scene_5_tense_dinner_and_intervention",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_allie_father",
+      "target": "scene_5_tense_dinner_and_intervention",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_fin",
+      "target": "scene_5_tense_dinner_and_intervention",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_noah_calhoun",
+      "target": "scene_5_tense_dinner_and_intervention",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_allie_hamilton",
+      "target": "scene_5_tense_dinner_and_intervention",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_noah_calhoun",
+      "target": "scene_6_breakup_and_separation",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_allie_hamilton",
+      "target": "scene_6_breakup_and_separation",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_allie_mother",
+      "target": "scene_6_breakup_and_separation",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_allie_father",
+      "target": "scene_6_breakup_and_separation",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_noah_calhoun",
+      "target": "scene_7_years_apart_new_paths",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_allie_hamilton",
+      "target": "scene_7_years_apart_new_paths",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_lon_hammond",
+      "target": "scene_7_years_apart_new_paths",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_allie_hamilton",
+      "target": "scene_8_noah_rebuilds_plantation",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_lon_hammond",
+      "target": "scene_8_noah_rebuilds_plantation",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_noah_calhoun",
+      "target": "scene_8_noah_rebuilds_plantation",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_frank_calhoun",
+      "target": "scene_8_noah_rebuilds_plantation",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_allie_hamilton",
+      "target": "scene_9_allie_visits_noah",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_noah_calhoun",
+      "target": "scene_9_allie_visits_noah",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_duke",
+      "target": "scene_9_allie_visits_noah",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_allie_hamilton",
+      "target": "scene_9_allie_visits_noah",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_duke",
+      "target": "scene_10_revelation_and_conflict",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_allie_hamilton",
+      "target": "scene_10_revelation_and_conflict",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_lon_hammond",
+      "target": "scene_10_revelation_and_conflict",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_allie_children",
+      "target": "scene_10_revelation_and_conflict",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_allie_mother",
+      "target": "scene_10_revelation_and_conflict",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_allie_hamilton",
+      "target": "scene_11_passionate_choice",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_noah_calhoun",
+      "target": "scene_11_passionate_choice",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_duke",
+      "target": "scene_12_enduring_bond",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_allie_hamilton",
+      "target": "scene_12_enduring_bond",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "event_first_meeting_carnival",
+      "target": "scene_2_carnival_meeting",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "event_ferris_wheel_date_proposal",
+      "target": "scene_2_carnival_meeting",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "event_first_date",
+      "target": "scene_3_first_date_spontaneity",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "event_allie_reveals_painting",
+      "target": "scene_3_first_date_spontaneity",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "event_noah_plantation_dream",
+      "target": "scene_4_summer_romance",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "event_allie_meets_frank",
+      "target": "scene_4_summer_romance",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "event_tense_dinner_with_parents",
+      "target": "scene_5_tense_dinner_and_intervention",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "event_police_intervention",
+      "target": "scene_5_tense_dinner_and_intervention",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "event_devastating_breakup",
+      "target": "scene_6_breakup_and_separation",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "event_noah_writes_letters",
+      "target": "scene_7_years_apart_new_paths",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "event_noah_enlists",
+      "target": "scene_7_years_apart_new_paths",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "event_allie_meets_lon",
+      "target": "scene_7_years_apart_new_paths",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "event_lon_proposes",
+      "target": "scene_8_noah_rebuilds_plantation",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "event_noah_rebuilds_plantation",
+      "target": "scene_8_noah_rebuilds_plantation",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "event_allie_sees_photo",
+      "target": "scene_9_allie_visits_noah",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "event_allie_visits_noah",
+      "target": "scene_9_allie_visits_noah",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "event_mother_confesses_letters",
+      "target": "scene_10_revelation_and_conflict",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "event_allie_torn_choice",
+      "target": "scene_10_revelation_and_conflict",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "event_noah_confronts_allie_choice",
+      "target": "scene_11_passionate_choice",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "event_allie_questions_miracles",
+      "target": "scene_12_enduring_bond",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "scene_2_carnival_meeting",
+      "target": "loc_carnival_1940",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source": "scene_3_first_date_spontaneity",
+      "target": "loc_street",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source": "scene_5_tense_dinner_and_intervention",
+      "target": "loc_allie_parents_home",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source": "scene_6_breakup_and_separation",
+      "target": "loc_allie_parents_home",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source": "event_noah_enlists",
+      "target": "loc_military_base",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source": "event_allie_meets_lon",
+      "target": "loc_university",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source": "scene_1_elderly_duke_reading",
+      "target": "loc_nursing_home",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source": "scene_9_allie_visits_noah",
+      "target": "loc_nursing_home",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source": "scene_10_revelation_and_conflict",
+      "target": "loc_nursing_home",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source": "scene_12_enduring_bond",
+      "target": "loc_nursing_home",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source": "event_noah_rebuilds_plantation",
+      "target": "loc_windsor_plantation",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source": "scene_9_allie_visits_noah",
+      "target": "loc_windsor_plantation",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source": "event_ferris_wheel_date_proposal",
+      "target": "obj_ferris_wheel",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "event_noah_writes_letters",
+      "target": "obj_letters",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "event_mother_confesses_letters",
+      "target": "obj_letters",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "event_allie_sees_photo",
+      "target": "obj_newspaper_photo",
+      "type": "CONTAINS"
+    }
+  ]
+}

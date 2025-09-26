@@ -1,0 +1,1123 @@
+{
+  "movie": {
+    "id": "movie_titanic_1997",
+    "title": "Titanic",
+    "year": 1997,
+    "plot_summary": "A modern deep-sea expedition led by Brock Lovett explores the sunken Titanic wreck, searching for the 'Heart of the Ocean' diamond. An elderly survivor, Rose Calvert, comes forward, identifying herself as the young woman in a drawing found by Lovett's team. Rose recounts her 1912 experience aboard the maiden voyage of the Titanic as Rose DeWitt Bukater, an aristocratic woman trapped by her prearranged life and fianc\u00e9, Cal Hockley. Concurrently, a free-spirited artist, Jack Dawson, and his friend Fabrizio win third-class tickets, boarding the ship with exuberance. Rose attempts suicide but is saved by Jack, sparking an unlikely, forbidden romance that defies rigid class distinctions and the disapproval of Cal and Rose's mother, Ruth. Despite repeated ice warnings, the Titanic accelerates, leading to its fatal collision with an iceberg. As the ship is declared fatally damaged, Cal cruelly frames Jack for theft, leading to his arrest. Rose, defying her family, abandons a lifeboat to rescue Jack from the rapidly flooding lower decks. Amidst widespread panic and insufficient lifeboats, they navigate the sinking vessel. In a profound act of sacrifice, Jack ensures Rose's survival by giving her the only available floating debris. Rose survives the catastrophe, fulfilling her promise to Jack by living a full life under the name 'Rose Dawson' and keeping his memory and their love a secret, the 'Heart of the Ocean' diamond remaining a symbol of their enduring bond.",
+    "themes": [
+      "theme_forbidden_love",
+      "theme_class_divide",
+      "theme_sacrifice",
+      "theme_survival",
+      "theme_destiny",
+      "theme_trapped_by_society",
+      "theme_wealth_vs_freedom",
+      "theme_memory",
+      "theme_negligence",
+      "theme_injustice"
+    ],
+    "mood": "Romantic, Dramatic, Tragic, Tense, Despairing, Hopeful"
+  },
+  "characters": [
+    {
+      "id": "char_brock_lovett",
+      "name": "Brock Lovett",
+      "role": "Treasure Hunter",
+      "archetype": "Explorer",
+      "description": "Leader of a deep-sea expedition searching for the 'Heart of the Ocean' diamond."
+    },
+    {
+      "id": "char_rose_elderly",
+      "name": "Rose Calvert (Elderly)",
+      "role": "Narrator, Survivor",
+      "archetype": "Storyteller",
+      "description": "An elderly woman who survived the Titanic sinking, recounts her past."
+    },
+    {
+      "id": "char_rose_young",
+      "name": "Rose DeWitt Bukater / Rose Dawson (Young)",
+      "role": "Protagonist",
+      "archetype": "Rebellious Debutante",
+      "description": "A young aristocratic woman feeling trapped by her life and arranged marriage, falls in love with Jack."
+    },
+    {
+      "id": "char_jack_dawson",
+      "name": "Jack Dawson",
+      "role": "Protagonist",
+      "archetype": "Free-spirited Artist",
+      "description": "A young, free-spirited artist from third class who falls in love with Rose."
+    },
+    {
+      "id": "char_fabrizio_de_rossi",
+      "name": "Fabrizio De Rossi",
+      "role": "Jack's Friend",
+      "archetype": "Sidekick",
+      "description": "Jack Dawson's friend who wins third-class tickets with him."
+    },
+    {
+      "id": "char_cal_hockley",
+      "name": "Caledon 'Cal' Hockley",
+      "role": "Antagonist",
+      "archetype": "Wealthy Suitor",
+      "description": "Rose's possessive and wealthy fianc\u00e9."
+    },
+    {
+      "id": "char_ruth_dewitt_bukater",
+      "name": "Ruth DeWitt Bukater",
+      "role": "Rose's Mother",
+      "archetype": "Status-conscious Parent",
+      "description": "Rose's status-conscious mother, concerned with financial security and social standing."
+    },
+    {
+      "id": "char_j_bruce_ismay",
+      "name": "J. Bruce Ismay",
+      "role": "White Star Line Director",
+      "archetype": "Company Executive",
+      "description": "Director of the White Star Line, pushes for speed records."
+    },
+    {
+      "id": "char_thomas_andrews",
+      "name": "Thomas Andrews",
+      "role": "Ship Designer",
+      "archetype": "Tragic Hero",
+      "description": "Designer of the Titanic, who discovers the critical shortage of lifeboats and the ship's fatal damage."
+    },
+    {
+      "id": "char_captain_smith",
+      "name": "Captain Edward Smith",
+      "role": "Ship Captain",
+      "archetype": "Responsible Authority",
+      "description": "Captain of the Titanic, facing the grim reality of the sinking."
+    },
+    {
+      "id": "char_first_officer_murdoch",
+      "name": "First Officer William Murdoch",
+      "role": "Ship Officer",
+      "archetype": "Duty-bound Officer",
+      "description": "Officer attempting to maintain order during the chaotic sinking."
+    }
+  ],
+  "scenes": [
+    {
+      "id": "scene_deep_sea_expedition",
+      "sequence_number": 1,
+      "summary": "Treasure hunter Brock Lovett leads a deep-sea expedition exploring the sunken Titanic wreck, searching for a valuable diamond and facing criticism.",
+      "emotional_tone": "Intriguing, Analytical",
+      "key_quotes": []
+    },
+    {
+      "id": "scene_elderly_rose_call",
+      "sequence_number": 2,
+      "summary": "During a live broadcast, an elderly Rose Calvert calls in, identifying herself as the woman in a drawing found by Lovett's team and claiming knowledge of the 'Heart of the Ocean' diamond.",
+      "emotional_tone": "Mysterious, Emotional",
+      "key_quotes": []
+    },
+    {
+      "id": "scene_rose_recounts_experience",
+      "sequence_number": 3,
+      "summary": "Rose is brought aboard Lovett's research vessel, where she emotionally recounts her experience on the Titanic as a young woman, feeling trapped by her aristocratic life and arranged marriage.",
+      "emotional_tone": "Melancholy, Reflective",
+      "key_quotes": []
+    },
+    {
+      "id": "scene_jack_fabrizio_board",
+      "sequence_number": 4,
+      "summary": "Concurrently, a young, free-spirited Jack Dawson and his friend Fabrizio win third-class tickets, exuberantly boarding the ship, setting the stage for their intersecting fates.",
+      "emotional_tone": "Joyful, Hopeful",
+      "key_quotes": []
+    },
+    {
+      "id": "scene_titanic_embarkation_grandeur",
+      "sequence_number": 5,
+      "summary": "Passengers, including Rose, excitedly embark on the Titanic for America, marveling at its unprecedented grandeur and speed.",
+      "emotional_tone": "Excited, Awed",
+      "key_quotes": []
+    },
+    {
+      "id": "scene_rose_contemplates_suicide",
+      "sequence_number": 6,
+      "summary": "Rose, overwhelmed and feeling trapped by her wealthy life, contemplates suicide on the ship's deck but is compassionately talked down by Jack Dawson.",
+      "emotional_tone": "Despairing, Tense, Compassionate",
+      "key_quotes": []
+    },
+    {
+      "id": "scene_cal_intervenes_invitation",
+      "sequence_number": 7,
+      "summary": "Rose's possessive fianc\u00e9, Cal, misinterprets the situation and tries to pay Jack off, but Rose covers for Jack, leading to an invitation for him to dine with them.",
+      "emotional_tone": "Tense, Manipulative, Developing",
+      "key_quotes": []
+    },
+    {
+      "id": "scene_burgeoning_connection",
+      "sequence_number": 8,
+      "summary": "As the Titanic gains speed, Rose and Jack continue to connect, contrasting her feelings of emotional suffocation with his observations of life and people, highlighting class differences.",
+      "emotional_tone": "Intimate, Reflective, Budding Romance",
+      "key_quotes": []
+    },
+    {
+      "id": "scene_jack_teaches_rose_customs",
+      "sequence_number": 9,
+      "summary": "Jack and Rose deepen their bond, with Jack playfully teaching Rose 'manly' customs and discussing freedom, much to the disdain of Cal and Ruth.",
+      "emotional_tone": "Playful, Rebellious, Tense",
+      "key_quotes": []
+    },
+    {
+      "id": "scene_formal_dinner_confrontation",
+      "sequence_number": 10,
+      "summary": "At a formal dinner, Jack navigates inquiries about his humble origins, but Cal fiercely reasserts his authority, forbidding Rose from seeing Jack.",
+      "emotional_tone": "Tense, Confrontational",
+      "key_quotes": []
+    },
+    {
+      "id": "scene_jack_thwarted_ice_warnings",
+      "sequence_number": 11,
+      "summary": "Cal's associates thwart Jack's attempt to speak with Rose. Despite ice warnings, the ship accelerates for a record, and designer Thomas Andrews discovers a critical shortage of lifeboats.",
+      "emotional_tone": "Frustrated, Ominous",
+      "key_quotes": []
+    },
+    {
+      "id": "scene_forbidden_romance_collision",
+      "sequence_number": 12,
+      "summary": "Jack and Rose's forbidden romance deepens. The Titanic crew expresses overconfidence as ice warnings are dismissed, and the vessel then collides with an iceberg.",
+      "emotional_tone": "Romantic, Ominous, Shocking",
+      "key_quotes": []
+    },
+    {
+      "id": "scene_fatal_damage_realization",
+      "sequence_number": 13,
+      "summary": "Officers, including Captain Smith and designer Andrews, realize the ship is fatally damaged and will sink amidst frantic efforts.",
+      "emotional_tone": "Grim, Despairing",
+      "key_quotes": []
+    },
+    {
+      "id": "scene_jack_framed_arrested",
+      "sequence_number": 14,
+      "summary": "Amidst the chaos, Cal cruelly frames Jack for theft, leading to Jack's arrest and confinement while initial orders for lifeboat preparation are issued.",
+      "emotional_tone": "Cruel, Unjust, Tense",
+      "key_quotes": []
+    },
+    {
+      "id": "scene_sinking_confirmation_lifeboats",
+      "sequence_number": 15,
+      "summary": "Mr. Andrews confirms the Titanic will sink in an hour, leading to urgent commands for passengers to wear rescue suits and board lifeboats, prioritizing women and children.",
+      "emotional_tone": "Urgent, Desperate",
+      "key_quotes": []
+    },
+    {
+      "id": "scene_rose_defies_family_searches",
+      "sequence_number": 16,
+      "summary": "Amidst mounting panic and chaos, Rose defies her fianc\u00e9 and mother, abandoning a lifeboat to desperately search for Jack, who is trapped in the rapidly flooding lower decks.",
+      "emotional_tone": "Chaotic, Heroic, Desperate",
+      "key_quotes": []
+    },
+    {
+      "id": "scene_perilous_escape_attempt",
+      "sequence_number": 17,
+      "summary": "Rose and Jack face perilous conditions, including locked passages and violent crowds, highlighting the grim reality that there aren't enough lifeboats for everyone.",
+      "emotional_tone": "Terrifying, Despairing",
+      "key_quotes": []
+    },
+    {
+      "id": "scene_final_sinking_sacrifice",
+      "sequence_number": 18,
+      "summary": "As the ship rapidly sinks, Rose jumps back from a lifeboat for Jack. Jack, in a profound act of sacrifice, ensures Rose's survival by giving her the only available floating debris.",
+      "emotional_tone": "Tragic, Heroic, Sacrificial",
+      "key_quotes": []
+    },
+    {
+      "id": "scene_rose_survival_reflection",
+      "sequence_number": 19,
+      "summary": "Rose survives the catastrophe, fulfills her promise to Jack by living a full life as 'Rose Dawson,' and reflects on his impact, keeping their love and his memory a secret.",
+      "emotional_tone": "Bittersweet, Reflective",
+      "key_quotes": []
+    }
+  ],
+  "events": [
+    {
+      "id": "event_deep_sea_exploration",
+      "name": "Deep-sea Expedition Explores Titanic",
+      "type": "Exploration",
+      "description": "Treasure hunter Brock Lovett leads an expedition to search the sunken Titanic wreck for a diamond.",
+      "significance": "Initiates the modern-day narrative and frames Rose's flashback."
+    },
+    {
+      "id": "event_elderly_rose_identifies_self",
+      "name": "Elderly Rose Identifies Herself",
+      "type": "Revelation",
+      "description": "An elderly Rose Calvert calls into a live broadcast, identifying herself as the woman in a drawing found at the Titanic wreck.",
+      "significance": "Connects the past and present narratives and sets up Rose's recount."
+    },
+    {
+      "id": "event_jack_fabrizio_win_tickets",
+      "name": "Jack and Fabrizio Win Titanic Tickets",
+      "type": "Chance Event",
+      "description": "Jack Dawson and his friend Fabrizio win third-class tickets for the Titanic's maiden voyage.",
+      "significance": "Introduces Jack and Fabrizio to the ship and sets their fate in motion."
+    },
+    {
+      "id": "event_passengers_embark",
+      "name": "Passengers Board Titanic",
+      "type": "Departure",
+      "description": "Passengers, including Rose, Jack, and Fabrizio, board the Titanic for its maiden voyage to America.",
+      "significance": "Marks the beginning of the ill-fated journey for all characters."
+    },
+    {
+      "id": "event_rose_contemplates_suicide",
+      "name": "Rose Contemplates Suicide",
+      "type": "Personal Crisis",
+      "description": "Feeling trapped by her life, Rose contemplates jumping off the ship's deck.",
+      "significance": "Highlights Rose's despair and directly leads to her first interaction with Jack."
+    },
+    {
+      "id": "event_jack_saves_rose",
+      "name": "Jack Saves Rose",
+      "type": "Rescue",
+      "description": "Jack Dawson talks Rose down from her suicide attempt on the deck.",
+      "significance": "Forms the initial, crucial bond between Rose and Jack."
+    },
+    {
+      "id": "event_cal_invites_jack_dinner",
+      "name": "Cal Invites Jack to Dinner",
+      "type": "Social Event, Manipulation",
+      "description": "Cal misinterprets Rose and Jack's encounter; Rose covers for Jack, leading to Cal inviting Jack to dinner.",
+      "significance": "Allows Jack to enter the first-class world and deepen his connection with Rose."
+    },
+    {
+      "id": "event_class_divide_assertion",
+      "name": "Cal Reasserts Authority",
+      "type": "Conflict",
+      "description": "At a formal dinner, Cal reasserts his authority, forbidding Rose from seeing Jack and emphasizing their financial need.",
+      "significance": "Highlights the societal pressures and the obstacles to Rose and Jack's relationship."
+    },
+    {
+      "id": "event_ice_warnings_dismissed",
+      "name": "Ice Warnings Dismissed",
+      "type": "Negligence",
+      "description": "Despite several ice warnings, the ship accelerates to set a record.",
+      "significance": "Directly contributes to the fatal collision and emphasizes human hubris."
+    },
+    {
+      "id": "event_lifeboat_shortage_discovered",
+      "name": "Lifeboat Shortage Discovered",
+      "type": "Discovery, Foreshadowing",
+      "description": "Designer Thomas Andrews discovers a critical shortage of lifeboats on the ship.",
+      "significance": "Foreshadows the catastrophic loss of life and the ethical dilemmas during the sinking."
+    },
+    {
+      "id": "event_iceberg_collision",
+      "name": "Titanic Collides with Iceberg",
+      "type": "Catastrophe",
+      "description": "The Titanic collides with an iceberg, causing fatal damage.",
+      "significance": "The central tragic event that triggers the ship's sinking and the ultimate test for the characters."
+    },
+    {
+      "id": "event_ship_declared_fatally_damaged",
+      "name": "Ship Declared Fatally Damaged",
+      "type": "Disaster Confirmation",
+      "description": "Officers and designer Andrews realize the Titanic is fatally damaged and will sink.",
+      "significance": "Marks the grim realization and the beginning of urgent survival efforts."
+    },
+    {
+      "id": "event_jack_framed_arrested",
+      "name": "Jack Framed and Arrested",
+      "type": "Injustice",
+      "description": "Cal cruelly frames Jack for theft, leading to his arrest and confinement.",
+      "significance": "Creates a major obstacle for Rose and Jack, further highlighting Cal's villainy."
+    },
+    {
+      "id": "event_lifeboat_evacuation_orders",
+      "name": "Lifeboat Evacuation Orders Issued",
+      "type": "Emergency Response",
+      "description": "Commands are issued for passengers to wear rescue suits and board lifeboats, prioritizing women and children.",
+      "significance": "Initiates the chaotic and desperate phase of the sinking."
+    },
+    {
+      "id": "event_rose_abandons_lifeboat",
+      "name": "Rose Abandons Lifeboat",
+      "type": "Act of Defiance, Love",
+      "description": "Rose defies her fianc\u00e9 and mother, abandoning a lifeboat to desperately search for Jack.",
+      "significance": "Demonstrates Rose's deep love and commitment, rejecting her societal constraints."
+    },
+    {
+      "id": "event_jack_sacrifice",
+      "name": "Jack's Sacrifice",
+      "type": "Sacrifice",
+      "description": "Jack ensures Rose's survival by giving her the only available floating debris as the ship sinks.",
+      "significance": "The ultimate act of love and sacrifice, leading to Jack's death but Rose's survival."
+    },
+    {
+      "id": "event_rose_survival",
+      "name": "Rose Survives the Sinking",
+      "type": "Survival",
+      "description": "Rose is rescued, having survived the catastrophic sinking of the Titanic.",
+      "significance": "The tragic yet hopeful outcome of her journey, allowing her to fulfill Jack's wish."
+    },
+    {
+      "id": "event_rose_keeps_memory_secret",
+      "name": "Rose Keeps Jack's Memory Secret",
+      "type": "Promise Fulfillment",
+      "description": "Rose lives a full life as 'Rose Dawson,' keeping her love for Jack and his memory a secret.",
+      "significance": "Emphasizes the enduring impact of Jack on her life and the theme of memory."
+    }
+  ],
+  "locations": [
+    {
+      "id": "loc_sunken_titanic_wreck",
+      "name": "Sunken Titanic Wreck",
+      "type": "Underwater Site",
+      "description": "The remains of the Titanic at the bottom of the ocean, explored by Brock Lovett's expedition.",
+      "key_quotes": []
+    },
+    {
+      "id": "loc_research_vessel",
+      "name": "Research Vessel",
+      "type": "Ship",
+      "description": "Brock Lovett's deep-sea research ship, where elderly Rose recounts her story.",
+      "key_quotes": []
+    },
+    {
+      "id": "loc_titanic_ship",
+      "name": "Titanic (ship)",
+      "type": "Luxury Liner",
+      "description": "The grand ocean liner on its maiden voyage, the primary setting for the historical narrative.",
+      "key_quotes": []
+    },
+    {
+      "id": "loc_titanic_deck",
+      "name": "Titanic Ship's Deck",
+      "type": "Ship Area",
+      "description": "Various outdoor areas of the Titanic's deck, where Rose contemplates suicide and meets Jack.",
+      "key_quotes": []
+    },
+    {
+      "id": "loc_titanic_third_class",
+      "name": "Titanic Third Class",
+      "type": "Ship Area",
+      "description": "The third-class accommodations and common areas on the Titanic.",
+      "key_quotes": []
+    },
+    {
+      "id": "loc_titanic_first_class_dining",
+      "name": "Titanic First Class Dining Room",
+      "type": "Ship Area",
+      "description": "The elegant dining area for first-class passengers.",
+      "key_quotes": []
+    },
+    {
+      "id": "loc_titanic_lower_decks",
+      "name": "Titanic Lower Decks",
+      "type": "Ship Area",
+      "description": "The rapidly flooding lower levels of the Titanic where Jack is trapped.",
+      "key_quotes": []
+    },
+    {
+      "id": "loc_north_atlantic_ocean",
+      "name": "North Atlantic Ocean",
+      "type": "Body of Water",
+      "description": "The ocean where the Titanic sinks and survivors are found.",
+      "key_quotes": []
+    }
+  ],
+  "objects": [
+    {
+      "id": "obj_heart_of_ocean_diamond",
+      "name": "Heart of the Ocean Diamond",
+      "type": "Jewel",
+      "significance": "A valuable diamond sought by Brock Lovett, connected to Rose's past and symbolic of her love for Jack."
+    },
+    {
+      "id": "obj_drawing",
+      "name": "Drawing (of Rose)",
+      "type": "Artwork, Personal Item",
+      "significance": "A drawing found by Lovett's team that identifies elderly Rose and sparks her narrative."
+    },
+    {
+      "id": "obj_third_class_tickets",
+      "name": "Third-class Tickets",
+      "type": "Travel Document",
+      "significance": "The tickets won by Jack and Fabrizio, allowing them passage on the Titanic."
+    },
+    {
+      "id": "obj_lifeboats",
+      "name": "Lifeboats",
+      "type": "Safety Equipment",
+      "significance": "Vessels meant for emergency evacuation, critically insufficient in number during the sinking."
+    },
+    {
+      "id": "obj_floating_debris",
+      "name": "Floating Debris (Door)",
+      "type": "Survival Aid",
+      "significance": "A piece of wreckage that Jack gives to Rose to ensure her survival."
+    },
+    {
+      "id": "obj_rescue_suits",
+      "name": "Rescue Suits",
+      "type": "Safety Equipment",
+      "significance": "Garments instructed for passengers to wear during evacuation."
+    }
+  ],
+  "themes": [
+    {
+      "id": "theme_forbidden_love",
+      "name": "Forbidden Love",
+      "category": "Relationship"
+    },
+    {
+      "id": "theme_class_divide",
+      "name": "Class Divide",
+      "category": "Society"
+    },
+    {
+      "id": "theme_sacrifice",
+      "name": "Sacrifice",
+      "category": "Human Condition"
+    },
+    {
+      "id": "theme_survival",
+      "name": "Survival",
+      "category": "Human Condition"
+    },
+    {
+      "id": "theme_destiny",
+      "name": "Destiny",
+      "category": "Philosophical"
+    },
+    {
+      "id": "theme_trapped_by_society",
+      "name": "Trapped by Society",
+      "category": "Society"
+    },
+    {
+      "id": "theme_wealth_vs_freedom",
+      "name": "Wealth vs. Freedom",
+      "category": "Society"
+    },
+    {
+      "id": "theme_memory",
+      "name": "Memory",
+      "category": "Philosophical"
+    },
+    {
+      "id": "theme_negligence",
+      "name": "Negligence",
+      "category": "Human Flaw"
+    },
+    {
+      "id": "theme_injustice",
+      "name": "Injustice",
+      "category": "Society"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "movie_titanic_1997",
+      "target": "theme_forbidden_love",
+      "type": "EXPLORES"
+    },
+    {
+      "source": "movie_titanic_1997",
+      "target": "theme_class_divide",
+      "type": "EXPLORES"
+    },
+    {
+      "source": "movie_titanic_1997",
+      "target": "theme_sacrifice",
+      "type": "EXPLORES"
+    },
+    {
+      "source": "movie_titanic_1997",
+      "target": "theme_survival",
+      "type": "EXPLORES"
+    },
+    {
+      "source": "movie_titanic_1997",
+      "target": "theme_destiny",
+      "type": "EXPLORES"
+    },
+    {
+      "source": "movie_titanic_1997",
+      "target": "theme_trapped_by_society",
+      "type": "EXPLORES"
+    },
+    {
+      "source": "movie_titanic_1997",
+      "target": "theme_wealth_vs_freedom",
+      "type": "EXPLORES"
+    },
+    {
+      "source": "movie_titanic_1997",
+      "target": "theme_memory",
+      "type": "EXPLORES"
+    },
+    {
+      "source": "movie_titanic_1997",
+      "target": "theme_negligence",
+      "type": "EXPLORES"
+    },
+    {
+      "source": "movie_titanic_1997",
+      "target": "theme_injustice",
+      "type": "EXPLORES"
+    },
+    {
+      "source": "char_brock_lovett",
+      "target": "scene_deep_sea_expedition",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "char_rose_elderly",
+      "target": "scene_elderly_rose_call",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "char_rose_elderly",
+      "target": "scene_rose_recounts_experience",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "char_rose_elderly",
+      "target": "scene_rose_survival_reflection",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "char_rose_young",
+      "target": "scene_rose_recounts_experience",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "char_rose_young",
+      "target": "scene_titanic_embarkation_grandeur",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "char_rose_young",
+      "target": "scene_rose_contemplates_suicide",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "char_rose_young",
+      "target": "scene_cal_intervenes_invitation",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "char_rose_young",
+      "target": "scene_burgeoning_connection",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "char_rose_young",
+      "target": "scene_jack_teaches_rose_customs",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "char_rose_young",
+      "target": "scene_formal_dinner_confrontation",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "char_rose_young",
+      "target": "scene_forbidden_romance_collision",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "char_rose_young",
+      "target": "scene_rose_defies_family_searches",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "char_rose_young",
+      "target": "scene_perilous_escape_attempt",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "char_rose_young",
+      "target": "scene_final_sinking_sacrifice",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "char_jack_dawson",
+      "target": "scene_jack_fabrizio_board",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "char_jack_dawson",
+      "target": "scene_rose_contemplates_suicide",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "char_jack_dawson",
+      "target": "scene_cal_intervenes_invitation",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "char_jack_dawson",
+      "target": "scene_burgeoning_connection",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "char_jack_dawson",
+      "target": "scene_jack_teaches_rose_customs",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "char_jack_dawson",
+      "target": "scene_formal_dinner_confrontation",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "char_jack_dawson",
+      "target": "scene_jack_thwarted_ice_warnings",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "char_jack_dawson",
+      "target": "scene_forbidden_romance_collision",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "char_jack_dawson",
+      "target": "scene_jack_framed_arrested",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "char_jack_dawson",
+      "target": "scene_rose_defies_family_searches",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "char_jack_dawson",
+      "target": "scene_perilous_escape_attempt",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "char_jack_dawson",
+      "target": "scene_final_sinking_sacrifice",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "char_fabrizio_de_rossi",
+      "target": "scene_jack_fabrizio_board",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "char_cal_hockley",
+      "target": "scene_cal_intervenes_invitation",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "char_cal_hockley",
+      "target": "scene_jack_teaches_rose_customs",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "char_cal_hockley",
+      "target": "scene_formal_dinner_confrontation",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "char_cal_hockley",
+      "target": "scene_jack_thwarted_ice_warnings",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "char_cal_hockley",
+      "target": "scene_jack_framed_arrested",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "char_cal_hockley",
+      "target": "scene_rose_defies_family_searches",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "char_ruth_dewitt_bukater",
+      "target": "scene_jack_teaches_rose_customs",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "char_ruth_dewitt_bukater",
+      "target": "scene_formal_dinner_confrontation",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "char_ruth_dewitt_bukater",
+      "target": "scene_rose_defies_family_searches",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "char_j_bruce_ismay",
+      "target": "scene_burgeoning_connection",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "char_thomas_andrews",
+      "target": "scene_jack_thwarted_ice_warnings",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "char_thomas_andrews",
+      "target": "scene_fatal_damage_realization",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "char_thomas_andrews",
+      "target": "scene_sinking_confirmation_lifeboats",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "char_captain_smith",
+      "target": "scene_fatal_damage_realization",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "char_first_officer_murdoch",
+      "target": "scene_rose_defies_family_searches",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "char_first_officer_murdoch",
+      "target": "scene_final_sinking_sacrifice",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "scene_deep_sea_expedition",
+      "target": "loc_sunken_titanic_wreck",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source": "scene_elderly_rose_call",
+      "target": "loc_research_vessel",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source": "scene_rose_recounts_experience",
+      "target": "loc_research_vessel",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source": "scene_jack_fabrizio_board",
+      "target": "loc_titanic_ship",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source": "scene_titanic_embarkation_grandeur",
+      "target": "loc_titanic_ship",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source": "scene_rose_contemplates_suicide",
+      "target": "loc_titanic_deck",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source": "scene_cal_intervenes_invitation",
+      "target": "loc_titanic_deck",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source": "scene_burgeoning_connection",
+      "target": "loc_titanic_ship",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source": "scene_jack_teaches_rose_customs",
+      "target": "loc_titanic_ship",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source": "scene_formal_dinner_confrontation",
+      "target": "loc_titanic_first_class_dining",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source": "scene_jack_thwarted_ice_warnings",
+      "target": "loc_titanic_ship",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source": "scene_forbidden_romance_collision",
+      "target": "loc_titanic_ship",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source": "scene_fatal_damage_realization",
+      "target": "loc_titanic_ship",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source": "scene_jack_framed_arrested",
+      "target": "loc_titanic_ship",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source": "scene_sinking_confirmation_lifeboats",
+      "target": "loc_titanic_ship",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source": "scene_rose_defies_family_searches",
+      "target": "loc_titanic_lower_decks",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source": "scene_rose_defies_family_searches",
+      "target": "loc_titanic_deck",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source": "scene_perilous_escape_attempt",
+      "target": "loc_titanic_lower_decks",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source": "scene_final_sinking_sacrifice",
+      "target": "loc_north_atlantic_ocean",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source": "scene_final_sinking_sacrifice",
+      "target": "loc_titanic_deck",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source": "scene_rose_survival_reflection",
+      "target": "loc_research_vessel",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source": "scene_deep_sea_expedition",
+      "target": "event_deep_sea_exploration",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "scene_elderly_rose_call",
+      "target": "event_elderly_rose_identifies_self",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "scene_jack_fabrizio_board",
+      "target": "event_jack_fabrizio_win_tickets",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "scene_titanic_embarkation_grandeur",
+      "target": "event_passengers_embark",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "scene_rose_contemplates_suicide",
+      "target": "event_rose_contemplates_suicide",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "scene_rose_contemplates_suicide",
+      "target": "event_jack_saves_rose",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "scene_cal_intervenes_invitation",
+      "target": "event_cal_invites_jack_dinner",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "scene_formal_dinner_confrontation",
+      "target": "event_class_divide_assertion",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "scene_jack_thwarted_ice_warnings",
+      "target": "event_ice_warnings_dismissed",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "scene_jack_thwarted_ice_warnings",
+      "target": "event_lifeboat_shortage_discovered",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "scene_forbidden_romance_collision",
+      "target": "event_iceberg_collision",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "scene_fatal_damage_realization",
+      "target": "event_ship_declared_fatally_damaged",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "scene_jack_framed_arrested",
+      "target": "event_jack_framed_arrested",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "scene_jack_framed_arrested",
+      "target": "event_lifeboat_evacuation_orders",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "scene_rose_defies_family_searches",
+      "target": "event_rose_abandons_lifeboat",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "scene_final_sinking_sacrifice",
+      "target": "event_jack_sacrifice",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "scene_rose_survival_reflection",
+      "target": "event_rose_survival",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "scene_rose_survival_reflection",
+      "target": "event_rose_keeps_memory_secret",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "char_rose_young",
+      "target": "char_jack_dawson",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "char_rose_young",
+      "target": "char_cal_hockley",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "char_rose_young",
+      "target": "char_ruth_dewitt_bukater",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "char_jack_dawson",
+      "target": "char_fabrizio_de_rossi",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "char_cal_hockley",
+      "target": "char_ruth_dewitt_bukater",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "char_brock_lovett",
+      "target": "obj_heart_of_ocean_diamond",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "char_rose_elderly",
+      "target": "obj_heart_of_ocean_diamond",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "char_rose_elderly",
+      "target": "obj_drawing",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "char_brock_lovett",
+      "target": "obj_drawing",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "char_jack_dawson",
+      "target": "obj_third_class_tickets",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "char_fabrizio_de_rossi",
+      "target": "obj_third_class_tickets",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "obj_lifeboats",
+      "target": "loc_titanic_ship",
+      "type": "PART_OF"
+    },
+    {
+      "source": "obj_rescue_suits",
+      "target": "loc_titanic_ship",
+      "type": "PART_OF"
+    },
+    {
+      "source": "obj_floating_debris",
+      "target": "event_jack_sacrifice",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "char_jack_dawson",
+      "target": "obj_floating_debris",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "char_rose_young",
+      "target": "obj_floating_debris",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "event_rose_contemplates_suicide",
+      "target": "theme_trapped_by_society",
+      "type": "EXPLORES"
+    },
+    {
+      "source": "event_jack_saves_rose",
+      "target": "theme_destiny",
+      "type": "EXPLORES"
+    },
+    {
+      "source": "event_class_divide_assertion",
+      "target": "theme_class_divide",
+      "type": "EXPLORES"
+    },
+    {
+      "source": "event_ice_warnings_dismissed",
+      "target": "theme_negligence",
+      "type": "EXPLORES"
+    },
+    {
+      "source": "event_iceberg_collision",
+      "target": "theme_negligence",
+      "type": "EXPLORES"
+    },
+    {
+      "source": "event_jack_framed_arrested",
+      "target": "theme_injustice",
+      "type": "EXPLORES"
+    },
+    {
+      "source": "event_rose_abandons_lifeboat",
+      "target": "theme_forbidden_love",
+      "type": "EXPLORES"
+    },
+    {
+      "source": "event_rose_abandons_lifeboat",
+      "target": "theme_sacrifice",
+      "type": "EXPLORES"
+    },
+    {
+      "source": "event_jack_sacrifice",
+      "target": "theme_sacrifice",
+      "type": "EXPLORES"
+    },
+    {
+      "source": "event_rose_survival",
+      "target": "theme_survival",
+      "type": "EXPLORES"
+    },
+    {
+      "source": "event_rose_keeps_memory_secret",
+      "target": "theme_memory",
+      "type": "EXPLORES"
+    },
+    {
+      "source": "event_jack_fabrizio_win_tickets",
+      "target": "theme_destiny",
+      "type": "EXPLORES"
+    },
+    {
+      "source": "event_iceberg_collision",
+      "target": "obj_heart_of_ocean_diamond",
+      "type": "RELATES_TO"
+    }
+  ]
+}
