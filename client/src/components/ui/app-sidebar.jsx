@@ -1,6 +1,5 @@
 import * as React from 'react';
 
-import { TeamSwitcher } from '@/components/ui/team-switcher';
 import {
   Sidebar,
   SidebarContent,
@@ -21,71 +20,38 @@ import {
   DropdownMenuTrigger,
 } from '@/components/ui/dropdown-menu';
 import {
-  RiChat1Line,
-  RiBardLine,
-  RiMickeyLine,
-  RiMicLine,
-  RiCheckDoubleLine,
-  RiBracesLine,
-  RiPlanetLine,
-  RiSeedlingLine,
-  RiSettings3Line,
   RiMore2Fill,
+  RiAddLine,
 } from '@remixicon/react';
 
-// This is sample data.
-const data = {
-  history: [
-    {
-      title: 'Chat',
-      url: '#',
-      query: 'chat',
-      icon: RiChat1Line,
-      isActive: true,
+export function AppSidebar({
+  history = [],
+  selectedId,
+  onSelect,
+  onRename,
+  onDelete,
+  onNewChat,
+  ...props
+}) {
+  const handleRename = React.useCallback(
+    (item) => {
+      if (onRename) onRename(item);
     },
-    {
-      title: 'Real-time',
-      url: '#',
-      query: 'real-time',
-      icon: RiBardLine,
-    },
-    {
-      title: 'Assistants',
-      url: '#',
-      query: 'assistants',
-      icon: RiMickeyLine,
-    },
-    {
-      title: 'Audio',
-      url: '#',
-      query: 'audio',
-      icon: RiMicLine,
-    },
-    {
-      title: 'Metrics',
-      url: '#',
-      query: 'metrics',
-      icon: RiCheckDoubleLine,
-    },
-    {
-      title: 'Documentation',
-      url: '#',
-      query: 'documentation',
-      icon: RiBracesLine,
-    },
-  ],
-};
+    [onRename]
+  );
 
-export function AppSidebar({ ...props }) {
-  const handleRename = React.useCallback((item) => {
-    console.log('Rename clicked for', item);
-    // TODO: wire up rename flow
-  }, []);
+  const handleDelete = React.useCallback(
+    (item) => {
+      if (onDelete) onDelete(item);
+    },
+    [onDelete]
+  );
 
-  const handleDelete = React.useCallback((item) => {
-    console.log('Delete clicked for', item);
-    // TODO: wire up delete flow
-  }, []);
+  const handleNewChatClick = React.useCallback(() => {
+    if (onNewChat) {
+      onNewChat();
+    }
+  }, [onNewChat]);
 
   return (
     <Sidebar {...props} className="dark !border-none">
@@ -100,16 +66,22 @@ export function AppSidebar({ ...props }) {
           </SidebarGroupLabel>
           <SidebarGroupContent className="px-2">
             <SidebarMenu>
-              {data.history.map((item) => (
-                <SidebarMenuItem key={item.title}>
+              {history.map((item) => (
+                <SidebarMenuItem key={item.id || item.title}>
                   <SidebarMenuButton
                     asChild
                     className="group/menu-button font-medium gap-3 h-9 rounded-md data-[active=true]:hover:bg-transparent data-[active=true]:bg-gradient-to-b data-[active=true]:from-sidebar-primary data-[active=true]:to-sidebar-primary/70 data-[active=true]:shadow-[0_1px_2px_0_rgb(0_0_0/.05),inset_0_1px_0_0_rgb(255_255_255/.12)] [&>svg]:size-auto"
-                    isActive={item.isActive}
+                    isActive={
+                      (item.id && item.id === selectedId) || item.isActive
+                    }
                   >
-                    <a href={item.url}>
+                    <button
+                      type="button"
+                      className="w-full text-left"
+                      onClick={() => onSelect && onSelect(item)}
+                    >
                       <span>{item.title}</span>
-                    </a>
+                    </button>
                   </SidebarMenuButton>
                   <DropdownMenu>
                     <DropdownMenuTrigger asChild>
@@ -135,7 +107,24 @@ export function AppSidebar({ ...props }) {
           </SidebarGroupContent>
         </SidebarGroup>
       </SidebarContent>
-      <SidebarFooter></SidebarFooter>
+      <SidebarFooter>
+        <SidebarMenu>
+          <SidebarMenuItem>
+            <SidebarMenuButton
+              asChild
+              className="group/menu-button font-medium gap-3 h-9 rounded-md hover:bg-sidebar-accent hover:text-sidebar-accent-foreground transition-colors"
+            >
+              <button
+                className="flex items-center gap-3 w-full"
+                onClick={handleNewChatClick}
+              >
+                <RiAddLine size={16} />
+                <span>New Chat</span>
+              </button>
+            </SidebarMenuButton>
+          </SidebarMenuItem>
+        </SidebarMenu>
+      </SidebarFooter>
     </Sidebar>
   );
 }
