@@ -1,0 +1,3215 @@
+{
+  "movie": {
+    "id": "movie_harry_potter_1",
+    "title": "Harry Potter and the Philosopher's Stone",
+    "year": 2001,
+    "plot_summary": "The film introduces Harry Potter, an orphan living with his abusive aunt and uncle, who discovers on his eleventh birthday that he is a wizard and has been accepted to Hogwarts School of Witchcraft and Wizardry. He learns about his parents' murder by Lord Voldemort and his own fame for surviving the attack as a baby. Guided by Hagrid, Harry visits Diagon Alley to prepare for Hogwarts, where he meets Ron Weasley and Hermione Granger on the Hogwarts Express. At Hogwarts, they are sorted into Gryffindor House. Harry quickly becomes the Seeker for the Gryffindor Quidditch team. The trio soon uncover a plot surrounding a mysterious object, the Philosopher's Stone, which is hidden within Hogwarts and guarded by various magical challenges. They initially suspect Professor Snape is trying to steal it for Voldemort, who is clinging to life. After a series of adventures including a detention in the Forbidden Forest where they encounter a cloaked figure drinking unicorn blood, they realize Professor Quirrell is possessed by Voldemort. Harry, Ron, and Hermione navigate the forbidden obstacles, including Fluffy the three-headed dog, Devil's Snare, enchanted flying keys, and a life-sized Wizard's Chess game, to reach the Stone. Harry confronts Quirrell/Voldemort, who is defeated by Harry's mother's protective magic. Dumbledore explains the Stone's destruction and the power of love. Gryffindor ultimately wins the House Cup, and Harry finds a true home and family at Hogwarts.",
+    "themes": [
+      "Good vs. Evil",
+      "Friendship",
+      "Family",
+      "Destiny",
+      "Magic and Discovery",
+      "Courage",
+      "Sacrifice",
+      "Identity",
+      "Prejudice"
+    ]
+  },
+  "characters": [
+    {
+      "id": "char_dumbledore",
+      "name": "Albus Dumbledore",
+      "role": "Headmaster of Hogwarts",
+      "archetype": "Wise Mentor",
+      "description": "The powerful, enigmatic headmaster of Hogwarts, who oversees Harry's placement and later guides him."
+    },
+    {
+      "id": "char_mcgonagall",
+      "name": "Minerva McGonagall",
+      "role": "Deputy Headmistress, Head of Gryffindor",
+      "archetype": "Strict but Caring Authority",
+      "description": "A stern but fair professor who assists Dumbledore and later welcomes first-year students to Hogwarts."
+    },
+    {
+      "id": "char_voldemort",
+      "name": "Lord Voldemort",
+      "role": "Dark Wizard",
+      "archetype": "Arch-Nemesis",
+      "description": "The dark wizard responsible for killing Harry Potter's parents and attempting to kill Harry as a baby. His spirit is clinging to life and seeking the Philosopher's Stone, possessing Professor Quirrell."
+    },
+    {
+      "id": "char_harry_potter",
+      "name": "Harry Potter",
+      "role": "Protagonist",
+      "archetype": "The Chosen One",
+      "description": "An orphaned boy who discovers he is a wizard on his eleventh birthday and is famous for surviving Lord Voldemort's attack."
+    },
+    {
+      "id": "char_uncle_vernon",
+      "name": "Uncle Vernon Dursley",
+      "role": "Abusive Uncle",
+      "archetype": "Abusive Guardian",
+      "description": "Harry's overbearing and magic-hating uncle who tries to prevent Harry from receiving letters from Hogwarts."
+    },
+    {
+      "id": "char_dudley_dursley",
+      "name": "Dudley Dursley",
+      "role": "Cousin",
+      "archetype": "Bully",
+      "description": "Harry's spoiled and overweight cousin, favored by the Dursleys."
+    },
+    {
+      "id": "char_hagrid",
+      "name": "Rubeus Hagrid",
+      "role": "Keeper of Keys and Grounds, Professor",
+      "archetype": "Gentle Giant Mentor",
+      "description": "A half-giant who delivers Harry to the Dursleys and later introduces him to the wizarding world, becoming a trusted friend."
+    },
+    {
+      "id": "char_boa_constrictor",
+      "name": "Boa Constrictor",
+      "role": "Animal",
+      "archetype": "Magical Creature",
+      "description": "A snake Harry unknowingly communicates with at the zoo, leading to its escape."
+    },
+    {
+      "id": "char_ron_weasley",
+      "name": "Ron Weasley",
+      "role": "Best Friend",
+      "archetype": "Loyal Companion",
+      "description": "Harry's first friend at Hogwarts, from a large wizarding family, and a key member of the trio."
+    },
+    {
+      "id": "char_hermione_granger",
+      "name": "Hermione Granger",
+      "role": "Best Friend",
+      "archetype": "Bright Witch",
+      "description": "A highly intelligent and resourceful witch, who becomes Harry and Ron's close friend."
+    },
+    {
+      "id": "char_quirrell",
+      "name": "Professor Quirrell",
+      "role": "Defense Against the Dark Arts Teacher",
+      "archetype": "Secret Antagonist",
+      "description": "A nervous professor at Hogwarts, secretly possessed by Lord Voldemort."
+    },
+    {
+      "id": "char_ollivander",
+      "name": "Garrick Ollivander",
+      "role": "Wandmaker",
+      "archetype": "Eccentric Merchant",
+      "description": "The proprietor of Ollivanders, who helps Harry find his first wand."
+    },
+    {
+      "id": "char_mrs_weasley",
+      "name": "Molly Weasley",
+      "role": "Matriarch",
+      "archetype": "Caring Mother",
+      "description": "Ron's warm and motherly figure, who helps Harry find Platform 9 3/4."
+    },
+    {
+      "id": "char_draco_malfoy",
+      "name": "Draco Malfoy",
+      "role": "Rival",
+      "archetype": "Bully/Rival",
+      "description": "A wealthy pure-blood student sorted into Slytherin, who becomes Harry's initial rival."
+    },
+    {
+      "id": "char_susan_bones",
+      "name": "Susan Bones",
+      "role": "Student",
+      "archetype": "Background Character",
+      "description": "A first-year student sorted into Hufflepuff."
+    },
+    {
+      "id": "char_professor_snape",
+      "name": "Severus Snape",
+      "role": "Potions Master, Head of Slytherin",
+      "archetype": "Ambiguous Adversary",
+      "description": "The stern Potions Master at Hogwarts who appears to dislike Harry and is initially suspected of trying to steal the Philosopher's Stone."
+    },
+    {
+      "id": "char_nearly_headless_nick",
+      "name": "Nearly Headless Nick",
+      "role": "Gryffindor House Ghost",
+      "archetype": "Comic Relief Ghost",
+      "description": "The friendly ghost of Gryffindor House, known for his almost-severed head."
+    },
+    {
+      "id": "char_percy_weasley",
+      "name": "Percy Weasley",
+      "role": "Gryffindor Prefect",
+      "archetype": "Minor Authority Figure",
+      "description": "An older Weasley brother who leads the Gryffindor first-years to their common room."
+    },
+    {
+      "id": "char_fat_lady",
+      "name": "The Fat Lady",
+      "role": "Portrait",
+      "archetype": "Guardian",
+      "description": "The living portrait guarding the entrance to the Gryffindor common room."
+    },
+    {
+      "id": "char_professor_flitwick",
+      "name": "Filius Flitwick",
+      "role": "Charms Master, Head of Ravenclaw",
+      "archetype": "Enthusiastic Teacher",
+      "description": "The Charms professor who teaches students the Wingardium Leviosa spell."
+    },
+    {
+      "id": "char_madam_hooch",
+      "name": "Rolanda Hooch",
+      "role": "Flying Instructor",
+      "archetype": "Instructor",
+      "description": "The flying instructor who teaches first-year students how to fly broomsticks."
+    },
+    {
+      "id": "char_neville_longbottom",
+      "name": "Neville Longbottom",
+      "role": "Friend/Fellow Student",
+      "archetype": "Awkward but Brave",
+      "description": "A clumsy but good-hearted fellow Gryffindor student, who eventually shows great courage."
+    },
+    {
+      "id": "char_oliver_wood",
+      "name": "Oliver Wood",
+      "role": "Gryffindor Quidditch Captain",
+      "archetype": "Team Captain",
+      "description": "The captain of the Gryffindor Quidditch team who recruits Harry as Seeker."
+    },
+    {
+      "id": "char_filch",
+      "name": "Argus Filch",
+      "role": "Caretaker of Hogwarts",
+      "archetype": "Antagonistic Authority Figure",
+      "description": "The cantankerous caretaker of Hogwarts, who is always on the lookout for misbehaving students."
+    },
+    {
+      "id": "char_firenze",
+      "name": "Firenze",
+      "role": "Centaur",
+      "archetype": "Wise Mystic",
+      "description": "A centaur from the Forbidden Forest who rescues Harry and reveals information about Voldemort."
+    },
+    {
+      "id": "char_goblins_gringotts",
+      "name": "Goblins",
+      "role": "Bank Employees",
+      "archetype": "Supporting Beings",
+      "description": "The intelligent and greedy beings who run Gringotts Wizarding Bank."
+    },
+    {
+      "id": "char_norbert",
+      "name": "Norbert",
+      "role": "Baby Dragon",
+      "archetype": "Magical Creature",
+      "description": "A Norwegian Ridgeback dragon hatched by Hagrid."
+    },
+    {
+      "id": "char_fang",
+      "name": "Fang",
+      "role": "Hagrid's Dog",
+      "archetype": "Loyal Animal Companion",
+      "description": "Hagrid's loyal, if somewhat timid, dog."
+    },
+    {
+      "id": "char_nicholas_flamel",
+      "name": "Nicholas Flamel",
+      "role": "Alchemist",
+      "archetype": "Historical Figure",
+      "description": "The legendary alchemist who created the Philosopher's Stone."
+    },
+    {
+      "id": "char_parents_harry",
+      "name": "Harry's Parents",
+      "role": "Deceased Family",
+      "archetype": "Spiritual Guides",
+      "description": "Lily and James Potter, Harry's deceased parents, whose love provides a powerful protection for him."
+    },
+    {
+      "id": "char_patrons_leaky_cauldron",
+      "name": "Patrons of the Leaky Cauldron",
+      "role": "Supporting Characters",
+      "archetype": "Crowd",
+      "description": "Wizards and witches who greet Harry as a celebrity upon his entry to the wizarding world."
+    },
+    {
+      "id": "char_students_hogwarts",
+      "name": "Hogwarts Students",
+      "role": "Supporting Characters",
+      "archetype": "Crowd",
+      "description": "Various students present at Hogwarts in different scenes."
+    },
+    {
+      "id": "char_troll",
+      "name": "Troll",
+      "role": "Monster",
+      "archetype": "Antagonist Creature",
+      "description": "A dangerous creature that enters Hogwarts dungeons and is confronted by Harry, Ron, and Hermione."
+    }
+  ],
+  "scenes": [
+    {
+      "id": "M1_Scene13-part-1",
+      "start_timestamp": "00:02:49,504",
+      "end_timestamp": "00:05:21,004",
+      "summary": "Dumbledore and Professor McGonagall discuss the dark events surrounding Voldemort's defeat and the task of leaving baby Harry Potter with the Dursleys. Hagrid arrives with Harry, and despite McGonagall's concerns, Dumbledore insists it's for Harry's protection, placing him on the doorstep with a farewell."
+    },
+    {
+      "id": "M1_Scene13-part-2",
+      "start_timestamp": "00:05:59,504",
+      "end_timestamp": "00:10:00,004",
+      "summary": "Ten years later, Harry lives miserably with the Dursleys, who celebrate Dudley's extravagant birthday. During a trip to the zoo, Harry, unknowingly, talks to a boa constrictor and accidentally causes its enclosure glass to disappear, freeing the snake and trapping Dudley, leading to Uncle Vernon's furious denial of anything magical."
+    },
+    {
+      "id": "M1_Scene13-part-3",
+      "start_timestamp": "00:10:37,504",
+      "end_timestamp": "00:14:20,004",
+      "summary": "Mysterious letters addressed to Harry Potter begin arriving, which Uncle Vernon desperately tries to prevent Harry from receiving, leading to an escalating flood of mail. The Dursleys flee to an isolated shack on a stormy night, hoping to escape the persistent letters as Harry celebrates his eleventh birthday in solitude."
+    },
+    {
+      "id": "M1_Scene13-part-4",
+      "start_timestamp": "00:14:35,504",
+      "end_timestamp": "00:19:41,004",
+      "summary": "On Harry's eleventh birthday, Hagrid bursts into the shack, revealing to Harry that he is a wizard and has been accepted to Hogwarts. Hagrid corrects the Dursleys' lies about Harry's parents' death, explains Voldemort's role, and then forcefully deals with the Dursleys (turning Dudley into a pig) before preparing to take Harry to Diagon Alley."
+    },
+    {
+      "id": "M1_Scene13-part-5",
+      "start_timestamp": "00:19:56,504",
+      "end_timestamp": "00:21:48,004",
+      "summary": "Hagrid takes Harry to the Leaky Cauldron, a hidden wizarding pub, where Harry is instantly recognized and greeted as a celebrity by the patrons, including a nervous Professor Quirrell. Hagrid explains that Harry is famous for defeating Voldemort as a baby, as they prepare to enter Diagon Alley."
+    },
+    {
+      "id": "M1_Scene13-part-6",
+      "start_timestamp": "00:22:05,504",
+      "end_timestamp": "00:23:22,004",
+      "summary": "Hagrid introduces Harry to the magical bustling Diagon Alley, a hidden street filled with shops for wizards' supplies. Harry marvels at the sights, including a Nimbus 2000 broomstick, and questions where his money will come from, to which Hagrid explains they must visit Gringotts Wizarding Bank."
+    },
+    {
+      "id": "M1_Scene13-part-7",
+      "start_timestamp": "00:23:37,504",
+      "end_timestamp": "00:26:06,004",
+      "summary": "Harry and Hagrid visit Gringotts, a bank run by goblins, where Harry retrieves his inheritance from his parents' vault, filled with gold. Hagrid also makes a mysterious stop at a highly guarded vault (713) on Dumbledore's behalf, taking a small, secret package and refusing to disclose its contents to Harry."
+    },
+    {
+      "id": "M1_Scene13-part-8",
+      "start_timestamp": "00:26:45,504",
+      "end_timestamp": "00:29:50,004",
+      "summary": "Harry visits Ollivanders to acquire his first wand, experiencing several unsuccessful attempts before a specific wand chooses him, producing a burst of magic. Ollivander reveals the wand contains a feather from the same phoenix that supplied the core for the wand of Lord Voldemort, the wizard who gave Harry his famous lightning-bolt scar."
+    },
+    {
+      "id": "M1_Scene14-part-1",
+      "start_timestamp": "00:27:07,504",
+      "end_timestamp": "00:32:55,004",
+      "summary": "Harry is in Ollivander's shop, where he is chosen by a wand whose core feather is a twin to Voldemort's wand. Hagrid then privately explains to Harry about Voldemort's rise to power, his dark magic, and his failed attempt to kill baby Harry, which left him with his iconic scar. Hagrid gives Harry his train ticket to Hogwarts before rushing off, leaving Harry to ponder the revelations."
+    },
+    {
+      "id": "M1_Scene14-part-2",
+      "start_timestamp": "00:33:00,504",
+      "end_timestamp": "00:34:52,004",
+      "summary": "Harry struggles to find the elusive Platform 9 3/4 at King's Cross Station. He observes the Weasley family, who demonstrate how to magically pass through the barrier. Mrs. Weasley guides a nervous Harry on how to enter the magical platform to board the Hogwarts Express."
+    },
+    {
+      "id": "M1_Scene14-part-3",
+      "start_timestamp": "00:35:50,504",
+      "end_timestamp": "00:39:14,004",
+      "summary": "On the Hogwarts Express, Harry meets Ron Weasley and they share Bertie Bott's Every Flavor Beans and Chocolate Frogs. Hermione Granger soon joins their compartment, looking for a lost toad and demonstrating her magical abilities by repairing Harry's glasses, before advising them to put on their robes as they near Hogwarts."
+    },
+    {
+      "id": "M1_Scene14-part-4",
+      "start_timestamp": "00:39:26,504",
+      "end_timestamp": "00:40:39,004",
+      "summary": "Hagrid gathers the first-year students and leads them to a fleet of small boats. They embark on a scenic boat ride across a dark lake, catching their first awe-inspiring glimpse of the magnificent Hogwarts Castle in the distance."
+    },
+    {
+      "id": "M1_Scene14-part-5",
+      "start_timestamp": "00:41:06,504",
+      "end_timestamp": "00:42:57,004",
+      "summary": "Inside Hogwarts, Professor McGonagall welcomes the first-year students and explains the house system and the upcoming Sorting Ceremony. Draco Malfoy attempts to befriend Harry while insulting Ron, but Harry rejects his offer of friendship before McGonagall returns to lead them into the Great Hall."
+    },
+    {
+      "id": "M1_Scene14-part-6",
+      "start_timestamp": "00:43:15,504",
+      "end_timestamp": "00:47:50,004",
+      "summary": "The first-years enter the Great Hall, marveling at its enchanted ceiling, where Dumbledore delivers his welcoming speech and sets out some rules. The Sorting Ceremony begins, with Hermione Granger, Draco Malfoy, Susan Bones, and Ron Weasley all being sorted. Harry Potter is sorted last; the Sorting Hat considers Slytherin before ultimately placing him in Gryffindor after Harry's strong objection."
+    },
+    {
+      "id": "M1_Scene14-part-7",
+      "start_timestamp": "00:48:07,504",
+      "end_timestamp": "00:51:03,004",
+      "summary": "During the Sorting Feast, Harry, Ron, and Hermione discuss their families and notice Professor Snape. They are introduced to Nearly Headless Nick before the feast concludes, and Percy Weasley leads the Gryffindor students through the castle's moving staircases to their common room. After providing the password to the Fat Lady portrait, they enter the Gryffindor common room and ascend to their dormitories."
+    },
+    {
+      "id": "M1_Scene15-part-1",
+      "start_timestamp": "00:48:36,504",
+      "end_timestamp": "00:49:23,004",
+      "summary": "New students are welcomed to Gryffindor house, and some interact with Sir Nicholas (Nearly Headless Nick), who explains how he is 'almost headless' after discussing his rejected application to a club."
+    },
+    {
+      "id": "M1_Scene15-part-2",
+      "start_timestamp": "00:49:32,504",
+      "end_timestamp": "00:51:08,004",
+      "summary": "The new Gryffindor students are led through Hogwarts by an older student, marveling at the moving pictures and magical stairs, before being welcomed into the Gryffindor common room and shown to their dormitories."
+    },
+    {
+      "id": "M1_Scene15-part-3",
+      "start_timestamp": "00:52:16,504",
+      "end_timestamp": "00:55:03,004",
+      "summary": "In a Potions class, a stern professor scolds students for their tardiness and lack of understanding, then singles out Harry Potter with challenging questions, making it clear that fame doesn't equate to knowledge of potions."
+    },
+    {
+      "id": "M1_Scene15-part-4",
+      "start_timestamp": "00:55:12,504",
+      "end_timestamp": "00:56:27,004",
+      "summary": "Students are in a common room, receiving letters and reading the newspaper, which reports a break-in at Gringotts Bank's Vault 713, the same vault Harry had recently visited."
+    },
+    {
+      "id": "M1_Scene15-part-5",
+      "start_timestamp": "00:56:37,504",
+      "end_timestamp": "01:00:00,004",
+      "summary": "During the first flying lesson with Madam Hooch, students attempt to summon their brooms. Neville accidentally loses control and falls, prompting Madam Hooch to take him to the hospital wing, leaving strict instructions not to fly, which Draco Malfoy disobeys, leading Harry to defy orders and fly to retrieve Neville's Remembrall."
+    },
+    {
+      "id": "M1_Scene15-part-6",
+      "start_timestamp": "01:00:31,504",
+      "end_timestamp": "01:02:21,004",
+      "summary": "Professor McGonagall intercepts Harry after his unauthorized flight, then introduces him to Oliver Wood, revealing that Harry has been chosen as the new Seeker for the Gryffindor Quidditch team, surprising Ron and Hermione with the news and the fact that Harry's father was also a Seeker."
+    },
+    {
+      "id": "M1_Scene15-part-7",
+      "start_timestamp": "01:05:05,504",
+      "end_timestamp": "01:07:14,004",
+      "summary": "Oliver Wood explains the rules and roles of Quidditch to Harry, demonstrating the Quaffle, Bludgers, and finally the elusive Golden Snitch, emphasizing Harry's crucial role as Seeker in catching it to win the game."
+    },
+    {
+      "id": "M1_Scene15-part-8",
+      "start_timestamp": "01:07:24,504",
+      "end_timestamp": "01:09:13,004",
+      "summary": "In Charms class, Professor Flitwick teaches the 'Wingardium Leviosa' floating spell. Hermione corrects Ron's pronunciation, leading to a successful demonstration of the spell, much to the professor's delight and Ron's annoyance."
+    },
+    {
+      "id": "M1_Scene15-part-9",
+      "start_timestamp": "01:09:41,504",
+      "end_timestamp": "01:12:54,",
+      "summary": "Harry and Ron learn that Hermione is upset and crying in the girls' bathroom. Suddenly, Professor Quirrell announces a troll in the dungeons, causing panic. Realizing Hermione is in danger, Harry and Ron rush to her aid, confronting the troll in the girls' bathroom as they desperately try to remember a spell."
+    },
+    {
+      "id": "M1_Scene16-part-1",
+      "start_timestamp": "01:09:41,504",
+      "end_timestamp": "01:11:23,004",
+      "summary": "During an assembly, students are alerted to a giant in the cellar, causing an evacuation. Harry and Ron realize Hermione (Miss Grushr) is missing and has gone to the girls' toilet, prompting them to go after her despite the danger."
+    },
+    {
+      "id": "M1_Scene16-part-2",
+      "start_timestamp": "01:11:53,504",
+      "end_timestamp": "01:15:08,004",
+      "summary": "Harry and Ron find Hermione confronting the giant in the girls' toilet and work together to subdue it with a spell. Afterward, Professor McGonagall (Professor Mac) arrives, initially scolding them for being out of bed, but ultimately awarding Gryffindor points for their bravery in stopping the giant, while deducting points from Hermione for her initial recklessness."
+    },
+    {
+      "id": "M1_Scene16-part-3",
+      "start_timestamp": "01:15:17,504",
+      "end_timestamp": "01:16:14,004",
+      "summary": "Over breakfast, Harry, Ron, and Hermione discuss the giant incident, suspecting Professor Snape orchestrated it as a diversion to get past the three-headed dog guarding a secret item that Hagrid mentioned was retrieved from Gringotts and is related to Hogwarts."
+    },
+    {
+      "id": "M1_Scene16-part-4",
+      "start_timestamp": "01:16:29,504",
+      "end_timestamp": "01:16:55,004",
+      "summary": "Harry receives an unexpected package containing a \"vacuum cleaner\" (likely a broomstick, a Nimbus 2000), a gift from an unknown sender, leaving him curious about its origins."
+    },
+    {
+      "id": "M1_Scene16-part-5",
+      "start_timestamp": "01:17:16,504",
+      "end_timestamp": "01:17:32,004",
+      "summary": "Before his first Quidditch (Kidican) match, Harry expresses his nervousness to Ron, who shares a humorous anecdote about a past Quidditch injury to lighten the mood."
+    },
+    {
+      "id": "M1_Scene16-part-6",
+      "start_timestamp": "01:17:54,504",
+      "end_timestamp": "01:24:40,004",
+      "summary": "The Gryffindor versus Slytherin Quidditch match commences with intense play. Harry's broomstick appears to be jinxed, making him unstable, but Hermione casts a counter-spell (Inflamera Lakarnum) from the stands, and Harry dramatically catches the Golden Snitch, securing a victory for Gryffindor."
+    },
+    {
+      "id": "M1_Scene16-part-7",
+      "start_timestamp": "01:25:22,504",
+      "end_timestamp": "01:26:36,004",
+      "summary": "Harry, Ron, and Hermione visit Hagrid, questioning if Snape tried to jinx Harry's broom. Hagrid confirms he owns the three-headed dog (mistranslated as \"woolly\"), which is guarding a secret, and inadvertently reveals the name Nicholas Flamel, sparking the trio's interest."
+    },
+    {
+      "id": "M1_Scene16-part-8",
+      "start_timestamp": "01:26:54,504",
+      "end_timestamp": "01:28:06,004",
+      "summary": "During the Christmas holidays at Hogwarts, Harry and Ron enjoy a game of magical chess while Hermione is implied to be in the library tirelessly searching for information on Nicholas Flamel, but without success in the main sections."
+    },
+    {
+      "id": "M1_Scene16-part-9",
+      "start_timestamp": "01:28:11,504",
+      "end_timestamp": "01:29:57,004",
+      "summary": "On Christmas morning, Ron receives a hand-knitted sweater, and Harry is surprised with a mysterious gift from an anonymous sender: his father's Invisibility Cloak, which immediately fascinates both boys."
+    },
+    {
+      "id": "M1_Scene16-part-10",
+      "start_timestamp": "01:30:27,504",
+      "end_timestamp": "01:32:55,004",
+      "summary": "Using his new Invisibility Cloak, Harry explores the Forbidden Section of the library to find Nicholas Flamel. He overhears a tense conversation between Professor Snape and another professor (implied Quirrell), where Snape warns him about loyalty, before narrowly escaping Filch, who discovers the cloak."
+    },
+    {
+      "id": "M1_Scene16-part-11",
+      "start_timestamp": "01:34:29,504",
+      "end_timestamp": "01:38:06,004",
+      "summary": "Harry discovers the Mirror of Erised, where he sees his deceased parents and family, and later brings Ron to witness it, who sees himself as a celebrated Quidditch Captain. Dumbledore then appears to explain that the mirror shows one's deepest desires, cautioning Harry not to dwell on it and lose himself in dreams."
+    },
+    {
+      "id": "M1_Scene16-part-12",
+      "start_timestamp": "01:39:01,504",
+      "end_timestamp": "01:40:47,304",
+      "summary": "Hermione finally discovers Nicholas Flamel's name in a book on alchemy, revealing him as the creator of the Philosopher's (Magic) Stone, a legendary artifact granting eternal life and the power to turn metal into gold. The trio realizes this is the item the three-headed dog is guarding, which Professor Snape is suspected of wanting to steal."
+    },
+    {
+      "id": "M1_Scene17-part-1",
+      "start_timestamp": "01:39:17,504",
+      "end_timestamp": "01:41:13,004",
+      "summary": "Harry, Ron, and Hermione learn about Nicolas Flamel and the Philosopher's Stone's magical properties from a book. They suspect Snape is trying to steal it, but Hagrid defends Snape, inadvertently revealing that the three-headed dog, Fluffy, guarding the stone, can be calmed by music."
+    },
+    {
+      "id": "M1_Scene17-part-2",
+      "start_timestamp": "01:42:07,504",
+      "end_timestamp": "01:43:15,004",
+      "summary": "In Hagrid's hut, the trio witnesses the hatching of a dragon Hagrid named Norbert. When Malfoy discovers the illegal dragon and threatens to report Hagrid, the children arrange for Norbert to be sent away to Romania for his safety."
+    },
+    {
+      "id": "M1_Scene17-part-3",
+      "start_timestamp": "01:43:18,504",
+      "end_timestamp": "01:45:39,004",
+      "summary": "Professor McGonagall catches Harry, Ron, Hermione, and Malfoy out of bed, docking house points and assigning them detention. They are sent with Hagrid and Fang into the Forbidden Forest to investigate an injured unicorn."
+    },
+    {
+      "id": "M1_Scene17-part-4",
+      "start_timestamp": "01:46:17,504",
+      "end_timestamp": "01:50:24,004",
+      "summary": "While searching in the Forbidden Forest, Harry, Malfoy, and Fang discover a cloaked figure drinking the blood of a dead unicorn. Harry is saved by the centaur Firenze, who explains that only someone desperate, like Voldemort, would consume unicorn blood to sustain life, albeit with a cursed existence."
+    },
+    {
+      "id": "M1_Scene17-part-5",
+      "start_timestamp": "01:50:32,504",
+      "end_timestamp": "01:51:26,004",
+      "summary": "Harry, Ron, and Hermione process Firenze's revelation, realizing that Voldemort is alive and desperately needs the Philosopher's Stone for eternal life. They now suspect Snape is working to obtain the stone for Voldemort and believe Dumbledore is their only protection."
+    },
+    {
+      "id": "M1_Scene17-part-6",
+      "start_timestamp": "01:51:33,504",
+      "end_timestamp": "01:54:47,004",
+      "summary": "Harry's scar burns, signaling impending danger. The trio returns to Hagrid, who inadvertently reveals that the cloaked stranger who gave him the dragon egg was actually Quirrell, not Snape, trying to extract information about Fluffy. Armed with the knowledge of how to calm Fluffy and with Dumbledore away, the trio resolves to go after the stone themselves that very night."
+    },
+    {
+      "id": "M1_Scene17-part-7",
+      "start_timestamp": "01:55:02,504",
+      "end_timestamp": "01:59:52,004",
+      "summary": "Harry, Ron, and Hermione, determined to get the stone, incapacitate Neville with a Body-Bind Curse when he tries to stop them. They proceed to the forbidden corridor, successfully lull Fluffy to sleep with music, and fall through the trapdoor into a chamber filled with Devil's Snare, from which Hermione saves them using her botanical knowledge and a light spell."
+    },
+    {
+      "id": "M1_Scene18-part-1",
+      "start_timestamp": "01:57:27,004",
+      "end_timestamp": "01:59:29,004",
+      "summary": "Harry, Ron, and Hermione find themselves trapped in the Devil's Snare, a deadly plant. Hermione remembers its weakness to light and uses a Lumos Solem spell to free them, allowing them to move forward and recover from the ordeal."
+    },
+    {
+      "id": "M1_Scene18-part-2",
+      "start_timestamp": "01:59:31,504",
+      "end_timestamp": "02:01:43,004",
+      "summary": "The trio enters a new chamber filled with a swarm of enchanted flying keys. After Hermione's Alohomora spell proves ineffective, Harry mounts a broomstick and expertly chases down a specific winged key needed to unlock the next door, securing it with Ron and Hermione's encouragement."
+    },
+    {
+      "id": "M1_Scene18-part-3",
+      "start_timestamp": "02:02:14,504",
+      "end_timestamp": "02:08:16,004",
+      "summary": "They discover a life-sized Wizard's Chessboard where they must play to proceed. Ron brilliantly strategizes, assigning himself as a knight, Hermione as a rook, and Harry as a bishop. In a climactic move, Ron sacrifices himself, allowing Harry to achieve checkmate and clear the path, while Hermione stays behind to tend to Ron."
+    },
+    {
+      "id": "M1_Scene18-part-4",
+      "start_timestamp": "02:08:51,504",
+      "end_timestamp": "02:14:09,004",
+      "summary": "Harry faces Professor Quirrell, who reveals himself to be possessed by Lord Voldemort. Voldemort, speaking from the back of Quirrell's head, tries to manipulate Harry into giving him the Philosopher's Stone, but Harry refuses. A struggle ensues where Harry's mother's protective magic prevents Quirrell from touching him, causing Quirrell to burn and ultimately collapse as Voldemort's spirit flees."
+    },
+    {
+      "id": "M1_Scene18-part-5",
+      "start_timestamp": "02:15:56,504",
+      "end_timestamp": "02:18:50,304",
+      "summary": "Harry awakens in the hospital wing, where Dumbledore explains the destruction of the Philosopher's Stone and the lasting protection his mother's love provides. Dumbledore clarifies how Harry was able to retrieve the stone from the mirror and then offers him an unfortunate Bertie Bott's Every Flavor Bean."
+    },
+    {
+      "id": "M1_Scene18-part-6",
+      "start_timestamp": "02:19:08,504",
+      "end_timestamp": "02:22:38,004",
+      "summary": "During the end-of-year feast in the Great Hall, Dumbledore announces the House Cup standings. Despite Slytherin's initial lead, he awards last-minute points to Hermione, Ron, Harry, and Neville for their bravery and actions, leading Gryffindor to triumphantly win the House Cup."
+    },
+    {
+      "id": "M1_Scene18-part-7",
+      "start_timestamp": "02:23:17,504",
+      "end_timestamp": "02:25:02,004",
+      "summary": "Harry, Ron, and Hermione prepare to board the Hogwarts Express for summer break, saying their goodbyes. Harry shares a brief, meaningful moment with Dumbledore before they depart, reflecting on their first year and the newfound sense of home they've found at Hogwarts."
+    }
+  ],
+  "locations": [
+    {
+      "id": "loc_privet_drive",
+      "name": "4 Privet Drive",
+      "type": "House",
+      "description": "The Dursleys' miserable suburban home where Harry lives."
+    },
+    {
+      "id": "loc_london_zoo",
+      "name": "London Zoo",
+      "type": "Public Attraction",
+      "description": "The zoo where Harry accidentally frees a boa constrictor."
+    },
+    {
+      "id": "loc_sea_shack",
+      "name": "Isolated Shack",
+      "type": "House/Hideout",
+      "description": "A remote shack where the Dursleys flee to escape Harry's letters."
+    },
+    {
+      "id": "loc_leaky_cauldron",
+      "name": "The Leaky Cauldron",
+      "type": "Pub",
+      "description": "A hidden wizarding pub that serves as an entrance to Diagon Alley."
+    },
+    {
+      "id": "loc_diagon_alley",
+      "name": "Diagon Alley",
+      "type": "Shopping Street",
+      "description": "A bustling, hidden street where wizards buy their supplies."
+    },
+    {
+      "id": "loc_gringotts_bank",
+      "name": "Gringotts Wizarding Bank",
+      "type": "Bank",
+      "description": "The bank run by goblins, where wizards keep their money and valuables."
+    },
+    {
+      "id": "loc_ollivanders_shop",
+      "name": "Ollivanders",
+      "type": "Shop",
+      "description": "A famous wand shop in Diagon Alley."
+    },
+    {
+      "id": "loc_kings_cross",
+      "name": "King's Cross Station",
+      "type": "Train Station",
+      "description": "A Muggle train station in London, concealing Platform 9 3/4."
+    },
+    {
+      "id": "loc_platform_9_3_4",
+      "name": "Platform 9 3/4",
+      "type": "Train Platform",
+      "description": "The magical platform where students board the Hogwarts Express."
+    },
+    {
+      "id": "loc_hogwarts_express",
+      "name": "Hogwarts Express",
+      "type": "Train",
+      "description": "The train that transports students from London to Hogwarts."
+    },
+    {
+      "id": "loc_hogwarts_castle",
+      "name": "Hogwarts Castle",
+      "type": "School",
+      "description": "The magnificent school of witchcraft and wizardry."
+    },
+    {
+      "id": "loc_great_hall",
+      "name": "Great Hall",
+      "type": "Dining Hall",
+      "description": "The main hall at Hogwarts used for meals, ceremonies, and gatherings."
+    },
+    {
+      "id": "loc_gryffindor_common_room",
+      "name": "Gryffindor Common Room",
+      "type": "Common Room",
+      "description": "The common room for Gryffindor students, guarded by a portrait."
+    },
+    {
+      "id": "loc_gryffindor_dormitories",
+      "name": "Gryffindor Dormitories",
+      "type": "Dormitories",
+      "description": "Sleeping quarters for Gryffindor students."
+    },
+    {
+      "id": "loc_potions_classroom",
+      "name": "Potions Classroom",
+      "type": "Classroom",
+      "description": "Professor Snape's classroom where potions are taught."
+    },
+    {
+      "id": "loc_hogwarts_flying_grounds",
+      "name": "Hogwarts Flying Grounds",
+      "type": "Outdoor Area",
+      "description": "The area outside Hogwarts where flying lessons take place."
+    },
+    {
+      "id": "loc_hospital_wing",
+      "name": "Hospital Wing",
+      "type": "Medical Facility",
+      "description": "The infirmary at Hogwarts where students recover from injuries."
+    },
+    {
+      "id": "loc_charms_classroom",
+      "name": "Charms Classroom",
+      "type": "Classroom",
+      "description": "Professor Flitwick's classroom where charms are taught."
+    },
+    {
+      "id": "loc_girls_bathroom",
+      "name": "Girls' Bathroom",
+      "type": "Restroom",
+      "description": "A bathroom in Hogwarts, where Hermione encounters a troll."
+    },
+    {
+      "id": "loc_hagrid_hut",
+      "name": "Hagrid's Hut",
+      "type": "House",
+      "description": "Hagrid's small cabin on the edge of the Forbidden Forest."
+    },
+    {
+      "id": "loc_forbidden_forest",
+      "name": "Forbidden Forest",
+      "type": "Forest",
+      "description": "A dark and dangerous forest bordering Hogwarts grounds."
+    },
+    {
+      "id": "loc_forbidden_corridor",
+      "name": "Forbidden Corridor",
+      "type": "Corridor",
+      "description": "A forbidden area in Hogwarts, guarded by Fluffy and other challenges."
+    },
+    {
+      "id": "loc_devils_snare_chamber",
+      "name": "Devil's Snare Chamber",
+      "type": "Underground Chamber",
+      "description": "A chamber beneath the trapdoor, guarded by Devil's Snare."
+    },
+    {
+      "id": "loc_flying_keys_chamber",
+      "name": "Flying Keys Chamber",
+      "type": "Underground Chamber",
+      "description": "A chamber filled with enchanted flying keys, part of the Philosopher's Stone defenses."
+    },
+    {
+      "id": "loc_wizards_chessboard_chamber",
+      "name": "Wizard's Chessboard Chamber",
+      "type": "Underground Chamber",
+      "description": "A chamber featuring a life-sized Wizard's Chess game, part of the Philosopher's Stone defenses."
+    },
+    {
+      "id": "loc_mirror_of_erised_chamber",
+      "name": "Mirror of Erised Chamber",
+      "type": "Chamber",
+      "description": "A hidden room in Hogwarts where Harry finds the Mirror of Erised, and later the Philosopher's Stone is retrieved."
+    },
+    {
+      "id": "loc_hogwarts_lake",
+      "name": "Hogwarts Lake",
+      "type": "Natural Feature",
+      "description": "A large lake surrounding Hogwarts, crossed by first-year students."
+    },
+    {
+      "id": "loc_forbidden_section_library",
+      "name": "Forbidden Section of the Library",
+      "type": "Library Section",
+      "description": "A restricted section within the Hogwarts Library, accessible only with special permission, where Harry searches for information on Nicholas Flamel."
+    }
+  ],
+  "objects": [
+    {
+      "id": "obj_harry_glasses",
+      "name": "Harry's Glasses",
+      "type": "Eyewear",
+      "significance": "A personal item belonging to Harry, magically repaired by Hermione."
+    },
+    {
+      "id": "obj_hogwarts_letters",
+      "name": "Hogwarts Letters",
+      "type": "Correspondence",
+      "significance": "Magical letters inviting Harry to Hogwarts, which Uncle Vernon desperately tries to suppress."
+    },
+    {
+      "id": "obj_nimbus_2000",
+      "name": "Nimbus 2000",
+      "type": "Broomstick",
+      "significance": "A high-performance racing broomstick, coveted by wizards, and Harry's first broom, received anonymously."
+    },
+    {
+      "id": "obj_gold_galleons",
+      "name": "Gold Galleons",
+      "type": "Currency",
+      "significance": "Wizarding currency, retrieved by Harry from his parents' vault at Gringotts."
+    },
+    {
+      "id": "obj_vault_713_package",
+      "name": "Mysterious Package (Vault 713)",
+      "type": "Container",
+      "significance": "A secret item retrieved by Hagrid from Gringotts' highly guarded Vault 713, later revealed to be the Philosopher's Stone."
+    },
+    {
+      "id": "obj_harry_wand",
+      "name": "Harry's Wand",
+      "type": "Magical Tool",
+      "significance": "A wand chosen by Harry at Ollivanders, containing a phoenix feather twin to Voldemort's wand."
+    },
+    {
+      "id": "obj_voldemort_wand",
+      "name": "Voldemort's Wand",
+      "type": "Magical Tool",
+      "significance": "A wand belonging to Lord Voldemort, whose core is a twin to Harry's wand."
+    },
+    {
+      "id": "obj_lightning_scar",
+      "name": "Lightning-Bolt Scar",
+      "type": "Physical Mark",
+      "significance": "A distinguishing mark on Harry's forehead, a result of Voldemort's failed killing curse, which sometimes burns to signal danger."
+    },
+    {
+      "id": "obj_train_ticket",
+      "name": "Hogwarts Express Ticket",
+      "type": "Travel Document",
+      "significance": "The ticket given to Harry for his journey to Hogwarts."
+    },
+    {
+      "id": "obj_bertie_botts_beans",
+      "name": "Bertie Bott's Every Flavor Beans",
+      "type": "Candy",
+      "significance": "A magical candy with unpredictable flavors, shared by Harry and Ron, and later offered by Dumbledore."
+    },
+    {
+      "id": "obj_chocolate_frogs",
+      "name": "Chocolate Frogs",
+      "type": "Candy",
+      "significance": "Magical chocolate sweets that come with collectible wizard cards, shared by Harry and Ron."
+    },
+    {
+      "id": "obj_neville_toad",
+      "name": "Neville's Toad",
+      "type": "Pet",
+      "significance": "Neville Longbottom's pet, Trevor, which goes missing on the Hogwarts Express."
+    },
+    {
+      "id": "obj_hogwarts_robes",
+      "name": "Hogwarts Robes",
+      "type": "Clothing",
+      "significance": "Standard uniform for Hogwarts students."
+    },
+    {
+      "id": "obj_sorting_hat",
+      "name": "Sorting Hat",
+      "type": "Magical Artifact",
+      "significance": "An enchanted hat that determines which Hogwarts house a student belongs to."
+    },
+    {
+      "id": "obj_daily_prophet",
+      "name": "Daily Prophet",
+      "type": "Newspaper",
+      "significance": "A wizarding newspaper reporting on events like the Gringotts break-in at Vault 713."
+    },
+    {
+      "id": "obj_neville_remembrall",
+      "name": "Neville's Remembrall",
+      "type": "Magical Item",
+      "significance": "A magical orb that glows red when its owner has forgotten something, retrieved by Harry during his first flying lesson."
+    },
+    {
+      "id": "obj_quaffle",
+      "name": "Quaffle",
+      "type": "Quidditch Ball",
+      "significance": "The main ball in Quidditch, used for scoring points."
+    },
+    {
+      "id": "obj_bludgers",
+      "name": "Bludgers",
+      "type": "Quidditch Ball",
+      "significance": "Enchanted balls in Quidditch that try to knock players off their brooms."
+    },
+    {
+      "id": "obj_golden_snitch",
+      "name": "Golden Snitch",
+      "type": "Quidditch Ball",
+      "significance": "A small, winged golden ball in Quidditch, whose capture ends the game and awards 150 points, a key target for the Seeker."
+    },
+    {
+      "id": "obj_weasley_sweater",
+      "name": "Weasley Sweater",
+      "type": "Clothing",
+      "significance": "A hand-knitted sweater received by Ron as a Christmas gift from his mother."
+    },
+    {
+      "id": "obj_invisibility_cloak",
+      "name": "Invisibility Cloak",
+      "type": "Magical Artifact",
+      "significance": "A magical cloak that renders the wearer invisible, a mysterious Christmas gift to Harry from his father."
+    },
+    {
+      "id": "obj_magical_chess_set",
+      "name": "Magical Chess Set",
+      "type": "Game",
+      "significance": "A chess set where the pieces move on their own, used for recreation and as a life-sized challenge guarding the Philosopher's Stone."
+    },
+    {
+      "id": "obj_alchemy_book",
+      "name": "Alchemy Book",
+      "type": "Book",
+      "significance": "A book that provides crucial information about Nicholas Flamel and the Philosopher's Stone, discovered by Hermione."
+    },
+    {
+      "id": "obj_philosophers_stone",
+      "name": "Philosopher's Stone",
+      "type": "Magical Artifact",
+      "significance": "A legendary artifact created by Nicholas Flamel, capable of granting eternal life and transmuting metals, guarded at Hogwarts."
+    },
+    {
+      "id": "obj_dragon_egg",
+      "name": "Dragon Egg",
+      "type": "Magical Item",
+      "significance": "An illegal dragon egg acquired and hatched by Hagrid, later used by Quirrell to extract information."
+    },
+    {
+      "id": "obj_fluffy",
+      "name": "Fluffy (Three-Headed Dog)",
+      "type": "Magical Creature",
+      "significance": "A gigantic three-headed dog guarding the trapdoor to the Philosopher's Stone, known to be calmed by music."
+    },
+    {
+      "id": "obj_injured_unicorn",
+      "name": "Injured Unicorn",
+      "type": "Magical Creature",
+      "significance": "A unicorn whose blood is being consumed by a cloaked figure (Voldemort) in the Forbidden Forest for sustenance."
+    },
+    {
+      "id": "obj_mirror_of_erised",
+      "name": "Mirror of Erised",
+      "type": "Magical Artifact",
+      "significance": "A magical mirror that shows the viewer their deepest desires; it also serves as the final hiding place for the Philosopher's Stone."
+    },
+    {
+      "id": "obj_house_cup",
+      "name": "House Cup",
+      "type": "Award",
+      "significance": "An annual award given to the Hogwarts house with the most points, triumphantly won by Gryffindor."
+    },
+    {
+      "id": "obj_music",
+      "name": "Music",
+      "type": "Abstract",
+      "significance": "A means to calm the three-headed dog, Fluffy, allowing access to the trapdoor."
+    },
+    {
+      "id": "obj_flying_keys",
+      "name": "Enchanted Flying Keys",
+      "type": "Magical Obstacle",
+      "significance": "A swarm of enchanted keys, one of which is needed to unlock a door guarding the Philosopher's Stone."
+    },
+    {
+      "id": "obj_devils_snare",
+      "name": "Devil's Snare",
+      "type": "Magical Plant",
+      "significance": "A deadly plant that traps those who fall into its chamber, sensitive to light."
+    }
+  ],
+  "relationships": [
+    {
+      "source": "movie_harry_potter_1",
+      "target": "M1_Scene13-part-1",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "movie_harry_potter_1",
+      "target": "M1_Scene13-part-2",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "movie_harry_potter_1",
+      "target": "M1_Scene13-part-3",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "movie_harry_potter_1",
+      "target": "M1_Scene13-part-4",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "movie_harry_potter_1",
+      "target": "M1_Scene13-part-5",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "movie_harry_potter_1",
+      "target": "M1_Scene13-part-6",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "movie_harry_potter_1",
+      "target": "M1_Scene13-part-7",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "movie_harry_potter_1",
+      "target": "M1_Scene13-part-8",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "movie_harry_potter_1",
+      "target": "M1_Scene14-part-1",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "movie_harry_potter_1",
+      "target": "M1_Scene14-part-2",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "movie_harry_potter_1",
+      "target": "M1_Scene14-part-3",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "movie_harry_potter_1",
+      "target": "M1_Scene14-part-4",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "movie_harry_potter_1",
+      "target": "M1_Scene14-part-5",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "movie_harry_potter_1",
+      "target": "M1_Scene14-part-6",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "movie_harry_potter_1",
+      "target": "M1_Scene14-part-7",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "movie_harry_potter_1",
+      "target": "M1_Scene15-part-1",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "movie_harry_potter_1",
+      "target": "M1_Scene15-part-2",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "movie_harry_potter_1",
+      "target": "M1_Scene15-part-3",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "movie_harry_potter_1",
+      "target": "M1_Scene15-part-4",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "movie_harry_potter_1",
+      "target": "M1_Scene15-part-5",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "movie_harry_potter_1",
+      "target": "M1_Scene15-part-6",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "movie_harry_potter_1",
+      "target": "M1_Scene15-part-7",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "movie_harry_potter_1",
+      "target": "M1_Scene15-part-8",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "movie_harry_potter_1",
+      "target": "M1_Scene15-part-9",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "movie_harry_potter_1",
+      "target": "M1_Scene16-part-1",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "movie_harry_potter_1",
+      "target": "M1_Scene16-part-2",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "movie_harry_potter_1",
+      "target": "M1_Scene16-part-3",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "movie_harry_potter_1",
+      "target": "M1_Scene16-part-4",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "movie_harry_potter_1",
+      "target": "M1_Scene16-part-5",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "movie_harry_potter_1",
+      "target": "M1_Scene16-part-6",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "movie_harry_potter_1",
+      "target": "M1_Scene16-part-7",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "movie_harry_potter_1",
+      "target": "M1_Scene16-part-8",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "movie_harry_potter_1",
+      "target": "M1_Scene16-part-9",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "movie_harry_potter_1",
+      "target": "M1_Scene16-part-10",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "movie_harry_potter_1",
+      "target": "M1_Scene16-part-11",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "movie_harry_potter_1",
+      "target": "M1_Scene16-part-12",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "movie_harry_potter_1",
+      "target": "M1_Scene17-part-1",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "movie_harry_potter_1",
+      "target": "M1_Scene17-part-2",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "movie_harry_potter_1",
+      "target": "M1_Scene17-part-3",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "movie_harry_potter_1",
+      "target": "M1_Scene17-part-4",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "movie_harry_potter_1",
+      "target": "M1_Scene17-part-5",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "movie_harry_potter_1",
+      "target": "M1_Scene17-part-6",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "movie_harry_potter_1",
+      "target": "M1_Scene17-part-7",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "movie_harry_potter_1",
+      "target": "M1_Scene18-part-1",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "movie_harry_potter_1",
+      "target": "M1_Scene18-part-2",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "movie_harry_potter_1",
+      "target": "M1_Scene18-part-3",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "movie_harry_potter_1",
+      "target": "M1_Scene18-part-4",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "movie_harry_potter_1",
+      "target": "M1_Scene18-part-5",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "movie_harry_potter_1",
+      "target": "M1_Scene18-part-6",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "movie_harry_potter_1",
+      "target": "M1_Scene18-part-7",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "char_dumbledore",
+      "target": "M1_Scene13-part-1",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_mcgonagall",
+      "target": "M1_Scene13-part-1",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_voldemort",
+      "target": "M1_Scene13-part-1",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "char_harry_potter",
+      "target": "M1_Scene13-part-1",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_hagrid",
+      "target": "M1_Scene13-part-1",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_harry_potter",
+      "target": "M1_Scene13-part-2",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_dudley_dursley",
+      "target": "M1_Scene13-part-2",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_uncle_vernon",
+      "target": "M1_Scene13-part-2",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_boa_constrictor",
+      "target": "M1_Scene13-part-2",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_harry_potter",
+      "target": "M1_Scene13-part-3",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_uncle_vernon",
+      "target": "M1_Scene13-part-3",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_harry_potter",
+      "target": "M1_Scene13-part-4",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_hagrid",
+      "target": "M1_Scene13-part-4",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_uncle_vernon",
+      "target": "M1_Scene13-part-4",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_dudley_dursley",
+      "target": "M1_Scene13-part-4",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_hagrid",
+      "target": "M1_Scene13-part-5",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_harry_potter",
+      "target": "M1_Scene13-part-5",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_patrons_leaky_cauldron",
+      "target": "M1_Scene13-part-5",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_quirrell",
+      "target": "M1_Scene13-part-5",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_voldemort",
+      "target": "M1_Scene13-part-5",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "char_hagrid",
+      "target": "M1_Scene13-part-6",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_harry_potter",
+      "target": "M1_Scene13-part-6",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_harry_potter",
+      "target": "M1_Scene13-part-7",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_hagrid",
+      "target": "M1_Scene13-part-7",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_goblins_gringotts",
+      "target": "M1_Scene13-part-7",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_harry_potter",
+      "target": "M1_Scene13-part-8",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_ollivander",
+      "target": "M1_Scene13-part-8",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_voldemort",
+      "target": "M1_Scene13-part-8",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "char_harry_potter",
+      "target": "M1_Scene14-part-1",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_ollivander",
+      "target": "M1_Scene14-part-1",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_hagrid",
+      "target": "M1_Scene14-part-1",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_voldemort",
+      "target": "M1_Scene14-part-1",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "char_harry_potter",
+      "target": "M1_Scene14-part-2",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_mrs_weasley",
+      "target": "M1_Scene14-part-2",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_students_hogwarts",
+      "target": "M1_Scene14-part-2",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_harry_potter",
+      "target": "M1_Scene14-part-3",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_ron_weasley",
+      "target": "M1_Scene14-part-3",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_hermione_granger",
+      "target": "M1_Scene14-part-3",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_hagrid",
+      "target": "M1_Scene14-part-4",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_students_hogwarts",
+      "target": "M1_Scene14-part-4",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_mcgonagall",
+      "target": "M1_Scene14-part-5",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_students_hogwarts",
+      "target": "M1_Scene14-part-5",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_draco_malfoy",
+      "target": "M1_Scene14-part-5",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_harry_potter",
+      "target": "M1_Scene14-part-5",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_ron_weasley",
+      "target": "M1_Scene14-part-5",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_students_hogwarts",
+      "target": "M1_Scene14-part-6",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_dumbledore",
+      "target": "M1_Scene14-part-6",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_mcgonagall",
+      "target": "M1_Scene14-part-6",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_hermione_granger",
+      "target": "M1_Scene14-part-6",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_draco_malfoy",
+      "target": "M1_Scene14-part-6",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_susan_bones",
+      "target": "M1_Scene14-part-6",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_ron_weasley",
+      "target": "M1_Scene14-part-6",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_harry_potter",
+      "target": "M1_Scene14-part-6",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_harry_potter",
+      "target": "M1_Scene14-part-7",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_ron_weasley",
+      "target": "M1_Scene14-part-7",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_hermione_granger",
+      "target": "M1_Scene14-part-7",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_professor_snape",
+      "target": "M1_Scene14-part-7",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_nearly_headless_nick",
+      "target": "M1_Scene14-part-7",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_percy_weasley",
+      "target": "M1_Scene14-part-7",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_fat_lady",
+      "target": "M1_Scene14-part-7",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_students_hogwarts",
+      "target": "M1_Scene14-part-7",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_students_hogwarts",
+      "target": "M1_Scene15-part-1",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_nearly_headless_nick",
+      "target": "M1_Scene15-part-1",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_students_hogwarts",
+      "target": "M1_Scene15-part-2",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_professor_snape",
+      "target": "M1_Scene15-part-3",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_students_hogwarts",
+      "target": "M1_Scene15-part-3",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_harry_potter",
+      "target": "M1_Scene15-part-3",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_students_hogwarts",
+      "target": "M1_Scene15-part-4",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_harry_potter",
+      "target": "M1_Scene15-part-4",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_madam_hooch",
+      "target": "M1_Scene15-part-5",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_neville_longbottom",
+      "target": "M1_Scene15-part-5",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_draco_malfoy",
+      "target": "M1_Scene15-part-5",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_harry_potter",
+      "target": "M1_Scene15-part-5",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_students_hogwarts",
+      "target": "M1_Scene15-part-5",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_mcgonagall",
+      "target": "M1_Scene15-part-6",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_harry_potter",
+      "target": "M1_Scene15-part-6",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_oliver_wood",
+      "target": "M1_Scene15-part-6",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_ron_weasley",
+      "target": "M1_Scene15-part-6",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_hermione_granger",
+      "target": "M1_Scene15-part-6",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_parents_harry",
+      "target": "M1_Scene15-part-6",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "char_oliver_wood",
+      "target": "M1_Scene15-part-7",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_harry_potter",
+      "target": "M1_Scene15-part-7",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_professor_flitwick",
+      "target": "M1_Scene15-part-8",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_hermione_granger",
+      "target": "M1_Scene15-part-8",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_ron_weasley",
+      "target": "M1_Scene15-part-8",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_students_hogwarts",
+      "target": "M1_Scene15-part-8",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_harry_potter",
+      "target": "M1_Scene15-part-9",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_ron_weasley",
+      "target": "M1_Scene15-part-9",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_hermione_granger",
+      "target": "M1_Scene15-part-9",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_quirrell",
+      "target": "M1_Scene15-part-9",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_troll",
+      "target": "M1_Scene15-part-9",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_students_hogwarts",
+      "target": "M1_Scene16-part-1",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_harry_potter",
+      "target": "M1_Scene16-part-1",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_ron_weasley",
+      "target": "M1_Scene16-part-1",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_hermione_granger",
+      "target": "M1_Scene16-part-1",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_troll",
+      "target": "M1_Scene16-part-1",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_harry_potter",
+      "target": "M1_Scene16-part-2",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_ron_weasley",
+      "target": "M1_Scene16-part-2",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_hermione_granger",
+      "target": "M1_Scene16-part-2",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_troll",
+      "target": "M1_Scene16-part-2",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_mcgonagall",
+      "target": "M1_Scene16-part-2",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_harry_potter",
+      "target": "M1_Scene16-part-3",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_ron_weasley",
+      "target": "M1_Scene16-part-3",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_hermione_granger",
+      "target": "M1_Scene16-part-3",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_professor_snape",
+      "target": "M1_Scene16-part-3",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "char_hagrid",
+      "target": "M1_Scene16-part-3",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "char_harry_potter",
+      "target": "M1_Scene16-part-4",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_harry_potter",
+      "target": "M1_Scene16-part-5",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_ron_weasley",
+      "target": "M1_Scene16-part-5",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_harry_potter",
+      "target": "M1_Scene16-part-6",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_hermione_granger",
+      "target": "M1_Scene16-part-6",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_students_hogwarts",
+      "target": "M1_Scene16-part-6",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_harry_potter",
+      "target": "M1_Scene16-part-7",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_ron_weasley",
+      "target": "M1_Scene16-part-7",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_hermione_granger",
+      "target": "M1_Scene16-part-7",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_hagrid",
+      "target": "M1_Scene16-part-7",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_professor_snape",
+      "target": "M1_Scene16-part-7",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "char_nicholas_flamel",
+      "target": "M1_Scene16-part-7",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "char_harry_potter",
+      "target": "M1_Scene16-part-8",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_ron_weasley",
+      "target": "M1_Scene16-part-8",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_hermione_granger",
+      "target": "M1_Scene16-part-8",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_nicholas_flamel",
+      "target": "M1_Scene16-part-8",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "char_harry_potter",
+      "target": "M1_Scene16-part-9",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_ron_weasley",
+      "target": "M1_Scene16-part-9",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_harry_potter",
+      "target": "M1_Scene16-part-10",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_professor_snape",
+      "target": "M1_Scene16-part-10",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_quirrell",
+      "target": "M1_Scene16-part-10",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_filch",
+      "target": "M1_Scene16-part-10",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_nicholas_flamel",
+      "target": "M1_Scene16-part-10",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "char_harry_potter",
+      "target": "M1_Scene16-part-11",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_ron_weasley",
+      "target": "M1_Scene16-part-11",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_parents_harry",
+      "target": "M1_Scene16-part-11",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_dumbledore",
+      "target": "M1_Scene16-part-11",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_hermione_granger",
+      "target": "M1_Scene16-part-12",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_harry_potter",
+      "target": "M1_Scene16-part-12",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_ron_weasley",
+      "target": "M1_Scene16-part-12",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_nicholas_flamel",
+      "target": "M1_Scene16-part-12",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_professor_snape",
+      "target": "M1_Scene16-part-12",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "char_hermione_granger",
+      "target": "M1_Scene17-part-1",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_harry_potter",
+      "target": "M1_Scene17-part-1",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_ron_weasley",
+      "target": "M1_Scene17-part-1",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_nicholas_flamel",
+      "target": "M1_Scene17-part-1",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_professor_snape",
+      "target": "M1_Scene17-part-1",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_hagrid",
+      "target": "M1_Scene17-part-1",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_harry_potter",
+      "target": "M1_Scene17-part-2",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_ron_weasley",
+      "target": "M1_Scene17-part-2",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_hermione_granger",
+      "target": "M1_Scene17-part-2",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_hagrid",
+      "target": "M1_Scene17-part-2",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_norbert",
+      "target": "M1_Scene17-part-2",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_draco_malfoy",
+      "target": "M1_Scene17-part-2",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_mcgonagall",
+      "target": "M1_Scene17-part-3",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_harry_potter",
+      "target": "M1_Scene17-part-3",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_ron_weasley",
+      "target": "M1_Scene17-part-3",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_hermione_granger",
+      "target": "M1_Scene17-part-3",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_draco_malfoy",
+      "target": "M1_Scene17-part-3",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_hagrid",
+      "target": "M1_Scene17-part-3",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_fang",
+      "target": "M1_Scene17-part-3",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_harry_potter",
+      "target": "M1_Scene17-part-4",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_draco_malfoy",
+      "target": "M1_Scene17-part-4",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_fang",
+      "target": "M1_Scene17-part-4",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_voldemort",
+      "target": "M1_Scene17-part-4",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_firenze",
+      "target": "M1_Scene17-part-4",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_harry_potter",
+      "target": "M1_Scene17-part-5",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_ron_weasley",
+      "target": "M1_Scene17-part-5",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_hermione_granger",
+      "target": "M1_Scene17-part-5",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_voldemort",
+      "target": "M1_Scene17-part-5",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "char_professor_snape",
+      "target": "M1_Scene17-part-5",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "char_dumbledore",
+      "target": "M1_Scene17-part-5",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "char_harry_potter",
+      "target": "M1_Scene17-part-6",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_ron_weasley",
+      "target": "M1_Scene17-part-6",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_hermione_granger",
+      "target": "M1_Scene17-part-6",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_hagrid",
+      "target": "M1_Scene17-part-6",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_quirrell",
+      "target": "M1_Scene17-part-6",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_professor_snape",
+      "target": "M1_Scene17-part-6",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "char_dumbledore",
+      "target": "M1_Scene17-part-6",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "char_harry_potter",
+      "target": "M1_Scene17-part-7",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_ron_weasley",
+      "target": "M1_Scene17-part-7",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_hermione_granger",
+      "target": "M1_Scene17-part-7",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_neville_longbottom",
+      "target": "M1_Scene17-part-7",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_harry_potter",
+      "target": "M1_Scene18-part-1",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_ron_weasley",
+      "target": "M1_Scene18-part-1",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_hermione_granger",
+      "target": "M1_Scene18-part-1",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_harry_potter",
+      "target": "M1_Scene18-part-2",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_ron_weasley",
+      "target": "M1_Scene18-part-2",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_hermione_granger",
+      "target": "M1_Scene18-part-2",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_harry_potter",
+      "target": "M1_Scene18-part-3",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_ron_weasley",
+      "target": "M1_Scene18-part-3",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_hermione_granger",
+      "target": "M1_Scene18-part-3",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_harry_potter",
+      "target": "M1_Scene18-part-4",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_quirrell",
+      "target": "M1_Scene18-part-4",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_voldemort",
+      "target": "M1_Scene18-part-4",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_parents_harry",
+      "target": "M1_Scene18-part-4",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "char_harry_potter",
+      "target": "M1_Scene18-part-5",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_dumbledore",
+      "target": "M1_Scene18-part-5",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_parents_harry",
+      "target": "M1_Scene18-part-5",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "char_dumbledore",
+      "target": "M1_Scene18-part-6",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_hermione_granger",
+      "target": "M1_Scene18-part-6",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_ron_weasley",
+      "target": "M1_Scene18-part-6",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_harry_potter",
+      "target": "M1_Scene18-part-6",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_neville_longbottom",
+      "target": "M1_Scene18-part-6",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_students_hogwarts",
+      "target": "M1_Scene18-part-6",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_harry_potter",
+      "target": "M1_Scene18-part-7",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_ron_weasley",
+      "target": "M1_Scene18-part-7",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_hermione_granger",
+      "target": "M1_Scene18-part-7",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_dumbledore",
+      "target": "M1_Scene18-part-7",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "M1_Scene13-part-1",
+      "target": "loc_privet_drive",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source": "M1_Scene13-part-2",
+      "target": "loc_privet_drive",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source": "M1_Scene13-part-2",
+      "target": "loc_london_zoo",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source": "M1_Scene13-part-3",
+      "target": "loc_privet_drive",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source": "M1_Scene13-part-3",
+      "target": "loc_sea_shack",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source": "M1_Scene13-part-4",
+      "target": "loc_sea_shack",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source": "M1_Scene13-part-5",
+      "target": "loc_leaky_cauldron",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source": "M1_Scene13-part-5",
+      "target": "loc_diagon_alley",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "M1_Scene13-part-6",
+      "target": "loc_diagon_alley",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source": "M1_Scene13-part-6",
+      "target": "loc_gringotts_bank",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "M1_Scene13-part-7",
+      "target": "loc_gringotts_bank",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source": "M1_Scene13-part-8",
+      "target": "loc_ollivanders_shop",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source": "M1_Scene14-part-1",
+      "target": "loc_ollivanders_shop",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source": "M1_Scene14-part-2",
+      "target": "loc_kings_cross",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source": "M1_Scene14-part-2",
+      "target": "loc_platform_9_3_4",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source": "M1_Scene14-part-3",
+      "target": "loc_hogwarts_express",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source": "M1_Scene14-part-4",
+      "target": "loc_hogwarts_lake",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source": "M1_Scene14-part-4",
+      "target": "loc_hogwarts_castle",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source": "M1_Scene14-part-5",
+      "target": "loc_hogwarts_castle",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source": "M1_Scene14-part-5",
+      "target": "loc_great_hall",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "M1_Scene14-part-6",
+      "target": "loc_great_hall",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source": "M1_Scene14-part-7",
+      "target": "loc_great_hall",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source": "M1_Scene14-part-7",
+      "target": "loc_hogwarts_castle",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source": "M1_Scene14-part-7",
+      "target": "loc_gryffindor_common_room",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source": "M1_Scene14-part-7",
+      "target": "loc_gryffindor_dormitories",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source": "M1_Scene15-part-1",
+      "target": "loc_gryffindor_common_room",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source": "M1_Scene15-part-2",
+      "target": "loc_hogwarts_castle",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source": "M1_Scene15-part-2",
+      "target": "loc_gryffindor_common_room",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source": "M1_Scene15-part-2",
+      "target": "loc_gryffindor_dormitories",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source": "M1_Scene15-part-3",
+      "target": "loc_potions_classroom",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source": "M1_Scene15-part-4",
+      "target": "loc_gryffindor_common_room",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source": "M1_Scene15-part-5",
+      "target": "loc_hogwarts_flying_grounds",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source": "M1_Scene15-part-5",
+      "target": "loc_hospital_wing",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source": "M1_Scene15-part-6",
+      "target": "loc_hogwarts_castle",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source": "M1_Scene15-part-7",
+      "target": "loc_hogwarts_castle",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source": "M1_Scene15-part-8",
+      "target": "loc_charms_classroom",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source": "M1_Scene15-part-9",
+      "target": "loc_girls_bathroom",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source": "M1_Scene15-part-9",
+      "target": "loc_hogwarts_castle",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source": "M1_Scene16-part-1",
+      "target": "loc_girls_bathroom",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source": "M1_Scene16-part-1",
+      "target": "loc_hogwarts_castle",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source": "M1_Scene16-part-2",
+      "target": "loc_girls_bathroom",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source": "M1_Scene16-part-3",
+      "target": "loc_great_hall",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source": "M1_Scene16-part-3",
+      "target": "loc_hogwarts_castle",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source": "M1_Scene16-part-3",
+      "target": "loc_gringotts_bank",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "M1_Scene16-part-4",
+      "target": "loc_hogwarts_castle",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source": "M1_Scene16-part-5",
+      "target": "loc_hogwarts_castle",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source": "M1_Scene16-part-6",
+      "target": "loc_hogwarts_flying_grounds",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source": "M1_Scene16-part-7",
+      "target": "loc_hagrid_hut",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source": "M1_Scene16-part-7",
+      "target": "loc_gringotts_bank",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "M1_Scene16-part-8",
+      "target": "loc_hogwarts_castle",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source": "M1_Scene16-part-8",
+      "target": "loc_gryffindor_common_room",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source": "M1_Scene16-part-8",
+      "target": "loc_forbidden_section_library",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "M1_Scene16-part-9",
+      "target": "loc_gryffindor_dormitories",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source": "M1_Scene16-part-10",
+      "target": "loc_forbidden_section_library",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source": "M1_Scene16-part-10",
+      "target": "loc_hogwarts_castle",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source": "M1_Scene16-part-11",
+      "target": "loc_mirror_of_erised_chamber",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source": "M1_Scene16-part-12",
+      "target": "loc_hogwarts_castle",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source": "M1_Scene16-part-12",
+      "target": "loc_forbidden_section_library",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source": "M1_Scene17-part-1",
+      "target": "loc_hogwarts_castle",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source": "M1_Scene17-part-1",
+      "target": "loc_forbidden_section_library",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source": "M1_Scene17-part-2",
+      "target": "loc_hagrid_hut",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source": "M1_Scene17-part-3",
+      "target": "loc_hogwarts_castle",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source": "M1_Scene17-part-3",
+      "target": "loc_forbidden_forest",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source": "M1_Scene17-part-4",
+      "target": "loc_forbidden_forest",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source": "M1_Scene17-part-5",
+      "target": "loc_hogwarts_castle",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source": "M1_Scene17-part-6",
+      "target": "loc_hagrid_hut",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source": "M1_Scene17-part-6",
+      "target": "loc_forbidden_corridor",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "M1_Scene17-part-7",
+      "target": "loc_forbidden_corridor",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source": "M1_Scene17-part-7",
+      "target": "loc_devils_snare_chamber",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source": "M1_Scene18-part-1",
+      "target": "loc_devils_snare_chamber",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source": "M1_Scene18-part-2",
+      "target": "loc_flying_keys_chamber",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source": "M1_Scene18-part-3",
+      "target": "loc_wizards_chessboard_chamber",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source": "M1_Scene18-part-4",
+      "target": "loc_mirror_of_erised_chamber",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source": "M1_Scene18-part-5",
+      "target": "loc_hospital_wing",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source": "M1_Scene18-part-6",
+      "target": "loc_great_hall",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source": "M1_Scene18-part-7",
+      "target": "loc_hogwarts_express",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source": "M1_Scene18-part-7",
+      "target": "loc_kings_cross",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "obj_hogwarts_letters",
+      "target": "M1_Scene13-part-3",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "obj_nimbus_2000",
+      "target": "M1_Scene13-part-6",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "obj_gold_galleons",
+      "target": "M1_Scene13-part-7",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "obj_vault_713_package",
+      "target": "M1_Scene13-part-7",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "obj_harry_wand",
+      "target": "M1_Scene13-part-8",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "obj_voldemort_wand",
+      "target": "M1_Scene13-part-8",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "obj_lightning_scar",
+      "target": "M1_Scene13-part-8",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "obj_harry_wand",
+      "target": "M1_Scene14-part-1",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "obj_voldemort_wand",
+      "target": "M1_Scene14-part-1",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "obj_lightning_scar",
+      "target": "M1_Scene14-part-1",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "obj_train_ticket",
+      "target": "M1_Scene14-part-1",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "obj_bertie_botts_beans",
+      "target": "M1_Scene14-part-3",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "obj_chocolate_frogs",
+      "target": "M1_Scene14-part-3",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "obj_neville_toad",
+      "target": "M1_Scene14-part-3",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "obj_harry_glasses",
+      "target": "M1_Scene14-part-3",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "obj_hogwarts_robes",
+      "target": "M1_Scene14-part-3",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "obj_sorting_hat",
+      "target": "M1_Scene14-part-6",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "obj_daily_prophet",
+      "target": "M1_Scene15-part-4",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "obj_vault_713_package",
+      "target": "M1_Scene15-part-4",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "obj_neville_remembrall",
+      "target": "M1_Scene15-part-5",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "obj_quaffle",
+      "target": "M1_Scene15-part-7",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "obj_bludgers",
+      "target": "M1_Scene15-part-7",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "obj_golden_snitch",
+      "target": "M1_Scene15-part-7",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "obj_nimbus_2000",
+      "target": "M1_Scene16-part-4",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "obj_nimbus_2000",
+      "target": "M1_Scene16-part-6",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "obj_golden_snitch",
+      "target": "M1_Scene16-part-6",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "obj_fluffy",
+      "target": "M1_Scene16-part-7",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "obj_magical_chess_set",
+      "target": "M1_Scene16-part-8",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "obj_weasley_sweater",
+      "target": "M1_Scene16-part-9",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "obj_invisibility_cloak",
+      "target": "M1_Scene16-part-9",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "obj_invisibility_cloak",
+      "target": "M1_Scene16-part-10",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "obj_mirror_of_erised",
+      "target": "M1_Scene16-part-11",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "obj_alchemy_book",
+      "target": "M1_Scene16-part-12",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "obj_philosophers_stone",
+      "target": "M1_Scene16-part-12",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "obj_fluffy",
+      "target": "M1_Scene16-part-12",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "obj_alchemy_book",
+      "target": "M1_Scene17-part-1",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "obj_philosophers_stone",
+      "target": "M1_Scene17-part-1",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "obj_fluffy",
+      "target": "M1_Scene17-part-1",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "obj_music",
+      "target": "M1_Scene17-part-1",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "obj_dragon_egg",
+      "target": "M1_Scene17-part-2",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "obj_norbert",
+      "target": "M1_Scene17-part-2",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "obj_injured_unicorn",
+      "target": "M1_Scene17-part-3",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "obj_injured_unicorn",
+      "target": "M1_Scene17-part-4",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "obj_lightning_scar",
+      "target": "M1_Scene17-part-5",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "obj_philosophers_stone",
+      "target": "M1_Scene17-part-5",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "obj_lightning_scar",
+      "target": "M1_Scene17-part-6",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "obj_dragon_egg",
+      "target": "M1_Scene17-part-6",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "obj_fluffy",
+      "target": "M1_Scene17-part-6",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "obj_philosophers_stone",
+      "target": "M1_Scene17-part-7",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "obj_fluffy",
+      "target": "M1_Scene17-part-7",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "obj_music",
+      "target": "M1_Scene17-part-7",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "obj_devils_snare",
+      "target": "M1_Scene17-part-7",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "obj_devils_snare",
+      "target": "M1_Scene18-part-1",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "obj_flying_keys",
+      "target": "M1_Scene18-part-2",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "obj_harry_wand",
+      "target": "M1_Scene18-part-2",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "obj_magical_chess_set",
+      "target": "M1_Scene18-part-3",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "obj_philosophers_stone",
+      "target": "M1_Scene18-part-4",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "obj_lightning_scar",
+      "target": "M1_Scene18-part-4",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "obj_philosophers_stone",
+      "target": "M1_Scene18-part-5",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "obj_mirror_of_erised",
+      "target": "M1_Scene18-part-5",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "obj_bertie_botts_beans",
+      "target": "M1_Scene18-part-5",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "obj_house_cup",
+      "target": "M1_Scene18-part-6",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "char_harry_potter",
+      "target": "char_ron_weasley",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "char_harry_potter",
+      "target": "char_hermione_granger",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "char_ron_weasley",
+      "target": "char_hermione_granger",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "char_dumbledore",
+      "target": "char_mcgonagall",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "char_dumbledore",
+      "target": "char_hagrid",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "char_dumbledore",
+      "target": "char_professor_snape",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "char_dumbledore",
+      "target": "char_quirrell",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "char_harry_potter",
+      "target": "char_parents_harry",
+      "type": "REPRESENTS"
+    },
+    {
+      "source": "char_harry_potter",
+      "target": "char_draco_malfoy",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "char_harry_potter",
+      "target": "char_voldemort",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "char_hagrid",
+      "target": "char_fang",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "char_hagrid",
+      "target": "char_norbert",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "char_professor_snape",
+      "target": "char_quirrell",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "char_harry_potter",
+      "target": "obj_harry_wand",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "char_harry_potter",
+      "target": "obj_lightning_scar",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "char_harry_potter",
+      "target": "obj_invisibility_cloak",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "char_harry_potter",
+      "target": "obj_harry_glasses",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "char_harry_potter",
+      "target": "obj_nimbus_2000",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "char_voldemort",
+      "target": "obj_voldemort_wand",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "char_neville_longbottom",
+      "target": "obj_neville_remembrall",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "char_neville_longbottom",
+      "target": "obj_neville_toad",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "char_ron_weasley",
+      "target": "obj_weasley_sweater",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "char_hagrid",
+      "target": "obj_fluffy",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "char_hagrid",
+      "target": "obj_dragon_egg",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "char_nicholas_flamel",
+      "target": "obj_philosophers_stone",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "char_dumbledore",
+      "target": "obj_philosophers_stone",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "char_professor_snape",
+      "target": "obj_philosophers_stone",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "char_quirrell",
+      "target": "obj_philosophers_stone",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "char_voldemort",
+      "target": "obj_philosophers_stone",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "char_harry_potter",
+      "target": "obj_philosophers_stone",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "char_hermione_granger",
+      "target": "obj_alchemy_book",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "obj_vault_713_package",
+      "target": "obj_philosophers_stone",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "obj_music",
+      "target": "obj_fluffy",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "loc_hogwarts_castle",
+      "target": "loc_great_hall",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "loc_hogwarts_castle",
+      "target": "loc_gryffindor_common_room",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "loc_hogwarts_castle",
+      "target": "loc_gryffindor_dormitories",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "loc_hogwarts_castle",
+      "target": "loc_potions_classroom",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "loc_hogwarts_castle",
+      "target": "loc_hospital_wing",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "loc_hogwarts_castle",
+      "target": "loc_charms_classroom",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "loc_hogwarts_castle",
+      "target": "loc_girls_bathroom",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "loc_hogwarts_castle",
+      "target": "loc_forbidden_corridor",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "loc_hogwarts_castle",
+      "target": "loc_mirror_of_erised_chamber",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "loc_hogwarts_castle",
+      "target": "loc_forbidden_section_library",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "loc_hogwarts_castle",
+      "target": "loc_hogwarts_flying_grounds",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "loc_hogwarts_castle",
+      "target": "loc_hogwarts_lake",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "loc_hogwarts_castle",
+      "target": "loc_hagrid_hut",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "loc_hogwarts_castle",
+      "target": "loc_forbidden_forest",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "loc_diagon_alley",
+      "target": "loc_ollivanders_shop",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "loc_kings_cross",
+      "target": "loc_platform_9_3_4",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "char_harry_potter",
+      "target": "loc_forbidden_section_library",
+      "type": "EXPLORES"
+    },
+    {
+      "source": "char_ron_weasley",
+      "target": "loc_forbidden_section_library",
+      "type": "RELATES_TO"
+    },
+    {
+      "source": "char_hermione_granger",
+      "target": "loc_forbidden_section_library",
+      "type": "EXPLORES"
+    },
+    {
+      "source": "char_harry_potter",
+      "target": "loc_forbidden_corridor",
+      "type": "EXPLORES"
+    },
+    {
+      "source": "char_ron_weasley",
+      "target": "loc_forbidden_corridor",
+      "type": "EXPLORES"
+    },
+    {
+      "source": "char_hermione_granger",
+      "target": "loc_forbidden_corridor",
+      "type": "EXPLORES"
+    },
+    {
+      "source": "char_harry_potter",
+      "target": "loc_devils_snare_chamber",
+      "type": "EXPLORES"
+    },
+    {
+      "source": "char_ron_weasley",
+      "target": "loc_devils_snare_chamber",
+      "type": "EXPLORES"
+    },
+    {
+      "source": "char_hermione_granger",
+      "target": "loc_devils_snare_chamber",
+      "type": "EXPLORES"
+    },
+    {
+      "source": "char_harry_potter",
+      "target": "loc_flying_keys_chamber",
+      "type": "EXPLORES"
+    },
+    {
+      "source": "char_ron_weasley",
+      "target": "loc_flying_keys_chamber",
+      "type": "EXPLORES"
+    },
+    {
+      "source": "char_hermione_granger",
+      "target": "loc_flying_keys_chamber",
+      "type": "EXPLORES"
+    },
+    {
+      "source": "char_harry_potter",
+      "target": "loc_wizards_chessboard_chamber",
+      "type": "EXPLORES"
+    },
+    {
+      "source": "char_ron_weasley",
+      "target": "loc_wizards_chessboard_chamber",
+      "type": "EXPLORES"
+    },
+    {
+      "source": "char_hermione_granger",
+      "target": "loc_wizards_chessboard_chamber",
+      "type": "EXPLORES"
+    },
+    {
+      "source": "char_harry_potter",
+      "target": "loc_mirror_of_erised_chamber",
+      "type": "EXPLORES"
+    }
+  ]
+}

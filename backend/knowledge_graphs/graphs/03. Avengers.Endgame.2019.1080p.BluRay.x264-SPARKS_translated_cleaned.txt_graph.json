@@ -1,0 +1,1392 @@
+{
+  "movie": {
+    "id": "movie_avengers_endgame",
+    "title": "Avengers: Endgame",
+    "year": 2019,
+    "plot_summary": "Following the devastating events of Thanos's snap, the surviving Avengers grapple with immense loss and despair. Stranded in space, Tony Stark and Nebula face their impending demise but are eventually rescued. Back on Earth, the team confronts their collective failure, leading to a desperate pursuit of Thanos, only to discover he has destroyed the Infinity Stones. Five years later, the world is desolate, and remaining heroes, including Captain America and Black Widow, try to cope. The unexpected return of Scott Lang from the Quantum Realm introduces the possibility of time travel, reigniting a glimmer of hope. Despite initial reluctance, especially from a grief-stricken Tony Stark who has built a new family, the heroes, including Smart Hulk, begin to develop and test a method for quantum realm time travel to reverse the snap and bring back those they lost. This effort involves recruiting other heroes like Clint Barton (Ronin) and Thor.",
+    "themes": [
+      "loss",
+      "grief",
+      "despair",
+      "hope",
+      "sacrifice",
+      "family",
+      "redemption",
+      "time travel",
+      "second chances",
+      "responsibility",
+      "vengeance"
+    ]
+  },
+  "characters": [
+    {
+      "id": "char_laura_barton",
+      "name": "Laura Barton",
+      "role": "Family Member",
+      "archetype": "Victim (of the Snap)",
+      "description": "Clint Barton's wife, presumed lost in the snap."
+    },
+    {
+      "id": "char_leila_family_member",
+      "name": "Leila",
+      "role": "Family Member",
+      "archetype": "Victim (of the Snap)",
+      "description": "A missing family member mentioned during the snap's aftermath."
+    },
+    {
+      "id": "char_baby_family_member",
+      "name": "Baby",
+      "role": "Family Member",
+      "archetype": "Victim (of the Snap)",
+      "description": "A missing baby mentioned during the snap's aftermath."
+    },
+    {
+      "id": "char_boys_family_members",
+      "name": "Boys",
+      "role": "Family Members",
+      "archetype": "Victims (of the Snap)",
+      "description": "Missing children mentioned during the snap's aftermath."
+    },
+    {
+      "id": "char_tony_stark",
+      "name": "Tony Stark",
+      "role": "Iron Man / Avenger",
+      "archetype": "Grieving Father, Genius Inventor, Reluctant Hero",
+      "description": "Billionaire genius, Avenger, trapped in space, deeply affected by the snap, initially resistant to time travel due to his new family but ultimately key to its success."
+    },
+    {
+      "id": "char_nebula",
+      "name": "Nebula",
+      "role": "Thanos's Adopted Daughter / Survivor",
+      "archetype": "Survivor, Insider",
+      "description": "Adopted daughter of Thanos, survivor, shares insight into Thanos's post-snap actions."
+    },
+    {
+      "id": "char_pepper_potts",
+      "name": "Pepper Potts",
+      "role": "Tony Stark's Wife",
+      "archetype": "Loved One",
+      "description": "Tony Stark's wife, mentioned in his video log from space."
+    },
+    {
+      "id": "char_peter_parker",
+      "name": "Peter Parker",
+      "role": "Spider-Man / Tony's Prot\u00e9g\u00e9",
+      "archetype": "Fallen Hero, Mentee",
+      "description": "Tony Stark's prot\u00e9g\u00e9, whose loss deeply traumatized Tony after the snap."
+    },
+    {
+      "id": "char_carol_danvers",
+      "name": "Carol Danvers",
+      "role": "Captain Marvel / Avenger",
+      "archetype": "Powerful Ally, Resolute Avenger",
+      "description": "Powerful hero, asserts her resolve to kill Thanos and reverse the snap, active in cosmic affairs."
+    },
+    {
+      "id": "char_thanos",
+      "name": "Thanos",
+      "role": "Antagonist",
+      "archetype": "Destroyer, Antagonist",
+      "description": "The villain responsible for the snap, who destroyed the Infinity Stones to prevent reversal, later killed by Thor."
+    },
+    {
+      "id": "char_steve_rogers",
+      "name": "Steve Rogers",
+      "role": "Captain America / Avenger",
+      "archetype": "Stoic Leader, Moral Compass, Grieving Survivor",
+      "description": "Leader of the Avengers, deals with immense responsibility and loss, leads a support group, motivates Tony, and recruits for time travel."
+    },
+    {
+      "id": "char_rocket",
+      "name": "Rocket Raccoon",
+      "role": "Guardian of the Galaxy / Avenger",
+      "archetype": "Tech Expert, Survivor",
+      "description": "A member of the Guardians of the Galaxy and the Avengers team, travels with them and shows empathy."
+    },
+    {
+      "id": "char_thor",
+      "name": "Thor Odinson",
+      "role": "Avenger / Asgardian",
+      "archetype": "Grieving Warrior, Fallen King",
+      "description": "Avenger, decapitates Thanos in a fit of rage after the snap, later sought out in New Asgard."
+    },
+    {
+      "id": "char_scott_lang",
+      "name": "Scott Lang",
+      "role": "Ant-Man / Avenger",
+      "archetype": "Unexpected Hero, Optimist, Scientist (via Quantum Realm)",
+      "description": "Emerges unexpectedly from the Quantum Realm five years after the snap, proposing the possibility of time travel and becoming a key figure in the plan."
+    },
+    {
+      "id": "char_cassie_lang",
+      "name": "Cassie Lang",
+      "role": "Scott Lang's Daughter",
+      "archetype": "Loved One, Survivor (of the Snap)",
+      "description": "Scott Lang's daughter, reunited with him as a teenager after his return from the Quantum Realm."
+    },
+    {
+      "id": "char_natasha_romanoff",
+      "name": "Natasha Romanoff",
+      "role": "Black Widow / Avenger",
+      "archetype": "Strategist, Compassionate Ally",
+      "description": "Avenger, coordinates efforts, and tries to help a grief-stricken Clint Barton."
+    },
+    {
+      "id": "char_bruce_banner",
+      "name": "Bruce Banner",
+      "role": "Smart Hulk / Avenger / Scientist",
+      "archetype": "Genius Scientist, Brawn and Brains, Peacemaker",
+      "description": "Avenger, transformed into Smart Hulk, a brilliant scientist who helps refine the time travel mechanism."
+    },
+    {
+      "id": "char_james_rhodes",
+      "name": "James Rhodes",
+      "role": "War Machine / Avenger",
+      "archetype": "Loyal Teammate, Military Officer",
+      "description": "Avenger, coordinates efforts with the remaining team members."
+    },
+    {
+      "id": "char_clint_barton",
+      "name": "Clint Barton",
+      "role": "Hawkeye / Ronin / Avenger",
+      "archetype": "Grieving Avenger, Vengeful Warrior",
+      "description": "Avenger, becomes the violent vigilante 'Ronin,' consumed by grief after losing his family in the snap."
+    },
+    {
+      "id": "char_morgan_stark",
+      "name": "Morgan Stark",
+      "role": "Tony Stark's Daughter",
+      "archetype": "Innocent, Source of Hope",
+      "description": "Tony Stark's young daughter, who brings joy and a new sense of purpose to his life after the snap."
+    },
+    {
+      "id": "char_valkyrie",
+      "name": "Valkyrie",
+      "role": "Asgardian Leader",
+      "archetype": "Warrior, Leader",
+      "description": "An Asgardian warrior and leader, residing in New Asgard."
+    }
+  ],
+  "scenes": [
+    {
+      "id": "M1_Scene1-part-1",
+      "start_timestamp": "00:00:07,197",
+      "end_timestamp": "00:01:54,867",
+      "summary": "A family is engaged in a casual activity, possibly cooking, with a relaxed atmosphere. The scene abruptly shifts as a character frantically calls out for missing family members (Leila, Baby, Boys, Laura), signaling a sudden and devastating loss following an unseen event."
+    },
+    {
+      "id": "M1_Scene1-part-2",
+      "start_timestamp": "00:02:38,746",
+      "end_timestamp": "00:03:15,081",
+      "summary": "Stranded in space, Tony Stark and Nebula play a game, reflecting on the experience of winning and losing. They share a moment of lightheartedness amidst their grim circumstances."
+    },
+    {
+      "id": "M1_Scene1-part-3",
+      "start_timestamp": "00:03:37,571",
+      "end_timestamp": "00:05:41,859",
+      "summary": "Tony Stark records a poignant video log for Pepper, detailing their damaged spacecraft and dwindling oxygen, anticipating their imminent demise in deep space. He then has a somber conversation with Nebula, acknowledging their failures and the bleak reality of their situation."
+    },
+    {
+      "id": "M1_Scene1-part-4",
+      "start_timestamp": "00:09:04,491",
+      "end_timestamp": "00:09:31,484",
+      "summary": "Tony Stark is rescued from space and brought back to Earth, where he experiences a traumatic recollection of losing Spider-Man. Overwhelmed by despair, he struggles to process the reality of the post-snap world, expressing profound distress."
+    },
+    {
+      "id": "M1_Scene1-part-5",
+      "start_timestamp": "00:09:37,590",
+      "end_timestamp": "00:12:35,798",
+      "summary": "At the Avengers compound, the remaining heroes brief a weakened Tony Stark on the global devastation following Thanos's actions. Tony, overcome with anger and grief, confronts the team about their collective failure, before collapsing. Captain Marvel then asserts her resolve to kill Thanos."
+    },
+    {
+      "id": "M1_Scene1-part-6",
+      "start_timestamp": "00:12:38,634",
+      "end_timestamp": "00:14:19,267",
+      "summary": "Following Tony's collapse, the Avengers regroup, and Nebula reveals Thanos's post-snap plan to retire to a 'garden' planet after destroying the Infinity Stones. The team debates pursuing him, with Captain Marvel advocating for action to undo the snap, despite others' reservations."
+    },
+    {
+      "id": "M1_Scene1-part-7",
+      "start_timestamp": "00:14:42,090",
+      "end_timestamp": "00:16:19,852",
+      "summary": "The Avengers team, including Rocket and Captain Marvel, embark on a space journey to confront Thanos, with Rocket taking the helm. During their travel, Captain America reflects on Tony Stark's earlier despair and the immense, lonely responsibility now resting on them, without the comfort of a 'defensive shield.'"
+    },
+    {
+      "id": "M1_Scene1-part-8",
+      "start_timestamp": "00:17:48,707",
+      "end_timestamp": "00:19:19,095",
+      "summary": "The Avengers confront Thanos on his secluded 'garden' planet, where he reveals he used the Infinity Stones to destroy themselves, preventing their use for reversal. The team is left in utter despair and anger, culminating in Thor decapitating Thanos in a fit of rage."
+    },
+    {
+      "id": "M1_Scene1-part-9",
+      "start_timestamp": "00:20:29,832",
+      "end_timestamp": "00:22:06,826",
+      "summary": "Five years after the snap, Steve Rogers leads a support group, sharing his own experiences of immense loss and advocating for moving forward. He emphasizes that the world is in their hands and they must find purpose, rejecting Thanos's desired outcome of despair."
+    },
+    {
+      "id": "M1_Scene1-part-10",
+      "start_timestamp": "00:23:08,787",
+      "end_timestamp": "00:25:45,875",
+      "summary": "Scott Lang (Ant-Man) unexpectedly emerges from the Quantum Realm in San Francisco, five years after the snap. He frantically searches for his daughter, Cassie, in a desolate world, eventually sharing an emotional reunion with her as a teenager."
+    },
+    {
+      "id": "M1_Scene1-part-11",
+      "start_timestamp": "00:26:27,482",
+      "end_timestamp": "00:28:23,763",
+      "summary": "At the Avengers compound, Captain America, Black Widow, Bruce Banner, and Rhodey coordinate efforts, including a video call with Captain Marvel about broader cosmic issues. They then discuss Clint Barton's violent vigilante activities as Ronin in Mexico, expressing concern and difficulty in locating him."
+    },
+    {
+      "id": "M1_Scene1-part-12",
+      "start_timestamp": "00:28:32,205",
+      "end_timestamp": "00:30:33,258",
+      "summary": "Black Widow visits Clint Barton, who is consumed by grief and has embraced a life of violent vengeance. He expresses his refusal to 'forget and grow,' unlike others, and highlights the profound loss of his family as the driving force behind his actions, while Natasha tries to reason with his despair."
+    },
+    {
+      "id": "M1_Scene1-part-13",
+      "start_timestamp": "00:30:38,530",
+      "end_timestamp": "00:31:17,566",
+      "summary": "Captain America and Black Widow listen to a garbled message from Scott Lang (Ant-Man), who then unexpectedly arrives at the Avengers compound. Scott introduces the concept of the Quantum Realm and the possibility of time travel, presenting a potential way to undo Thanos's snap."
+    },
+    {
+      "id": "M1_Scene2-part-1",
+      "start_timestamp": "00:28:51,322",
+      "end_timestamp": "00:30:33,258",
+      "summary": "A character, likely Tony Stark, reflects on the devastating events of the past five years, noting environmental changes like whales in the Hudson and his personal growth through finding a new family and purpose. He struggles with the idea of letting go of the past but expresses a deep desire to be better, seemingly concluding a conversation with another character who implies a departure."
+    },
+    {
+      "id": "M1_Scene2-part-2",
+      "start_timestamp": "00:30:38,530",
+      "end_timestamp": "00:30:58,113",
+      "summary": "Scott Lang leaves a frantic video message, identifying himself as Ant-Man and referring to a past encounter in Germany. He urgently needs to talk to someone, asking if the message is old and making it clear he's alive after being lost."
+    },
+    {
+      "id": "M1_Scene2-part-3",
+      "start_timestamp": "00:31:04,188",
+      "end_timestamp": "00:32:53,895",
+      "summary": "Scott Lang, now in person, explains to a skeptical audience (including Tony Stark and Captain America) his experience in the Quantum Realm, where five years in their reality was only five hours for him. He proposes that they can harness the Quantum Realm's unique temporal properties for time travel to reverse the Snap, despite the initial disbelief and scientific objections."
+    },
+    {
+      "id": "M1_Scene2-part-4",
+      "start_timestamp": "00:33:12,113",
+      "end_timestamp": "00:34:01,794",
+      "summary": "Tony Stark shares a tender moment with his daughter, Morgan, at their home, playfully discussing lunch and her wearing a helmet he made for her mom. Morgan mentions finding the helmet in the garage, subtly foreshadowing Tony's eventual return to his lab work."
+    },
+    {
+      "id": "M1_Scene2-part-5",
+      "start_timestamp": "00:34:19,012",
+      "end_timestamp": "00:36:47,158",
+      "summary": "Tony Stark vehemently rejects Scott Lang's 'time theft' idea, citing complex physics and the incredible odds of Scott's survival. Captain America intervenes, appealing to Tony's hope and the chance to save those they lost, but Tony remains resistant, prioritizing the family he's built."
+    },
+    {
+      "id": "M1_Scene2-part-6",
+      "start_timestamp": "00:36:47,893",
+      "end_timestamp": "00:39:01,823",
+      "summary": "Bruce Banner, now in his 'Smart Hulk' form, is found taking pictures with admiring fans in a public setting while a disgruntled Scott Lang feels ignored. Captain America and Scott attempt to recruit Smart Hulk, who initially dismisses time travel but eventually agrees to lend his scientific expertise to the problem."
+    },
+    {
+      "id": "M1_Scene2-part-7",
+      "start_timestamp": "00:39:35,057",
+      "end_timestamp": "00:41:50,448",
+      "summary": "At his home lab, Tony Stark, inspired, begins working late into the night on the time travel problem, conducting simulations with a Mobius strip configuration. After a brief, endearing interaction with his daughter Morgan, he successfully renders a model, achieving a breakthrough in the time travel theory."
+    },
+    {
+      "id": "M1_Scene2-part-8",
+      "start_timestamp": "00:41:51,023",
+      "end_timestamp": "00:43:15,605",
+      "summary": "Tony reveals his theoretical time travel solution to Captain America and Scott, who are awestruck by its potential. Captain America motivates Tony by reminding him of past failures and the chance to make things right, convincing Tony to proceed with the first real-world experiment."
+    },
+    {
+      "id": "M1_Scene2-part-9",
+      "start_timestamp": "00:43:23,780",
+      "end_timestamp": "00:45:24,599",
+      "summary": "Tony, Captain America, and Bruce (Hulk) conduct the first time travel experiment using Scott Lang. The process is unstable, humorously transforming Scott into a baby and then an old man before returning him to normal, highlighting the unpredictable nature and technical challenges of their method."
+    },
+    {
+      "id": "M1_Scene2-part-10",
+      "start_timestamp": "00:46:10,144",
+      "end_timestamp": "00:47:54,813",
+      "summary": "Smart Hulk (Bruce Banner) steps in to refine the faulty time travel mechanism, explaining the need for a 'GPS function of space and time' to correct the 'conflict of APR.' Tony agrees to continue, prioritizing the safety of his family but also committed to bringing back those lost, while discussing gathering the rest of the team."
+    },
+    {
+      "id": "M1_Scene2-part-11",
+      "start_timestamp": "00:48:12,697",
+      "end_timestamp": "00:49:48",
+      "summary": "Rocket and Bruce Banner arrive in New Asgard, a bustling seaside town populated by the surviving Asgardians. They navigate the settlement, looking for Thor, with Rocket expressing sympathy for the Asgardians' plight, and Bruce greeting Valkyrie before the scene ends."
+    }
+  ],
+  "locations": [
+    {
+      "id": "loc_space",
+      "name": "Deep Space",
+      "type": "Cosmic Environment",
+      "description": "The vast expanse beyond Earth, where Tony Stark and Nebula are stranded and later where the Avengers travel to confront Thanos."
+    },
+    {
+      "id": "loc_earth",
+      "name": "Earth",
+      "type": "Planet",
+      "description": "The home planet to which Tony Stark is rescued and where the Avengers' compound and other terrestrial activities take place."
+    },
+    {
+      "id": "loc_avengers_compound",
+      "name": "Avengers Compound",
+      "type": "Headquarters",
+      "description": "The primary gathering place and operational base for the Avengers, located on Earth."
+    },
+    {
+      "id": "loc_garden_planet",
+      "name": "Thanos's Garden Planet",
+      "type": "Secluded Planet",
+      "description": "A remote, secluded planet where Thanos retired after executing the snap and destroying the Infinity Stones."
+    },
+    {
+      "id": "loc_san_francisco",
+      "name": "San Francisco",
+      "type": "City",
+      "description": "The city in California where Scott Lang (Ant-Man) unexpectedly emerges from the Quantum Realm."
+    },
+    {
+      "id": "loc_mexico",
+      "name": "Mexico",
+      "type": "Country",
+      "description": "The location where Clint Barton operates as the violent vigilante Ronin."
+    },
+    {
+      "id": "loc_hudson_river",
+      "name": "Hudson River",
+      "type": "River",
+      "description": "A river mentioned in the context of environmental changes post-snap, with whales appearing."
+    },
+    {
+      "id": "loc_tony_stark_home",
+      "name": "Tony Stark's Home",
+      "type": "Residence / Home Lab",
+      "description": "Tony Stark's home where he lives with his family and later develops the time travel theory."
+    },
+    {
+      "id": "loc_public_setting",
+      "name": "Public Setting",
+      "type": "Urban Area",
+      "description": "A general public area where Smart Hulk is seen interacting with fans."
+    },
+    {
+      "id": "loc_new_asgard",
+      "name": "New Asgard",
+      "type": "Town / Settlement",
+      "description": "A bustling seaside town populated by the surviving Asgardians, located on Earth."
+    },
+    {
+      "id": "loc_quantum_realm",
+      "name": "Quantum Realm",
+      "type": "Alternate Dimension",
+      "description": "A subatomic dimension with unique temporal properties, from which Scott Lang emerges and which offers the key to time travel."
+    }
+  ],
+  "objects": [
+    {
+      "id": "obj_damaged_spacecraft",
+      "name": "Damaged Spacecraft",
+      "type": "Vehicle",
+      "significance": "Tony Stark and Nebula's vessel, critically damaged, symbolizing their dire situation and impending doom."
+    },
+    {
+      "id": "obj_video_log_tony",
+      "name": "Tony's Video Log",
+      "type": "Recording",
+      "significance": "A poignant message from Tony Stark to Pepper, expressing his love and despair, and detailing his final moments."
+    },
+    {
+      "id": "obj_infinity_stones",
+      "name": "Infinity Stones",
+      "type": "Artifacts",
+      "significance": "Six powerful gems used by Thanos to erase half of all life; later destroyed by Thanos to prevent reversal."
+    },
+    {
+      "id": "obj_helmet",
+      "name": "Morgan's Helmet",
+      "type": "Protective Gear",
+      "significance": "A helmet made by Tony for Pepper, later worn by Morgan, foreshadowing Tony's return to invention."
+    },
+    {
+      "id": "obj_mobius_strip_config",
+      "name": "Mobius Strip Configuration",
+      "type": "Theoretical Model",
+      "significance": "A conceptual model used by Tony Stark in his simulations to achieve a breakthrough in time travel theory."
+    },
+    {
+      "id": "obj_time_travel_mechanism",
+      "name": "Time Travel Mechanism",
+      "type": "Device",
+      "significance": "The experimental device built by the Avengers to harness the Quantum Realm for time travel, intended to reverse the snap."
+    },
+    {
+      "id": "obj_video_message_scott",
+      "name": "Scott Lang's Video Message",
+      "type": "Recording",
+      "significance": "A frantic message from Scott Lang, identifying himself as Ant-Man, urgently seeking contact and confirming he is alive after being lost."
+    }
+  ],
+  "relationships": [
+    {
+      "source": "movie_avengers_endgame",
+      "target": "M1_Scene1-part-1",
+      "type": "CONTAINS",
+      "properties": {}
+    },
+    {
+      "source": "movie_avengers_endgame",
+      "target": "M1_Scene1-part-2",
+      "type": "CONTAINS",
+      "properties": {}
+    },
+    {
+      "source": "movie_avengers_endgame",
+      "target": "M1_Scene1-part-3",
+      "type": "CONTAINS",
+      "properties": {}
+    },
+    {
+      "source": "movie_avengers_endgame",
+      "target": "M1_Scene1-part-4",
+      "type": "CONTAINS",
+      "properties": {}
+    },
+    {
+      "source": "movie_avengers_endgame",
+      "target": "M1_Scene1-part-5",
+      "type": "CONTAINS",
+      "properties": {}
+    },
+    {
+      "source": "movie_avengers_endgame",
+      "target": "M1_Scene1-part-6",
+      "type": "CONTAINS",
+      "properties": {}
+    },
+    {
+      "source": "movie_avengers_endgame",
+      "target": "M1_Scene1-part-7",
+      "type": "CONTAINS",
+      "properties": {}
+    },
+    {
+      "source": "movie_avengers_endgame",
+      "target": "M1_Scene1-part-8",
+      "type": "CONTAINS",
+      "properties": {}
+    },
+    {
+      "source": "movie_avengers_endgame",
+      "target": "M1_Scene1-part-9",
+      "type": "CONTAINS",
+      "properties": {}
+    },
+    {
+      "source": "movie_avengers_endgame",
+      "target": "M1_Scene1-part-10",
+      "type": "CONTAINS",
+      "properties": {}
+    },
+    {
+      "source": "movie_avengers_endgame",
+      "target": "M1_Scene1-part-11",
+      "type": "CONTAINS",
+      "properties": {}
+    },
+    {
+      "source": "movie_avengers_endgame",
+      "target": "M1_Scene1-part-12",
+      "type": "CONTAINS",
+      "properties": {}
+    },
+    {
+      "source": "movie_avengers_endgame",
+      "target": "M1_Scene1-part-13",
+      "type": "CONTAINS",
+      "properties": {}
+    },
+    {
+      "source": "movie_avengers_endgame",
+      "target": "M1_Scene2-part-1",
+      "type": "CONTAINS",
+      "properties": {}
+    },
+    {
+      "source": "movie_avengers_endgame",
+      "target": "M1_Scene2-part-2",
+      "type": "CONTAINS",
+      "properties": {}
+    },
+    {
+      "source": "movie_avengers_endgame",
+      "target": "M1_Scene2-part-3",
+      "type": "CONTAINS",
+      "properties": {}
+    },
+    {
+      "source": "movie_avengers_endgame",
+      "target": "M1_Scene2-part-4",
+      "type": "CONTAINS",
+      "properties": {}
+    },
+    {
+      "source": "movie_avengers_endgame",
+      "target": "M1_Scene2-part-5",
+      "type": "CONTAINS",
+      "properties": {}
+    },
+    {
+      "source": "movie_avengers_endgame",
+      "target": "M1_Scene2-part-6",
+      "type": "CONTAINS",
+      "properties": {}
+    },
+    {
+      "source": "movie_avengers_endgame",
+      "target": "M1_Scene2-part-7",
+      "type": "CONTAINS",
+      "properties": {}
+    },
+    {
+      "source": "movie_avengers_endgame",
+      "target": "M1_Scene2-part-8",
+      "type": "CONTAINS",
+      "properties": {}
+    },
+    {
+      "source": "movie_avengers_endgame",
+      "target": "M1_Scene2-part-9",
+      "type": "CONTAINS",
+      "properties": {}
+    },
+    {
+      "source": "movie_avengers_endgame",
+      "target": "M1_Scene2-part-10",
+      "type": "CONTAINS",
+      "properties": {}
+    },
+    {
+      "source": "movie_avengers_endgame",
+      "target": "M1_Scene2-part-11",
+      "type": "CONTAINS",
+      "properties": {}
+    },
+    {
+      "source": "char_laura_barton",
+      "target": "M1_Scene1-part-1",
+      "type": "APPEARS_IN",
+      "properties": {
+        "context": "missing after snap"
+      }
+    },
+    {
+      "source": "char_leila_family_member",
+      "target": "M1_Scene1-part-1",
+      "type": "APPEARS_IN",
+      "properties": {
+        "context": "missing after snap"
+      }
+    },
+    {
+      "source": "char_baby_family_member",
+      "target": "M1_Scene1-part-1",
+      "type": "APPEARS_IN",
+      "properties": {
+        "context": "missing after snap"
+      }
+    },
+    {
+      "source": "char_boys_family_members",
+      "target": "M1_Scene1-part-1",
+      "type": "APPEARS_IN",
+      "properties": {
+        "context": "missing after snap"
+      }
+    },
+    {
+      "source": "char_tony_stark",
+      "target": "M1_Scene1-part-2",
+      "type": "APPEARS_IN",
+      "properties": {
+        "activity": "playing a game"
+      }
+    },
+    {
+      "source": "char_nebula",
+      "target": "M1_Scene1-part-2",
+      "type": "APPEARS_IN",
+      "properties": {
+        "activity": "playing a game"
+      }
+    },
+    {
+      "source": "char_tony_stark",
+      "target": "M1_Scene1-part-3",
+      "type": "APPEARS_IN",
+      "properties": {
+        "activity": "recording video log, conversing"
+      }
+    },
+    {
+      "source": "char_pepper_potts",
+      "target": "M1_Scene1-part-3",
+      "type": "RELATES_TO",
+      "properties": {
+        "relationship_type": "recipient of video log"
+      }
+    },
+    {
+      "source": "char_nebula",
+      "target": "M1_Scene1-part-3",
+      "type": "APPEARS_IN",
+      "properties": {
+        "activity": "conversing"
+      }
+    },
+    {
+      "source": "char_tony_stark",
+      "target": "M1_Scene1-part-4",
+      "type": "APPEARS_IN",
+      "properties": {
+        "activity": "being rescued, experiencing recollection"
+      }
+    },
+    {
+      "source": "char_peter_parker",
+      "target": "M1_Scene1-part-4",
+      "type": "RELATES_TO",
+      "properties": {
+        "context": "traumatic recollection of loss"
+      }
+    },
+    {
+      "source": "char_tony_stark",
+      "target": "M1_Scene1-part-5",
+      "type": "APPEARS_IN",
+      "properties": {
+        "activity": "being briefed, confronting team, collapsing"
+      }
+    },
+    {
+      "source": "char_carol_danvers",
+      "target": "M1_Scene1-part-5",
+      "type": "APPEARS_IN",
+      "properties": {
+        "activity": "asserting resolve"
+      }
+    },
+    {
+      "source": "char_thanos",
+      "target": "M1_Scene1-part-5",
+      "type": "RELATES_TO",
+      "properties": {
+        "context": "responsible for global devastation"
+      }
+    },
+    {
+      "source": "char_nebula",
+      "target": "M1_Scene1-part-6",
+      "type": "APPEARS_IN",
+      "properties": {
+        "activity": "revealing Thanos's plan"
+      }
+    },
+    {
+      "source": "char_thanos",
+      "target": "M1_Scene1-part-6",
+      "type": "RELATES_TO",
+      "properties": {
+        "context": "post-snap plan revealed"
+      }
+    },
+    {
+      "source": "char_carol_danvers",
+      "target": "M1_Scene1-part-6",
+      "type": "APPEARS_IN",
+      "properties": {
+        "activity": "advocating for action"
+      }
+    },
+    {
+      "source": "char_rocket",
+      "target": "M1_Scene1-part-7",
+      "type": "APPEARS_IN",
+      "properties": {
+        "activity": "taking the helm"
+      }
+    },
+    {
+      "source": "char_carol_danvers",
+      "target": "M1_Scene1-part-7",
+      "type": "APPEARS_IN",
+      "properties": {
+        "activity": "embarking on journey"
+      }
+    },
+    {
+      "source": "char_steve_rogers",
+      "target": "M1_Scene1-part-7",
+      "type": "APPEARS_IN",
+      "properties": {
+        "activity": "reflecting"
+      }
+    },
+    {
+      "source": "char_tony_stark",
+      "target": "M1_Scene1-part-7",
+      "type": "RELATES_TO",
+      "properties": {
+        "context": "Tony's despair recalled by Captain America"
+      }
+    },
+    {
+      "source": "char_thanos",
+      "target": "M1_Scene1-part-8",
+      "type": "APPEARS_IN",
+      "properties": {
+        "activity": "confronted, revealing actions"
+      }
+    },
+    {
+      "source": "char_thor",
+      "target": "M1_Scene1-part-8",
+      "type": "APPEARS_IN",
+      "properties": {
+        "activity": "decapitating Thanos"
+      }
+    },
+    {
+      "source": "char_steve_rogers",
+      "target": "M1_Scene1-part-9",
+      "type": "APPEARS_IN",
+      "properties": {
+        "activity": "leading support group"
+      }
+    },
+    {
+      "source": "char_thanos",
+      "target": "M1_Scene1-part-9",
+      "type": "RELATES_TO",
+      "properties": {
+        "context": "rejecting Thanos's desired outcome"
+      }
+    },
+    {
+      "source": "char_scott_lang",
+      "target": "M1_Scene1-part-10",
+      "type": "APPEARS_IN",
+      "properties": {
+        "activity": "emerging from Quantum Realm, searching, reuniting"
+      }
+    },
+    {
+      "source": "char_cassie_lang",
+      "target": "M1_Scene1-part-10",
+      "type": "APPEARS_IN",
+      "properties": {
+        "activity": "reuniting with father"
+      }
+    },
+    {
+      "source": "char_steve_rogers",
+      "target": "M1_Scene1-part-11",
+      "type": "APPEARS_IN",
+      "properties": {
+        "activity": "coordinating efforts"
+      }
+    },
+    {
+      "source": "char_natasha_romanoff",
+      "target": "M1_Scene1-part-11",
+      "type": "APPEARS_IN",
+      "properties": {
+        "activity": "coordinating efforts"
+      }
+    },
+    {
+      "source": "char_bruce_banner",
+      "target": "M1_Scene1-part-11",
+      "type": "APPEARS_IN",
+      "properties": {
+        "activity": "coordinating efforts"
+      }
+    },
+    {
+      "source": "char_james_rhodes",
+      "target": "M1_Scene1-part-11",
+      "type": "APPEARS_IN",
+      "properties": {
+        "activity": "coordinating efforts"
+      }
+    },
+    {
+      "source": "char_carol_danvers",
+      "target": "M1_Scene1-part-11",
+      "type": "RELATES_TO",
+      "properties": {
+        "context": "video call about cosmic issues"
+      }
+    },
+    {
+      "source": "char_clint_barton",
+      "target": "M1_Scene1-part-11",
+      "type": "RELATES_TO",
+      "properties": {
+        "context": "discussed for vigilante activities"
+      }
+    },
+    {
+      "source": "char_natasha_romanoff",
+      "target": "M1_Scene1-part-12",
+      "type": "APPEARS_IN",
+      "properties": {
+        "activity": "visiting Clint, reasoning"
+      }
+    },
+    {
+      "source": "char_clint_barton",
+      "target": "M1_Scene1-part-12",
+      "type": "APPEARS_IN",
+      "properties": {
+        "activity": "consumed by grief, embracing vengeance, expressing loss"
+      }
+    },
+    {
+      "source": "char_steve_rogers",
+      "target": "M1_Scene1-part-13",
+      "type": "APPEARS_IN",
+      "properties": {
+        "activity": "listening to message"
+      }
+    },
+    {
+      "source": "char_natasha_romanoff",
+      "target": "M1_Scene1-part-13",
+      "type": "APPEARS_IN",
+      "properties": {
+        "activity": "listening to message"
+      }
+    },
+    {
+      "source": "char_scott_lang",
+      "target": "M1_Scene1-part-13",
+      "type": "APPEARS_IN",
+      "properties": {
+        "activity": "sending message, arriving, introducing concept"
+      }
+    },
+    {
+      "source": "char_tony_stark",
+      "target": "M1_Scene2-part-1",
+      "type": "APPEARS_IN",
+      "properties": {
+        "activity": "reflecting on past, discussing growth"
+      }
+    },
+    {
+      "source": "char_scott_lang",
+      "target": "M1_Scene2-part-2",
+      "type": "APPEARS_IN",
+      "properties": {
+        "activity": "leaving video message"
+      }
+    },
+    {
+      "source": "char_scott_lang",
+      "target": "M1_Scene2-part-3",
+      "type": "APPEARS_IN",
+      "properties": {
+        "activity": "explaining Quantum Realm and time travel"
+      }
+    },
+    {
+      "source": "char_tony_stark",
+      "target": "M1_Scene2-part-3",
+      "type": "APPEARS_IN",
+      "properties": {
+        "context": "skeptical audience"
+      }
+    },
+    {
+      "source": "char_steve_rogers",
+      "target": "M1_Scene2-part-3",
+      "type": "APPEARS_IN",
+      "properties": {
+        "context": "skeptical audience"
+      }
+    },
+    {
+      "source": "char_tony_stark",
+      "target": "M1_Scene2-part-4",
+      "type": "APPEARS_IN",
+      "properties": {
+        "activity": "sharing tender moment"
+      }
+    },
+    {
+      "source": "char_morgan_stark",
+      "target": "M1_Scene2-part-4",
+      "type": "APPEARS_IN",
+      "properties": {
+        "activity": "playfully discussing, mentioning helmet"
+      }
+    },
+    {
+      "source": "char_tony_stark",
+      "target": "M1_Scene2-part-5",
+      "type": "APPEARS_IN",
+      "properties": {
+        "activity": "rejecting time travel idea"
+      }
+    },
+    {
+      "source": "char_scott_lang",
+      "target": "M1_Scene2-part-5",
+      "type": "RELATES_TO",
+      "properties": {
+        "context": "Tony rejects Scott's idea"
+      }
+    },
+    {
+      "source": "char_steve_rogers",
+      "target": "M1_Scene2-part-5",
+      "type": "APPEARS_IN",
+      "properties": {
+        "activity": "intervening, appealing to hope"
+      }
+    },
+    {
+      "source": "char_bruce_banner",
+      "target": "M1_Scene2-part-6",
+      "type": "APPEARS_IN",
+      "properties": {
+        "activity": "taking pictures with fans, agreeing to help"
+      }
+    },
+    {
+      "source": "char_scott_lang",
+      "target": "M1_Scene2-part-6",
+      "type": "APPEARS_IN",
+      "properties": {
+        "activity": "feeling ignored, attempting to recruit"
+      }
+    },
+    {
+      "source": "char_steve_rogers",
+      "target": "M1_Scene2-part-6",
+      "type": "APPEARS_IN",
+      "properties": {
+        "activity": "attempting to recruit"
+      }
+    },
+    {
+      "source": "char_tony_stark",
+      "target": "M1_Scene2-part-7",
+      "type": "APPEARS_IN",
+      "properties": {
+        "activity": "working on time travel, interacting with daughter"
+      }
+    },
+    {
+      "source": "char_morgan_stark",
+      "target": "M1_Scene2-part-7",
+      "type": "APPEARS_IN",
+      "properties": {
+        "activity": "interacting with father"
+      }
+    },
+    {
+      "source": "char_tony_stark",
+      "target": "M1_Scene2-part-8",
+      "type": "APPEARS_IN",
+      "properties": {
+        "activity": "revealing time travel solution, being convinced"
+      }
+    },
+    {
+      "source": "char_steve_rogers",
+      "target": "M1_Scene2-part-8",
+      "type": "APPEARS_IN",
+      "properties": {
+        "activity": "being awestruck, motivating Tony"
+      }
+    },
+    {
+      "source": "char_scott_lang",
+      "target": "M1_Scene2-part-8",
+      "type": "APPEARS_IN",
+      "properties": {
+        "activity": "being awestruck"
+      }
+    },
+    {
+      "source": "char_tony_stark",
+      "target": "M1_Scene2-part-9",
+      "type": "APPEARS_IN",
+      "properties": {
+        "activity": "conducting experiment"
+      }
+    },
+    {
+      "source": "char_steve_rogers",
+      "target": "M1_Scene2-part-9",
+      "type": "APPEARS_IN",
+      "properties": {
+        "activity": "conducting experiment"
+      }
+    },
+    {
+      "source": "char_bruce_banner",
+      "target": "M1_Scene2-part-9",
+      "type": "APPEARS_IN",
+      "properties": {
+        "activity": "conducting experiment"
+      }
+    },
+    {
+      "source": "char_scott_lang",
+      "target": "M1_Scene2-part-9",
+      "type": "APPEARS_IN",
+      "properties": {
+        "activity": "being experimented on, transforming"
+      }
+    },
+    {
+      "source": "char_bruce_banner",
+      "target": "M1_Scene2-part-10",
+      "type": "APPEARS_IN",
+      "properties": {
+        "activity": "refining time travel mechanism, explaining"
+      }
+    },
+    {
+      "source": "char_tony_stark",
+      "target": "M1_Scene2-part-10",
+      "type": "APPEARS_IN",
+      "properties": {
+        "activity": "agreeing to continue, prioritizing"
+      }
+    },
+    {
+      "source": "char_rocket",
+      "target": "M1_Scene2-part-11",
+      "type": "APPEARS_IN",
+      "properties": {
+        "activity": "arriving in New Asgard, navigating, expressing sympathy"
+      }
+    },
+    {
+      "source": "char_bruce_banner",
+      "target": "M1_Scene2-part-11",
+      "type": "APPEARS_IN",
+      "properties": {
+        "activity": "arriving in New Asgard, navigating, greeting Valkyrie"
+      }
+    },
+    {
+      "source": "char_thor",
+      "target": "M1_Scene2-part-11",
+      "type": "RELATES_TO",
+      "properties": {
+        "context": "being sought out"
+      }
+    },
+    {
+      "source": "char_valkyrie",
+      "target": "M1_Scene2-part-11",
+      "type": "APPEARS_IN",
+      "properties": {
+        "activity": "being greeted"
+      }
+    },
+    {
+      "source": "loc_space",
+      "target": "M1_Scene1-part-2",
+      "type": "TAKES_PLACE_IN",
+      "properties": {}
+    },
+    {
+      "source": "loc_space",
+      "target": "M1_Scene1-part-3",
+      "type": "TAKES_PLACE_IN",
+      "properties": {}
+    },
+    {
+      "source": "loc_earth",
+      "target": "M1_Scene1-part-4",
+      "type": "TAKES_PLACE_IN",
+      "properties": {}
+    },
+    {
+      "source": "loc_avengers_compound",
+      "target": "M1_Scene1-part-5",
+      "type": "TAKES_PLACE_IN",
+      "properties": {}
+    },
+    {
+      "source": "loc_garden_planet",
+      "target": "M1_Scene1-part-6",
+      "type": "TAKES_PLACE_IN",
+      "properties": {
+        "context": "Thanos's retirement location discussed"
+      }
+    },
+    {
+      "source": "loc_space",
+      "target": "M1_Scene1-part-7",
+      "type": "TAKES_PLACE_IN",
+      "properties": {}
+    },
+    {
+      "source": "loc_garden_planet",
+      "target": "M1_Scene1-part-8",
+      "type": "TAKES_PLACE_IN",
+      "properties": {}
+    },
+    {
+      "source": "loc_san_francisco",
+      "target": "M1_Scene1-part-10",
+      "type": "TAKES_PLACE_IN",
+      "properties": {}
+    },
+    {
+      "source": "loc_avengers_compound",
+      "target": "M1_Scene1-part-11",
+      "type": "TAKES_PLACE_IN",
+      "properties": {}
+    },
+    {
+      "source": "loc_mexico",
+      "target": "M1_Scene1-part-11",
+      "type": "TAKES_PLACE_IN",
+      "properties": {
+        "context": "Clint Barton's vigilante location discussed"
+      }
+    },
+    {
+      "source": "loc_avengers_compound",
+      "target": "M1_Scene1-part-13",
+      "type": "TAKES_PLACE_IN",
+      "properties": {}
+    },
+    {
+      "source": "loc_hudson_river",
+      "target": "M1_Scene2-part-1",
+      "type": "TAKES_PLACE_IN",
+      "properties": {
+        "context": "mentioned in reflection"
+      }
+    },
+    {
+      "source": "loc_quantum_realm",
+      "target": "M1_Scene2-part-3",
+      "type": "TAKES_PLACE_IN",
+      "properties": {
+        "context": "explained as the source of time discrepancy"
+      }
+    },
+    {
+      "source": "loc_tony_stark_home",
+      "target": "M1_Scene2-part-4",
+      "type": "TAKES_PLACE_IN",
+      "properties": {}
+    },
+    {
+      "source": "loc_public_setting",
+      "target": "M1_Scene2-part-6",
+      "type": "TAKES_PLACE_IN",
+      "properties": {}
+    },
+    {
+      "source": "loc_tony_stark_home",
+      "target": "M1_Scene2-part-7",
+      "type": "TAKES_PLACE_IN",
+      "properties": {}
+    },
+    {
+      "source": "loc_new_asgard",
+      "target": "M1_Scene2-part-11",
+      "type": "TAKES_PLACE_IN",
+      "properties": {}
+    },
+    {
+      "source": "obj_damaged_spacecraft",
+      "target": "M1_Scene1-part-3",
+      "type": "IN_SCENE",
+      "properties": {}
+    },
+    {
+      "source": "obj_video_log_tony",
+      "target": "M1_Scene1-part-3",
+      "type": "IN_SCENE",
+      "properties": {}
+    },
+    {
+      "source": "obj_infinity_stones",
+      "target": "M1_Scene1-part-6",
+      "type": "IN_SCENE",
+      "properties": {
+        "context": "mentioned as destroyed"
+      }
+    },
+    {
+      "source": "obj_infinity_stones",
+      "target": "M1_Scene1-part-8",
+      "type": "IN_SCENE",
+      "properties": {
+        "context": "revealed to be destroyed"
+      }
+    },
+    {
+      "source": "obj_video_message_scott",
+      "target": "M1_Scene1-part-13",
+      "type": "IN_SCENE",
+      "properties": {}
+    },
+    {
+      "source": "obj_video_message_scott",
+      "target": "M1_Scene2-part-2",
+      "type": "IN_SCENE",
+      "properties": {}
+    },
+    {
+      "source": "obj_helmet",
+      "target": "M1_Scene2-part-4",
+      "type": "IN_SCENE",
+      "properties": {}
+    },
+    {
+      "source": "obj_mobius_strip_config",
+      "target": "M1_Scene2-part-7",
+      "type": "IN_SCENE",
+      "properties": {}
+    },
+    {
+      "source": "obj_time_travel_mechanism",
+      "target": "M1_Scene2-part-9",
+      "type": "IN_SCENE",
+      "properties": {
+        "context": "being used in experiment"
+      }
+    },
+    {
+      "source": "obj_time_travel_mechanism",
+      "target": "M1_Scene2-part-10",
+      "type": "IN_SCENE",
+      "properties": {
+        "context": "being refined"
+      }
+    },
+    {
+      "source": "char_tony_stark",
+      "target": "char_pepper_potts",
+      "type": "RELATES_TO",
+      "properties": {
+        "relationship_type": "husband of"
+      }
+    },
+    {
+      "source": "char_tony_stark",
+      "target": "char_peter_parker",
+      "type": "RELATES_TO",
+      "properties": {
+        "relationship_type": "mentor of"
+      }
+    },
+    {
+      "source": "char_clint_barton",
+      "target": "char_laura_barton",
+      "type": "RELATES_TO",
+      "properties": {
+        "relationship_type": "husband of"
+      }
+    },
+    {
+      "source": "char_scott_lang",
+      "target": "char_cassie_lang",
+      "type": "RELATES_TO",
+      "properties": {
+        "relationship_type": "father of"
+      }
+    },
+    {
+      "source": "char_tony_stark",
+      "target": "char_morgan_stark",
+      "type": "RELATES_TO",
+      "properties": {
+        "relationship_type": "father of"
+      }
+    },
+    {
+      "source": "char_tony_stark",
+      "target": "char_steve_rogers",
+      "type": "RELATES_TO",
+      "properties": {
+        "relationship_type": "colleague of"
+      }
+    },
+    {
+      "source": "char_tony_stark",
+      "target": "char_nebula",
+      "type": "RELATES_TO",
+      "properties": {
+        "relationship_type": "stranded with"
+      }
+    },
+    {
+      "source": "char_steve_rogers",
+      "target": "char_tony_stark",
+      "type": "RELATES_TO",
+      "properties": {
+        "relationship_type": "motivator of"
+      }
+    },
+    {
+      "source": "char_natasha_romanoff",
+      "target": "char_clint_barton",
+      "type": "RELATES_TO",
+      "properties": {
+        "relationship_type": "friend of, trying to help"
+      }
+    },
+    {
+      "source": "char_bruce_banner",
+      "target": "char_steve_rogers",
+      "type": "RELATES_TO",
+      "properties": {
+        "relationship_type": "colleague of"
+      }
+    },
+    {
+      "source": "char_bruce_banner",
+      "target": "char_scott_lang",
+      "type": "RELATES_TO",
+      "properties": {
+        "relationship_type": "scientific collaborator"
+      }
+    },
+    {
+      "source": "char_rocket",
+      "target": "char_bruce_banner",
+      "type": "RELATES_TO",
+      "properties": {
+        "relationship_type": "travels with"
+      }
+    },
+    {
+      "source": "char_rocket",
+      "target": "char_thor",
+      "type": "RELATES_TO",
+      "properties": {
+        "relationship_type": "seeking"
+      }
+    },
+    {
+      "source": "char_bruce_banner",
+      "target": "char_valkyrie",
+      "type": "RELATES_TO",
+      "properties": {
+        "relationship_type": "greets"
+      }
+    }
+  ]
+}

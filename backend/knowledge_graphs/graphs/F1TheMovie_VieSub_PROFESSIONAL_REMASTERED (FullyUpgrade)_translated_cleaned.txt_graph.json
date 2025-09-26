@@ -1,0 +1,3297 @@
+{
+  "movie": {
+    "id": "F1TheMovie",
+    "title": "F1 The Movie",
+    "year": "Unknown",
+    "plot_summary": "This movie follows Sonny Hayes, an aging former Formula 1 prodigy, as he makes a dramatic return to the sport after a decade away, joining the struggling APX-GP team. Alongside young, ambitious, and initially resentful teammate Joshua Pearce, Sonny navigates intense rivalries, team politics, and personal demons. Through a season of chaotic races, strategic sacrifices, and unexpected collisions, the team battles for survival and ultimate glory, culminating in a test of skill, teamwork, and redemption on the track.",
+    "themes": [
+      "redemption",
+      "second chances",
+      "rivalry",
+      "teamwork",
+      "ambition",
+      "passion for racing",
+      "overcoming challenges",
+      "mentorship",
+      "corporate intrigue",
+      "sacrifice",
+      "technology in sports"
+    ]
+  },
+  "characters": [
+    {
+      "id": "CH_SonnyHayes",
+      "name": "Sonny Hayes",
+      "role": "Racer",
+      "archetype": "Reckless Prodigy / Veteran Comeback",
+      "description": "An aging, experienced Formula 1 driver returning to the sport after a long absence, known for his aggressive and unconventional tactics, and a troubled past. Becomes a reluctant mentor to Joshua."
+    },
+    {
+      "id": "CH_JoshuaPearce",
+      "name": "Joshua Pearce",
+      "role": "Racer",
+      "archetype": "Ambitious Rookie / Rival",
+      "description": "A young, talented but initially struggling F1 driver, fiercely competitive and resentful of Sonny's arrival. Later learns teamwork and benefits from Sonny's strategies."
+    },
+    {
+      "id": "CH_RubenCervantes",
+      "name": "Ruben Cervantes",
+      "role": "Team Owner",
+      "archetype": "Desperate Visionary / Manipulated Leader",
+      "description": "The owner of the struggling APX-GP team, who takes a 'Hail Mary' chance on Sonny Hayes. Faces immense financial pressure and internal challenges."
+    },
+    {
+      "id": "CH_KateMcKenna",
+      "name": "Kate McKenna",
+      "role": "Technical Director",
+      "archetype": "Brilliant Engineer / Dedicated Professional",
+      "description": "APX-GP's technical director, an expert in aerodynamics recruited from Lockheed. Initially skeptical of Sonny, but comes to respect his insights and unconventional methods. Fiercely dedicated to her work."
+    },
+    {
+      "id": "CH_Lisabeth",
+      "name": "Lisabeth",
+      "role": "Manager",
+      "archetype": "Career-Focused Agent",
+      "description": "Joshua Pearce's manager, who pressures him to assert himself and focus on networking and public image to secure his career."
+    },
+    {
+      "id": "CH_BernadettePearce",
+      "name": "Bernadette Pearce",
+      "role": "Joshua's Mother",
+      "archetype": "Supportive Parent / Protective Advocate",
+      "description": "Joshua's mother, who provides emotional support and motivation, and later becomes fiercely protective of him after his crash."
+    },
+    {
+      "id": "CH_PeterBanning",
+      "name": "Peter Banning",
+      "role": "Investor",
+      "archetype": "Cunning Strategist / Antagonist",
+      "description": "An investor in APX-GP who, despite feigning limited racing knowledge, secretly orchestrates car sabotage to strategically position the team for a takeover."
+    },
+    {
+      "id": "CH_KasparSmolinski",
+      "name": "Kaspar Smolinski",
+      "role": "Team Leader",
+      "archetype": "Motivational Figure",
+      "description": "The APX-GP team leader, who gives motivational speeches to his crew."
+    },
+    {
+      "id": "CH_Hugh",
+      "name": "Hugh",
+      "role": "Engineer",
+      "archetype": "Race Engineer",
+      "description": "Sonny Hayes' race engineer, with whom he communicates about car issues during test sessions."
+    },
+    {
+      "id": "CH_LucaCortez",
+      "name": "Luca Cortez",
+      "role": "Racer",
+      "archetype": "Teammate / Rival (brief)",
+      "description": "A teammate of Joshua Pearce (and briefly Sonny Hayes) at APX-GP, later overtaken by Sonny."
+    },
+    {
+      "id": "CH_CaleKelso",
+      "name": "Cale Kelso",
+      "role": "Racer",
+      "archetype": "Teammate",
+      "description": "Sonny Hayes' teammate during the Daytona race."
+    },
+    {
+      "id": "CH_Chip",
+      "name": "Chip",
+      "role": "Team Owner",
+      "archetype": "Former Employer",
+      "description": "Sonny Hayes' former team owner who attempts to re-sign him after his Daytona victory."
+    },
+    {
+      "id": "CH_Don",
+      "name": "Don",
+      "role": "Team Management",
+      "archetype": "Team Executive",
+      "description": "Member of APX-GP team management, who takes a bet with Sonny."
+    },
+    {
+      "id": "CH_MaxVerstappen",
+      "name": "Max Verstappen",
+      "role": "Racer",
+      "archetype": "Rival Racer",
+      "description": "A top competitor in Formula 1, whom Sonny blocks and Joshua attempts to overtake."
+    },
+    {
+      "id": "CH_AyrtonSenna",
+      "name": "Ayrton Senna",
+      "role": "Legendary Racer",
+      "archetype": "Historical Icon",
+      "description": "A legendary Formula 1 driver mentioned in a flashback about Sonny Hayes' rookie year."
+    },
+    {
+      "id": "CH_KevinMagnussen",
+      "name": "Kevin Magnussen",
+      "role": "Racer",
+      "archetype": "Rival Racer",
+      "description": "A Formula 1 driver who engages in an aggressive on-track battle with Sonny Hayes."
+    },
+    {
+      "id": "CH_GeorgeRussell",
+      "name": "George Russell",
+      "role": "Racer",
+      "archetype": "Rival Racer",
+      "description": "A Formula 1 driver involved in a violent collision with Sonny Hayes."
+    },
+    {
+      "id": "CH_CarlosSainz",
+      "name": "Carlos Sainz",
+      "role": "Racer",
+      "archetype": "Rival Racer",
+      "description": "A Formula 1 driver, strategically overtaken by Sonny Hayes. Also mentioned for networking."
+    },
+    {
+      "id": "CH_LewisHamilton",
+      "name": "Lewis Hamilton",
+      "role": "Racer",
+      "archetype": "Rival Racer",
+      "description": "A top competitor in Formula 1, challenged by Joshua Pearce for the lead."
+    },
+    {
+      "id": "CH_CharlesLeclerc",
+      "name": "Charles Leclerc",
+      "role": "Racer",
+      "archetype": "Rival Racer",
+      "description": "A Formula 1 driver who overtakes Joshua Pearce."
+    },
+    {
+      "id": "CH_James",
+      "name": "James",
+      "role": "Racer",
+      "archetype": "Friendly Rival",
+      "description": "A fellow racer who wishes Sonny Hayes well before a race."
+    },
+    {
+      "id": "CH_Chaz",
+      "name": "Chaz",
+      "role": "Racer",
+      "archetype": "Acknowledging Rival",
+      "description": "A fellow racer who acknowledges past disagreements with Sonny but respects his return."
+    },
+    {
+      "id": "CH_TotoWolf",
+      "name": "Toto Wolf",
+      "role": "Team Principal",
+      "archetype": "Influential Figure",
+      "description": "A prominent Formula 1 team principal mentioned as offering Joshua Pearce a deal."
+    },
+    {
+      "id": "CH_SonnyHayesFather",
+      "name": "Sonny Hayes' Father",
+      "role": "Parent",
+      "archetype": "Influential Figure (Flashback)",
+      "description": "Sonny's father, whose love for gambling influenced Sonny's early career."
+    },
+    {
+      "id": "CH_JoshuaPearceFather",
+      "name": "Joshua Pearce's Father",
+      "role": "Parent",
+      "archetype": "Influential Figure (Flashback)",
+      "description": "Joshua's father, whose advice influenced his driving philosophy."
+    },
+    {
+      "id": "CH_PitCrew",
+      "name": "Pit Crew",
+      "role": "Team Personnel",
+      "archetype": "Support Team",
+      "description": "The team responsible for car maintenance and pit stops during races."
+    },
+    {
+      "id": "CH_Announcer",
+      "name": "Announcer",
+      "role": "Media Personnel",
+      "archetype": "Commentator",
+      "description": "Provides narration and highlights during races."
+    },
+    {
+      "id": "CH_NewsReporter",
+      "name": "News Reporter",
+      "role": "Media Personnel",
+      "archetype": "Journalist",
+      "description": "Reports on racing events and questions drivers at press conferences."
+    },
+    {
+      "id": "CH_RaceCommentator",
+      "name": "Race Commentator",
+      "role": "Media Personnel",
+      "archetype": "Expert Analyst",
+      "description": "Provides live commentary, analysis, and historical context during races."
+    },
+    {
+      "id": "CH_APXGPTeam",
+      "name": "APX-GP Team",
+      "role": "Group",
+      "archetype": "Collective Entity",
+      "description": "The collective members of the APX-GP racing team (excluding named characters)."
+    },
+    {
+      "id": "CH_Official",
+      "name": "Official",
+      "role": "Authority Figure",
+      "archetype": "Bureaucrat",
+      "description": "Represents regulatory bodies or event organizers."
+    },
+    {
+      "id": "CH_MarketingRepresentative",
+      "name": "Marketing Representative",
+      "role": "Business Personnel",
+      "archetype": "Opportunist",
+      "description": "Attempts to engage Joshua Pearce with media and commercial opportunities."
+    },
+    {
+      "id": "CH_TourGuide",
+      "name": "Tour Guide",
+      "role": "Hospitality Staff",
+      "archetype": "Host",
+      "description": "Welcomes VIP guests to the Paddock Club."
+    }
+  ],
+  "scenes": [
+    {
+      "id": "M1_Scene7-part-1",
+      "start_timestamp": "00:00:51,260",
+      "end_timestamp": "00:02:38,370",
+      "summary": "In the 24-hour Daytona race, Sonny is in his car, communicating with his pit crew about the race's progress and concerns over braking issues with competitors and their current seventh position. The team urges him to maintain his speed and position throughout the night."
+    },
+    {
+      "id": "M1_Scene7-part-2",
+      "start_timestamp": "00:02:58,180",
+      "end_timestamp": "00:05:36,630",
+      "summary": "An announcer highlights Sonny Hayes's impressive overnight driving at Daytona, where he skillfully overtakes rivals to secure a lead. Sonny then brings the car into the pit lane, hands over to teammate Cale Kelso, and exchanges a competitive warning about holding the first position."
+    },
+    {
+      "id": "M1_Scene7-part-3",
+      "start_timestamp": "00:05:44,340",
+      "end_timestamp": "00:07:06,220",
+      "summary": "Following his race stint, Sonny engages in a tense confrontation with another driver in the pit lane. Later, in what appears to be a post-race area, his current team owner, Chip, attempts to re-sign Sonny after his victory, but Sonny declines, signaling his departure from the team."
+    },
+    {
+      "id": "M1_Scene7-part-4",
+      "start_timestamp": "00:07:13,980",
+      "end_timestamp": "00:12:18,700",
+      "summary": "At the Baja 1000, Sonny encounters Ruben Cervantes, the owner of a struggling Formula 1 team, who desperately tries to recruit him. Ruben details his team's dire financial situation and need for an experienced driver, eventually convincing a hesitant Sonny to consider a top F1 seat, presented as a 'guaranteed' opportunity."
+    },
+    {
+      "id": "M1_Scene7-part-5",
+      "start_timestamp": "00:13:02,280",
+      "end_timestamp": "00:16:04,120",
+      "summary": "Joshua Pearce conducts an F1 test session, receiving real-time instructions and struggling with the car's handling. During a debrief with Jodie and the pit crew, Joshua articulates significant issues with understeer and oversteer, highlighting his frustration with the car's unpredictable performance."
+    },
+    {
+      "id": "M1_Scene7-part-6",
+      "start_timestamp": "00:16:20,520",
+      "end_timestamp": "00:17:05,110",
+      "summary": "In the F1 paddock, Joshua's manager, Lisabeth, reveals Ruben's team is facing potential sale and that Joshua's job is at risk. She pressures him to assert himself as the team's top driver, especially against new teammate Luca Cortez, to secure his future."
+    },
+    {
+      "id": "M1_Scene7-part-7",
+      "start_timestamp": "00:17:31,550",
+      "end_timestamp": "00:18:02,830",
+      "summary": "Kaspar Smolinski delivers a motivational speech to his team in the garage, urging them to forget their past performance and focus intensely on the car and their shared future. He emphasizes the collective effort required for their success."
+    },
+    {
+      "id": "M1_Scene7-part-8",
+      "start_timestamp": "00:18:11,840",
+      "end_timestamp": "00:19:52,530",
+      "summary": "Sonny Hayes is introduced to the APX-GP team, including technical directors and team leader Kaspar Smolinski, immediately facing skepticism from Joshua Pearce about his age and experience. Ruben defends his decision, asserting that Sonny is there to evaluate the team, not the other way around, creating palpable tension."
+    },
+    {
+      "id": "M1_Scene7-part-9",
+      "start_timestamp": "00:19:55,700",
+      "end_timestamp": "00:25:32,280",
+      "summary": "Kate McKenna briefs Sonny on the F1 car's new features and challenging track corners, to which Sonny proposes a bold test to match Joshua's lap time. During his drive, Sonny communicates specific car issues to his engineer, Hugh, and successfully meets his challenging target, impressing the team with his precise feedback and performance."
+    },
+    {
+      "id": "M1_Scene7-part-10",
+      "start_timestamp": "00:25:52,470",
+      "end_timestamp": "00:26:21,500",
+      "summary": "Joshua's manager, Lisabeth, reiterates the importance of networking and social media for his career, urging him to attend events and boost his online presence. Joshua, seemingly weary, mentions meeting his mother, which Lisabeth playfully challenges him to post about."
+    },
+    {
+      "id": "M1_Scene7-part-11",
+      "start_timestamp": "00:26:30,170",
+      "end_timestamp": "00:27:37,070",
+      "summary": "Joshua has a private conversation with his mother, who gently probes into his recent performance and worries. She acknowledges his concerns about losing the team and the arrival of an older, new driver, but reassures him to focus on his own passion and driving, echoing his father's advice."
+    },
+    {
+      "id": "M1_Scene7-part-12",
+      "start_timestamp": "00:28:01,270",
+      "end_timestamp": "00:29:12,630",
+      "summary": "Kaspar and Kate McKenna inspect the F1 car in the garage, discussing its aerodynamics and performance. This is followed by a narrative recap detailing Sonny Hayes's challenging and varied racing career, from his early promise to a catastrophic F1 accident, and his subsequent return to Formula 1 after a decade in other racing disciplines."
+    },
+    {
+      "id": "M1_Scene8-part-1",
+      "start_timestamp": "00:26:54,950",
+      "end_timestamp": "00:27:37,070",
+      "summary": "A racer (implied to be Joshua) discusses with his mother the competition, including an 'old man' (Sonny Hayes), and his determination to focus on his own chance despite worries. His mother motivates him by reminding him of his passion for racing and his father's advice."
+    },
+    {
+      "id": "M1_Scene8-part-2",
+      "start_timestamp": "00:28:01,270",
+      "end_timestamp": "00:28:32,460",
+      "summary": "An intense, fragmented dialogue about speed and driving is heard, possibly from a racing simulation or during practice. This transitions to a conversation about a job involving car manufacturing and aerodynamics, where someone asks to 'feel it', implying an interaction between a driver and an engineer."
+    },
+    {
+      "id": "M1_Scene8-part-3",
+      "start_timestamp": "00:28:36,300",
+      "end_timestamp": "00:29:33,270",
+      "summary": "A news report broadcasts the mysterious signing of Sonny Hayes, an aging former 'reckless child phenomenon' with a troubled past, as the second racer for the struggling APX-GP team, alongside rookie Joshua Pearce. The report highlights Hayes' long absence from F1 and the team's precarious financial situation."
+    },
+    {
+      "id": "M1_Scene8-part-4",
+      "start_timestamp": "00:29:33,270",
+      "end_timestamp": "00:30:15,320",
+      "summary": "Joshua and his mother are in the paddock area, discussing Sonny Hayes ('that old man') and the challenge of winning the upcoming races. Joshua's mother attempts to motivate him to focus on his performance, while Joshua makes a dismissive remark about Sonny's age."
+    },
+    {
+      "id": "M1_Scene8-part-5",
+      "start_timestamp": "00:30:17,070",
+      "end_timestamp": "00:31:34,480",
+      "summary": "At a press conference, reporters question Joshua Pearce about his team's poor performance and his new teammate. Sonny Hayes then faces a barrage of intrusive questions about his long absence from F1, past gambling, bankruptcy, and multiple divorces, which he answers concisely and without elaborating."
+    },
+    {
+      "id": "M1_Scene8-part-6",
+      "start_timestamp": "00:32:53,100",
+      "end_timestamp": "00:33:35,890",
+      "summary": "Joshua and his mother engage in a heated argument backstage about apologizing to Sonny Hayes. Joshua vehemently refuses, claiming it's a sign of weakness, while his mother insists it shows strength and pushes him to make amends."
+    },
+    {
+      "id": "M1_Scene8-part-7",
+      "start_timestamp": "00:33:48,200",
+      "end_timestamp": "00:34:10,760",
+      "summary": "Joshua reluctantly apologizes to Sonny for his past derogatory comments made at the press conference. Sonny accepts the apology, and then courteously meets Joshua's mother, Bernadette Pearce, in a brief and polite exchange."
+    },
+    {
+      "id": "M1_Scene8-part-8",
+      "start_timestamp": "00:34:22,060",
+      "end_timestamp": "00:35:16,280",
+      "summary": "The scene transitions to pre-race preparations at the Silverstone Grand Prix, with quick checks and last-minute interactions. Race commentators set the stage, providing historical context and outlining the championship situation as teams prepare for the start."
+    },
+    {
+      "id": "M1_Scene8-part-9",
+      "start_timestamp": "00:35:45,190",
+      "end_timestamp": "00:36:30,440",
+      "summary": "In the paddock, Ruben introduces Sonny Hayes to Peter Banning, an investor in APX-GP. Banning, who admits his limited racing knowledge but expresses his support for Ruben's 'Hail Mary' plan to save the team, exchanges cordial words with Sonny."
+    },
+    {
+      "id": "M1_Scene8-part-10",
+      "start_timestamp": "00:37:29,040",
+      "end_timestamp": "00:44:18,200",
+      "summary": "The Silverstone race begins with the formation lap, but Sonny Hayes' car initially fails to move due to a 'Start Mode' issue, causing commentators to doubt his readiness. After resolving the problem, Sonny uses heated tires to swiftly overtake several cars. However, both Joshua and Sonny struggle with their cars and engage in a fierce internal battle for position, culminating in a dramatic collision that takes both APX-GP cars out of the race, leaving the team in disarray."
+    },
+    {
+      "id": "M1_Scene8-part-11",
+      "start_timestamp": "00:44:34,550",
+      "end_timestamp": "00:46:27,580",
+      "summary": "In the APX-GP garage after the race, Joshua Pearce confronts Sonny Hayes in a furious post-race debrief, blaming him for the crash and accusing him of arrogance. Joshua rants about his struggles to reach F1 and refuses to be disrespected, while Sonny defiantly challenges him to 'win me' if he dislikes his racing style."
+    },
+    {
+      "id": "M1_Scene8-part-12",
+      "start_timestamp": "00:46:55,980",
+      "end_timestamp": "00:47:27,810",
+      "summary": "Kate, the technical director, approaches Sonny after the heated garage confrontation, thanking him for defending her earlier but asking him not to do so again, as it makes her appear weak. Sonny advises her not to torment herself, acknowledging the immense pressures she faces."
+    },
+    {
+      "id": "M1_Scene8-part-13",
+      "start_timestamp": "00:47:36,270",
+      "end_timestamp": "00:48:55,310",
+      "summary": "A furious Ruben confronts Sonny, accusing him of intentionally destroying the team's cars and causing him a heart attack, threatening to end the team's failing season. Sonny denies malicious intent, stating he came only to race. Ruben then sarcastically dismisses Sonny's questions about Kate's expertise and orders him to stay put until the next race, leaving Sonny to reflect that he 'can't win with this car'."
+    },
+    {
+      "id": "M1_Scene8-part-14",
+      "start_timestamp": "00:49:33,220",
+      "end_timestamp": "00:50:52,130",
+      "summary": "Sonny finds Kate working on a new wing design in the technical area and questions the limitations of her simulations, focusing on real-world race conditions. Kate, annoyed by his skepticism and implied challenge, firmly establishes her dedication and refusal to be undermined, stating her principle of speaking 'frankly' without 'molasses' regarding her professional standing."
+    },
+    {
+      "id": "M1_Scene9-part-1",
+      "start_timestamp": "00:48:21,990",
+      "end_timestamp": "00:48:55,310",
+      "summary": "Sonny and a colleague discuss Kate, the first female technical director, with Sonny expressing interest in asking her about the car. The conversation briefly transitions to a negative comment about Ruben's inability to win with the current car, setting up later dynamics."
+    },
+    {
+      "id": "M1_Scene9-part-2",
+      "start_timestamp": "00:49:33,220",
+      "end_timestamp": "00:53:15,780",
+      "summary": "Sonny critiques a new wing design, then directly confronts Kate about her role and his character, attempting to flirt and disparage Ruben. Kate fiercely dismisses his advances, criticizes his 'lone wolf' attitude and past failures, demanding he 'complete a race' for her to consider his request for a car redesign for improved cornering."
+    },
+    {
+      "id": "M1_Scene9-part-3",
+      "start_timestamp": "00:54:36,650",
+      "end_timestamp": "00:55:33,330",
+      "summary": "A news commentary montage flashes back to Sonny Hayes' aggressive rookie year in the Spanish GP. It details a severe crash while he attempted a risky overtake on Ayrton Senna, resulting in a red flag and serious concern for his condition."
+    },
+    {
+      "id": "M1_Scene9-part-4",
+      "start_timestamp": "00:55:49,300",
+      "end_timestamp": "00:56:43,600",
+      "summary": "The APX team holds a pre-race briefing for the Hungarian Grand Prix, outlining tire strategies and a predicted one-stop race. Joshua expresses a desire to 'just race,' but Kate emphasizes creating opportunities, prompting Sonny's sarcastic remarks about driving fast."
+    },
+    {
+      "id": "M1_Scene9-part-5",
+      "start_timestamp": "00:57:00,960",
+      "end_timestamp": "01:03:26,720",
+      "summary": "The Hungarian GP begins chaotically, with Sonny's tire puncturing on the first lap, leading to a controversial pit stop for soft tires against team advice. Sonny then deliberately causes multiple incidents and Safety Cars, sacrificing his own race to strategically allow teammate Joshua Pearce to pit and score the team's first points by finishing tenth under Safety Car conditions."
+    },
+    {
+      "id": "M1_Scene9-part-6",
+      "start_timestamp": "01:03:37,730",
+      "end_timestamp": "01:05:07,490",
+      "summary": "Post-Hungarian GP, Sonny expresses mock disappointment over Joshua's tenth-place finish, while the team celebrates their first points. Sonny makes a bold bet for Monza with Don (team management) and accepts a penalty for skipping the press conference, earning grudging admiration from Kate for his unconventional tactics."
+    },
+    {
+      "id": "M1_Scene9-part-7",
+      "start_timestamp": "01:05:20,380",
+      "end_timestamp": "01:05:46,740",
+      "summary": "Sonny is seen intensely working in a simulator, testing various car setups for tire pressure and ride height, successfully improving his lap time by half a second. He then requests that his teammate's car be configured identically to his own."
+    },
+    {
+      "id": "M1_Scene9-part-8",
+      "start_timestamp": "01:06:08,300",
+      "end_timestamp": "01:07:04,110",
+      "summary": "Sonny reminds Kate of their agreement, stating his aggressive intention for the Dutch GP, and she confirms it's too late to change his mind. Kate then shares her personal story of joining F1 after Ruben recruited her from Lockheed and how it led to her divorce, revealing a more vulnerable reason for her presence in the sport."
+    },
+    {
+      "id": "M1_Scene9-part-9",
+      "start_timestamp": "01:07:29,130",
+      "end_timestamp": "01:07:57,570",
+      "summary": "Joshua Pearce engages in training at the Monza National Racing School, practicing laps while recalling his father's advice to 'slowly, smooth, smooth.' He is then challenged by Sonny (implied) to another round, highlighting a competitive dynamic in their training."
+    },
+    {
+      "id": "M1_Scene9-part-10",
+      "start_timestamp": "01:07:58,080",
+      "end_timestamp": "01:08:49,170",
+      "summary": "At a press conference for the Italian Grand Prix, experts discuss the APX team's recent performance. They critically analyze Sonny Hayes' aggressive and reckless tactics in Hungary, questioning their sustainability, while Ferrari's team principal expresses indifference."
+    },
+    {
+      "id": "M1_Scene9-part-11",
+      "start_timestamp": "01:09:03,190",
+      "end_timestamp": "01:09:50,980",
+      "summary": "The APX team holds a pre-race briefing for the Italian Grand Prix, discussing two-stop tire tactics. Sonny surprises the team by announcing he will start on hard tires despite cool conditions, explaining his plan to act recklessly and draw attention, thereby allowing Joshua Pearce to pursue a podium finish unnoticed."
+    },
+    {
+      "id": "M1_Scene9-part-12",
+      "start_timestamp": "01:09:57,440",
+      "end_timestamp": "01:11:52,940",
+      "summary": "During the Italian Grand Prix, Sonny Hayes executes his strategy by deliberately slowing down and blocking competitors, creating a 'Drs-chain' to protect Joshua Pearce. Sonny then feigns a pit stop before staying out until his tire dramatically punctures, causing a Virtual Safety Car, which allows Joshua to make a crucial pit stop and advance his race position."
+    },
+    {
+      "id": "M1_Scene10-part-1",
+      "start_timestamp": "01:09:26,630",
+      "end_timestamp": "01:15:45,520",
+      "summary": "At the Monza race, Joshua Pearce (JP) and Sonny Hayes implement a complex strategy involving risky tire choices and Sonny intentionally causing a Virtual Safety Car. Sonny then actively blocks Max Verstappen to aid JP's advance. JP overtakes Sonny, but his aggressive attempt to take the lead from Verstappen culminates in a dramatic crash."
+    },
+    {
+      "id": "M1_Scene10-part-2",
+      "start_timestamp": "01:17:22,720",
+      "end_timestamp": "01:18:48,400",
+      "summary": "Following his severe crash at Monza, Joshua Pearce is recovering in the hospital where Sonny Hayes attempts to apologize. Mrs. Pearce, however, confronts Sonny with furious blame for her son's accident, issuing a grave threat should any further harm come to Joshua."
+    },
+    {
+      "id": "M1_Scene10-part-3",
+      "start_timestamp": "01:19:05,830",
+      "end_timestamp": "01:20:10,140",
+      "summary": "Sonny Hayes faces a hostile press conference, with reporters directly accusing him of causing Joshua Pearce's catastrophic accident at Monza. The team manager deflects questions, and a subsequent news montage reinforces public blame on Sonny while confirming Pearce's three-stage absence due to hand burns."
+    },
+    {
+      "id": "M1_Scene10-part-4",
+      "start_timestamp": "01:20:11,390",
+      "end_timestamp": "01:22:07,550",
+      "summary": "Before the Netherlands Grand Prix, the APX-GP team discusses new car upgrades, and Sonny Hayes delivers a motivational speech despite a recent penalty. During the race, Sonny stages a remarkable comeback from the last position, skillfully overtaking his new teammate Luca Cortez and other competitors, showcasing the upgraded car's performance."
+    },
+    {
+      "id": "M1_Scene10-part-5",
+      "start_timestamp": "01:22:34,190",
+      "end_timestamp": "01:23:26,000",
+      "summary": "At the Japan Grand Prix, Sonny Hayes continues his aggressive racing, demonstrating APX-GP's improved strength and securing a spectacular 7th place finish. However, subsequent discussions raise concerns about Sonny's unpredictable actions, with some suggesting he might be a 'sabotage' to Joshua Pearce."
+    },
+    {
+      "id": "M1_Scene10-part-6",
+      "start_timestamp": "01:23:34,850",
+      "end_timestamp": "01:25:02,730",
+      "summary": "During the Mexico City Grand Prix, Sonny Hayes skillfully navigates through a chaotic race involving collisions among other drivers, achieving an impressive 5th place for APX-GP thanks to significant car upgrades. Commentary reflects on what Joshua Pearce might be thinking, as the team celebrates its surprising resurgence."
+    },
+    {
+      "id": "M1_Scene10-part-7",
+      "start_timestamp": "01:25:15,170",
+      "end_timestamp": "01:27:35,710",
+      "summary": "Joshua Pearce makes his anticipated return at the Belgium Grand Prix, rejoining Sonny Hayes. The APX-GP cars initially coordinate well, but a shocking collision occurs in the chicane when Pearce attempts to overtake Hayes, sending Sonny off track in what commentators describe as a disastrous and self-sabotaging incident."
+    },
+    {
+      "id": "M1_Scene10-part-8",
+      "start_timestamp": "01:27:37,840",
+      "end_timestamp": "01:28:45,660",
+      "summary": "Immediately after the Belgium Grand Prix, Joshua Pearce faces a heated confrontation, accused of sabotaging the team. In a subsequent post-race interview, Pearce gives a diplomatic assessment of the car and team, but expresses regret about the collision with Sonny, a sentiment acknowledged by commentators."
+    },
+    {
+      "id": "M1_Scene10-part-9",
+      "start_timestamp": "01:28:53,240",
+      "end_timestamp": "01:32:54,370",
+      "summary": "At the Las Vegas Grand Prix, Sonny Hayes and Joshua Pearce are forced into a tense team dinner, where their manager warns them about job security. Joshua proposes a poker game to decide who is the 'number one racer.' During the game, they exchange harsh criticisms, revealing their differing views on risk, teamwork, and their pasts, with Joshua expressing resentment over Sonny's popularity."
+    },
+    {
+      "id": "M1_Scene11-part-1",
+      "start_timestamp": "01:30:50,370",
+      "end_timestamp": "01:32:00,310",
+      "summary": "A group, including Joshua and Sonny, engages in a discussion/interview about their individual characteristics and professional differences, moving to constructive criticism where Joshua is called out for a lack of risk analysis, and Sonny for not listening to others."
+    },
+    {
+      "id": "M1_Scene11-part-2",
+      "start_timestamp": "01:32:22,710",
+      "end_timestamp": "01:33:04,420",
+      "summary": "In an interview, Sonny Hayes shares personal details about his father's love for gambling and how it influenced his own racing career. He is encouraged by an unseen person to ignore external opinions and simply focus on his driving prowess, acknowledging his exceptional skill."
+    },
+    {
+      "id": "M1_Scene11-part-3",
+      "start_timestamp": "01:33:44,710",
+      "end_timestamp": "01:34:37,680",
+      "summary": "Team members, including Sonny and Kate, discuss an upcoming sponsor party, which Sonny declines due to his focus on the race. A firm statement is then made about not dating within the team during the season, especially given recent performance."
+    },
+    {
+      "id": "M1_Scene11-part-4",
+      "start_timestamp": "01:35:37,610",
+      "end_timestamp": "01:36:10,350",
+      "summary": "At a social gathering, Joshua Pearce is recognized as a racer from the APX-GP team and asked to introduce someone to Carlos Sainz. Joshua expresses his discomfort with the event's atmosphere, feeling uninspired and wanting to leave quickly."
+    },
+    {
+      "id": "M1_Scene11-part-5",
+      "start_timestamp": "01:37:07,950",
+      "end_timestamp": "01:40:40,920",
+      "summary": "In what appears to be a hotel room after a night out, Kate confronts Sonny about his past and a significant racing accident 30 years prior that left him bitter. Sonny then delivers a poignant monologue, detailing his rediscovered love for racing and the elusive, peaceful moment he chases in the car where he feels untouchable."
+    },
+    {
+      "id": "M1_Scene11-part-6",
+      "start_timestamp": "01:41:03,020",
+      "end_timestamp": "01:42:31,740",
+      "summary": "Kate and Ruben are confronted by an official who announces their car is being seized for inspection due to anonymous information alleging regulation violations with an upgraded floor. The team suspects industrial espionage and faked internal documents, leading to a heated argument about their compromised ability to race."
+    },
+    {
+      "id": "M1_Scene11-part-7",
+      "start_timestamp": "01:42:58,350",
+      "end_timestamp": "01:45:13,480",
+      "summary": "During a crucial race, Sonny Hayes disregards pit crew instructions for a clean start and instead drives aggressively and 'in anger,' utilizing 'Qualify mode' and quickly depleting his ERS battery. Race commentators highlight his daring, almost reckless, maneuvers as he pushes for position, culminating in an intense on-track moment."
+    },
+    {
+      "id": "M1_Scene11-part-8",
+      "start_timestamp": "01:45:38,880",
+      "end_timestamp": "01:48:01,000",
+      "summary": "In the aftermath of a race incident, Ruben expresses profound guilt and questions the team's purpose, revealing Sonny's severe 30-year-old medical records detailing past spinal injuries. Convinced of their failure, Ruben emotionally insists Sonny must leave the team, despite Sonny's desperate plea to continue racing."
+    },
+    {
+      "id": "M1_Scene11-part-9",
+      "start_timestamp": "01:48:03,860",
+      "end_timestamp": "01:48:24,460",
+      "summary": "In a simulation room, a team member is instructed to re-run a specific Monza race simulation focused on a rain incident, with Joshua Pearce's recorded instructions about 'waiting for the line' being played back."
+    },
+    {
+      "id": "M1_Scene11-part-10",
+      "start_timestamp": "01:49:15,560",
+      "end_timestamp": "01:51:51,710",
+      "summary": "Sonny receives a phone call from Peter, who discusses selling APX-GP and offers Sonny a strategic leadership role in the new setup, while Ruben would become a brand ambassador. Peter shockingly reveals he orchestrated the earlier car sabotage with fake documents as a winning tactic, also inquiring about Sonny's recovery from injuries."
+    },
+    {
+      "id": "M1_Scene11-part-11",
+      "start_timestamp": "01:52:19,320",
+      "end_timestamp": "01:53:48,530",
+      "summary": "At the Abu Dhabi Grand Prix, Ruben confesses to Joshua that Sonny had advised him to wait during the Monza accident. Later, a marketing representative attempts to engage Joshua with media and IndyCar opportunities, but Joshua dismisses them, asserting his sole focus is on the upcoming race."
+    },
+    {
+      "id": "M1_Scene11-part-12",
+      "start_timestamp": "01:53:53,320",
+      "end_timestamp": "01:54:17,650",
+      "summary": "The team gathers at the garage in Abu Dhabi, where they are informed their car is under 'Parc ferm\u00e9' regulations, preventing any modifications until the FIA removes the seal, leaving them with unexpected downtime."
+    },
+    {
+      "id": "M1_Scene11-part-13",
+      "start_timestamp": "01:54:22,240",
+      "end_timestamp": "01:54:37,460",
+      "summary": "A tour guide welcomes VIP guests to the Paddock Club, offering them a luxurious experience with refreshments and a prime viewing location for the Formula 1 race."
+    },
+    {
+      "id": "M1_Scene11-part-14",
+      "start_timestamp": "01:55:33,100",
+      "end_timestamp": "01:57:04,610",
+      "summary": "Sonny unexpectedly arrives at the garage, asserting his continued presence on the team with a legal document, while Kate reveals the FIA confirmed the earlier sabotage documents originated from Apex. Ruben desperately tries to prevent Sonny from racing, citing his severe past injuries, but Sonny defiantly insists he will drive, even if it risks his life."
+    },
+    {
+      "id": "M1_Scene11-part-15",
+      "start_timestamp": "01:58:34,870",
+      "end_timestamp": "01:59:01,560",
+      "summary": "Race commentators announce the starting grid for the Abu Dhabi Grand Prix, delivering the breaking news that Sonny Hayes has replaced Joshua Pearce in the APX-GP car and, due to regulations, must start from the very back of the grid."
+    },
+    {
+      "id": "M1_Scene11-part-16",
+      "start_timestamp": "01:59:25,790",
+      "end_timestamp": "01:59:45,600",
+      "summary": "At the race grid, Sonny receives well wishes from fellow racer James, then has a brief, tense encounter with Chaz, who acknowledges past disagreements but emphasizes the significance of Sonny's return for his 'last F1 stage.'"
+    },
+    {
+      "id": "M1_Scene11-part-17",
+      "start_timestamp": "02:00:10,750",
+      "end_timestamp": "02:02:50,940",
+      "summary": "The final race of the season at Abu Dhabi commences with commentators detailing Joshua Pearce's strong start. Sonny Hayes, starting from the back, faces a collision, makes an unscheduled pit stop due to a broken tire, and engages in an aggressive on-track battle with Kevin Magnussen, as the team struggles to manage his unpredictable driving."
+    },
+    {
+      "id": "M1_Scene12-part-1",
+      "start_timestamp": "02:00:31,820",
+      "end_timestamp": "02:02:32,550",
+      "summary": "The scene opens with race commentators highlighting Pearce's mature driving. The race then escalates with a collision involving Sonny Hayes and Kevin Magnussen due to their rivalry, prompting an urgent pit stop for Hayes to change his damaged hard tires. This sequence captures the initial challenges and strategic decisions for the APX-GP team amidst team radio communications."
+    },
+    {
+      "id": "M1_Scene12-part-2",
+      "start_timestamp": "02:02:39,110",
+      "end_timestamp": "02:04:26,220",
+      "summary": "After Hayes' pit stop, commentators discuss APX-GP's strategy with Joshua Pearce. Pearce takes the lead by staying out on old tires while other cars pit, but his worn tires eventually lead to him being overtaken by Verstappen and Leclerc, necessitating an emergency pit stop for him as well."
+    },
+    {
+      "id": "M1_Scene12-part-3",
+      "start_timestamp": "02:04:27,800",
+      "end_timestamp": "02:05:45,670",
+      "summary": "The pit crew discusses strategy for Sonny, emphasizing the ideal time to pit for an advantage. Sonny Hayes then executes a series of impressive overtakes, including a strategic double pass on Carlos Sainz, demonstrating APX-GP's developing team coordination and effectiveness on the track."
+    },
+    {
+      "id": "M1_Scene12-part-4",
+      "start_timestamp": "02:05:46,340",
+      "end_timestamp": "02:07:32,950",
+      "summary": "As the race progresses to Round 38, commentators highlight APX-GP's rising ranks. Pearce's lead on worn tires is short-lived as he's overtaken by Hamilton and Leclerc. The scene climaxes with Sonny Hayes colliding violently with George Russell, causing severe damage and leading to a red flag, amidst despair from the team."
+    },
+    {
+      "id": "M1_Scene12-part-5",
+      "start_timestamp": "02:07:37,570",
+      "end_timestamp": "02:12:04,880",
+      "summary": "Following Hayes' devastating crash, the race is red-flagged. Sonny, against all odds, heroically brings his severely damaged car back to the pit lane for emergency repairs. The team works frantically during the limited time, realizing the red flag offers an unexpected advantage due to their unused new soft tires, leading to a discussion about this 'life buoy' and Sonny's philosophy of 'sometimes losing is also winning'."
+    },
+    {
+      "id": "M1_Scene12-part-6",
+      "start_timestamp": "02:12:05,760",
+      "end_timestamp": "02:15:26,000",
+      "summary": "The race restarts for a thrilling three-lap sprint, with supervisors clearing Hayes of any penalty. APX-GP deploys a brilliant coordinated strategy: Sonny creates a slipstream for Joshua Pearce, allowing Pearce to overtake competitors and surge into second place, demonstrating exceptional teamwork and execution."
+    },
+    {
+      "id": "M1_Scene12-part-7",
+      "start_timestamp": "02:15:53,200",
+      "end_timestamp": "02:19:39,500",
+      "summary": "In the final laps, APX-GP's drivers challenge Lewis Hamilton for the lead, with Pearce ultimately taking first place through a daring maneuver as Hayes assists despite another collision. The team secures a historic victory, culminating in an emotional and jubilant celebration in the pit lane."
+    },
+    {
+      "id": "M1_Scene12-part-8",
+      "start_timestamp": "02:19:50,810",
+      "end_timestamp": "02:26:00,050",
+      "summary": "Amidst the lingering celebration, the scene transitions to a series of post-race dialogues: discussions about business agreements, Joshua Pearce declining an offer from Toto Wolf, and a poignant farewell between Sonny and Kate. Sonny then departs, hinting at new goals and leaving his team with a promise of continued support."
+    },
+    {
+      "id": "M1_Scene12-part-9",
+      "start_timestamp": "02:26:48,000",
+      "end_timestamp": "02:27:47,660",
+      "summary": "The film concludes with Sonny Hayes arriving at the Baja 1000, seeking a new and rugged racing challenge. He introduces himself, confirming his name and his passion for racing, emphasizing that money is not his primary motivation for competing, setting the stage for his next adventure."
+    }
+  ],
+  "locations": [
+    {
+      "id": "LOC_DaytonaInternationalSpeedway",
+      "name": "Daytona International Speedway",
+      "type": "Race Track",
+      "description": "A 24-hour endurance race track where Sonny Hayes showcases his driving skills."
+    },
+    {
+      "id": "LOC_Baja1000Course",
+      "name": "Baja 1000 Course",
+      "type": "Race Course",
+      "description": "A challenging off-road race course in a desert environment, where Ruben recruits Sonny and Sonny later seeks a new challenge."
+    },
+    {
+      "id": "LOC_F1Paddock",
+      "name": "F1 Paddock",
+      "type": "Racing Facility Area",
+      "description": "A restricted area at Formula 1 events, used by teams, drivers, and VIPs for preparation, networking, and social gatherings."
+    },
+    {
+      "id": "LOC_APXGPGarage",
+      "name": "APX-GP Garage",
+      "type": "Team Garage",
+      "description": "The operational hub for the APX-GP racing team, where cars are prepped, debriefs occur, and strategies are discussed."
+    },
+    {
+      "id": "LOC_SilverstoneCircuit",
+      "name": "Silverstone Circuit",
+      "type": "Race Track",
+      "description": "The venue for the British Grand Prix, where Sonny and Joshua have a dramatic collision."
+    },
+    {
+      "id": "LOC_HungaroringCircuit",
+      "name": "Hungaroring Circuit",
+      "type": "Race Track",
+      "description": "The venue for the Hungarian Grand Prix, where Sonny employs unconventional, sacrificial tactics."
+    },
+    {
+      "id": "LOC_MonzaCircuit",
+      "name": "Monza Circuit",
+      "type": "Race Track",
+      "description": "The venue for the Italian Grand Prix, where Sonny's strategy leads to Joshua's severe crash."
+    },
+    {
+      "id": "LOC_MonzaNationalRacingSchool",
+      "name": "Monza National Racing School",
+      "type": "Training Facility",
+      "description": "A facility for racing training, where Joshua practices and competes with Sonny."
+    },
+    {
+      "id": "LOC_CircuitZandvoort",
+      "name": "Circuit Zandvoort",
+      "type": "Race Track",
+      "description": "The venue for the Netherlands Grand Prix, where Sonny stages a remarkable comeback."
+    },
+    {
+      "id": "LOC_SuzukaCircuit",
+      "name": "Suzuka Circuit",
+      "type": "Race Track",
+      "description": "The venue for the Japan Grand Prix, where Sonny secures a strong finish."
+    },
+    {
+      "id": "LOC_AutodromoHermanosRodriguez",
+      "name": "Aut\u00f3dromo Hermanos Rodr\u00edguez",
+      "type": "Race Track",
+      "description": "The venue for the Mexico City Grand Prix, where APX-GP achieves an impressive 5th place."
+    },
+    {
+      "id": "LOC_CircuitSpaFrancorchamps",
+      "name": "Circuit de Spa-Francorchamps",
+      "type": "Race Track",
+      "description": "The venue for the Belgium Grand Prix, where Joshua and Sonny have another shocking collision."
+    },
+    {
+      "id": "LOC_CaesarsPalaceGrandPrix",
+      "name": "Caesars Palace Grand Prix",
+      "type": "Race Track / Event Location",
+      "description": "The setting for the Las Vegas Grand Prix, including a tense team dinner."
+    },
+    {
+      "id": "LOC_YasMarinaCircuit",
+      "name": "Yas Marina Circuit",
+      "type": "Race Track",
+      "description": "The venue for the Abu Dhabi Grand Prix, the final and climactic race of the season."
+    },
+    {
+      "id": "LOC_HospitalRoom",
+      "name": "Hospital Room",
+      "type": "Medical Facility",
+      "description": "Where Joshua Pearce recovers after his severe crash at Monza."
+    },
+    {
+      "id": "LOC_PressConferenceRoom",
+      "name": "Press Conference Room",
+      "type": "Media Area",
+      "description": "A venue for media briefings where drivers answer reporters' questions."
+    },
+    {
+      "id": "LOC_BackstageArea",
+      "name": "Backstage Area",
+      "type": "Event Area",
+      "description": "A private area behind the main event space, used for discussions and arguments."
+    },
+    {
+      "id": "LOC_HotelRoom",
+      "name": "Hotel Room",
+      "type": "Accommodation",
+      "description": "A private setting for conversations, like Kate confronting Sonny about his past."
+    },
+    {
+      "id": "LOC_SimulationRoom",
+      "name": "Simulation Room",
+      "type": "Training Facility",
+      "description": "A high-tech room used for testing car setups and practicing race scenarios."
+    },
+    {
+      "id": "LOC_PaddockClub",
+      "name": "Paddock Club",
+      "type": "Hospitality Area",
+      "description": "A luxurious VIP viewing and refreshment area at a Formula 1 event."
+    },
+    {
+      "id": "LOC_SpanishGP",
+      "name": "Spanish Grand Prix (Flashback)",
+      "type": "Race Track",
+      "description": "The site of Sonny Hayes' severe crash during his aggressive rookie year."
+    },
+    {
+      "id": "LOC_GenericTrack",
+      "name": "Generic F1 Test Track",
+      "type": "Race Track",
+      "description": "An unspecified track used for F1 test sessions."
+    }
+  ],
+  "objects": [
+    {
+      "id": "OBJ_APXGPCar",
+      "name": "APX-GP Car",
+      "type": "Racing Vehicle",
+      "significance": "The primary vehicle for Sonny Hayes and Joshua Pearce, subject to upgrades, strategy, and collisions. Central to the team's success and failures."
+    },
+    {
+      "id": "OBJ_RacingSimulator",
+      "name": "Racing Simulator",
+      "type": "Training Equipment",
+      "significance": "Used by Sonny Hayes to test car setups and improve lap times, reflecting the blend of technology and driver skill."
+    },
+    {
+      "id": "OBJ_NewWingDesign",
+      "name": "New Wing Design",
+      "type": "Car Part",
+      "significance": "A crucial aerodynamic component being developed by Kate, a point of contention and collaboration between her and Sonny."
+    },
+    {
+      "id": "OBJ_LegalDocument",
+      "name": "Legal Document",
+      "type": "Document",
+      "significance": "Used by Sonny to assert his right to race, and refers to the faked documents used in the car sabotage plot."
+    },
+    {
+      "id": "OBJ_MedicalRecords",
+      "name": "Medical Records",
+      "type": "Document",
+      "significance": "Sonny Hayes' 30-year-old records detailing past spinal injuries, used by Ruben to try and prevent him from racing."
+    },
+    {
+      "id": "OBJ_PokerChips",
+      "name": "Poker Chips",
+      "type": "Game Equipment",
+      "significance": "Used in a poker game between Sonny and Joshua to decide who is the 'number one racer,' symbolizing their rivalry and risk-taking."
+    },
+    {
+      "id": "OBJ_ERSBattery",
+      "name": "ERS Battery",
+      "type": "Car Component",
+      "significance": "The energy recovery system battery in the F1 car, whose depletion reflects Sonny's aggressive driving style."
+    },
+    {
+      "id": "OBJ_FIASeal",
+      "name": "FIA Seal",
+      "type": "Official Seal",
+      "significance": "Indicates a car is under 'Parc ferm\u00e9' regulations, preventing modifications and highlighting regulatory oversight."
+    },
+    {
+      "id": "OBJ_HeatedTires",
+      "name": "Heated Tires",
+      "type": "Car Part",
+      "significance": "Tires that quickly gain optimal temperature, used by Sonny to swiftly overtake competitors."
+    },
+    {
+      "id": "OBJ_SoftTires",
+      "name": "Soft Tires",
+      "type": "Car Part",
+      "significance": "A type of racing tire used for optimal grip but with shorter lifespan, strategically used by Sonny."
+    },
+    {
+      "id": "OBJ_HardTires",
+      "name": "Hard Tires",
+      "type": "Car Part",
+      "significance": "A type of racing tire used for durability but with less grip, strategically chosen by Sonny."
+    },
+    {
+      "id": "OBJ_RaceStrategy",
+      "name": "Race Strategy",
+      "type": "Concept / Plan",
+      "significance": "The tactical plan devised by the team for a race, often involving tire choices, pit stops, and on-track maneuvers."
+    },
+    {
+      "id": "OBJ_SocialMedia",
+      "name": "Social Media",
+      "type": "Communication Platform",
+      "significance": "Emphasized by Lisabeth as important for Joshua's career and online presence."
+    },
+    {
+      "id": "OBJ_NewsReport",
+      "name": "News Report / Montage",
+      "type": "Media Content",
+      "significance": "Broadcasts and montages that provide context, relay news, and influence public perception of drivers and team."
+    },
+    {
+      "id": "OBJ_CarUpgrades",
+      "name": "Car Upgrades",
+      "type": "Car Part / Concept",
+      "significance": "Improvements made to the APX-GP car that boost its performance and contribute to the team's resurgence."
+    },
+    {
+      "id": "OBJ_StartModeIssue",
+      "name": "Start Mode Issue",
+      "type": "Car System",
+      "significance": "A technical problem with Sonny's car at Silverstone, causing a delayed start and initial doubt."
+    },
+    {
+      "id": "OBJ_VirtualSafetyCar",
+      "name": "Virtual Safety Car (VSC)",
+      "type": "Race Condition",
+      "significance": "A race protocol intentionally triggered by Sonny to allow Joshua a crucial pit stop."
+    },
+    {
+      "id": "OBJ_RedFlag",
+      "name": "Red Flag",
+      "type": "Race Condition",
+      "significance": "A complete halt of the race due to a severe incident, which unexpectedly benefits APX-GP's strategy."
+    },
+    {
+      "id": "OBJ_DRSChain",
+      "name": "DRS Chain",
+      "type": "Race Tactic",
+      "significance": "A strategic maneuver where multiple cars can use DRS due to proximity, exploited by Sonny to protect Joshua."
+    },
+    {
+      "id": "OBJ_Money",
+      "name": "Money",
+      "type": "Abstract Concept",
+      "significance": "Sonny's stated non-motivation for racing at the Baja 1000, contrasting with the financial pressures of F1."
+    }
+  ],
+  "relationships": [
+    {
+      "source_id": "F1TheMovie",
+      "target_id": "M1_Scene7-part-1",
+      "type": "CONTAINS"
+    },
+    {
+      "source_id": "F1TheMovie",
+      "target_id": "M1_Scene7-part-2",
+      "type": "CONTAINS"
+    },
+    {
+      "source_id": "F1TheMovie",
+      "target_id": "M1_Scene7-part-3",
+      "type": "CONTAINS"
+    },
+    {
+      "source_id": "F1TheMovie",
+      "target_id": "M1_Scene7-part-4",
+      "type": "CONTAINS"
+    },
+    {
+      "source_id": "F1TheMovie",
+      "target_id": "M1_Scene7-part-5",
+      "type": "CONTAINS"
+    },
+    {
+      "source_id": "F1TheMovie",
+      "target_id": "M1_Scene7-part-6",
+      "type": "CONTAINS"
+    },
+    {
+      "source_id": "F1TheMovie",
+      "target_id": "M1_Scene7-part-7",
+      "type": "CONTAINS"
+    },
+    {
+      "source_id": "F1TheMovie",
+      "target_id": "M1_Scene7-part-8",
+      "type": "CONTAINS"
+    },
+    {
+      "source_id": "F1TheMovie",
+      "target_id": "M1_Scene7-part-9",
+      "type": "CONTAINS"
+    },
+    {
+      "source_id": "F1TheMovie",
+      "target_id": "M1_Scene7-part-10",
+      "type": "CONTAINS"
+    },
+    {
+      "source_id": "F1TheMovie",
+      "target_id": "M1_Scene7-part-11",
+      "type": "CONTAINS"
+    },
+    {
+      "source_id": "F1TheMovie",
+      "target_id": "M1_Scene7-part-12",
+      "type": "CONTAINS"
+    },
+    {
+      "source_id": "F1TheMovie",
+      "target_id": "M1_Scene8-part-1",
+      "type": "CONTAINS"
+    },
+    {
+      "source_id": "F1TheMovie",
+      "target_id": "M1_Scene8-part-2",
+      "type": "CONTAINS"
+    },
+    {
+      "source_id": "F1TheMovie",
+      "target_id": "M1_Scene8-part-3",
+      "type": "CONTAINS"
+    },
+    {
+      "source_id": "F1TheMovie",
+      "target_id": "M1_Scene8-part-4",
+      "type": "CONTAINS"
+    },
+    {
+      "source_id": "F1TheMovie",
+      "target_id": "M1_Scene8-part-5",
+      "type": "CONTAINS"
+    },
+    {
+      "source_id": "F1TheMovie",
+      "target_id": "M1_Scene8-part-6",
+      "type": "CONTAINS"
+    },
+    {
+      "source_id": "F1TheMovie",
+      "target_id": "M1_Scene8-part-7",
+      "type": "CONTAINS"
+    },
+    {
+      "source_id": "F1TheMovie",
+      "target_id": "M1_Scene8-part-8",
+      "type": "CONTAINS"
+    },
+    {
+      "source_id": "F1TheMovie",
+      "target_id": "M1_Scene8-part-9",
+      "type": "CONTAINS"
+    },
+    {
+      "source_id": "F1TheMovie",
+      "target_id": "M1_Scene8-part-10",
+      "type": "CONTAINS"
+    },
+    {
+      "source_id": "F1TheMovie",
+      "target_id": "M1_Scene8-part-11",
+      "type": "CONTAINS"
+    },
+    {
+      "source_id": "F1TheMovie",
+      "target_id": "M1_Scene8-part-12",
+      "type": "CONTAINS"
+    },
+    {
+      "source_id": "F1TheMovie",
+      "target_id": "M1_Scene8-part-13",
+      "type": "CONTAINS"
+    },
+    {
+      "source_id": "F1TheMovie",
+      "target_id": "M1_Scene8-part-14",
+      "type": "CONTAINS"
+    },
+    {
+      "source_id": "F1TheMovie",
+      "target_id": "M1_Scene9-part-1",
+      "type": "CONTAINS"
+    },
+    {
+      "source_id": "F1TheMovie",
+      "target_id": "M1_Scene9-part-2",
+      "type": "CONTAINS"
+    },
+    {
+      "source_id": "F1TheMovie",
+      "target_id": "M1_Scene9-part-3",
+      "type": "CONTAINS"
+    },
+    {
+      "source_id": "F1TheMovie",
+      "target_id": "M1_Scene9-part-4",
+      "type": "CONTAINS"
+    },
+    {
+      "source_id": "F1TheMovie",
+      "target_id": "M1_Scene9-part-5",
+      "type": "CONTAINS"
+    },
+    {
+      "source_id": "F1TheMovie",
+      "target_id": "M1_Scene9-part-6",
+      "type": "CONTAINS"
+    },
+    {
+      "source_id": "F1TheMovie",
+      "target_id": "M1_Scene9-part-7",
+      "type": "CONTAINS"
+    },
+    {
+      "source_id": "F1TheMovie",
+      "target_id": "M1_Scene9-part-8",
+      "type": "CONTAINS"
+    },
+    {
+      "source_id": "F1TheMovie",
+      "target_id": "M1_Scene9-part-9",
+      "type": "CONTAINS"
+    },
+    {
+      "source_id": "F1TheMovie",
+      "target_id": "M1_Scene9-part-10",
+      "type": "CONTAINS"
+    },
+    {
+      "source_id": "F1TheMovie",
+      "target_id": "M1_Scene9-part-11",
+      "type": "CONTAINS"
+    },
+    {
+      "source_id": "F1TheMovie",
+      "target_id": "M1_Scene9-part-12",
+      "type": "CONTAINS"
+    },
+    {
+      "source_id": "F1TheMovie",
+      "target_id": "M1_Scene10-part-1",
+      "type": "CONTAINS"
+    },
+    {
+      "source_id": "F1TheMovie",
+      "target_id": "M1_Scene10-part-2",
+      "type": "CONTAINS"
+    },
+    {
+      "source_id": "F1TheMovie",
+      "target_id": "M1_Scene10-part-3",
+      "type": "CONTAINS"
+    },
+    {
+      "source_id": "F1TheMovie",
+      "target_id": "M1_Scene10-part-4",
+      "type": "CONTAINS"
+    },
+    {
+      "source_id": "F1TheMovie",
+      "target_id": "M1_Scene10-part-5",
+      "type": "CONTAINS"
+    },
+    {
+      "source_id": "F1TheMovie",
+      "target_id": "M1_Scene10-part-6",
+      "type": "CONTAINS"
+    },
+    {
+      "source_id": "F1TheMovie",
+      "target_id": "M1_Scene10-part-7",
+      "type": "CONTAINS"
+    },
+    {
+      "source_id": "F1TheMovie",
+      "target_id": "M1_Scene10-part-8",
+      "type": "CONTAINS"
+    },
+    {
+      "source_id": "F1TheMovie",
+      "target_id": "M1_Scene10-part-9",
+      "type": "CONTAINS"
+    },
+    {
+      "source_id": "F1TheMovie",
+      "target_id": "M1_Scene11-part-1",
+      "type": "CONTAINS"
+    },
+    {
+      "source_id": "F1TheMovie",
+      "target_id": "M1_Scene11-part-2",
+      "type": "CONTAINS"
+    },
+    {
+      "source_id": "F1TheMovie",
+      "target_id": "M1_Scene11-part-3",
+      "type": "CONTAINS"
+    },
+    {
+      "source_id": "F1TheMovie",
+      "target_id": "M1_Scene11-part-4",
+      "type": "CONTAINS"
+    },
+    {
+      "source_id": "F1TheMovie",
+      "target_id": "M1_Scene11-part-5",
+      "type": "CONTAINS"
+    },
+    {
+      "source_id": "F1TheMovie",
+      "target_id": "M1_Scene11-part-6",
+      "type": "CONTAINS"
+    },
+    {
+      "source_id": "F1TheMovie",
+      "target_id": "M1_Scene11-part-7",
+      "type": "CONTAINS"
+    },
+    {
+      "source_id": "F1TheMovie",
+      "target_id": "M1_Scene11-part-8",
+      "type": "CONTAINS"
+    },
+    {
+      "source_id": "F1TheMovie",
+      "target_id": "M1_Scene11-part-9",
+      "type": "CONTAINS"
+    },
+    {
+      "source_id": "F1TheMovie",
+      "target_id": "M1_Scene11-part-10",
+      "type": "CONTAINS"
+    },
+    {
+      "source_id": "F1TheMovie",
+      "target_id": "M1_Scene11-part-11",
+      "type": "CONTAINS"
+    },
+    {
+      "source_id": "F1TheMovie",
+      "target_id": "M1_Scene11-part-12",
+      "type": "CONTAINS"
+    },
+    {
+      "source_id": "F1TheMovie",
+      "target_id": "M1_Scene11-part-13",
+      "type": "CONTAINS"
+    },
+    {
+      "source_id": "F1TheMovie",
+      "target_id": "M1_Scene11-part-14",
+      "type": "CONTAINS"
+    },
+    {
+      "source_id": "F1TheMovie",
+      "target_id": "M1_Scene11-part-15",
+      "type": "CONTAINS"
+    },
+    {
+      "source_id": "F1TheMovie",
+      "target_id": "M1_Scene11-part-16",
+      "type": "CONTAINS"
+    },
+    {
+      "source_id": "F1TheMovie",
+      "target_id": "M1_Scene11-part-17",
+      "type": "CONTAINS"
+    },
+    {
+      "source_id": "F1TheMovie",
+      "target_id": "M1_Scene12-part-1",
+      "type": "CONTAINS"
+    },
+    {
+      "source_id": "F1TheMovie",
+      "target_id": "M1_Scene12-part-2",
+      "type": "CONTAINS"
+    },
+    {
+      "source_id": "F1TheMovie",
+      "target_id": "M1_Scene12-part-3",
+      "type": "CONTAINS"
+    },
+    {
+      "source_id": "F1TheMovie",
+      "target_id": "M1_Scene12-part-4",
+      "type": "CONTAINS"
+    },
+    {
+      "source_id": "F1TheMovie",
+      "target_id": "M1_Scene12-part-5",
+      "type": "CONTAINS"
+    },
+    {
+      "source_id": "F1TheMovie",
+      "target_id": "M1_Scene12-part-6",
+      "type": "CONTAINS"
+    },
+    {
+      "source_id": "F1TheMovie",
+      "target_id": "M1_Scene12-part-7",
+      "type": "CONTAINS"
+    },
+    {
+      "source_id": "F1TheMovie",
+      "target_id": "M1_Scene12-part-8",
+      "type": "CONTAINS"
+    },
+    {
+      "source_id": "F1TheMovie",
+      "target_id": "M1_Scene12-part-9",
+      "type": "CONTAINS"
+    },
+    {
+      "source_id": "F1TheMovie",
+      "target_id": "redemption",
+      "type": "EXPLORES"
+    },
+    {
+      "source_id": "F1TheMovie",
+      "target_id": "second chances",
+      "type": "EXPLORES"
+    },
+    {
+      "source_id": "F1TheMovie",
+      "target_id": "rivalry",
+      "type": "EXPLORES"
+    },
+    {
+      "source_id": "F1TheMovie",
+      "target_id": "teamwork",
+      "type": "EXPLORES"
+    },
+    {
+      "source_id": "F1TheMovie",
+      "target_id": "ambition",
+      "type": "EXPLORES"
+    },
+    {
+      "source_id": "F1TheMovie",
+      "target_id": "passion for racing",
+      "type": "EXPLORES"
+    },
+    {
+      "source_id": "F1TheMovie",
+      "target_id": "overcoming challenges",
+      "type": "EXPLORES"
+    },
+    {
+      "source_id": "F1TheMovie",
+      "target_id": "mentorship",
+      "type": "EXPLORES"
+    },
+    {
+      "source_id": "F1TheMovie",
+      "target_id": "corporate intrigue",
+      "type": "EXPLORES"
+    },
+    {
+      "source_id": "F1TheMovie",
+      "target_id": "sacrifice",
+      "type": "EXPLORES"
+    },
+    {
+      "source_id": "F1TheMovie",
+      "target_id": "technology in sports",
+      "type": "EXPLORES"
+    },
+    {
+      "source_id": "CH_SonnyHayes",
+      "target_id": "M1_Scene7-part-1",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "CH_PitCrew",
+      "target_id": "M1_Scene7-part-1",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "M1_Scene7-part-1",
+      "target_id": "LOC_DaytonaInternationalSpeedway",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source_id": "OBJ_APXGPCar",
+      "target_id": "M1_Scene7-part-1",
+      "type": "IN_SCENE"
+    },
+    {
+      "source_id": "CH_SonnyHayes",
+      "target_id": "CH_PitCrew",
+      "type": "RELATES_TO"
+    },
+    {
+      "source_id": "CH_Announcer",
+      "target_id": "M1_Scene7-part-2",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "CH_SonnyHayes",
+      "target_id": "M1_Scene7-part-2",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "CH_CaleKelso",
+      "target_id": "M1_Scene7-part-2",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "M1_Scene7-part-2",
+      "target_id": "LOC_DaytonaInternationalSpeedway",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source_id": "OBJ_APXGPCar",
+      "target_id": "M1_Scene7-part-2",
+      "type": "IN_SCENE"
+    },
+    {
+      "source_id": "CH_SonnyHayes",
+      "target_id": "CH_CaleKelso",
+      "type": "RELATES_TO"
+    },
+    {
+      "source_id": "CH_SonnyHayes",
+      "target_id": "M1_Scene7-part-3",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "CH_AnotherDriver",
+      "target_id": "M1_Scene7-part-3",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "CH_Chip",
+      "target_id": "M1_Scene7-part-3",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "M1_Scene7-part-3",
+      "target_id": "LOC_DaytonaInternationalSpeedway",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source_id": "CH_Chip",
+      "target_id": "CH_SonnyHayes",
+      "type": "RELATES_TO"
+    },
+    {
+      "source_id": "CH_SonnyHayes",
+      "target_id": "M1_Scene7-part-4",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "CH_RubenCervantes",
+      "target_id": "M1_Scene7-part-4",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "M1_Scene7-part-4",
+      "target_id": "LOC_Baja1000Course",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source_id": "CH_RubenCervantes",
+      "target_id": "CH_SonnyHayes",
+      "type": "RELATES_TO"
+    },
+    {
+      "source_id": "CH_JoshuaPearce",
+      "target_id": "M1_Scene7-part-5",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "CH_PitCrew",
+      "target_id": "M1_Scene7-part-5",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "M1_Scene7-part-5",
+      "target_id": "LOC_GenericTrack",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source_id": "OBJ_APXGPCar",
+      "target_id": "M1_Scene7-part-5",
+      "type": "IN_SCENE"
+    },
+    {
+      "source_id": "CH_JoshuaPearce",
+      "target_id": "M1_Scene7-part-6",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "CH_Lisabeth",
+      "target_id": "M1_Scene7-part-6",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "CH_LucaCortez",
+      "target_id": "M1_Scene7-part-6",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "M1_Scene7-part-6",
+      "target_id": "LOC_F1Paddock",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source_id": "CH_Lisabeth",
+      "target_id": "CH_JoshuaPearce",
+      "type": "RELATES_TO"
+    },
+    {
+      "source_id": "CH_JoshuaPearce",
+      "target_id": "CH_LucaCortez",
+      "type": "RELATES_TO"
+    },
+    {
+      "source_id": "CH_KasparSmolinski",
+      "target_id": "M1_Scene7-part-7",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "CH_APXGPTeam",
+      "target_id": "M1_Scene7-part-7",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "M1_Scene7-part-7",
+      "target_id": "LOC_APXGPGarage",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source_id": "CH_SonnyHayes",
+      "target_id": "M1_Scene7-part-8",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "CH_APXGPTeam",
+      "target_id": "M1_Scene7-part-8",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "CH_KasparSmolinski",
+      "target_id": "M1_Scene7-part-8",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "CH_JoshuaPearce",
+      "target_id": "M1_Scene7-part-8",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "CH_RubenCervantes",
+      "target_id": "M1_Scene7-part-8",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "M1_Scene7-part-8",
+      "target_id": "LOC_APXGPGarage",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source_id": "CH_RubenCervantes",
+      "target_id": "CH_SonnyHayes",
+      "type": "RELATES_TO"
+    },
+    {
+      "source_id": "CH_JoshuaPearce",
+      "target_id": "CH_SonnyHayes",
+      "type": "RELATES_TO"
+    },
+    {
+      "source_id": "CH_KateMcKenna",
+      "target_id": "M1_Scene7-part-9",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "CH_SonnyHayes",
+      "target_id": "M1_Scene7-part-9",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "CH_Hugh",
+      "target_id": "M1_Scene7-part-9",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "M1_Scene7-part-9",
+      "target_id": "LOC_GenericTrack",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source_id": "OBJ_APXGPCar",
+      "target_id": "M1_Scene7-part-9",
+      "type": "IN_SCENE"
+    },
+    {
+      "source_id": "CH_KateMcKenna",
+      "target_id": "CH_SonnyHayes",
+      "type": "RELATES_TO"
+    },
+    {
+      "source_id": "CH_Hugh",
+      "target_id": "CH_SonnyHayes",
+      "type": "RELATES_TO"
+    },
+    {
+      "source_id": "CH_JoshuaPearce",
+      "target_id": "M1_Scene7-part-10",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "CH_Lisabeth",
+      "target_id": "M1_Scene7-part-10",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "OBJ_SocialMedia",
+      "target_id": "M1_Scene7-part-10",
+      "type": "IN_SCENE"
+    },
+    {
+      "source_id": "CH_JoshuaPearce",
+      "target_id": "M1_Scene7-part-11",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "CH_BernadettePearce",
+      "target_id": "M1_Scene7-part-11",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "CH_JoshuaPearceFather",
+      "target_id": "M1_Scene7-part-11",
+      "type": "RELATES_TO"
+    },
+    {
+      "source_id": "CH_BernadettePearce",
+      "target_id": "CH_JoshuaPearce",
+      "type": "RELATES_TO"
+    },
+    {
+      "source_id": "CH_KasparSmolinski",
+      "target_id": "M1_Scene7-part-12",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "CH_KateMcKenna",
+      "target_id": "M1_Scene7-part-12",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "M1_Scene7-part-12",
+      "target_id": "LOC_APXGPGarage",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source_id": "OBJ_APXGPCar",
+      "target_id": "M1_Scene7-part-12",
+      "type": "IN_SCENE"
+    },
+    {
+      "source_id": "CH_KasparSmolinski",
+      "target_id": "CH_KateMcKenna",
+      "type": "RELATES_TO"
+    },
+    {
+      "source_id": "CH_SonnyHayes",
+      "target_id": "M1_Scene7-part-12",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "CH_JoshuaPearce",
+      "target_id": "M1_Scene8-part-1",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "CH_BernadettePearce",
+      "target_id": "M1_Scene8-part-1",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "CH_JoshuaPearceFather",
+      "target_id": "M1_Scene8-part-1",
+      "type": "RELATES_TO"
+    },
+    {
+      "source_id": "CH_BernadettePearce",
+      "target_id": "CH_JoshuaPearce",
+      "type": "RELATES_TO"
+    },
+    {
+      "source_id": "CH_JoshuaPearce",
+      "target_id": "M1_Scene8-part-2",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "CH_KateMcKenna",
+      "target_id": "M1_Scene8-part-2",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "OBJ_APXGPCar",
+      "target_id": "M1_Scene8-part-2",
+      "type": "IN_SCENE"
+    },
+    {
+      "source_id": "CH_NewsReporter",
+      "target_id": "M1_Scene8-part-3",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "OBJ_NewsReport",
+      "target_id": "M1_Scene8-part-3",
+      "type": "IN_SCENE"
+    },
+    {
+      "source_id": "CH_SonnyHayes",
+      "target_id": "M1_Scene8-part-3",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "CH_JoshuaPearce",
+      "target_id": "M1_Scene8-part-3",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "CH_JoshuaPearce",
+      "target_id": "M1_Scene8-part-4",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "CH_BernadettePearce",
+      "target_id": "M1_Scene8-part-4",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "M1_Scene8-part-4",
+      "target_id": "LOC_F1Paddock",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source_id": "CH_BernadettePearce",
+      "target_id": "CH_JoshuaPearce",
+      "type": "RELATES_TO"
+    },
+    {
+      "source_id": "CH_NewsReporter",
+      "target_id": "M1_Scene8-part-5",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "CH_JoshuaPearce",
+      "target_id": "M1_Scene8-part-5",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "CH_SonnyHayes",
+      "target_id": "M1_Scene8-part-5",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "M1_Scene8-part-5",
+      "target_id": "LOC_PressConferenceRoom",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source_id": "CH_JoshuaPearce",
+      "target_id": "M1_Scene8-part-6",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "CH_BernadettePearce",
+      "target_id": "M1_Scene8-part-6",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "M1_Scene8-part-6",
+      "target_id": "LOC_BackstageArea",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source_id": "CH_BernadettePearce",
+      "target_id": "CH_JoshuaPearce",
+      "type": "RELATES_TO"
+    },
+    {
+      "source_id": "CH_JoshuaPearce",
+      "target_id": "M1_Scene8-part-7",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "CH_SonnyHayes",
+      "target_id": "M1_Scene8-part-7",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "CH_BernadettePearce",
+      "target_id": "M1_Scene8-part-7",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "CH_JoshuaPearce",
+      "target_id": "CH_SonnyHayes",
+      "type": "RELATES_TO"
+    },
+    {
+      "source_id": "CH_BernadettePearce",
+      "target_id": "CH_SonnyHayes",
+      "type": "RELATES_TO"
+    },
+    {
+      "source_id": "CH_RaceCommentator",
+      "target_id": "M1_Scene8-part-8",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "M1_Scene8-part-8",
+      "target_id": "LOC_SilverstoneCircuit",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source_id": "CH_RubenCervantes",
+      "target_id": "M1_Scene8-part-9",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "CH_SonnyHayes",
+      "target_id": "M1_Scene8-part-9",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "CH_PeterBanning",
+      "target_id": "M1_Scene8-part-9",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "M1_Scene8-part-9",
+      "target_id": "LOC_F1Paddock",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source_id": "CH_PeterBanning",
+      "target_id": "CH_RubenCervantes",
+      "type": "RELATES_TO"
+    },
+    {
+      "source_id": "CH_PeterBanning",
+      "target_id": "CH_SonnyHayes",
+      "type": "RELATES_TO"
+    },
+    {
+      "source_id": "CH_SonnyHayes",
+      "target_id": "M1_Scene8-part-10",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "CH_JoshuaPearce",
+      "target_id": "M1_Scene8-part-10",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "CH_RaceCommentator",
+      "target_id": "M1_Scene8-part-10",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "M1_Scene8-part-10",
+      "target_id": "LOC_SilverstoneCircuit",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source_id": "OBJ_APXGPCar",
+      "target_id": "M1_Scene8-part-10",
+      "type": "IN_SCENE"
+    },
+    {
+      "source_id": "OBJ_HeatedTires",
+      "target_id": "M1_Scene8-part-10",
+      "type": "IN_SCENE"
+    },
+    {
+      "source_id": "OBJ_StartModeIssue",
+      "target_id": "M1_Scene8-part-10",
+      "type": "IN_SCENE"
+    },
+    {
+      "source_id": "CH_SonnyHayes",
+      "target_id": "CH_JoshuaPearce",
+      "type": "RELATES_TO"
+    },
+    {
+      "source_id": "CH_JoshuaPearce",
+      "target_id": "M1_Scene8-part-11",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "CH_SonnyHayes",
+      "target_id": "M1_Scene8-part-11",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "M1_Scene8-part-11",
+      "target_id": "LOC_APXGPGarage",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source_id": "CH_JoshuaPearce",
+      "target_id": "CH_SonnyHayes",
+      "type": "RELATES_TO"
+    },
+    {
+      "source_id": "CH_KateMcKenna",
+      "target_id": "M1_Scene8-part-12",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "CH_SonnyHayes",
+      "target_id": "M1_Scene8-part-12",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "CH_SonnyHayes",
+      "target_id": "CH_KateMcKenna",
+      "type": "RELATES_TO"
+    },
+    {
+      "source_id": "CH_RubenCervantes",
+      "target_id": "M1_Scene8-part-13",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "CH_SonnyHayes",
+      "target_id": "M1_Scene8-part-13",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "CH_RubenCervantes",
+      "target_id": "CH_SonnyHayes",
+      "type": "RELATES_TO"
+    },
+    {
+      "source_id": "CH_RubenCervantes",
+      "target_id": "CH_KateMcKenna",
+      "type": "RELATES_TO"
+    },
+    {
+      "source_id": "CH_SonnyHayes",
+      "target_id": "M1_Scene8-part-14",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "CH_KateMcKenna",
+      "target_id": "M1_Scene8-part-14",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "M1_Scene8-part-14",
+      "target_id": "LOC_APXGPGarage",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source_id": "OBJ_NewWingDesign",
+      "target_id": "M1_Scene8-part-14",
+      "type": "IN_SCENE"
+    },
+    {
+      "source_id": "CH_SonnyHayes",
+      "target_id": "CH_KateMcKenna",
+      "type": "RELATES_TO"
+    },
+    {
+      "source_id": "CH_SonnyHayes",
+      "target_id": "M1_Scene9-part-1",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "CH_APXGPTeam",
+      "target_id": "M1_Scene9-part-1",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "CH_SonnyHayes",
+      "target_id": "CH_KateMcKenna",
+      "type": "RELATES_TO"
+    },
+    {
+      "source_id": "CH_SonnyHayes",
+      "target_id": "CH_RubenCervantes",
+      "type": "RELATES_TO"
+    },
+    {
+      "source_id": "CH_SonnyHayes",
+      "target_id": "M1_Scene9-part-2",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "CH_KateMcKenna",
+      "target_id": "M1_Scene9-part-2",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "OBJ_NewWingDesign",
+      "target_id": "M1_Scene9-part-2",
+      "type": "IN_SCENE"
+    },
+    {
+      "source_id": "CH_SonnyHayes",
+      "target_id": "CH_KateMcKenna",
+      "type": "RELATES_TO"
+    },
+    {
+      "source_id": "CH_SonnyHayes",
+      "target_id": "CH_RubenCervantes",
+      "type": "RELATES_TO"
+    },
+    {
+      "source_id": "CH_SonnyHayes",
+      "target_id": "M1_Scene9-part-3",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "CH_AyrtonSenna",
+      "target_id": "M1_Scene9-part-3",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "M1_Scene9-part-3",
+      "target_id": "LOC_SpanishGP",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source_id": "OBJ_NewsReport",
+      "target_id": "M1_Scene9-part-3",
+      "type": "IN_SCENE"
+    },
+    {
+      "source_id": "CH_SonnyHayes",
+      "target_id": "CH_AyrtonSenna",
+      "type": "RELATES_TO"
+    },
+    {
+      "source_id": "CH_APXGPTeam",
+      "target_id": "M1_Scene9-part-4",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "CH_JoshuaPearce",
+      "target_id": "M1_Scene9-part-4",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "CH_KateMcKenna",
+      "target_id": "M1_Scene9-part-4",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "CH_SonnyHayes",
+      "target_id": "M1_Scene9-part-4",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "M1_Scene9-part-4",
+      "target_id": "LOC_HungaroringCircuit",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source_id": "OBJ_RaceStrategy",
+      "target_id": "M1_Scene9-part-4",
+      "type": "IN_SCENE"
+    },
+    {
+      "source_id": "CH_KateMcKenna",
+      "target_id": "CH_JoshuaPearce",
+      "type": "RELATES_TO"
+    },
+    {
+      "source_id": "CH_KateMcKenna",
+      "target_id": "CH_SonnyHayes",
+      "type": "RELATES_TO"
+    },
+    {
+      "source_id": "CH_SonnyHayes",
+      "target_id": "M1_Scene9-part-5",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "CH_JoshuaPearce",
+      "target_id": "M1_Scene9-part-5",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "CH_APXGPTeam",
+      "target_id": "M1_Scene9-part-5",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "M1_Scene9-part-5",
+      "target_id": "LOC_HungaroringCircuit",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source_id": "OBJ_APXGPCar",
+      "target_id": "M1_Scene9-part-5",
+      "type": "IN_SCENE"
+    },
+    {
+      "source_id": "OBJ_SoftTires",
+      "target_id": "M1_Scene9-part-5",
+      "type": "IN_SCENE"
+    },
+    {
+      "source_id": "CH_SonnyHayes",
+      "target_id": "CH_JoshuaPearce",
+      "type": "RELATES_TO"
+    },
+    {
+      "source_id": "CH_SonnyHayes",
+      "target_id": "M1_Scene9-part-6",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "CH_Don",
+      "target_id": "M1_Scene9-part-6",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "CH_KateMcKenna",
+      "target_id": "M1_Scene9-part-6",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "CH_APXGPTeam",
+      "target_id": "M1_Scene9-part-6",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "CH_SonnyHayes",
+      "target_id": "CH_Don",
+      "type": "RELATES_TO"
+    },
+    {
+      "source_id": "CH_SonnyHayes",
+      "target_id": "CH_KateMcKenna",
+      "type": "RELATES_TO"
+    },
+    {
+      "source_id": "CH_SonnyHayes",
+      "target_id": "M1_Scene9-part-7",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "M1_Scene9-part-7",
+      "target_id": "LOC_SimulationRoom",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source_id": "OBJ_RacingSimulator",
+      "target_id": "M1_Scene9-part-7",
+      "type": "IN_SCENE"
+    },
+    {
+      "source_id": "CH_SonnyHayes",
+      "target_id": "M1_Scene9-part-8",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "CH_KateMcKenna",
+      "target_id": "M1_Scene9-part-8",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "CH_SonnyHayes",
+      "target_id": "CH_KateMcKenna",
+      "type": "RELATES_TO"
+    },
+    {
+      "source_id": "CH_KateMcKenna",
+      "target_id": "CH_RubenCervantes",
+      "type": "RELATES_TO"
+    },
+    {
+      "source_id": "CH_JoshuaPearce",
+      "target_id": "M1_Scene9-part-9",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "M1_Scene9-part-9",
+      "target_id": "LOC_MonzaNationalRacingSchool",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source_id": "CH_JoshuaPearceFather",
+      "target_id": "M1_Scene9-part-9",
+      "type": "RELATES_TO"
+    },
+    {
+      "source_id": "CH_SonnyHayes",
+      "target_id": "M1_Scene9-part-9",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "CH_JoshuaPearce",
+      "target_id": "CH_SonnyHayes",
+      "type": "RELATES_TO"
+    },
+    {
+      "source_id": "CH_APXGPTeam",
+      "target_id": "M1_Scene9-part-10",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "CH_SonnyHayes",
+      "target_id": "M1_Scene9-part-10",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "CH_NewsReporter",
+      "target_id": "M1_Scene9-part-10",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "M1_Scene9-part-10",
+      "target_id": "LOC_PressConferenceRoom",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source_id": "CH_APXGPTeam",
+      "target_id": "M1_Scene9-part-11",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "CH_SonnyHayes",
+      "target_id": "M1_Scene9-part-11",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "CH_JoshuaPearce",
+      "target_id": "M1_Scene9-part-11",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "M1_Scene9-part-11",
+      "target_id": "LOC_MonzaCircuit",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source_id": "OBJ_HardTires",
+      "target_id": "M1_Scene9-part-11",
+      "type": "IN_SCENE"
+    },
+    {
+      "source_id": "OBJ_RaceStrategy",
+      "target_id": "M1_Scene9-part-11",
+      "type": "IN_SCENE"
+    },
+    {
+      "source_id": "CH_SonnyHayes",
+      "target_id": "CH_JoshuaPearce",
+      "type": "RELATES_TO"
+    },
+    {
+      "source_id": "CH_SonnyHayes",
+      "target_id": "M1_Scene9-part-12",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "CH_JoshuaPearce",
+      "target_id": "M1_Scene9-part-12",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "CH_Competitors",
+      "target_id": "M1_Scene9-part-12",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "M1_Scene9-part-12",
+      "target_id": "LOC_MonzaCircuit",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source_id": "OBJ_APXGPCar",
+      "target_id": "M1_Scene9-part-12",
+      "type": "IN_SCENE"
+    },
+    {
+      "source_id": "OBJ_VirtualSafetyCar",
+      "target_id": "M1_Scene9-part-12",
+      "type": "IN_SCENE"
+    },
+    {
+      "source_id": "OBJ_DRSChain",
+      "target_id": "M1_Scene9-part-12",
+      "type": "IN_SCENE"
+    },
+    {
+      "source_id": "CH_SonnyHayes",
+      "target_id": "CH_JoshuaPearce",
+      "type": "RELATES_TO"
+    },
+    {
+      "source_id": "CH_JoshuaPearce",
+      "target_id": "M1_Scene10-part-1",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "CH_SonnyHayes",
+      "target_id": "M1_Scene10-part-1",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "CH_MaxVerstappen",
+      "target_id": "M1_Scene10-part-1",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "M1_Scene10-part-1",
+      "target_id": "LOC_MonzaCircuit",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source_id": "OBJ_APXGPCar",
+      "target_id": "M1_Scene10-part-1",
+      "type": "IN_SCENE"
+    },
+    {
+      "source_id": "OBJ_RaceStrategy",
+      "target_id": "M1_Scene10-part-1",
+      "type": "IN_SCENE"
+    },
+    {
+      "source_id": "OBJ_VirtualSafetyCar",
+      "target_id": "M1_Scene10-part-1",
+      "type": "IN_SCENE"
+    },
+    {
+      "source_id": "CH_SonnyHayes",
+      "target_id": "CH_JoshuaPearce",
+      "type": "RELATES_TO"
+    },
+    {
+      "source_id": "CH_JoshuaPearce",
+      "target_id": "CH_MaxVerstappen",
+      "type": "RELATES_TO"
+    },
+    {
+      "source_id": "CH_JoshuaPearce",
+      "target_id": "M1_Scene10-part-2",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "CH_SonnyHayes",
+      "target_id": "M1_Scene10-part-2",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "CH_BernadettePearce",
+      "target_id": "M1_Scene10-part-2",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "M1_Scene10-part-2",
+      "target_id": "LOC_HospitalRoom",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source_id": "CH_BernadettePearce",
+      "target_id": "CH_JoshuaPearce",
+      "type": "RELATES_TO"
+    },
+    {
+      "source_id": "CH_BernadettePearce",
+      "target_id": "CH_SonnyHayes",
+      "type": "RELATES_TO"
+    },
+    {
+      "source_id": "CH_SonnyHayes",
+      "target_id": "M1_Scene10-part-3",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "CH_NewsReporter",
+      "target_id": "M1_Scene10-part-3",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "CH_APXGPTeam",
+      "target_id": "M1_Scene10-part-3",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "M1_Scene10-part-3",
+      "target_id": "LOC_PressConferenceRoom",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source_id": "OBJ_NewsReport",
+      "target_id": "M1_Scene10-part-3",
+      "type": "IN_SCENE"
+    },
+    {
+      "source_id": "CH_SonnyHayes",
+      "target_id": "CH_JoshuaPearce",
+      "type": "RELATES_TO"
+    },
+    {
+      "source_id": "CH_APXGPTeam",
+      "target_id": "M1_Scene10-part-4",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "CH_SonnyHayes",
+      "target_id": "M1_Scene10-part-4",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "CH_LucaCortez",
+      "target_id": "M1_Scene10-part-4",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "CH_Competitors",
+      "target_id": "M1_Scene10-part-4",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "M1_Scene10-part-4",
+      "target_id": "LOC_CircuitZandvoort",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source_id": "OBJ_CarUpgrades",
+      "target_id": "M1_Scene10-part-4",
+      "type": "IN_SCENE"
+    },
+    {
+      "source_id": "OBJ_APXGPCar",
+      "target_id": "M1_Scene10-part-4",
+      "type": "IN_SCENE"
+    },
+    {
+      "source_id": "CH_SonnyHayes",
+      "target_id": "CH_LucaCortez",
+      "type": "RELATES_TO"
+    },
+    {
+      "source_id": "CH_SonnyHayes",
+      "target_id": "M1_Scene10-part-5",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "M1_Scene10-part-5",
+      "target_id": "LOC_SuzukaCircuit",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source_id": "OBJ_APXGPCar",
+      "target_id": "M1_Scene10-part-5",
+      "type": "IN_SCENE"
+    },
+    {
+      "source_id": "CH_SonnyHayes",
+      "target_id": "CH_JoshuaPearce",
+      "type": "RELATES_TO"
+    },
+    {
+      "source_id": "CH_SonnyHayes",
+      "target_id": "M1_Scene10-part-6",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "CH_Competitors",
+      "target_id": "M1_Scene10-part-6",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "CH_APXGPTeam",
+      "target_id": "M1_Scene10-part-6",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "M1_Scene10-part-6",
+      "target_id": "LOC_AutodromoHermanosRodriguez",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source_id": "OBJ_CarUpgrades",
+      "target_id": "M1_Scene10-part-6",
+      "type": "IN_SCENE"
+    },
+    {
+      "source_id": "OBJ_APXGPCar",
+      "target_id": "M1_Scene10-part-6",
+      "type": "IN_SCENE"
+    },
+    {
+      "source_id": "CH_JoshuaPearce",
+      "target_id": "M1_Scene10-part-7",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "CH_SonnyHayes",
+      "target_id": "M1_Scene10-part-7",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "CH_RaceCommentator",
+      "target_id": "M1_Scene10-part-7",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "M1_Scene10-part-7",
+      "target_id": "LOC_CircuitSpaFrancorchamps",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source_id": "OBJ_APXGPCar",
+      "target_id": "M1_Scene10-part-7",
+      "type": "IN_SCENE"
+    },
+    {
+      "source_id": "CH_JoshuaPearce",
+      "target_id": "CH_SonnyHayes",
+      "type": "RELATES_TO"
+    },
+    {
+      "source_id": "CH_JoshuaPearce",
+      "target_id": "M1_Scene10-part-8",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "CH_RaceCommentator",
+      "target_id": "M1_Scene10-part-8",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "CH_JoshuaPearce",
+      "target_id": "CH_SonnyHayes",
+      "type": "RELATES_TO"
+    },
+    {
+      "source_id": "CH_SonnyHayes",
+      "target_id": "M1_Scene10-part-9",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "CH_JoshuaPearce",
+      "target_id": "M1_Scene10-part-9",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "CH_Lisabeth",
+      "target_id": "M1_Scene10-part-9",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "M1_Scene10-part-9",
+      "target_id": "LOC_CaesarsPalaceGrandPrix",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source_id": "OBJ_PokerChips",
+      "target_id": "M1_Scene10-part-9",
+      "type": "IN_SCENE"
+    },
+    {
+      "source_id": "CH_JoshuaPearce",
+      "target_id": "CH_SonnyHayes",
+      "type": "RELATES_TO"
+    },
+    {
+      "source_id": "CH_JoshuaPearce",
+      "target_id": "M1_Scene11-part-1",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "CH_SonnyHayes",
+      "target_id": "M1_Scene11-part-1",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "CH_APXGPTeam",
+      "target_id": "M1_Scene11-part-1",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "CH_JoshuaPearce",
+      "target_id": "CH_SonnyHayes",
+      "type": "RELATES_TO"
+    },
+    {
+      "source_id": "CH_SonnyHayes",
+      "target_id": "M1_Scene11-part-2",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "CH_SonnyHayesFather",
+      "target_id": "M1_Scene11-part-2",
+      "type": "RELATES_TO"
+    },
+    {
+      "source_id": "CH_SonnyHayes",
+      "target_id": "M1_Scene11-part-3",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "CH_KateMcKenna",
+      "target_id": "M1_Scene11-part-3",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "CH_APXGPTeam",
+      "target_id": "M1_Scene11-part-3",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "CH_SonnyHayes",
+      "target_id": "CH_KateMcKenna",
+      "type": "RELATES_TO"
+    },
+    {
+      "source_id": "CH_JoshuaPearce",
+      "target_id": "M1_Scene11-part-4",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "CH_CarlosSainz",
+      "target_id": "M1_Scene11-part-4",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "CH_KateMcKenna",
+      "target_id": "M1_Scene11-part-5",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "CH_SonnyHayes",
+      "target_id": "M1_Scene11-part-5",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "M1_Scene11-part-5",
+      "target_id": "LOC_HotelRoom",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source_id": "CH_KateMcKenna",
+      "target_id": "CH_SonnyHayes",
+      "type": "RELATES_TO"
+    },
+    {
+      "source_id": "CH_KateMcKenna",
+      "target_id": "M1_Scene11-part-6",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "CH_RubenCervantes",
+      "target_id": "M1_Scene11-part-6",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "CH_Official",
+      "target_id": "M1_Scene11-part-6",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "OBJ_APXGPCar",
+      "target_id": "M1_Scene11-part-6",
+      "type": "IN_SCENE"
+    },
+    {
+      "source_id": "OBJ_CarUpgrades",
+      "target_id": "M1_Scene11-part-6",
+      "type": "IN_SCENE"
+    },
+    {
+      "source_id": "OBJ_LegalDocument",
+      "target_id": "M1_Scene11-part-6",
+      "type": "IN_SCENE"
+    },
+    {
+      "source_id": "CH_RubenCervantes",
+      "target_id": "CH_KateMcKenna",
+      "type": "RELATES_TO"
+    },
+    {
+      "source_id": "CH_SonnyHayes",
+      "target_id": "M1_Scene11-part-7",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "CH_PitCrew",
+      "target_id": "M1_Scene11-part-7",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "CH_RaceCommentator",
+      "target_id": "M1_Scene11-part-7",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "OBJ_ERSBattery",
+      "target_id": "M1_Scene11-part-7",
+      "type": "IN_SCENE"
+    },
+    {
+      "source_id": "OBJ_APXGPCar",
+      "target_id": "M1_Scene11-part-7",
+      "type": "IN_SCENE"
+    },
+    {
+      "source_id": "CH_RubenCervantes",
+      "target_id": "M1_Scene11-part-8",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "CH_SonnyHayes",
+      "target_id": "M1_Scene11-part-8",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "OBJ_MedicalRecords",
+      "target_id": "M1_Scene11-part-8",
+      "type": "IN_SCENE"
+    },
+    {
+      "source_id": "CH_RubenCervantes",
+      "target_id": "CH_SonnyHayes",
+      "type": "RELATES_TO"
+    },
+    {
+      "source_id": "CH_APXGPTeam",
+      "target_id": "M1_Scene11-part-9",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "M1_Scene11-part-9",
+      "target_id": "LOC_SimulationRoom",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source_id": "CH_JoshuaPearce",
+      "target_id": "M1_Scene11-part-9",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "CH_SonnyHayes",
+      "target_id": "M1_Scene11-part-10",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "CH_PeterBanning",
+      "target_id": "M1_Scene11-part-10",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "CH_RubenCervantes",
+      "target_id": "M1_Scene11-part-10",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "CH_PeterBanning",
+      "target_id": "CH_SonnyHayes",
+      "type": "RELATES_TO"
+    },
+    {
+      "source_id": "CH_PeterBanning",
+      "target_id": "CH_RubenCervantes",
+      "type": "RELATES_TO"
+    },
+    {
+      "source_id": "CH_RubenCervantes",
+      "target_id": "M1_Scene11-part-11",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "CH_JoshuaPearce",
+      "target_id": "M1_Scene11-part-11",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "CH_MarketingRepresentative",
+      "target_id": "M1_Scene11-part-11",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "M1_Scene11-part-11",
+      "target_id": "LOC_YasMarinaCircuit",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source_id": "CH_RubenCervantes",
+      "target_id": "CH_JoshuaPearce",
+      "type": "RELATES_TO"
+    },
+    {
+      "source_id": "CH_JoshuaPearce",
+      "target_id": "CH_MarketingRepresentative",
+      "type": "RELATES_TO"
+    },
+    {
+      "source_id": "CH_APXGPTeam",
+      "target_id": "M1_Scene11-part-12",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "M1_Scene11-part-12",
+      "target_id": "LOC_APXGPGarage",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source_id": "OBJ_APXGPCar",
+      "target_id": "M1_Scene11-part-12",
+      "type": "IN_SCENE"
+    },
+    {
+      "source_id": "OBJ_FIASeal",
+      "target_id": "M1_Scene11-part-12",
+      "type": "IN_SCENE"
+    },
+    {
+      "source_id": "CH_TourGuide",
+      "target_id": "M1_Scene11-part-13",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "CH_APXGPTeam",
+      "target_id": "M1_Scene11-part-13",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "M1_Scene11-part-13",
+      "target_id": "LOC_PaddockClub",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source_id": "CH_SonnyHayes",
+      "target_id": "M1_Scene11-part-14",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "CH_KateMcKenna",
+      "target_id": "M1_Scene11-part-14",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "CH_RubenCervantes",
+      "target_id": "M1_Scene11-part-14",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "M1_Scene11-part-14",
+      "target_id": "LOC_APXGPGarage",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source_id": "OBJ_LegalDocument",
+      "target_id": "M1_Scene11-part-14",
+      "type": "IN_SCENE"
+    },
+    {
+      "source_id": "CH_SonnyHayes",
+      "target_id": "CH_RubenCervantes",
+      "type": "RELATES_TO"
+    },
+    {
+      "source_id": "CH_KateMcKenna",
+      "target_id": "CH_RubenCervantes",
+      "type": "RELATES_TO"
+    },
+    {
+      "source_id": "CH_RaceCommentator",
+      "target_id": "M1_Scene11-part-15",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "CH_SonnyHayes",
+      "target_id": "M1_Scene11-part-15",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "CH_JoshuaPearce",
+      "target_id": "M1_Scene11-part-15",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "M1_Scene11-part-15",
+      "target_id": "LOC_YasMarinaCircuit",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source_id": "CH_SonnyHayes",
+      "target_id": "CH_JoshuaPearce",
+      "type": "RELATES_TO"
+    },
+    {
+      "source_id": "CH_SonnyHayes",
+      "target_id": "M1_Scene11-part-16",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "CH_James",
+      "target_id": "M1_Scene11-part-16",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "CH_Chaz",
+      "target_id": "M1_Scene11-part-16",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "CH_SonnyHayes",
+      "target_id": "CH_James",
+      "type": "RELATES_TO"
+    },
+    {
+      "source_id": "CH_SonnyHayes",
+      "target_id": "CH_Chaz",
+      "type": "RELATES_TO"
+    },
+    {
+      "source_id": "CH_RaceCommentator",
+      "target_id": "M1_Scene11-part-17",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "CH_JoshuaPearce",
+      "target_id": "M1_Scene11-part-17",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "CH_SonnyHayes",
+      "target_id": "M1_Scene11-part-17",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "CH_KevinMagnussen",
+      "target_id": "M1_Scene11-part-17",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "CH_APXGPTeam",
+      "target_id": "M1_Scene11-part-17",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "M1_Scene11-part-17",
+      "target_id": "LOC_YasMarinaCircuit",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source_id": "OBJ_APXGPCar",
+      "target_id": "M1_Scene11-part-17",
+      "type": "IN_SCENE"
+    },
+    {
+      "source_id": "CH_SonnyHayes",
+      "target_id": "CH_KevinMagnussen",
+      "type": "RELATES_TO"
+    },
+    {
+      "source_id": "CH_RaceCommentator",
+      "target_id": "M1_Scene12-part-1",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "CH_JoshuaPearce",
+      "target_id": "M1_Scene12-part-1",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "CH_SonnyHayes",
+      "target_id": "M1_Scene12-part-1",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "CH_KevinMagnussen",
+      "target_id": "M1_Scene12-part-1",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "CH_PitCrew",
+      "target_id": "M1_Scene12-part-1",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "M1_Scene12-part-1",
+      "target_id": "LOC_YasMarinaCircuit",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source_id": "OBJ_APXGPCar",
+      "target_id": "M1_Scene12-part-1",
+      "type": "IN_SCENE"
+    },
+    {
+      "source_id": "OBJ_HardTires",
+      "target_id": "M1_Scene12-part-1",
+      "type": "IN_SCENE"
+    },
+    {
+      "source_id": "CH_SonnyHayes",
+      "target_id": "CH_KevinMagnussen",
+      "type": "RELATES_TO"
+    },
+    {
+      "source_id": "CH_RaceCommentator",
+      "target_id": "M1_Scene12-part-2",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "CH_JoshuaPearce",
+      "target_id": "M1_Scene12-part-2",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "CH_MaxVerstappen",
+      "target_id": "M1_Scene12-part-2",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "CH_CharlesLeclerc",
+      "target_id": "M1_Scene12-part-2",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "M1_Scene12-part-2",
+      "target_id": "LOC_YasMarinaCircuit",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source_id": "OBJ_APXGPCar",
+      "target_id": "M1_Scene12-part-2",
+      "type": "IN_SCENE"
+    },
+    {
+      "source_id": "CH_JoshuaPearce",
+      "target_id": "CH_MaxVerstappen",
+      "type": "RELATES_TO"
+    },
+    {
+      "source_id": "CH_JoshuaPearce",
+      "target_id": "CH_CharlesLeclerc",
+      "type": "RELATES_TO"
+    },
+    {
+      "source_id": "CH_PitCrew",
+      "target_id": "M1_Scene12-part-3",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "CH_SonnyHayes",
+      "target_id": "M1_Scene12-part-3",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "CH_CarlosSainz",
+      "target_id": "M1_Scene12-part-3",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "M1_Scene12-part-3",
+      "target_id": "LOC_YasMarinaCircuit",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source_id": "OBJ_APXGPCar",
+      "target_id": "M1_Scene12-part-3",
+      "type": "IN_SCENE"
+    },
+    {
+      "source_id": "CH_SonnyHayes",
+      "target_id": "CH_CarlosSainz",
+      "type": "RELATES_TO"
+    },
+    {
+      "source_id": "CH_RaceCommentator",
+      "target_id": "M1_Scene12-part-4",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "CH_JoshuaPearce",
+      "target_id": "M1_Scene12-part-4",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "CH_LewisHamilton",
+      "target_id": "M1_Scene12-part-4",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "CH_CharlesLeclerc",
+      "target_id": "M1_Scene12-part-4",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "CH_SonnyHayes",
+      "target_id": "M1_Scene12-part-4",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "CH_GeorgeRussell",
+      "target_id": "M1_Scene12-part-4",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "M1_Scene12-part-4",
+      "target_id": "LOC_YasMarinaCircuit",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source_id": "OBJ_APXGPCar",
+      "target_id": "M1_Scene12-part-4",
+      "type": "IN_SCENE"
+    },
+    {
+      "source_id": "CH_JoshuaPearce",
+      "target_id": "CH_LewisHamilton",
+      "type": "RELATES_TO"
+    },
+    {
+      "source_id": "CH_JoshuaPearce",
+      "target_id": "CH_CharlesLeclerc",
+      "type": "RELATES_TO"
+    },
+    {
+      "source_id": "CH_SonnyHayes",
+      "target_id": "CH_GeorgeRussell",
+      "type": "RELATES_TO"
+    },
+    {
+      "source_id": "CH_SonnyHayes",
+      "target_id": "M1_Scene12-part-5",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "CH_APXGPTeam",
+      "target_id": "M1_Scene12-part-5",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "CH_Supervisors",
+      "target_id": "M1_Scene12-part-5",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "M1_Scene12-part-5",
+      "target_id": "LOC_YasMarinaCircuit",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source_id": "OBJ_APXGPCar",
+      "target_id": "M1_Scene12-part-5",
+      "type": "IN_SCENE"
+    },
+    {
+      "source_id": "OBJ_SoftTires",
+      "target_id": "M1_Scene12-part-5",
+      "type": "IN_SCENE"
+    },
+    {
+      "source_id": "OBJ_RedFlag",
+      "target_id": "M1_Scene12-part-5",
+      "type": "IN_SCENE"
+    },
+    {
+      "source_id": "CH_SonnyHayes",
+      "target_id": "M1_Scene12-part-6",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "CH_JoshuaPearce",
+      "target_id": "M1_Scene12-part-6",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "CH_Competitors",
+      "target_id": "M1_Scene12-part-6",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "CH_Supervisors",
+      "target_id": "M1_Scene12-part-6",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "M1_Scene12-part-6",
+      "target_id": "LOC_YasMarinaCircuit",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source_id": "OBJ_APXGPCar",
+      "target_id": "M1_Scene12-part-6",
+      "type": "IN_SCENE"
+    },
+    {
+      "source_id": "CH_SonnyHayes",
+      "target_id": "CH_JoshuaPearce",
+      "type": "RELATES_TO"
+    },
+    {
+      "source_id": "CH_SonnyHayes",
+      "target_id": "M1_Scene12-part-7",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "CH_JoshuaPearce",
+      "target_id": "M1_Scene12-part-7",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "CH_LewisHamilton",
+      "target_id": "M1_Scene12-part-7",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "CH_APXGPTeam",
+      "target_id": "M1_Scene12-part-7",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "M1_Scene12-part-7",
+      "target_id": "LOC_YasMarinaCircuit",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source_id": "OBJ_APXGPCar",
+      "target_id": "M1_Scene12-part-7",
+      "type": "IN_SCENE"
+    },
+    {
+      "source_id": "CH_JoshuaPearce",
+      "target_id": "CH_LewisHamilton",
+      "type": "RELATES_TO"
+    },
+    {
+      "source_id": "CH_SonnyHayes",
+      "target_id": "CH_JoshuaPearce",
+      "type": "RELATES_TO"
+    },
+    {
+      "source_id": "CH_JoshuaPearce",
+      "target_id": "M1_Scene12-part-8",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "CH_TotoWolf",
+      "target_id": "M1_Scene12-part-8",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "CH_SonnyHayes",
+      "target_id": "M1_Scene12-part-8",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "CH_KateMcKenna",
+      "target_id": "M1_Scene12-part-8",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "CH_APXGPTeam",
+      "target_id": "M1_Scene12-part-8",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "CH_JoshuaPearce",
+      "target_id": "CH_TotoWolf",
+      "type": "RELATES_TO"
+    },
+    {
+      "source_id": "CH_SonnyHayes",
+      "target_id": "CH_KateMcKenna",
+      "type": "RELATES_TO"
+    },
+    {
+      "source_id": "CH_SonnyHayes",
+      "target_id": "M1_Scene12-part-9",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "M1_Scene12-part-9",
+      "target_id": "LOC_Baja1000Course",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source_id": "OBJ_Money",
+      "target_id": "M1_Scene12-part-9",
+      "type": "IN_SCENE"
+    }
+  ]
+}
