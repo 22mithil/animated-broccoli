@@ -1,0 +1,756 @@
+{
+  "movie": {
+    "id": "movie_avengers_endgame_2019",
+    "title": "Avengers: Endgame",
+    "year": 2019,
+    "plot_summary": "In the chaotic aftermath of Thanos's snap, the Avengers grapple with failure and confront Thanos, who reveals he destroyed the Infinity Stones. Five years later, profound grief persists, but the unexpected return of Scott Lang offers a new hope. He proposes time travel using the Quantum Realm, persuading a reluctant Tony Stark and Bruce Banner to develop the necessary technology. The team prepares for a perilous 'Time Heist' to retrieve Infinity Stones from past locations like Asgard and New York, establishing strict rules for time travel. During the mission, Nebula confronts her past, Loki is encountered, and ethical dilemmas arise. Natasha Romanoff tragically sacrifices herself on Vormir for the Soul Stone, intensifying the heroes' grief and sense of responsibility. In the climactic battle against Thanos and his forces, Tony Stark makes the ultimate sacrifice, wielding the Infinity Gauntlet to defeat the villain. Captain America then embarks on a solo mission to return the Infinity Stones, choosing to live a full life in the past before returning as an old man to pass on his mantle. Thor departs with the Guardians of the Galaxy, signaling both immense loss and a hopeful new beginning.",
+    "themes": [
+      "Failure",
+      "Despair",
+      "Confrontation",
+      "Grief",
+      "Loss",
+      "Rebuilding",
+      "Hope",
+      "Determination",
+      "Second Chances",
+      "Time Travel",
+      "Risk",
+      "Sacrifice",
+      "Redemption",
+      "Strategy",
+      "Rules",
+      "Consequences",
+      "Ethical Dilemmas",
+      "Destiny",
+      "Past vs Present",
+      "Responsibility",
+      "Worthiness",
+      "Ultimate Sacrifice",
+      "Legacy",
+      "New Beginnings",
+      "Closure"
+    ],
+    "mood": [
+      "Chaotic",
+      "Distraught",
+      "Desperate",
+      "Vengeful",
+      "Grim",
+      "Sadness",
+      "Determined",
+      "Hopeful",
+      "Comedic",
+      "Despondent",
+      "Cautious",
+      "Urgent",
+      "Grief-stricken",
+      "Poignant",
+      "Tragic",
+      "Emotional",
+      "Climactic",
+      "Bittersweet"
+    ]
+  },
+  "characters": [
+    {
+      "id": "char_tony_stark",
+      "name": "Tony Stark",
+      "role": "Avenger, Scientist",
+      "archetype": "Genius, Inventor, Reluctant Hero",
+      "description": "Initially distraught, then content and family-focused, he is persuaded to work on time travel. He ultimately makes the ultimate sacrifice wielding the Infinity Gauntlet to defeat Thanos."
+    },
+    {
+      "id": "char_captain_america",
+      "name": "Captain America",
+      "role": "Avenger Leader",
+      "archetype": "Leader, Hero, Idealist",
+      "description": "Grapples with profound grief and challenges of rebuilding. Leads time travel missions, returns Infinity Stones to their timelines, and chooses to live a full life in the past."
+    },
+    {
+      "id": "char_thanos",
+      "name": "Thanos",
+      "role": "Villain",
+      "archetype": "Cosmic Conqueror, Nihilist",
+      "description": "Wiped out half of all life, destroyed the Infinity Stones, and was decapitated by Thor. His past self leads the climactic battle and is ultimately defeated by Tony Stark."
+    },
+    {
+      "id": "char_pepper_potts",
+      "name": "Pepper Potts",
+      "role": "Tony Stark's Partner",
+      "archetype": "Supportive Partner",
+      "description": "Sends a desperate recording from space early in the aftermath of the snap."
+    },
+    {
+      "id": "char_thor",
+      "name": "Thor",
+      "role": "Avenger",
+      "archetype": "God, Warrior, Despondent King",
+      "description": "Decapitates Thanos, becomes despondent and struggles emotionally. Participates in the climactic battle and later departs with the Guardians of the Galaxy."
+    },
+    {
+      "id": "char_black_widow",
+      "name": "Natasha Romanoff",
+      "role": "Avenger",
+      "archetype": "Spy, Strategist, Sacrificial Hero",
+      "description": "Weighs heavily with profound grief. Tragically sacrifices herself on a desolate planet (Vormir) to obtain the Soul Stone."
+    },
+    {
+      "id": "char_captain_marvel",
+      "name": "Captain Marvel",
+      "role": "Avenger",
+      "archetype": "Cosmic Hero",
+      "description": "Continues to address universal crises during the five-year gap after the snap."
+    },
+    {
+      "id": "char_scott_lang",
+      "name": "Scott Lang (Ant-Man)",
+      "role": "Avenger",
+      "archetype": "Reluctant Hero, Family Man, Optimist",
+      "description": "Returns from the Quantum Realm, proposes time travel, and helps develop the technology. Briefly turned into a baby during an experiment."
+    },
+    {
+      "id": "char_bruce_banner",
+      "name": "Bruce Banner (Professor Hulk)",
+      "role": "Avenger, Scientist",
+      "archetype": "Scientist, Genius, Integrated Persona",
+      "description": "Initially reserved about 'time theft', he dedicates himself to the complex physics of time travel and conducts chaotic experiments."
+    },
+    {
+      "id": "char_clint_barton",
+      "name": "Clint Barton (Hawkeye)",
+      "role": "Avenger",
+      "archetype": "Archer, Family Man, Grieving Avenger",
+      "description": "Cautious, prepares for the time-travel mission, and is left in profound grief after Natasha's sacrifice."
+    },
+    {
+      "id": "char_nebula",
+      "name": "Nebula",
+      "role": "Avenger, Guardian",
+      "archetype": "Redeemed Villain, Warrior",
+      "description": "Expresses deep grief over her lost family and interacts with her past self (or Gamora) during the time heist."
+    },
+    {
+      "id": "char_loki",
+      "name": "Loki",
+      "role": "Antagonist (Past)",
+      "archetype": "Trickster God",
+      "description": "Encountered by the Avengers during their Infinity Stone retrieval from a past event."
+    },
+    {
+      "id": "char_nebula_past",
+      "name": "Nebula (Past)",
+      "role": "Thanos's Daughter (Past)",
+      "archetype": "Warrior",
+      "description": "Encountered by present-day Nebula, urged to embrace her true destiny."
+    },
+    {
+      "id": "char_peter_parker",
+      "name": "Peter Parker (Spider-Man)",
+      "role": "Avenger",
+      "archetype": "Young Hero",
+      "description": "Participates in the climactic battle against Thanos and his forces."
+    }
+  ],
+  "scenes": [
+    {
+      "id": "scene_01",
+      "sequence_number": 1,
+      "summary": "Immediate aftermath of Thanos's snap; Tony Stark argues with Captain America. Pepper Potts sends a desperate message. The remaining Avengers confront Thanos, who reveals he destroyed the Infinity Stones, leading Thor to decapitate him.",
+      "emotional_tone": "Chaotic, distraught, desperate, vengeful",
+      "key_quotes": []
+    },
+    {
+      "id": "scene_02",
+      "sequence_number": 2,
+      "summary": "Five years after the snap; heroes live with profound grief and attempt to rebuild. Captain Marvel addresses universal crises. Scott Lang reappears from the Quantum Realm, offering a glimmer of hope.",
+      "emotional_tone": "Grim, grief, lingering sadness, hopeful",
+      "key_quotes": []
+    },
+    {
+      "id": "scene_03",
+      "sequence_number": 3,
+      "summary": "Scott Lang proposes time travel using the Quantum Realm to Tony Stark and Bruce Banner. They develop temporal displacement technology through chaotic experiments, resolving to retrieve Infinity Stones from the past.",
+      "emotional_tone": "Hopeful, desperate, determined, comedic",
+      "key_quotes": []
+    },
+    {
+      "id": "scene_04",
+      "sequence_number": 4,
+      "summary": "Avengers, including a despondent Thor and cautious Clint, prepare for the time-travel mission. They finalize strategy, establishing strict rules for time travel using Pym particles, targeting locations like Asgard and New York.",
+      "emotional_tone": "Despondent, cautious, desperate, hopeful",
+      "key_quotes": []
+    },
+    {
+      "id": "scene_05",
+      "sequence_number": 5,
+      "summary": "An urgent mission to retrieve Infinity Stones across different timelines. Nebula grieves but is encouraged to focus. The team encounters Loki, faces ethical dilemmas, and present-day Nebula interacts with her past self (or Gamora).",
+      "emotional_tone": "Urgent, grief, poignant, determined",
+      "key_quotes": []
+    },
+    {
+      "id": "scene_06",
+      "sequence_number": 6,
+      "summary": "Avengers continue their time travel mission. Natasha Romanoff tragically sacrifices herself on a desolate planet (Vormir) for the Soul Stone, leaving Clint in profound grief. Remaining heroes debate who will wield the Infinity Gauntlet.",
+      "emotional_tone": "Emotional, desperate, tragic, grief-stricken, determined",
+      "key_quotes": []
+    },
+    {
+      "id": "scene_07",
+      "sequence_number": 7,
+      "summary": "The climactic battle against Thanos and his forces ensues. Tony Stark makes the ultimate sacrifice with the Infinity Gauntlet. Captain America returns the stones and lives a full life in the past. Thor departs with the Guardians of the Galaxy.",
+      "emotional_tone": "Climactic, desperate, tragic, grief, hopeful, bittersweet",
+      "key_quotes": [
+        "Tony's final message"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "event_thanos_snap",
+      "name": "Thanos's Snap",
+      "type": "Catastrophe",
+      "description": "Thanos uses the Infinity Gauntlet to wipe out half of all life in the universe.",
+      "significance": "The catalyst for the movie's plot and the driving force behind the Avengers' mission."
+    },
+    {
+      "id": "event_confrontation_thanos_past",
+      "name": "Confrontation with Thanos (Past)",
+      "type": "Conflict",
+      "description": "The remaining Avengers confront Thanos, who reveals he destroyed the Infinity Stones.",
+      "significance": "Leads to Thanos's initial death and deepens the heroes' despair."
+    },
+    {
+      "id": "event_thanos_decapitation",
+      "name": "Thanos's Decapitation",
+      "type": "Death",
+      "description": "Thor decapitates Thanos after he reveals he destroyed the Infinity Stones.",
+      "significance": "Ends the immediate threat of Thanos but not the suffering caused by his snap."
+    },
+    {
+      "id": "event_scott_lang_return",
+      "name": "Scott Lang's Return",
+      "type": "Discovery",
+      "description": "Scott Lang returns from the Quantum Realm, offering a potential solution to reverse Thanos's snap.",
+      "significance": "Provides the catalyst for the time travel plan and renewed hope."
+    },
+    {
+      "id": "event_proposal_time_travel",
+      "name": "Proposal of Time Travel",
+      "type": "Initiation",
+      "description": "Scott Lang proposes using the Quantum Realm's temporal properties to reverse the snap.",
+      "significance": "Lays the groundwork for the main mission to undo Thanos's actions."
+    },
+    {
+      "id": "event_development_time_travel",
+      "name": "Development of Time Travel",
+      "type": "Scientific Endeavor",
+      "description": "Tony Stark and Bruce Banner work on temporal displacement technology, including a chaotic experiment.",
+      "significance": "Enables the Avengers to attempt to retrieve the Infinity Stones from the past."
+    },
+    {
+      "id": "event_preparation_time_heist",
+      "name": "Preparation for Time Heist",
+      "type": "Mission Planning",
+      "description": "Heroes prepare for a time-travel mission to collect Infinity Stones, establishing rules and strategy.",
+      "significance": "A crucial step before executing the ambitious plan to retrieve the stones."
+    },
+    {
+      "id": "event_time_heist_initial",
+      "name": "Time Heist (Initial Phase)",
+      "type": "Mission",
+      "description": "Urgent mission to retrieve Infinity Stones across different timelines, encountering obstacles like Loki.",
+      "significance": "Collection of the first stones and confrontation with ethical challenges of time travel."
+    },
+    {
+      "id": "event_natasha_sacrifice",
+      "name": "Natasha's Sacrifice",
+      "type": "Sacrifice",
+      "description": "Natasha Romanoff tragically gives her life on a desolate planet (Vormir) to obtain the Soul Stone.",
+      "significance": "A major loss for the Avengers and a critical step in acquiring all necessary Infinity Stones."
+    },
+    {
+      "id": "event_climactic_battle",
+      "name": "Climactic Battle",
+      "type": "Major Conflict",
+      "description": "Avengers and allies fight Thanos and his forces to prevent him from thwarting their efforts to undo the snap.",
+      "significance": "The decisive conflict to reverse Thanos's original victory and save the universe."
+    },
+    {
+      "id": "event_tony_stark_sacrifice",
+      "name": "Tony Stark's Sacrifice",
+      "type": "Heroic Sacrifice",
+      "description": "Tony Stark wields the Infinity Gauntlet to defeat Thanos, suffering fatal injuries.",
+      "significance": "Ends the threat of Thanos permanently, but at the ultimate personal cost to Tony and the team."
+    },
+    {
+      "id": "event_captain_america_retirement",
+      "name": "Captain America's Retirement",
+      "type": "Life Event",
+      "description": "Captain America returns the Infinity Stones to their proper timelines and lives a full life in the past, passing on his mantle.",
+      "significance": "Symbolizes closure, the end of an era for the original Avengers, and a peaceful resolution for Steve Rogers."
+    },
+    {
+      "id": "event_thor_departure",
+      "name": "Thor's Departure",
+      "type": "New Journey",
+      "description": "Thor departs with the Guardians of the Galaxy.",
+      "significance": "Signals a new beginning and personal journey for Thor after years of loss and grief."
+    }
+  ],
+  "locations": [
+    {
+      "id": "loc_quantum_realm",
+      "name": "Quantum Realm",
+      "type": "Alternate Dimension",
+      "description": "A subatomic dimension with unique temporal properties, where Scott Lang was trapped.",
+      "significance": "The source of the time travel solution for the Avengers."
+    },
+    {
+      "id": "loc_asgard",
+      "name": "Asgard",
+      "type": "Planet/Realm (Past)",
+      "description": "Historical location targeted for Infinity Stone retrieval (specifically the Aether).",
+      "significance": "Thor's homeworld, site of past events relevant to the time heist."
+    },
+    {
+      "id": "loc_new_york",
+      "name": "New York",
+      "type": "City (Past)",
+      "description": "Historical location targeted for Infinity Stone retrieval (specifically the Tesseract and Mind Stone).",
+      "significance": "Site of previous major Avengers conflict (Battle of New York), revisited during the time heist."
+    },
+    {
+      "id": "loc_vormir",
+      "name": "Desolate Planet (Vormir)",
+      "type": "Planet",
+      "description": "Location where the Soul Stone can be obtained, requiring a sacrifice of a loved one.",
+      "significance": "The tragic site of Natasha Romanoff's sacrifice."
+    }
+  ],
+  "objects": [
+    {
+      "id": "obj_infinity_stones",
+      "name": "Infinity Stones",
+      "type": "Cosmic Artifacts",
+      "significance": "Six powerful cosmic gems, initially destroyed by Thanos, then sought by the Avengers to reverse his snap."
+    },
+    {
+      "id": "obj_pym_particles",
+      "name": "Pym Particles",
+      "type": "Technology",
+      "significance": "Essential for precise time travel and temporal displacement, enabling the Avengers' mission."
+    },
+    {
+      "id": "obj_soul_stone",
+      "name": "Soul Stone",
+      "type": "Cosmic Artifact",
+      "significance": "One of the Infinity Stones, acquired through the tragic sacrifice of Natasha Romanoff."
+    },
+    {
+      "id": "obj_infinity_gauntlet",
+      "name": "Infinity Gauntlet",
+      "type": "Cosmic Artifact",
+      "significance": "A powerful glove capable of harnessing all Infinity Stones, wielded by Thanos and later by Tony Stark."
+    }
+  ],
+  "themes": [
+    {
+      "id": "theme_loss_grief",
+      "name": "Loss and Grief",
+      "category": "Emotional"
+    },
+    {
+      "id": "theme_hope_determination",
+      "name": "Hope and Determination",
+      "category": "Motivation"
+    },
+    {
+      "id": "theme_sacrifice_redemption",
+      "name": "Sacrifice and Redemption",
+      "category": "Moral"
+    },
+    {
+      "id": "theme_time_travel_consequences",
+      "name": "Time Travel and Consequences",
+      "category": "Narrative Device"
+    },
+    {
+      "id": "theme_ethical_dilemmas",
+      "name": "Ethical Dilemmas",
+      "category": "Moral"
+    },
+    {
+      "id": "theme_legacy_closure",
+      "name": "Legacy and Closure",
+      "category": "Narrative Arc"
+    },
+    {
+      "id": "theme_new_beginnings",
+      "name": "New Beginnings",
+      "category": "Narrative Arc"
+    }
+  ],
+  "relationships": [
+    {
+      "source_id": "char_tony_stark",
+      "target_id": "char_captain_america",
+      "type": "RELATES_TO"
+    },
+    {
+      "source_id": "char_pepper_potts",
+      "target_id": "char_tony_stark",
+      "type": "RELATES_TO"
+    },
+    {
+      "source_id": "char_thor",
+      "target_id": "char_thanos",
+      "type": "RELATES_TO"
+    },
+    {
+      "source_id": "char_thanos",
+      "target_id": "obj_infinity_stones",
+      "type": "RELATES_TO"
+    },
+    {
+      "source_id": "char_tony_stark",
+      "target_id": "scene_01",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "char_captain_america",
+      "target_id": "scene_01",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "char_thanos",
+      "target_id": "scene_01",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "char_pepper_potts",
+      "target_id": "scene_01",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "char_thor",
+      "target_id": "scene_01",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "event_thanos_snap",
+      "target_id": "movie_avengers_endgame_2019",
+      "type": "PART_OF"
+    },
+    {
+      "source_id": "event_confrontation_thanos_past",
+      "target_id": "scene_01",
+      "type": "IN_SCENE"
+    },
+    {
+      "source_id": "event_thanos_decapitation",
+      "target_id": "scene_01",
+      "type": "IN_SCENE"
+    },
+    {
+      "source_id": "obj_infinity_stones",
+      "target_id": "event_thanos_snap",
+      "type": "RELATES_TO"
+    },
+    {
+      "source_id": "char_captain_america",
+      "target_id": "scene_02",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "char_black_widow",
+      "target_id": "scene_02",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "char_captain_marvel",
+      "target_id": "scene_02",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "char_scott_lang",
+      "target_id": "scene_02",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "char_scott_lang",
+      "target_id": "loc_quantum_realm",
+      "type": "RELATES_TO"
+    },
+    {
+      "source_id": "event_scott_lang_return",
+      "target_id": "scene_02",
+      "type": "IN_SCENE"
+    },
+    {
+      "source_id": "char_scott_lang",
+      "target_id": "char_tony_stark",
+      "type": "RELATES_TO"
+    },
+    {
+      "source_id": "char_scott_lang",
+      "target_id": "char_bruce_banner",
+      "type": "RELATES_TO"
+    },
+    {
+      "source_id": "char_tony_stark",
+      "target_id": "char_bruce_banner",
+      "type": "RELATES_TO"
+    },
+    {
+      "source_id": "event_proposal_time_travel",
+      "target_id": "scene_03",
+      "type": "IN_SCENE"
+    },
+    {
+      "source_id": "event_development_time_travel",
+      "target_id": "scene_03",
+      "type": "IN_SCENE"
+    },
+    {
+      "source_id": "char_scott_lang",
+      "target_id": "scene_03",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "char_tony_stark",
+      "target_id": "scene_03",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "char_bruce_banner",
+      "target_id": "scene_03",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "char_thor",
+      "target_id": "scene_04",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "char_clint_barton",
+      "target_id": "scene_04",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "event_preparation_time_heist",
+      "target_id": "scene_04",
+      "type": "IN_SCENE"
+    },
+    {
+      "source_id": "event_preparation_time_heist",
+      "target_id": "obj_pym_particles",
+      "type": "CONTAINS"
+    },
+    {
+      "source_id": "event_preparation_time_heist",
+      "target_id": "loc_asgard",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source_id": "event_preparation_time_heist",
+      "target_id": "loc_new_york",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source_id": "char_nebula",
+      "target_id": "scene_05",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "char_tony_stark",
+      "target_id": "scene_05",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "char_captain_america",
+      "target_id": "scene_05",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "char_bruce_banner",
+      "target_id": "scene_05",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "char_loki",
+      "target_id": "scene_05",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "char_nebula_past",
+      "target_id": "scene_05",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "char_nebula",
+      "target_id": "char_nebula_past",
+      "type": "RELATES_TO"
+    },
+    {
+      "source_id": "event_time_heist_initial",
+      "target_id": "scene_05",
+      "type": "IN_SCENE"
+    },
+    {
+      "source_id": "event_time_heist_initial",
+      "target_id": "obj_infinity_stones",
+      "type": "CONTAINS"
+    },
+    {
+      "source_id": "char_black_widow",
+      "target_id": "scene_06",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "char_clint_barton",
+      "target_id": "scene_06",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "char_captain_america",
+      "target_id": "scene_06",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "char_scott_lang",
+      "target_id": "scene_06",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "char_thor",
+      "target_id": "scene_06",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "event_natasha_sacrifice",
+      "target_id": "scene_06",
+      "type": "IN_SCENE"
+    },
+    {
+      "source_id": "char_black_widow",
+      "target_id": "obj_soul_stone",
+      "type": "RELATES_TO"
+    },
+    {
+      "source_id": "obj_soul_stone",
+      "target_id": "loc_vormir",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source_id": "char_clint_barton",
+      "target_id": "char_black_widow",
+      "type": "RELATES_TO"
+    },
+    {
+      "source_id": "char_thor",
+      "target_id": "obj_infinity_gauntlet",
+      "type": "RELATES_TO"
+    },
+    {
+      "source_id": "char_thor",
+      "target_id": "scene_07",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "char_clint_barton",
+      "target_id": "scene_07",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "char_peter_parker",
+      "target_id": "scene_07",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "char_tony_stark",
+      "target_id": "scene_07",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "char_captain_america",
+      "target_id": "scene_07",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "char_thanos",
+      "target_id": "scene_07",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source_id": "event_climactic_battle",
+      "target_id": "scene_07",
+      "type": "IN_SCENE"
+    },
+    {
+      "source_id": "event_tony_stark_sacrifice",
+      "target_id": "scene_07",
+      "type": "IN_SCENE"
+    },
+    {
+      "source_id": "event_captain_america_retirement",
+      "target_id": "scene_07",
+      "type": "IN_SCENE"
+    },
+    {
+      "source_id": "event_thor_departure",
+      "target_id": "scene_07",
+      "type": "IN_SCENE"
+    },
+    {
+      "source_id": "char_tony_stark",
+      "target_id": "obj_infinity_gauntlet",
+      "type": "RELATES_TO"
+    },
+    {
+      "source_id": "char_tony_stark",
+      "target_id": "char_thanos",
+      "type": "RELATES_TO"
+    },
+    {
+      "source_id": "char_captain_america",
+      "target_id": "obj_infinity_stones",
+      "type": "RELATES_TO"
+    },
+    {
+      "source_id": "movie_avengers_endgame_2019",
+      "target_id": "theme_loss_grief",
+      "type": "EXPLORES"
+    },
+    {
+      "source_id": "movie_avengers_endgame_2019",
+      "target_id": "theme_hope_determination",
+      "type": "EXPLORES"
+    },
+    {
+      "source_id": "movie_avengers_endgame_2019",
+      "target_id": "theme_sacrifice_redemption",
+      "type": "EXPLORES"
+    },
+    {
+      "source_id": "movie_avengers_endgame_2019",
+      "target_id": "theme_time_travel_consequences",
+      "type": "EXPLORES"
+    },
+    {
+      "source_id": "movie_avengers_endgame_2019",
+      "target_id": "theme_ethical_dilemmas",
+      "type": "EXPLORES"
+    },
+    {
+      "source_id": "movie_avengers_endgame_2019",
+      "target_id": "theme_legacy_closure",
+      "type": "EXPLORES"
+    },
+    {
+      "source_id": "movie_avengers_endgame_2019",
+      "target_id": "theme_new_beginnings",
+      "type": "EXPLORES"
+    }
+  ]
+}

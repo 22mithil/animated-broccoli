@@ -1,0 +1,1866 @@
+{
+  "movie": {
+    "id": "movie_hpatps",
+    "title": "Harry Potter and the Philosopher's Stone",
+    "year": 2001,
+    "plot_summary": "Professor McGonagall, Professor Dumbledore, and Hagrid somberly deliver the infant Harry Potter to his neglectful Muggle relatives, the Dursleys, acknowledging his destined fame and the tragedy of his parents' recent deaths. Ten years later, Harry experiences accidental magic, like unintentionally freeing a snake at the zoo, while enduring a deprived life and receiving mysterious letters addressed to his cupboard. On his eleventh birthday, Hagrid bursts in, revealing Harry's wizard identity and the true, magical circumstances of his parents' demise. Hagrid then guides a wide-eyed Harry through the bustling Diagon Alley, where he accesses his inherited fortune and gathers essential Hogwarts supplies. Harry's journey culminates in selecting a unique wand that shares a peculiar connection to his parents' killer, setting him on a wondrous yet mysterious path.\n\nHarry Potter is given significant revelations about his past, including that Voldemort killed his parents and gave him his famous scar. He visits Ollivander's, where he obtains his wand and learns of its unsettling connection to Voldemort's. Harry then boards the Hogwarts Express, befriending Ron Weasley and Hermione Granger during the journey. Upon arrival at Hogwarts, the first-year students, including a nervous Harry, are sorted into their houses, with Harry, Ron, and Hermione all joining Gryffindor. The segment concludes with the new students exploring the magical castle, encountering ghosts, and preparing for their studies with a mix of wonder, excitement, and lingering mystery.\n\nThe segment details the early school experiences of students, including Harry Potter, Ron Weasley, and Hermione Granger, at Hogwarts. They are introduced to various professors and ghosts, begin classes like Potions and Flying, and Harry is notably recruited as Gryffindor's youngest Quidditch Seeker due to his exceptional flying skills. However, tensions rise when Ron inadvertently upsets Hermione, who then faces a dangerous encounter with a troll in the girls' bathroom, requiring Harry and Ron's intervention. Their bravery leads them to discover a mysterious three-headed dog guarding a trapdoor on a forbidden floor, hinting at a larger secret.\n\nRon's insensitive comments cause Hermione distress, leading her to cry in a bathroom that a rogue troll subsequently invades. Harry and Ron bravely rush to her rescue, using a spell Hermione taught them to defeat the troll, an act that earns them both a scolding and house points. Following this incident, the trio grows suspicious that Professor Snape facilitated the troll's entry as a diversion to access a mysterious object guarded by a three-headed dog. Harry then receives an invisibility cloak and discovers the Mirror of Erised, which shows him his deceased parents, prompting Professor Dumbledore to explain its allure and warn against its deceptive nature. The segment concludes with the friends' continued investigation, including a Quidditch match where Snape appears to jinx Harry's broom, reinforcing their belief that he seeks the guarded item, which they eventually link to the alchemist Nicolas Flamel.\n\nAfter Malfoy curses Neville, leading to detention for him, Harry, Ron, and Hermione, the trio discovers the Philosopher's Stone, learning it grants immortality and is guarded by a three-headed dog named Fluffy. Growing suspicious that Snape intends to steal the Stone for a weakened Voldemort, Harry encounters a figure drinking unicorn blood in the Forbidden Forest, revealed to be Voldemort by a centaur named Firenze. Realizing Dumbledore is away and Hagrid was tricked into revealing Fluffy's weakness, the friends decide they must retrieve the Stone themselves. After immobilizing Neville, who tries to stop them, they sneak to Fluffy, bypass him as he's asleep from an enchanted harp, and fall through the trapdoor into a Devil's Snare, which Hermione quickly defeats with light.\n\nThis segment follows Harry, Ron, and Hermione as they face perilous magical challenges, including escaping a Devil's Snare and navigating a room of flying keys. During a life-sized game of wizard's chess, Ron bravely sacrifices himself, allowing Harry to proceed alone. Harry then confronts Professor Quirrell, who shockingly reveals himself to be possessed by Lord Voldemort, attempting to obtain the Philosopher's Stone from Harry using the Mirror of Erised. Harry resists Voldemort's manipulative offers and ultimately defeats Quirrell through the protective power of his mother's love, leading to the Stone's destruction. The segment concludes with a triumphant Dumbledore awarding last-minute points for the trio's and Neville's courage, securing the House Cup for Gryffindor, as the friends bid farewell to Hogwarts for the summer.",
+    "themes": [
+      "destiny",
+      "loss",
+      "discovery",
+      "magic",
+      "identity",
+      "friendship",
+      "good vs. evil",
+      "bravery",
+      "mystery",
+      "teamwork",
+      "deception",
+      "memory",
+      "sacrifice",
+      "betrayal",
+      "love",
+      "triumph",
+      "wisdom"
+    ],
+    "mood": "somber, wondrous, exciting, mysterious, tense, dangerous, suspicious, determined, perilous, triumphant"
+  },
+  "characters": [
+    {
+      "id": "char_mcgonagall",
+      "name": "Professor Minerva McGonagall",
+      "role": "Professor, Head of Gryffindor",
+      "archetype": "Mentor, Authority Figure",
+      "description": "A stern but fair and caring witch, instrumental in Harry's initial delivery."
+    },
+    {
+      "id": "char_dumbledore",
+      "name": "Professor Albus Dumbledore",
+      "role": "Headmaster of Hogwarts",
+      "archetype": "Mentor, Wise Old Man",
+      "description": "The powerful and enigmatic headmaster, who guides Harry and explains complex magical concepts."
+    },
+    {
+      "id": "char_hagrid",
+      "name": "Rubeus Hagrid",
+      "role": "Gamekeeper of Hogwarts",
+      "archetype": "Guide, Gentle Giant",
+      "description": "A half-giant who reveals Harry's magical heritage and serves as a loyal friend and protector."
+    },
+    {
+      "id": "char_harry_potter",
+      "name": "Harry Potter",
+      "role": "Protagonist",
+      "archetype": "The Chosen One, Hero",
+      "description": "An orphaned boy who discovers he is a wizard destined for greatness, marked by a scar from Lord Voldemort."
+    },
+    {
+      "id": "char_dursleys",
+      "name": "The Dursley Family",
+      "role": "Harry's Muggle Relatives",
+      "archetype": "Antagonist (initial), Oppressor",
+      "description": "Harry's neglectful, magic-hating aunt, uncle, and cousin who mistreat him."
+    },
+    {
+      "id": "char_voldemort",
+      "name": "Lord Voldemort",
+      "role": "Antagonist, Dark Wizard",
+      "archetype": "The Evil Overlord",
+      "description": "The dark wizard responsible for killing Harry's parents and attempting to kill Harry, now weakened and seeking to regain power."
+    },
+    {
+      "id": "char_ron_weasley",
+      "name": "Ron Weasley",
+      "role": "Supporting Character, Harry's Friend",
+      "archetype": "The Best Friend, Loyal Companion",
+      "description": "Harry's first friend at Hogwarts, loyal, brave, and from a large pure-blood wizarding family."
+    },
+    {
+      "id": "char_hermione_granger",
+      "name": "Hermione Granger",
+      "role": "Supporting Character, Harry's Friend",
+      "archetype": "The Brains, Resourceful Ally",
+      "description": "Harry's intelligent and studious friend, exceptionally skilled in magic and quick-thinking."
+    },
+    {
+      "id": "char_snape",
+      "name": "Professor Severus Snape",
+      "role": "Potions Master, Head of Slytherin",
+      "archetype": "Ambiguous Figure, Rival",
+      "description": "A stern and seemingly antagonistic professor, whose motivations are often mysterious."
+    },
+    {
+      "id": "char_fluffy",
+      "name": "Fluffy",
+      "role": "Guard Creature",
+      "archetype": "Guardian",
+      "description": "A massive three-headed dog guarding the trapdoor to the Philosopher's Stone."
+    },
+    {
+      "id": "char_neville",
+      "name": "Neville Longbottom",
+      "role": "Supporting Character, Gryffindor Student",
+      "archetype": "The Underdog, Brave Ally",
+      "description": "A shy and clumsy Gryffindor student who shows unexpected bravery."
+    },
+    {
+      "id": "char_malfoy",
+      "name": "Draco Malfoy",
+      "role": "Supporting Character, Slytherin Student",
+      "archetype": "Rival, Bully",
+      "description": "An arrogant pure-blood wizard and Harry's rival in Slytherin."
+    },
+    {
+      "id": "char_firenze",
+      "name": "Firenze",
+      "role": "Centaur",
+      "archetype": "Mystic, Oracle",
+      "description": "A centaur from the Forbidden Forest who offers Harry cryptic warnings."
+    },
+    {
+      "id": "char_quirrell",
+      "name": "Professor Quirinus Quirrell",
+      "role": "Defence Against the Dark Arts Professor",
+      "archetype": "The Deceiver, Vessel for Evil",
+      "description": "A seemingly nervous professor, secretly possessed by Lord Voldemort."
+    },
+    {
+      "id": "char_nicolas_flamel",
+      "name": "Nicolas Flamel",
+      "role": "Alchemist",
+      "archetype": "Creator, Legendary Figure",
+      "description": "The creator of the Philosopher's Stone, an ancient and wise alchemist."
+    }
+  ],
+  "scenes": [
+    {
+      "id": "scene_delivery_revelation",
+      "sequence_number": 1,
+      "summary": "Infant Harry Potter is delivered to the Dursleys, leading to a deprived childhood. Years later, Hagrid reveals Harry's wizard identity, his parents' true fate, and takes him to Diagon Alley to prepare for Hogwarts.",
+      "emotional_tone": "somber, mysterious, wondrous, discovering",
+      "key_quotes": []
+    },
+    {
+      "id": "scene_hogwarts_arrival",
+      "sequence_number": 2,
+      "summary": "Harry learns more about Voldemort and his parents' death, gets his wand, then travels on the Hogwarts Express where he befriends Ron and Hermione. They are sorted into Gryffindor upon arrival at Hogwarts and begin exploring the magical castle.",
+      "emotional_tone": "nervous, excited, wondrous, mysterious",
+      "key_quotes": []
+    },
+    {
+      "id": "scene_early_school_troll",
+      "sequence_number": 3,
+      "summary": "Harry, Ron, and Hermione begin classes at Hogwarts, with Harry becoming the youngest Quidditch Seeker. After Ron upsets Hermione, she is attacked by a troll, leading Harry and Ron to rescue her and later discover a three-headed dog guarding a forbidden area.",
+      "emotional_tone": "exciting, tense, dangerous, curious",
+      "key_quotes": []
+    },
+    {
+      "id": "scene_mirror_erised_snape_suspicion",
+      "sequence_number": 4,
+      "summary": "Following the troll incident, the trio grows suspicious of Professor Snape. Harry receives an invisibility cloak and discovers the Mirror of Erised, which shows him his deceased parents. Their investigation continues, linking Snape's suspected actions to Nicolas Flamel.",
+      "emotional_tone": "suspicious, reflective, deceptive, mysterious",
+      "key_quotes": []
+    },
+    {
+      "id": "scene_stone_discovery_forbidden_forest",
+      "sequence_number": 5,
+      "summary": "The trio learns about the Philosopher's Stone and its guardian, Fluffy. Harry encounters Voldemort drinking unicorn blood in the Forbidden Forest. Realizing Dumbledore is absent and Hagrid was tricked, they decide to retrieve the Stone themselves, bypassing Neville to do so.",
+      "emotional_tone": "urgent, dangerous, suspicious, determined",
+      "key_quotes": []
+    },
+    {
+      "id": "scene_chambers_confrontation_house_cup",
+      "sequence_number": 6,
+      "summary": "Harry, Ron, and Hermione face magical challenges, including Ron's sacrifice in wizard's chess. Harry confronts Professor Quirrell, who reveals himself possessed by Voldemort, and defeats him using his mother's love. The Stone is destroyed, and Gryffindor wins the House Cup.",
+      "emotional_tone": "perilous, sacrificial, confrontational, triumphant",
+      "key_quotes": []
+    }
+  ],
+  "events": [
+    {
+      "id": "event_harry_delivery",
+      "name": "Harry Potter's Delivery",
+      "type": "Plot Point",
+      "description": "Professor McGonagall, Dumbledore, and Hagrid deliver infant Harry Potter to his neglectful Muggle relatives, the Dursleys, after his parents' deaths.",
+      "significance": "Establishes Harry's initial living conditions and the tragedy of his past."
+    },
+    {
+      "id": "event_accidental_magic",
+      "name": "Accidental Magic and Mysterious Letters",
+      "type": "Character Development",
+      "description": "Harry experiences accidental magic (like freeing a snake) and receives mysterious letters addressed to him, hinting at his true nature.",
+      "significance": "Introduces Harry's latent magical abilities and the wizarding world's attempt to contact him."
+    },
+    {
+      "id": "event_hagrid_revelation",
+      "name": "Hagrid's Revelation",
+      "type": "Plot Point, Discovery",
+      "description": "On his eleventh birthday, Hagrid reveals Harry's wizard identity, the truth about his parents' murder by Voldemort, and his fame in the wizarding world.",
+      "significance": "Marks Harry's entry into the wizarding world and the beginning of his true identity."
+    },
+    {
+      "id": "event_diagon_alley_trip",
+      "name": "Diagon Alley Trip",
+      "type": "World Building",
+      "description": "Hagrid guides Harry through Diagon Alley, where Harry accesses his inheritance and buys school supplies for Hogwarts.",
+      "significance": "Introduces Harry and the audience to the vibrant magical world and essential wizarding customs."
+    },
+    {
+      "id": "event_wand_selection",
+      "name": "Wand Selection at Ollivander's",
+      "type": "Plot Point",
+      "description": "Harry selects a wand at Ollivander's that shares a core connection to Voldemort's wand.",
+      "significance": "Highlights Harry's unique connection to Voldemort and his destiny."
+    },
+    {
+      "id": "event_voldemort_revelation",
+      "name": "Voldemort's Past Revealed",
+      "type": "Plot Point",
+      "description": "Harry learns more explicit details about Lord Voldemort killing his parents and giving him his famous scar.",
+      "significance": "Deepens Harry's understanding of his past and his direct link to the primary antagonist."
+    },
+    {
+      "id": "event_hogwarts_express_journey",
+      "name": "Hogwarts Express Journey",
+      "type": "Character Development",
+      "description": "Harry boards the Hogwarts Express and befriends Ron Weasley and Hermione Granger.",
+      "significance": "Establishes the core trio's friendship, central to the series."
+    },
+    {
+      "id": "event_sorting_ceremony",
+      "name": "Sorting Ceremony",
+      "type": "World Building",
+      "description": "First-year students, including Harry, Ron, and Hermione, are sorted into their respective houses at Hogwarts, all joining Gryffindor.",
+      "significance": "Introduces the house system and cements the trio's bond within Gryffindor."
+    },
+    {
+      "id": "event_early_school_experiences",
+      "name": "Early School Experiences",
+      "type": "Character Development",
+      "description": "The trio attends classes, meets professors, and Harry is recruited as Gryffindor's youngest Quidditch Seeker.",
+      "significance": "Shows their adaptation to Hogwarts life and Harry's exceptional flying talent."
+    },
+    {
+      "id": "event_troll_attack_hermione",
+      "name": "Troll Attack in Girls' Bathroom",
+      "type": "Plot Point",
+      "description": "A rogue troll invades the girls' bathroom, endangering Hermione after Ron's insensitive comments upset her.",
+      "significance": "Forces the trio to unite and demonstrate bravery, cementing their friendship."
+    },
+    {
+      "id": "event_troll_defeat",
+      "name": "Troll Defeat and Forged Friendship",
+      "type": "Character Development",
+      "description": "Harry and Ron bravely rescue Hermione from the troll using a spell she taught them, earning them house points and solidifying their bond.",
+      "significance": "Their combined bravery strengthens their friendship and shows their resourcefulness."
+    },
+    {
+      "id": "event_fluffy_discovery",
+      "name": "Discovery of Fluffy",
+      "type": "Plot Point",
+      "description": "The trio discovers a mysterious three-headed dog named Fluffy guarding a trapdoor on a forbidden floor.",
+      "significance": "Introduces a major mystery and the central object of the plot: something being guarded."
+    },
+    {
+      "id": "event_invisibility_cloak_gift",
+      "name": "Invisibility Cloak Gift",
+      "type": "Plot Point",
+      "description": "Harry receives his father's invisibility cloak as an anonymous Christmas gift.",
+      "significance": "Provides Harry with a crucial tool for his investigations and adventures."
+    },
+    {
+      "id": "event_mirror_erised_discovery",
+      "name": "Discovery of the Mirror of Erised",
+      "type": "Plot Point, Character Development",
+      "description": "Harry discovers the Mirror of Erised, which shows him his deceased parents, prompting Dumbledore to explain its allure.",
+      "significance": "Highlights Harry's deep longing for his family and Dumbledore's wisdom about desire."
+    },
+    {
+      "id": "event_snape_suspicion_quidditch",
+      "name": "Snape's Suspected Jinx at Quidditch",
+      "type": "Plot Point",
+      "description": "During a Quidditch match, Snape appears to jinx Harry's broom, reinforcing the trio's belief that he is after the guarded item.",
+      "significance": "Increases the trio's suspicion towards Snape and motivates their investigation."
+    },
+    {
+      "id": "event_detention",
+      "name": "Detention in the Forbidden Forest",
+      "type": "Character Development",
+      "description": "Malfoy, Harry, Ron, and Hermione receive detention, leading them into the Forbidden Forest.",
+      "significance": "Forces Harry into the Forbidden Forest, leading to a crucial encounter."
+    },
+    {
+      "id": "event_philosophers_stone_revelation",
+      "name": "Philosopher's Stone Revelation",
+      "type": "Plot Point",
+      "description": "The trio learns that the guarded item is the Philosopher's Stone, granting immortality, and connects it to Nicolas Flamel.",
+      "significance": "Clarifies the central mystery and the stakes involved."
+    },
+    {
+      "id": "event_unicorn_blood_encounter",
+      "name": "Unicorn Blood Encounter",
+      "type": "Plot Point",
+      "description": "In the Forbidden Forest, Harry encounters a figure drinking unicorn blood, revealed by Firenze to be Voldemort, seeking strength.",
+      "significance": "Confirms Voldemort's weakened state and his pursuit of immortality, increasing urgency for the trio."
+    },
+    {
+      "id": "event_plan_to_retrieve_stone",
+      "name": "Plan to Retrieve the Stone",
+      "type": "Plot Point",
+      "description": "Realizing Dumbledore is away and Hagrid was tricked, the friends decide to retrieve the Philosopher's Stone themselves.",
+      "significance": "Marks the point where the trio takes direct action to protect the Stone."
+    },
+    {
+      "id": "event_devil_snare_escape",
+      "name": "Escape from Devil's Snare",
+      "type": "Obstacle Overcome",
+      "description": "The trio falls through the trapdoor and must escape the magical plant Devil's Snare, which Hermione quickly defeats with light.",
+      "significance": "Demonstrates Hermione's intelligence and the first of many obstacles."
+    },
+    {
+      "id": "event_flying_keys_room",
+      "name": "Flying Keys Room Challenge",
+      "type": "Obstacle Overcome",
+      "description": "The trio navigates a room filled with enchanted flying keys to find the correct one.",
+      "significance": "Highlights Harry's flying skills and the varied magical defenses."
+    },
+    {
+      "id": "event_wizards_chess_sacrifice",
+      "name": "Wizard's Chess Sacrifice",
+      "type": "Obstacle Overcome",
+      "description": "Ron bravely sacrifices himself in a life-sized game of wizard's chess, allowing Harry to proceed alone.",
+      "significance": "Showcases Ron's loyalty and bravery, and the importance of teamwork and sacrifice."
+    },
+    {
+      "id": "event_confrontation_quirrell_voldemort",
+      "name": "Confrontation with Quirrell/Voldemort",
+      "type": "Climax",
+      "description": "Harry confronts Professor Quirrell, who shockingly reveals himself to be possessed by Lord Voldemort, attempting to obtain the Philosopher's Stone.",
+      "significance": "The primary antagonist's revelation and the direct confrontation for the Stone."
+    },
+    {
+      "id": "event_stone_destruction",
+      "name": "Philosopher's Stone Destruction",
+      "type": "Resolution",
+      "description": "After Harry defeats Quirrell/Voldemort, the Philosopher's Stone is ultimately destroyed to prevent its misuse.",
+      "significance": "Resolves the immediate threat and prevents Voldemort from achieving immortality."
+    },
+    {
+      "id": "event_house_cup_win",
+      "name": "Gryffindor Wins House Cup",
+      "type": "Resolution",
+      "description": "Dumbledore awards last-minute points for the trio's and Neville's courage, securing the House Cup for Gryffindor.",
+      "significance": "A triumphant ending, celebrating bravery and friendship, and a sense of belonging."
+    }
+  ],
+  "locations": [
+    {
+      "id": "loc_dursleys_home",
+      "name": "The Dursleys' Home",
+      "type": "Residence",
+      "description": "The mundane and oppressive suburban home where Harry spends his first eleven deprived years."
+    },
+    {
+      "id": "loc_zoo",
+      "name": "Local Zoo",
+      "type": "Public Place",
+      "description": "Where Harry accidentally uses magic to free a snake."
+    },
+    {
+      "id": "loc_diagon_alley",
+      "name": "Diagon Alley",
+      "type": "Magical Shopping Street",
+      "description": "A bustling hidden street in London where wizards buy supplies for Hogwarts and other magical necessities."
+    },
+    {
+      "id": "loc_gringotts",
+      "name": "Gringotts Wizarding Bank",
+      "type": "Bank",
+      "description": "The goblin-run bank where Harry accesses his inherited fortune."
+    },
+    {
+      "id": "loc_ollivanders",
+      "name": "Ollivanders Wand Shop",
+      "type": "Shop",
+      "description": "The famous wand shop in Diagon Alley where Harry purchases his first wand."
+    },
+    {
+      "id": "loc_hogwarts_express",
+      "name": "Hogwarts Express",
+      "type": "Transportation",
+      "description": "The train that transports students from King's Cross Station to Hogwarts."
+    },
+    {
+      "id": "loc_hogwarts_castle",
+      "name": "Hogwarts School of Witchcraft and Wizardry",
+      "type": "School, Castle",
+      "description": "The main setting, a magical boarding school where young witches and wizards are educated."
+    },
+    {
+      "id": "loc_great_hall",
+      "name": "Great Hall (Hogwarts)",
+      "type": "Dining Hall, Event Space",
+      "description": "The primary gathering place in Hogwarts for meals, announcements, and the Sorting Ceremony."
+    },
+    {
+      "id": "loc_girls_bathroom",
+      "name": "Girls' Bathroom (Hogwarts)",
+      "type": "Restroom",
+      "description": "The location where Hermione is attacked by a troll."
+    },
+    {
+      "id": "loc_forbidden_corridor",
+      "name": "Third-Floor Corridor (Forbidden Corridor)",
+      "type": "Restricted Area",
+      "description": "A forbidden area in Hogwarts guarded by Fluffy, leading to the Philosopher's Stone."
+    },
+    {
+      "id": "loc_forbidden_forest",
+      "name": "Forbidden Forest",
+      "type": "Forest, Restricted Area",
+      "description": "A dark and dangerous forest bordering the Hogwarts grounds, inhabited by magical creatures."
+    },
+    {
+      "id": "loc_quirrells_chamber",
+      "name": "Chamber beneath the Trapdoor",
+      "type": "Secret Chamber",
+      "description": "A series of rooms and challenges protecting the Philosopher's Stone, culminating in Quirrell's chamber."
+    }
+  ],
+  "objects": [
+    {
+      "id": "obj_mysterious_letters",
+      "name": "Mysterious Letters",
+      "type": "Correspondence",
+      "significance": "Invitations to Hogwarts that signal Harry's entry into the wizarding world."
+    },
+    {
+      "id": "obj_wand_harry",
+      "name": "Harry's Wand",
+      "type": "Magical Tool",
+      "significance": "A holly and phoenix feather wand, twin to Voldemort's, crucial for Harry's magic."
+    },
+    {
+      "id": "obj_sorting_hat",
+      "name": "Sorting Hat",
+      "type": "Magical Artifact",
+      "significance": "An enchanted hat that determines which Hogwarts house first-year students belong to."
+    },
+    {
+      "id": "obj_invisibility_cloak",
+      "name": "Invisibility Cloak",
+      "type": "Magical Artifact",
+      "significance": "A powerful cloak that makes the wearer invisible, passed down from Harry's father."
+    },
+    {
+      "id": "obj_mirror_erised",
+      "name": "Mirror of Erised",
+      "type": "Magical Artifact",
+      "significance": "A mystical mirror that shows the viewer their deepest desires, used to hide the Philosopher's Stone."
+    },
+    {
+      "id": "obj_philosophers_stone",
+      "name": "Philosopher's Stone",
+      "type": "Magical Artifact",
+      "significance": "A legendary stone capable of producing the Elixir of Life (granting immortality) and turning any metal into gold."
+    },
+    {
+      "id": "obj_unicorn_blood",
+      "name": "Unicorn Blood",
+      "type": "Magical Substance",
+      "significance": "A potion consumed by Voldemort to sustain his weakened form, though at a terrible cost."
+    },
+    {
+      "id": "obj_enchanted_harp",
+      "name": "Enchanted Harp",
+      "type": "Magical Object",
+      "significance": "Used to put Fluffy to sleep, part of the defenses for the Stone."
+    },
+    {
+      "id": "obj_devil_snare",
+      "name": "Devil's Snare",
+      "type": "Magical Plant",
+      "significance": "A dangerous plant that strangles its victims, defeated by light, guarding the Stone."
+    },
+    {
+      "id": "obj_flying_keys",
+      "name": "Flying Keys",
+      "type": "Magical Obstacle",
+      "significance": "Enchanted keys that must be caught to proceed, guarding the Stone."
+    },
+    {
+      "id": "obj_wizards_chess_set",
+      "name": "Wizard's Chess Set",
+      "type": "Magical Game",
+      "significance": "A life-sized chess set that serves as a deadly challenge guarding the Stone."
+    }
+  ],
+  "themes": [
+    {
+      "id": "theme_destiny",
+      "name": "Destiny",
+      "category": "Fate"
+    },
+    {
+      "id": "theme_loss",
+      "name": "Loss",
+      "category": "Emotion"
+    },
+    {
+      "id": "theme_discovery",
+      "name": "Discovery",
+      "category": "Experience"
+    },
+    {
+      "id": "theme_magic",
+      "name": "Magic",
+      "category": "Supernatural"
+    },
+    {
+      "id": "theme_identity",
+      "name": "Identity",
+      "category": "Self"
+    },
+    {
+      "id": "theme_friendship",
+      "name": "Friendship",
+      "category": "Relationship"
+    },
+    {
+      "id": "theme_good_vs_evil",
+      "name": "Good vs. Evil",
+      "category": "Conflict"
+    },
+    {
+      "id": "theme_bravery",
+      "name": "Bravery",
+      "category": "Virtue"
+    },
+    {
+      "id": "theme_mystery",
+      "name": "Mystery",
+      "category": "Narrative Element"
+    },
+    {
+      "id": "theme_teamwork",
+      "name": "Teamwork",
+      "category": "Collaboration"
+    },
+    {
+      "id": "theme_deception",
+      "name": "Deception",
+      "category": "Plot Device"
+    },
+    {
+      "id": "theme_memory",
+      "name": "Memory",
+      "category": "Emotion"
+    },
+    {
+      "id": "theme_sacrifice",
+      "name": "Sacrifice",
+      "category": "Action"
+    },
+    {
+      "id": "theme_betrayal",
+      "name": "Betrayal",
+      "category": "Conflict"
+    },
+    {
+      "id": "theme_love",
+      "name": "Love",
+      "category": "Emotion"
+    },
+    {
+      "id": "theme_triumph",
+      "name": "Triumph",
+      "category": "Achievement"
+    },
+    {
+      "id": "theme_wisdom",
+      "name": "Wisdom",
+      "category": "Virtue"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "movie_hpatps",
+      "target": "theme_destiny",
+      "type": "EXPLORES"
+    },
+    {
+      "source": "movie_hpatps",
+      "target": "theme_loss",
+      "type": "EXPLORES"
+    },
+    {
+      "source": "movie_hpatps",
+      "target": "theme_discovery",
+      "type": "EXPLORES"
+    },
+    {
+      "source": "movie_hpatps",
+      "target": "theme_magic",
+      "type": "EXPLORES"
+    },
+    {
+      "source": "movie_hpatps",
+      "target": "theme_identity",
+      "type": "EXPLORES"
+    },
+    {
+      "source": "movie_hpatps",
+      "target": "theme_friendship",
+      "type": "EXPLORES"
+    },
+    {
+      "source": "movie_hpatps",
+      "target": "theme_good_vs_evil",
+      "type": "EXPLORES"
+    },
+    {
+      "source": "movie_hpatps",
+      "target": "theme_bravery",
+      "type": "EXPLORES"
+    },
+    {
+      "source": "movie_hpatps",
+      "target": "theme_mystery",
+      "type": "EXPLORES"
+    },
+    {
+      "source": "movie_hpatps",
+      "target": "theme_teamwork",
+      "type": "EXPLORES"
+    },
+    {
+      "source": "movie_hpatps",
+      "target": "theme_deception",
+      "type": "EXPLORES"
+    },
+    {
+      "source": "movie_hpatps",
+      "target": "theme_memory",
+      "type": "EXPLORES"
+    },
+    {
+      "source": "movie_hpatps",
+      "target": "theme_sacrifice",
+      "type": "EXPLORES"
+    },
+    {
+      "source": "movie_hpatps",
+      "target": "theme_betrayal",
+      "type": "EXPLORES"
+    },
+    {
+      "source": "movie_hpatps",
+      "target": "theme_love",
+      "type": "EXPLORES"
+    },
+    {
+      "source": "movie_hpatps",
+      "target": "theme_triumph",
+      "type": "EXPLORES"
+    },
+    {
+      "source": "movie_hpatps",
+      "target": "theme_wisdom",
+      "type": "EXPLORES"
+    },
+    {
+      "source": "char_harry_potter",
+      "target": "theme_destiny",
+      "type": "REPRESENTS"
+    },
+    {
+      "source": "char_voldemort",
+      "target": "theme_good_vs_evil",
+      "type": "REPRESENTS"
+    },
+    {
+      "source": "char_ron_weasley",
+      "target": "theme_friendship",
+      "type": "REPRESENTS"
+    },
+    {
+      "source": "char_hermione_granger",
+      "target": "theme_teamwork",
+      "type": "REPRESENTS"
+    },
+    {
+      "source": "char_snape",
+      "target": "theme_deception",
+      "type": "REPRESENTS"
+    },
+    {
+      "source": "char_dumbledore",
+      "target": "theme_wisdom",
+      "type": "REPRESENTS"
+    },
+    {
+      "source": "char_mcgonagall",
+      "target": "char_harry_potter",
+      "type": "RELATES_TO",
+      "relationship": "delivers_infant"
+    },
+    {
+      "source": "char_dumbledore",
+      "target": "char_harry_potter",
+      "type": "RELATES_TO",
+      "relationship": "oversees_delivery_of"
+    },
+    {
+      "source": "char_hagrid",
+      "target": "char_harry_potter",
+      "type": "RELATES_TO",
+      "relationship": "delivers_infant"
+    },
+    {
+      "source": "char_harry_potter",
+      "target": "char_dursleys",
+      "type": "RELATES_TO",
+      "relationship": "resides_with",
+      "context": "neglectful relatives"
+    },
+    {
+      "source": "char_voldemort",
+      "target": "char_harry_potter",
+      "type": "RELATES_TO",
+      "relationship": "killed_parents_of",
+      "context": "gave famous scar"
+    },
+    {
+      "source": "char_harry_potter",
+      "target": "char_ron_weasley",
+      "type": "RELATES_TO",
+      "relationship": "befriends"
+    },
+    {
+      "source": "char_harry_potter",
+      "target": "char_hermione_granger",
+      "type": "RELATES_TO",
+      "relationship": "befriends"
+    },
+    {
+      "source": "char_ron_weasley",
+      "target": "char_hermione_granger",
+      "type": "RELATES_TO",
+      "relationship": "befriends"
+    },
+    {
+      "source": "char_ron_weasley",
+      "target": "char_hermione_granger",
+      "type": "RELATES_TO",
+      "relationship": "upsets"
+    },
+    {
+      "source": "char_harry_potter",
+      "target": "char_hermione_granger",
+      "type": "RELATES_TO",
+      "relationship": "rescues"
+    },
+    {
+      "source": "char_ron_weasley",
+      "target": "char_hermione_granger",
+      "type": "RELATES_TO",
+      "relationship": "rescues"
+    },
+    {
+      "source": "char_snape",
+      "target": "char_harry_potter",
+      "type": "RELATES_TO",
+      "relationship": "suspected_of_jinxing_broom"
+    },
+    {
+      "source": "char_malfoy",
+      "target": "char_neville",
+      "type": "RELATES_TO",
+      "relationship": "curses"
+    },
+    {
+      "source": "char_firenze",
+      "target": "char_harry_potter",
+      "type": "RELATES_TO",
+      "relationship": "warns"
+    },
+    {
+      "source": "char_hagrid",
+      "target": "char_voldemort",
+      "type": "RELATES_TO",
+      "relationship": "tricked_by"
+    },
+    {
+      "source": "char_quirrell",
+      "target": "char_voldemort",
+      "type": "RELATES_TO",
+      "relationship": "possessed_by"
+    },
+    {
+      "source": "char_harry_potter",
+      "target": "char_quirrell",
+      "type": "RELATES_TO",
+      "relationship": "defeats"
+    },
+    {
+      "source": "char_nicolas_flamel",
+      "target": "obj_philosophers_stone",
+      "type": "RELATES_TO",
+      "relationship": "created"
+    },
+    {
+      "source": "obj_wand_harry",
+      "target": "char_harry_potter",
+      "type": "CONTAINS",
+      "relationship": "owner"
+    },
+    {
+      "source": "obj_wand_harry",
+      "target": "char_voldemort",
+      "type": "RELATES_TO",
+      "relationship": "shares_core_with_wand_of"
+    },
+    {
+      "source": "obj_mysterious_letters",
+      "target": "char_harry_potter",
+      "type": "RELATES_TO",
+      "relationship": "addressed_to"
+    },
+    {
+      "source": "obj_invisibility_cloak",
+      "target": "char_harry_potter",
+      "type": "CONTAINS",
+      "relationship": "owner"
+    },
+    {
+      "source": "obj_mirror_erised",
+      "target": "char_harry_potter",
+      "type": "RELATES_TO",
+      "relationship": "shows_desire_to"
+    },
+    {
+      "source": "obj_philosophers_stone",
+      "target": "char_fluffy",
+      "type": "RELATES_TO",
+      "relationship": "guarded_by"
+    },
+    {
+      "source": "obj_philosophers_stone",
+      "target": "char_voldemort",
+      "type": "RELATES_TO",
+      "relationship": "sought_by"
+    },
+    {
+      "source": "obj_unicorn_blood",
+      "target": "char_voldemort",
+      "type": "RELATES_TO",
+      "relationship": "consumed_by"
+    },
+    {
+      "source": "obj_enchanted_harp",
+      "target": "char_fluffy",
+      "type": "RELATES_TO",
+      "relationship": "used_to_put_to_sleep"
+    },
+    {
+      "source": "obj_mirror_erised",
+      "target": "obj_philosophers_stone",
+      "type": "RELATES_TO",
+      "relationship": "hides"
+    },
+    {
+      "source": "char_harry_potter",
+      "target": "scene_delivery_revelation",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_mcgonagall",
+      "target": "scene_delivery_revelation",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_dumbledore",
+      "target": "scene_delivery_revelation",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_hagrid",
+      "target": "scene_delivery_revelation",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_dursleys",
+      "target": "scene_delivery_revelation",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "scene_delivery_revelation",
+      "target": "event_harry_delivery",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "scene_delivery_revelation",
+      "target": "event_accidental_magic",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "scene_delivery_revelation",
+      "target": "event_hagrid_revelation",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "scene_delivery_revelation",
+      "target": "event_diagon_alley_trip",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "scene_delivery_revelation",
+      "target": "event_wand_selection",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "scene_delivery_revelation",
+      "target": "loc_dursleys_home",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source": "scene_delivery_revelation",
+      "target": "loc_zoo",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source": "scene_delivery_revelation",
+      "target": "loc_diagon_alley",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source": "scene_delivery_revelation",
+      "target": "loc_gringotts",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source": "scene_delivery_revelation",
+      "target": "loc_ollivanders",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source": "scene_delivery_revelation",
+      "target": "obj_mysterious_letters",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "scene_delivery_revelation",
+      "target": "obj_wand_harry",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "char_harry_potter",
+      "target": "scene_hogwarts_arrival",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_ron_weasley",
+      "target": "scene_hogwarts_arrival",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_hermione_granger",
+      "target": "scene_hogwarts_arrival",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "scene_hogwarts_arrival",
+      "target": "event_voldemort_revelation",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "scene_hogwarts_arrival",
+      "target": "event_hogwarts_express_journey",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "scene_hogwarts_arrival",
+      "target": "event_sorting_ceremony",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "scene_hogwarts_arrival",
+      "target": "loc_ollivanders",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source": "scene_hogwarts_arrival",
+      "target": "loc_hogwarts_express",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source": "scene_hogwarts_arrival",
+      "target": "loc_hogwarts_castle",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source": "scene_hogwarts_arrival",
+      "target": "loc_great_hall",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source": "scene_hogwarts_arrival",
+      "target": "obj_wand_harry",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "scene_hogwarts_arrival",
+      "target": "obj_sorting_hat",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "char_harry_potter",
+      "target": "scene_early_school_troll",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_ron_weasley",
+      "target": "scene_early_school_troll",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_hermione_granger",
+      "target": "scene_early_school_troll",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_fluffy",
+      "target": "scene_early_school_troll",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "scene_early_school_troll",
+      "target": "event_early_school_experiences",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "scene_early_school_troll",
+      "target": "event_troll_attack_hermione",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "scene_early_school_troll",
+      "target": "event_fluffy_discovery",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "scene_early_school_troll",
+      "target": "loc_hogwarts_castle",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source": "scene_early_school_troll",
+      "target": "loc_girls_bathroom",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source": "scene_early_school_troll",
+      "target": "loc_forbidden_corridor",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source": "char_harry_potter",
+      "target": "scene_mirror_erised_snape_suspicion",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_ron_weasley",
+      "target": "scene_mirror_erised_snape_suspicion",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_hermione_granger",
+      "target": "scene_mirror_erised_snape_suspicion",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_snape",
+      "target": "scene_mirror_erised_snape_suspicion",
+      "type": "APPEARS_IN",
+      "context": "suspected"
+    },
+    {
+      "source": "char_dumbledore",
+      "target": "scene_mirror_erised_snape_suspicion",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "scene_mirror_erised_snape_suspicion",
+      "target": "event_troll_defeat",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "scene_mirror_erised_snape_suspicion",
+      "target": "event_invisibility_cloak_gift",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "scene_mirror_erised_snape_suspicion",
+      "target": "event_mirror_erised_discovery",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "scene_mirror_erised_snape_suspicion",
+      "target": "event_snape_suspicion_quidditch",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "scene_mirror_erised_snape_suspicion",
+      "target": "loc_girls_bathroom",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source": "scene_mirror_erised_snape_suspicion",
+      "target": "loc_hogwarts_castle",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source": "scene_mirror_erised_snape_suspicion",
+      "target": "obj_invisibility_cloak",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "scene_mirror_erised_snape_suspicion",
+      "target": "obj_mirror_erised",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "scene_mirror_erised_snape_suspicion",
+      "target": "obj_philosophers_stone",
+      "type": "RELATES_TO",
+      "context": "item sought by Snape"
+    },
+    {
+      "source": "char_malfoy",
+      "target": "scene_stone_discovery_forbidden_forest",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_neville",
+      "target": "scene_stone_discovery_forbidden_forest",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_harry_potter",
+      "target": "scene_stone_discovery_forbidden_forest",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_ron_weasley",
+      "target": "scene_stone_discovery_forbidden_forest",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_hermione_granger",
+      "target": "scene_stone_discovery_forbidden_forest",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_snape",
+      "target": "scene_stone_discovery_forbidden_forest",
+      "type": "RELATES_TO",
+      "context": "suspected"
+    },
+    {
+      "source": "char_voldemort",
+      "target": "scene_stone_discovery_forbidden_forest",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_firenze",
+      "target": "scene_stone_discovery_forbidden_forest",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_dumbledore",
+      "target": "scene_stone_discovery_forbidden_forest",
+      "type": "RELATES_TO",
+      "context": "absence mentioned"
+    },
+    {
+      "source": "char_hagrid",
+      "target": "scene_stone_discovery_forbidden_forest",
+      "type": "RELATES_TO",
+      "context": "tricked"
+    },
+    {
+      "source": "char_fluffy",
+      "target": "scene_stone_discovery_forbidden_forest",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "scene_stone_discovery_forbidden_forest",
+      "target": "event_detention",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "scene_stone_discovery_forbidden_forest",
+      "target": "event_philosophers_stone_revelation",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "scene_stone_discovery_forbidden_forest",
+      "target": "event_unicorn_blood_encounter",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "scene_stone_discovery_forbidden_forest",
+      "target": "event_plan_to_retrieve_stone",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "scene_stone_discovery_forbidden_forest",
+      "target": "loc_forbidden_forest",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source": "scene_stone_discovery_forbidden_forest",
+      "target": "loc_forbidden_corridor",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source": "scene_stone_discovery_forbidden_forest",
+      "target": "obj_philosophers_stone",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "scene_stone_discovery_forbidden_forest",
+      "target": "obj_unicorn_blood",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "scene_stone_discovery_forbidden_forest",
+      "target": "obj_enchanted_harp",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "char_harry_potter",
+      "target": "scene_chambers_confrontation_house_cup",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_ron_weasley",
+      "target": "scene_chambers_confrontation_house_cup",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_hermione_granger",
+      "target": "scene_chambers_confrontation_house_cup",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_voldemort",
+      "target": "scene_chambers_confrontation_house_cup",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_quirrell",
+      "target": "scene_chambers_confrontation_house_cup",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_dumbledore",
+      "target": "scene_chambers_confrontation_house_cup",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "char_neville",
+      "target": "scene_chambers_confrontation_house_cup",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "scene_chambers_confrontation_house_cup",
+      "target": "event_devil_snare_escape",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "scene_chambers_confrontation_house_cup",
+      "target": "event_flying_keys_room",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "scene_chambers_confrontation_house_cup",
+      "target": "event_wizards_chess_sacrifice",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "scene_chambers_confrontation_house_cup",
+      "target": "event_confrontation_quirrell_voldemort",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "scene_chambers_confrontation_house_cup",
+      "target": "event_stone_destruction",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "scene_chambers_confrontation_house_cup",
+      "target": "event_house_cup_win",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "scene_chambers_confrontation_house_cup",
+      "target": "loc_quirrells_chamber",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source": "scene_chambers_confrontation_house_cup",
+      "target": "loc_great_hall",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source": "scene_chambers_confrontation_house_cup",
+      "target": "obj_devil_snare",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "scene_chambers_confrontation_house_cup",
+      "target": "obj_flying_keys",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "scene_chambers_confrontation_house_cup",
+      "target": "obj_wizards_chess_set",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "scene_chambers_confrontation_house_cup",
+      "target": "obj_philosophers_stone",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "scene_chambers_confrontation_house_cup",
+      "target": "obj_mirror_erised",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "event_harry_delivery",
+      "target": "char_harry_potter",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "event_harry_delivery",
+      "target": "loc_dursleys_home",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source": "event_accidental_magic",
+      "target": "char_harry_potter",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "event_accidental_magic",
+      "target": "loc_dursleys_home",
+      "type": "TAKES_PLACE_IN",
+      "context": "receives letters"
+    },
+    {
+      "source": "event_accidental_magic",
+      "target": "loc_zoo",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source": "event_accidental_magic",
+      "target": "obj_mysterious_letters",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "event_hagrid_revelation",
+      "target": "char_harry_potter",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "event_hagrid_revelation",
+      "target": "char_hagrid",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "event_diagon_alley_trip",
+      "target": "char_harry_potter",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "event_diagon_alley_trip",
+      "target": "char_hagrid",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "event_diagon_alley_trip",
+      "target": "loc_diagon_alley",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source": "event_diagon_alley_trip",
+      "target": "loc_gringotts",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source": "event_wand_selection",
+      "target": "char_harry_potter",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "event_wand_selection",
+      "target": "obj_wand_harry",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "event_wand_selection",
+      "target": "loc_ollivanders",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source": "event_voldemort_revelation",
+      "target": "char_harry_potter",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "event_hogwarts_express_journey",
+      "target": "char_harry_potter",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "event_hogwarts_express_journey",
+      "target": "char_ron_weasley",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "event_hogwarts_express_journey",
+      "target": "char_hermione_granger",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "event_hogwarts_express_journey",
+      "target": "loc_hogwarts_express",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source": "event_sorting_ceremony",
+      "target": "char_harry_potter",
+      "type": "IN_SCENE",
+      "house": "Gryffindor"
+    },
+    {
+      "source": "event_sorting_ceremony",
+      "target": "char_ron_weasley",
+      "type": "IN_SCENE",
+      "house": "Gryffindor"
+    },
+    {
+      "source": "event_sorting_ceremony",
+      "target": "char_hermione_granger",
+      "type": "IN_SCENE",
+      "house": "Gryffindor"
+    },
+    {
+      "source": "event_sorting_ceremony",
+      "target": "obj_sorting_hat",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "event_sorting_ceremony",
+      "target": "loc_great_hall",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source": "event_early_school_experiences",
+      "target": "char_harry_potter",
+      "type": "IN_SCENE",
+      "role": "Quidditch Seeker"
+    },
+    {
+      "source": "event_early_school_experiences",
+      "target": "char_ron_weasley",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "event_early_school_experiences",
+      "target": "char_hermione_granger",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "event_early_school_experiences",
+      "target": "loc_hogwarts_castle",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source": "event_troll_attack_hermione",
+      "target": "char_hermione_granger",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "event_troll_attack_hermione",
+      "target": "loc_girls_bathroom",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source": "event_troll_defeat",
+      "target": "char_harry_potter",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "event_troll_defeat",
+      "target": "char_ron_weasley",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "event_troll_defeat",
+      "target": "char_hermione_granger",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "event_troll_defeat",
+      "target": "loc_girls_bathroom",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source": "event_fluffy_discovery",
+      "target": "char_harry_potter",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "event_fluffy_discovery",
+      "target": "char_ron_weasley",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "event_fluffy_discovery",
+      "target": "char_hermione_granger",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "event_fluffy_discovery",
+      "target": "char_fluffy",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "event_fluffy_discovery",
+      "target": "loc_forbidden_corridor",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source": "event_invisibility_cloak_gift",
+      "target": "char_harry_potter",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "event_invisibility_cloak_gift",
+      "target": "obj_invisibility_cloak",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "event_mirror_erised_discovery",
+      "target": "char_harry_potter",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "event_mirror_erised_discovery",
+      "target": "char_dumbledore",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "event_mirror_erised_discovery",
+      "target": "obj_mirror_erised",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "event_mirror_erised_discovery",
+      "target": "loc_hogwarts_castle",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source": "event_snape_suspicion_quidditch",
+      "target": "char_harry_potter",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "event_snape_suspicion_quidditch",
+      "target": "char_snape",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "event_snape_suspicion_quidditch",
+      "target": "loc_hogwarts_castle",
+      "type": "TAKES_PLACE_IN",
+      "context": "Quidditch pitch"
+    },
+    {
+      "source": "event_detention",
+      "target": "char_malfoy",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "event_detention",
+      "target": "char_neville",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "event_detention",
+      "target": "char_harry_potter",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "event_detention",
+      "target": "char_ron_weasley",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "event_detention",
+      "target": "char_hermione_granger",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "event_detention",
+      "target": "loc_forbidden_forest",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source": "event_philosophers_stone_revelation",
+      "target": "char_harry_potter",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "event_philosophers_stone_revelation",
+      "target": "char_ron_weasley",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "event_philosophers_stone_revelation",
+      "target": "char_hermione_granger",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "event_philosophers_stone_revelation",
+      "target": "obj_philosophers_stone",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "event_unicorn_blood_encounter",
+      "target": "char_harry_potter",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "event_unicorn_blood_encounter",
+      "target": "char_voldemort",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "event_unicorn_blood_encounter",
+      "target": "char_firenze",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "event_unicorn_blood_encounter",
+      "target": "obj_unicorn_blood",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "event_unicorn_blood_encounter",
+      "target": "loc_forbidden_forest",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source": "event_plan_to_retrieve_stone",
+      "target": "char_harry_potter",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "event_plan_to_retrieve_stone",
+      "target": "char_ron_weasley",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "event_plan_to_retrieve_stone",
+      "target": "char_hermione_granger",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "event_plan_to_retrieve_stone",
+      "target": "char_neville",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "event_plan_to_retrieve_stone",
+      "target": "char_fluffy",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "event_plan_to_retrieve_stone",
+      "target": "obj_enchanted_harp",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "event_devil_snare_escape",
+      "target": "char_harry_potter",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "event_devil_snare_escape",
+      "target": "char_ron_weasley",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "event_devil_snare_escape",
+      "target": "char_hermione_granger",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "event_devil_snare_escape",
+      "target": "obj_devil_snare",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "event_devil_snare_escape",
+      "target": "loc_quirrells_chamber",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source": "event_flying_keys_room",
+      "target": "char_harry_potter",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "event_flying_keys_room",
+      "target": "char_ron_weasley",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "event_flying_keys_room",
+      "target": "char_hermione_granger",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "event_flying_keys_room",
+      "target": "obj_flying_keys",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "event_flying_keys_room",
+      "target": "loc_quirrells_chamber",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source": "event_wizards_chess_sacrifice",
+      "target": "char_harry_potter",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "event_wizards_chess_sacrifice",
+      "target": "char_ron_weasley",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "event_wizards_chess_sacrifice",
+      "target": "char_hermione_granger",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "event_wizards_chess_sacrifice",
+      "target": "obj_wizards_chess_set",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "event_wizards_chess_sacrifice",
+      "target": "loc_quirrells_chamber",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source": "event_confrontation_quirrell_voldemort",
+      "target": "char_harry_potter",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "event_confrontation_quirrell_voldemort",
+      "target": "char_quirrell",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "event_confrontation_quirrell_voldemort",
+      "target": "char_voldemort",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "event_confrontation_quirrell_voldemort",
+      "target": "obj_philosophers_stone",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "event_confrontation_quirrell_voldemort",
+      "target": "obj_mirror_erised",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "event_confrontation_quirrell_voldemort",
+      "target": "loc_quirrells_chamber",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source": "event_stone_destruction",
+      "target": "obj_philosophers_stone",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "event_stone_destruction",
+      "target": "char_harry_potter",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "event_stone_destruction",
+      "target": "loc_quirrells_chamber",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source": "event_house_cup_win",
+      "target": "char_dumbledore",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "event_house_cup_win",
+      "target": "char_harry_potter",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "event_house_cup_win",
+      "target": "char_ron_weasley",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "event_house_cup_win",
+      "target": "char_hermione_granger",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "event_house_cup_win",
+      "target": "char_neville",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "event_house_cup_win",
+      "target": "loc_great_hall",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source": "obj_devil_snare",
+      "target": "loc_quirrells_chamber",
+      "type": "PART_OF",
+      "relationship": "guards"
+    },
+    {
+      "source": "obj_flying_keys",
+      "target": "loc_quirrells_chamber",
+      "type": "PART_OF",
+      "relationship": "guards"
+    },
+    {
+      "source": "obj_wizards_chess_set",
+      "target": "loc_quirrells_chamber",
+      "type": "PART_OF",
+      "relationship": "guards"
+    }
+  ]
+}

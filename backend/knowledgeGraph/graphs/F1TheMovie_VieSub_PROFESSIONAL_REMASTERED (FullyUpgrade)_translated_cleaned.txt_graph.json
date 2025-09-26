@@ -1,0 +1,745 @@
+{
+  "movie": {
+    "id": "f1_the_movie",
+    "title": "F1 The Movie",
+    "year": null,
+    "plot_summary": "Former racing prodigy Sonny Hayes secures a spectacular victory at Daytona but leaves his successful team. He is then approached by Ruben Cervantes, owner of the debt-ridden Formula 1 team APX-GP, who offers Sonny a second chance in F1 to save the team. Sonny accepts, joining young, struggling teammate Joshua Pearce. Despite initial skepticism, Sonny impresses the team, but a fierce and reckless rivalry soon erupts between him and Joshua on the track, leading to dramatic collisions and jeopardizing both their careers and the team's financial stability. Technical Director Kate navigates Sonny's aggressive and often defiant tactics which, despite creating chaos, inadvertently create opportunities for Joshua to score crucial points. Joshua suffers a severe crash after a risky overtake, and his mother confronts Sonny. Despite the controversy, Sonny leads the team to success in subsequent races. The rivalry reignites upon Joshua's return, leading to more conflict and warnings from management. The team faces further pressure from accusations of illegal car modifications and a hostile takeover. During a critical race, Sonny's reckless driving leads to a crash, revealing past spinal injuries and causing concern for Ruben. In a climactic final race, after a red flag allows critical repairs, Sonny strategically sacrifices his position to aid Joshua, but ultimately secures a stunning victory for APX-GP, culminating in a triumphant but bittersweet departure.",
+    "themes": [
+      "rivalry_theme",
+      "redemption_theme",
+      "teamwork_vs_individualism_theme",
+      "sacrifice_theme",
+      "resilience_theme",
+      "financial_pressure_theme",
+      "unconventional_tactics_theme",
+      "personal_stakes_theme",
+      "ambition_theme"
+    ],
+    "mood": "intense, dramatic, desperate, triumphant, bittersweet, chaotic, hopeful"
+  },
+  "characters": [
+    {
+      "id": "sonny_hayes",
+      "name": "Sonny Hayes",
+      "role": "Racing Driver (Protagonist)",
+      "archetype": "Prodigy, maverick, defiant, self-sacrificing, resilient",
+      "description": "Secured victory at Daytona, left Hart Racing Chip, recruited by Ruben Cervantes for APX-GP, demonstrates skill but has an aggressive, reckless driving style. Engages in a fierce rivalry with Joshua Pearce, defies team orders, employs disruptive tactics, suffers severe crashes and has past spinal injuries, makes strategic sacrifices, and ultimately secures a stunning victory."
+    },
+    {
+      "id": "ruben_cervantes",
+      "name": "Ruben Cervantes",
+      "role": "Team Owner",
+      "archetype": "Desperate owner, mentor-figure",
+      "description": "Owner of the debt-ridden Formula 1 team APX-GP. Desperately needs a new driver to save his team, offers Sonny Hayes a second chance, and faces immense financial pressure and despair over driver injuries."
+    },
+    {
+      "id": "joshua_pearce",
+      "name": "Joshua Pearce",
+      "role": "Racing Driver (Teammate)",
+      "archetype": "Struggling rookie, rival, beneficiary",
+      "description": "Young and struggling F1 driver whose career is at stake. Develops a fierce rivalry with Sonny Hayes, is involved in multiple collisions, benefits from Sonny's disruptive tactics, scores the team's first crucial point, suffers a serious crash, and has a difficult journey to rediscover his love for racing."
+    },
+    {
+      "id": "kate",
+      "name": "Kate",
+      "role": "Technical Director",
+      "archetype": "Pragmatic manager, strategist",
+      "description": "Navigates the high-stakes world of F1, managing aggressive driver Sonny Hayes. She initially struggles with his methods but eventually acknowledges the unexpected effectiveness of his unconventional and high-risk strategies."
+    },
+    {
+      "id": "joshuas_mother",
+      "name": "Joshua's Mother",
+      "role": "Parent",
+      "archetype": "Protective parent",
+      "description": "Angrily confronts Sonny Hayes for his role in her son Joshua's injury after a crash."
+    }
+  ],
+  "scenes": [
+    {
+      "id": "scene_1_daytona_recruitment",
+      "sequence_number": 1,
+      "summary": "Sonny Hayes secures a spectacular victory at a Daytona race for Hart Racing Chip but decides to leave the team. He is then approached by Ruben Cervantes, owner of the debt-ridden APX-GP team, who offers him a second chance in F1. Sonny accepts and meets his struggling young teammate, Joshua Pearce. During a test drive, Sonny impresses the skeptical team by identifying car issues and narrowly outperforming Joshua.",
+      "emotional_tone": "triumphant, hopeful, skeptical, determined",
+      "key_quotes": null
+    },
+    {
+      "id": "scene_2_silverstone_collision",
+      "sequence_number": 2,
+      "summary": "Sonny Hayes returns to Formula 1 with APX-GP alongside Joshua Pearce. At the Silverstone Grand Prix, an intense rivalry between Sonny and Joshua erupts on track, leading to a dramatic collision that forces both APX cars out of the race. This incident sparks a heated post-race confrontation and deepens Ruben's desperation due to immense financial pressure.",
+      "emotional_tone": "intense, confrontational, desperate",
+      "key_quotes": null
+    },
+    {
+      "id": "scene_3_hungary_italy_tactics",
+      "sequence_number": 3,
+      "summary": "Technical Director Kate manages Sonny Hayes's aggressive driving and the team's car performance issues. In the Hungarian Grand Prix, Sonny repeatedly defies team orders, causing incidents that inadvertently open opportunities for Joshua Pearce, who scores the team's first crucial point. Sonny continues these self-sacrificing tactics in the Italian Grand Prix, blocking rivals and intentionally causing a safety car to further aid Joshua's progress. Kate begins to acknowledge the effectiveness of his unconventional strategies.",
+      "emotional_tone": "chaotic, frustrated, strategic, grudgingly impressed",
+      "key_quotes": null
+    },
+    {
+      "id": "scene_4_joshuas_crash_escalation",
+      "sequence_number": 4,
+      "summary": "During a chaotic race, Joshua Pearce attempts a risky overtake, resulting in a serious crash and injury. Joshua's mother angrily confronts Sonny Hayes. While Joshua recovers, Sonny, despite public controversy, leads the team to success. Upon Joshua's return, their rivalry immediately reignites, leading to another collision and culminating in a tense team meeting and hostile poker game where their manager warns them about their jobs.",
+      "emotional_tone": "dramatic, angry, confrontational, tense",
+      "key_quotes": null
+    },
+    {
+      "id": "scene_5_abu_dhabi_crash",
+      "sequence_number": 5,
+      "summary": "The segment details the contrasting styles of Joshua Pearce and Sonny Hayes, with Joshua's past crash and Sonny's ambition. The team faces accusations of illegal car modifications and a hostile takeover. During the Abu Dhabi Grand Prix, Sonny's reckless driving leads to a collision, revealing severe past spinal injuries and causing profound concern and despair for team manager Ruben.",
+      "emotional_tone": "high-stakes, revealing, despairing, concerned",
+      "key_quotes": null
+    },
+    {
+      "id": "scene_6_final_race_victory",
+      "sequence_number": 6,
+      "summary": "A dramatic final Formula 1 race for Sonny Hayes and Joshua Pearce is marked by early collisions and tire degradation. Hayes suffers a severe, race-stopping crash but incredibly returns to the pits. A fortuitous red flag allows repairs and new tires, setting up a thrilling 3-lap sprint finish. Through brilliant teamwork, Hayes strategically sacrifices his position to aid Pearce, but in a chaotic final lap, Sonny Hayes ultimately secures a stunning victory for APX-GP, culminating in a triumphant but bittersweet departure.",
+      "emotional_tone": "dramatic, resilient, triumphant, bittersweet",
+      "key_quotes": null
+    }
+  ],
+  "events": [
+    {
+      "id": "daytona_victory",
+      "name": "Daytona Victory",
+      "type": "Race",
+      "description": "Sonny Hayes secures a spectacular victory in a Daytona race for Hart Racing Chip.",
+      "significance": "Showcases Sonny's driving skill before he leaves the team."
+    },
+    {
+      "id": "sonny_joins_apx_gp",
+      "name": "Sonny Joins APX-GP",
+      "type": "Team Recruitment",
+      "description": "Ruben Cervantes approaches Sonny Hayes to drive for his debt-ridden Formula 1 team, APX-GP, offering a second chance.",
+      "significance": "A pivotal moment for both Sonny's career and the survival of APX-GP."
+    },
+    {
+      "id": "initial_apx_gp_test",
+      "name": "APX-GP Test Drive",
+      "type": "Test Session",
+      "description": "Sonny Hayes impresses the skeptical APX-GP team by precisely identifying car issues and narrowly outperforming Joshua Pearce.",
+      "significance": "Sets a hopeful tone for the team's future and confirms Sonny's skill."
+    },
+    {
+      "id": "silverstone_gp_collision",
+      "name": "Silverstone Grand Prix Collision",
+      "type": "Race Incident",
+      "description": "A fierce, reckless rivalry between Sonny Hayes and Joshua Pearce culminates in a dramatic collision at Silverstone, forcing both APX cars out of the race.",
+      "significance": "Highlights the intense internal conflict and deepens Ruben's desperation."
+    },
+    {
+      "id": "hungarian_gp_point",
+      "name": "Hungarian Grand Prix - Pearce Scores First Point",
+      "type": "Race",
+      "description": "Joshua Pearce capitalizes on Sonny Hayes's disruptive tactics (defying team orders, causing safety cars) to score APX-GP's crucial first point.",
+      "significance": "A vital achievement for the struggling team, demonstrating the unexpected effectiveness of Sonny's methods."
+    },
+    {
+      "id": "italian_gp_aid",
+      "name": "Italian Grand Prix - Hayes Aids Pearce",
+      "type": "Race",
+      "description": "Sonny Hayes continues his self-sacrificing tactics by blocking rivals and intentionally causing a safety car with a punctured tire to aid Joshua Pearce's progress.",
+      "significance": "Further exemplifies Sonny's unconventional teamwork and secures vital points for the team."
+    },
+    {
+      "id": "joshuas_injury_crash",
+      "name": "Joshua's Injury Crash",
+      "type": "Race Incident",
+      "description": "Joshua Pearce attempts a risky overtake in a chaotic race, resulting in a serious crash and injury, leading his mother to confront Sonny Hayes.",
+      "significance": "Highlights the dangers of racing and intensifies the personal stakes and blame."
+    },
+    {
+      "id": "team_meeting_rivalry",
+      "name": "Tense Team Meeting",
+      "type": "Meeting",
+      "description": "A tense team meeting addresses the deep-seated animosity and lack of teamwork between Sonny Hayes and Joshua Pearce, with their manager warning them about their jobs.",
+      "significance": "Exposes the severity of the internal conflict and its threat to the team."
+    },
+    {
+      "id": "hostile_poker_game",
+      "name": "Hostile Poker Game",
+      "type": "Social Interaction",
+      "description": "The animosity between Sonny Hayes and Joshua Pearce is further exposed during a hostile poker game.",
+      "significance": "Reinforces the personal and professional conflict between the two drivers."
+    },
+    {
+      "id": "abu_dhabi_gp_sonny_crash",
+      "name": "Abu Dhabi Grand Prix - Sonny's Crash",
+      "type": "Race Incident",
+      "description": "Sonny Hayes's reckless driving during the Abu Dhabi Grand Prix leads to a collision, revealing severe past spinal injuries.",
+      "significance": "Highlights the emotional toll and personal sacrifices in racing, causing despair for Ruben."
+    },
+    {
+      "id": "red_flag_repairs",
+      "name": "Red Flag and Repairs",
+      "type": "Race Interruption",
+      "description": "After Sonny Hayes's severe crash in the final race, a fortuitous red flag rule allows repairs and new tires for damaged cars.",
+      "significance": "Provides a critical second chance for APX-GP in a high-stakes moment."
+    },
+    {
+      "id": "final_race_strategic_victory",
+      "name": "Final Race - Strategic Sacrifice and Victory",
+      "type": "Race",
+      "description": "In a thrilling sprint finish, Sonny Hayes strategically sacrifices his position to aid Joshua Pearce, but ultimately secures a stunning victory for APX-GP.",
+      "significance": "Culminates in triumph for the team and a bittersweet departure for Sonny, symbolizing teamwork and individual brilliance."
+    }
+  ],
+  "locations": [
+    {
+      "id": "daytona_track",
+      "name": "Daytona",
+      "type": "Race Track",
+      "description": "Site of Sonny Hayes's spectacular victory before joining APX-GP."
+    },
+    {
+      "id": "silverstone_gp_track",
+      "name": "Silverstone Grand Prix",
+      "type": "Race Track",
+      "description": "Location where Sonny Hayes and Joshua Pearce's rivalry first culminates in a collision."
+    },
+    {
+      "id": "hungarian_gp_track",
+      "name": "Hungarian Grand Prix",
+      "type": "Race Track",
+      "description": "Location where Sonny Hayes's tactics lead to Joshua Pearce scoring the team's first point."
+    },
+    {
+      "id": "italian_gp_track",
+      "name": "Italian Grand Prix",
+      "type": "Race Track",
+      "description": "Location where Sonny Hayes uses self-sacrificing tactics to aid Joshua Pearce's progress."
+    },
+    {
+      "id": "abu_dhabi_gp_track",
+      "name": "Abu Dhabi Grand Prix",
+      "type": "Race Track",
+      "description": "Location where Sonny Hayes's reckless driving leads to a collision, revealing his past injuries."
+    },
+    {
+      "id": "apx_gp_headquarters",
+      "name": "APX-GP Headquarters (implied)",
+      "type": "Team Base",
+      "description": "Location where tense team meetings and internal discussions occur, especially regarding driver rivalry."
+    },
+    {
+      "id": "generic_race_track",
+      "name": "Generic Race Track",
+      "type": "Race Track",
+      "description": "General location for various unnamed races or test drives throughout the movie where specific Grand Prix are not mentioned."
+    }
+  ],
+  "objects": [
+    {
+      "id": "hart_racing_chip_car",
+      "name": "Hart Racing Chip Car",
+      "type": "Formula 1 Car",
+      "significance": "The vehicle Sonny Hayes drove to his spectacular victory at Daytona before leaving the team."
+    },
+    {
+      "id": "apx_gp_car",
+      "name": "APX-GP Car",
+      "type": "Formula 1 Car",
+      "significance": "The primary vehicles driven by Sonny Hayes and Joshua Pearce. Subject to performance issues, collisions, and accusations of illegal modifications."
+    },
+    {
+      "id": "tires",
+      "name": "Tires",
+      "type": "Car Component",
+      "significance": "Critical for race performance, subject to degradation and strategic pit stop changes, crucial during the red flag period for repairs."
+    },
+    {
+      "id": "team_orders",
+      "name": "Team Orders",
+      "type": "Instruction",
+      "significance": "Instructions issued by the team (likely Kate) that Sonny Hayes frequently defies, leading to both chaos and unforeseen opportunities."
+    },
+    {
+      "id": "punctured_tire",
+      "name": "Punctured Tire",
+      "type": "Car Component",
+      "significance": "Intentionally caused by Sonny Hayes during the Italian Grand Prix to trigger a safety car, aiding Joshua Pearce's progress."
+    },
+    {
+      "id": "illegal_car_modifications_accusation",
+      "name": "Illegal Car Modifications Accusations",
+      "type": "Allegation",
+      "significance": "Accusations faced by APX-GP, intensifying pressure on the team during a critical period."
+    }
+  ],
+  "themes": [
+    {
+      "id": "rivalry_theme",
+      "name": "Rivalry",
+      "category": "Human Conflict"
+    },
+    {
+      "id": "redemption_theme",
+      "name": "Redemption",
+      "category": "Personal Journey"
+    },
+    {
+      "id": "teamwork_vs_individualism_theme",
+      "name": "Teamwork vs. Individualism",
+      "category": "Social Dynamics"
+    },
+    {
+      "id": "sacrifice_theme",
+      "name": "Sacrifice",
+      "category": "Personal Trait"
+    },
+    {
+      "id": "resilience_theme",
+      "name": "Resilience",
+      "category": "Personal Trait"
+    },
+    {
+      "id": "financial_pressure_theme",
+      "name": "Financial Pressure",
+      "category": "Societal Issue"
+    },
+    {
+      "id": "unconventional_tactics_theme",
+      "name": "Unconventional Tactics",
+      "category": "Strategy"
+    },
+    {
+      "id": "personal_stakes_theme",
+      "name": "Personal Stakes",
+      "category": "Human Condition"
+    },
+    {
+      "id": "ambition_theme",
+      "name": "Ambition",
+      "category": "Personal Trait"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "f1_the_movie",
+      "target": "rivalry_theme",
+      "type": "EXPLORES"
+    },
+    {
+      "source": "f1_the_movie",
+      "target": "redemption_theme",
+      "type": "EXPLORES"
+    },
+    {
+      "source": "f1_the_movie",
+      "target": "teamwork_vs_individualism_theme",
+      "type": "EXPLORES"
+    },
+    {
+      "source": "f1_the_movie",
+      "target": "sacrifice_theme",
+      "type": "EXPLORES"
+    },
+    {
+      "source": "f1_the_movie",
+      "target": "resilience_theme",
+      "type": "EXPLORES"
+    },
+    {
+      "source": "f1_the_movie",
+      "target": "financial_pressure_theme",
+      "type": "EXPLORES"
+    },
+    {
+      "source": "f1_the_movie",
+      "target": "unconventional_tactics_theme",
+      "type": "EXPLORES"
+    },
+    {
+      "source": "f1_the_movie",
+      "target": "personal_stakes_theme",
+      "type": "EXPLORES"
+    },
+    {
+      "source": "f1_the_movie",
+      "target": "ambition_theme",
+      "type": "EXPLORES"
+    },
+    {
+      "source": "sonny_hayes",
+      "target": "f1_the_movie",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "ruben_cervantes",
+      "target": "f1_the_movie",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "joshua_pearce",
+      "target": "f1_the_movie",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "kate",
+      "target": "f1_the_movie",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "joshuas_mother",
+      "target": "f1_the_movie",
+      "type": "APPEARS_IN"
+    },
+    {
+      "source": "sonny_hayes",
+      "target": "ruben_cervantes",
+      "type": "RELATES_TO",
+      "properties": {
+        "relationship_type": "driver_owner",
+        "description": "Ruben recruits and manages Sonny."
+      }
+    },
+    {
+      "source": "sonny_hayes",
+      "target": "joshua_pearce",
+      "type": "RELATES_TO",
+      "properties": {
+        "relationship_type": "teammate_rival",
+        "description": "Sonny and Joshua are teammates and fierce rivals."
+      }
+    },
+    {
+      "source": "sonny_hayes",
+      "target": "kate",
+      "type": "RELATES_TO",
+      "properties": {
+        "relationship_type": "driver_technical_director",
+        "description": "Kate manages Sonny's driving and tactics."
+      }
+    },
+    {
+      "source": "joshua_pearce",
+      "target": "joshuas_mother",
+      "type": "RELATES_TO",
+      "properties": {
+        "relationship_type": "son_mother",
+        "description": "Joshua is the son of Joshua's mother."
+      }
+    },
+    {
+      "source": "sonny_hayes",
+      "target": "daytona_victory",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "sonny_hayes",
+      "target": "sonny_joins_apx_gp",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "sonny_hayes",
+      "target": "initial_apx_gp_test",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "sonny_hayes",
+      "target": "silverstone_gp_collision",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "sonny_hayes",
+      "target": "hungarian_gp_point",
+      "type": "IN_SCENE",
+      "properties": {
+        "role": "contributor_via_tactics"
+      }
+    },
+    {
+      "source": "sonny_hayes",
+      "target": "italian_gp_aid",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "sonny_hayes",
+      "target": "joshuas_injury_crash",
+      "type": "IN_SCENE",
+      "properties": {
+        "role": "involved_in_controversy"
+      }
+    },
+    {
+      "source": "sonny_hayes",
+      "target": "team_meeting_rivalry",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "sonny_hayes",
+      "target": "hostile_poker_game",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "sonny_hayes",
+      "target": "abu_dhabi_gp_sonny_crash",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "sonny_hayes",
+      "target": "red_flag_repairs",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "sonny_hayes",
+      "target": "final_race_strategic_victory",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "ruben_cervantes",
+      "target": "sonny_joins_apx_gp",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "ruben_cervantes",
+      "target": "silverstone_gp_collision",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "ruben_cervantes",
+      "target": "abu_dhabi_gp_sonny_crash",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "joshua_pearce",
+      "target": "initial_apx_gp_test",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "joshua_pearce",
+      "target": "silverstone_gp_collision",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "joshua_pearce",
+      "target": "hungarian_gp_point",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "joshua_pearce",
+      "target": "italian_gp_aid",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "joshua_pearce",
+      "target": "joshuas_injury_crash",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "joshua_pearce",
+      "target": "team_meeting_rivalry",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "joshua_pearce",
+      "target": "hostile_poker_game",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "joshua_pearce",
+      "target": "red_flag_repairs",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "joshua_pearce",
+      "target": "final_race_strategic_victory",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "kate",
+      "target": "hungarian_gp_point",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "kate",
+      "target": "italian_gp_aid",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "joshuas_mother",
+      "target": "joshuas_injury_crash",
+      "type": "IN_SCENE"
+    },
+    {
+      "source": "daytona_victory",
+      "target": "daytona_track",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source": "silverstone_gp_collision",
+      "target": "silverstone_gp_track",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source": "hungarian_gp_point",
+      "target": "hungarian_gp_track",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source": "italian_gp_aid",
+      "target": "italian_gp_track",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source": "joshuas_injury_crash",
+      "target": "generic_race_track",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source": "team_meeting_rivalry",
+      "target": "apx_gp_headquarters",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source": "abu_dhabi_gp_sonny_crash",
+      "target": "abu_dhabi_gp_track",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source": "final_race_strategic_victory",
+      "target": "generic_race_track",
+      "type": "TAKES_PLACE_IN"
+    },
+    {
+      "source": "daytona_victory",
+      "target": "hart_racing_chip_car",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "sonny_joins_apx_gp",
+      "target": "apx_gp_car",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "initial_apx_gp_test",
+      "target": "apx_gp_car",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "silverstone_gp_collision",
+      "target": "apx_gp_car",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "hungarian_gp_point",
+      "target": "apx_gp_car",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "hungarian_gp_point",
+      "target": "team_orders",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "hungarian_gp_point",
+      "target": "tires",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "italian_gp_aid",
+      "target": "apx_gp_car",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "italian_gp_aid",
+      "target": "punctured_tire",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "joshuas_injury_crash",
+      "target": "apx_gp_car",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "abu_dhabi_gp_sonny_crash",
+      "target": "apx_gp_car",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "red_flag_repairs",
+      "target": "apx_gp_car",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "red_flag_repairs",
+      "target": "tires",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "final_race_strategic_victory",
+      "target": "apx_gp_car",
+      "type": "CONTAINS"
+    },
+    {
+      "source": "apx_gp_car",
+      "target": "sonny_hayes",
+      "type": "REPRESENTS",
+      "properties": {
+        "role": "driven_by"
+      }
+    },
+    {
+      "source": "apx_gp_car",
+      "target": "joshua_pearce",
+      "type": "REPRESENTS",
+      "properties": {
+        "role": "driven_by"
+      }
+    },
+    {
+      "source": "team_orders",
+      "target": "kate",
+      "type": "RELATES_TO",
+      "properties": {
+        "relationship_type": "issued_by"
+      }
+    },
+    {
+      "source": "team_orders",
+      "target": "sonny_hayes",
+      "type": "RELATES_TO",
+      "properties": {
+        "relationship_type": "defied_by"
+      }
+    },
+    {
+      "source": "illegal_car_modifications_accusation",
+      "target": "apx_gp_car",
+      "type": "RELATES_TO",
+      "properties": {
+        "relationship_type": "accused_against"
+      }
+    },
+    {
+      "source": "scene_1_daytona_recruitment",
+      "target": "f1_the_movie",
+      "type": "PART_OF"
+    },
+    {
+      "source": "scene_2_silverstone_collision",
+      "target": "f1_the_movie",
+      "type": "PART_OF"
+    },
+    {
+      "source": "scene_3_hungary_italy_tactics",
+      "target": "f1_the_movie",
+      "type": "PART_OF"
+    },
+    {
+      "source": "scene_4_joshuas_crash_escalation",
+      "target": "f1_the_movie",
+      "type": "PART_OF"
+    },
+    {
+      "source": "scene_5_abu_dhabi_crash",
+      "target": "f1_the_movie",
+      "type": "PART_OF"
+    },
+    {
+      "source": "scene_6_final_race_victory",
+      "target": "f1_the_movie",
+      "type": "PART_OF"
+    }
+  ]
+}
