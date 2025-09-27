@@ -12,25 +12,30 @@ import {
   UserButton,
 } from '@clerk/clerk-react';
 import Chat from '@/components/chat/chat';
+import { ThemeToggle } from '@/components/theme-toggle';
 
 export default function ChatLayout() {
   const [conversations, setConversations] = useState([
     {
       id: 'sample-1',
-      title: 'Chat',
+      title: 'Movie Discovery',
       messages: [
         {
           id: 'm1',
           role: 'user',
-          content: 'Hey Bolt, can you tell me more about AI Agents?',
+          content: 'Show me movies about betrayal and redemption',
         },
         {
           id: 'm2',
           role: 'assistant',
           content:
-            'AI agents are software that perceive their environment and act autonomously to achieve goals, making decisions, learning, and interacting. For example, an AI agent might schedule meetings by resolving conflicts, contacting participants, and finding optimal times—all without constant supervision. Let me know if you‘d like more details!',
+            'I found several movies that explore themes of betrayal and redemption. "The Shawshank Redemption" follows Andy Dufresne\'s journey from wrongful imprisonment to redemption. "Casino" shows the betrayal and eventual redemption of Sam Rothstein. "The Godfather Part II" explores Michael Corleone\'s moral descent and attempts at redemption. Would you like me to find more specific examples or explore similar themes?',
         },
-        { id: 'm3', role: 'user', content: 'All clear, thank you!' },
+        {
+          id: 'm3',
+          role: 'user',
+          content: 'What about movies that feel like Spirited Away?',
+        },
       ],
     },
   ]);
@@ -44,7 +49,7 @@ export default function ChatLayout() {
 
   const handleNewChat = useCallback(() => {
     const id = `chat-${Date.now()}`;
-    const newConv = { id, title: 'New chat', messages: [] };
+    const newConv = { id, title: 'New Movie Search', messages: [] };
     setConversations((prev) => [newConv, ...prev]);
     setSelectedId(id);
     setIsNewChat(true);
@@ -91,7 +96,8 @@ export default function ChatLayout() {
         const assistantMessage = {
           id: `m-${Date.now()}-a`,
           role: 'assistant',
-          content: 'Thanks! This is a placeholder response.',
+          content:
+            'I found some relevant movies in our knowledge graph. Let me search for more specific information about your query.',
         };
         const updated = {
           ...conv,
@@ -116,9 +122,10 @@ export default function ChatLayout() {
         onNewChat={handleNewChat}
       />
       <SidebarInset className="bg-sidebar group/sidebar-inset">
-        <header className="dark flex h-16 shrink-0 items-center gap-2 px-4 md:px-6 lg:px-8 bg-sidebar text-sidebar-foreground relative before:absolute before:inset-y-3 before:-left-px before:w-px before:bg-gradient-to-b before:from-white/5 before:via-white/15 before:to-white/5 before:z-50">
+        <header className="glass-morphism flex h-16 shrink-0 items-center gap-2 px-4 md:px-6 lg:px-8 text-sidebar-foreground relative border-b border-white/10 dark:border-white/5">
           <SidebarTrigger className="-ms-2" />
-          <div className="flex items-center gap-8 ml-auto">
+          <div className="flex items-center gap-4 ml-auto">
+            <ThemeToggle />
             <SignedIn>
               <UserButton signOutOptions={{ redirectUrl: '/' }} />
             </SignedIn>
@@ -127,7 +134,10 @@ export default function ChatLayout() {
             </SignedOut>
           </div>
         </header>
-        <div className="flex h-[calc(100svh-4rem)] bg-dark md:rounded-s-3xl md:group-peer-data-[state=collapsed]/sidebar-inset:rounded-s-none transition-all ease-in-out duration-300">
+        <div className="flex h-[calc(100svh-4rem)] bg-background md:rounded-s-3xl md:group-peer-data-[state=collapsed]/sidebar-inset:rounded-s-none transition-all ease-in-out duration-300 relative overflow-hidden">
+          {/* Background gradient similar to landing page */}
+          <div className="absolute inset-0 bg-gradient-to-br from-primary/5 via-transparent to-primary/10 blur-3xl" />
+          <div className="absolute inset-0 bg-gradient-to-t from-background/80 via-transparent to-background/60" />
           <Chat
             isNewChat={isNewChat}
             onStartChat={() => setIsNewChat(false)}

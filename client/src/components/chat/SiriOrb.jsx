@@ -1,91 +1,106 @@
-import { cn } from "@/lib/utils"
+import { cn } from '@/lib/utils';
 
 const SiriOrb = ({
-  size = "192px",
+  size = '192px',
   className,
   colors,
   animationDuration = 20,
 }) => {
   const defaultColors = {
-    bg: "oklch(95% 0.02 264.695)",
-    c1: "oklch(75% 0.15 350)", // Pastel pink
-    c2: "oklch(80% 0.12 200)", // Pastel blue
-    c3: "oklch(78% 0.14 280)", // Pastel purple/lavender
-  }
+    bg: 'oklch(95% 0.02 264.695)', // Light theme background
+    c1: 'oklch(75% 0.15 350)', // Pastel pink
+    c2: 'oklch(80% 0.12 200)', // Pastel blue
+    c3: 'oklch(78% 0.14 280)', // Pastel purple/lavender
+  };
 
-  const finalColors = { ...defaultColors, ...colors }
+  // Dark theme colors
+  const darkColors = {
+    bg: 'oklch(15% 0.02 264.695)', // Dark theme background
+    c1: 'oklch(45% 0.15 350)', // Darker pink
+    c2: 'oklch(50% 0.12 200)', // Darker blue
+    c3: 'oklch(48% 0.14 280)', // Darker purple/lavender
+  };
+
+  // Determine theme-aware colors
+  const isDark =
+    typeof window !== 'undefined' &&
+    (document.documentElement.classList.contains('dark') ||
+      (!document.documentElement.classList.contains('light') &&
+        window.matchMedia('(prefers-color-scheme: dark)').matches));
+
+  const themeColors = isDark ? darkColors : defaultColors;
+  const finalColors = { ...themeColors, ...colors };
 
   // Extract numeric value from size for calculations
-  const sizeValue = parseInt(size.replace("px", ""), 10)
+  const sizeValue = parseInt(size.replace('px', ''), 10);
 
   // Responsive calculations based on size
   const blurAmount =
     sizeValue < 50
       ? Math.max(sizeValue * 0.008, 1) // Reduced blur for small sizes
-      : Math.max(sizeValue * 0.015, 4)
+      : Math.max(sizeValue * 0.015, 4);
 
   const contrastAmount =
     sizeValue < 50
       ? Math.max(sizeValue * 0.004, 1.2) // Reduced contrast for small sizes
-      : Math.max(sizeValue * 0.008, 1.5)
+      : Math.max(sizeValue * 0.008, 1.5);
 
   const dotSize =
     sizeValue < 50
       ? Math.max(sizeValue * 0.004, 0.05) // Smaller dots for small sizes
-      : Math.max(sizeValue * 0.008, 0.1)
+      : Math.max(sizeValue * 0.008, 0.1);
 
   const shadowSpread =
     sizeValue < 50
       ? Math.max(sizeValue * 0.004, 0.5) // Reduced shadow for small sizes
-      : Math.max(sizeValue * 0.008, 2)
+      : Math.max(sizeValue * 0.008, 2);
 
   // Adjust mask radius based on size to reduce black center in small sizes
   const maskRadius =
     sizeValue < 30
-      ? "0%"
+      ? '0%'
       : sizeValue < 50
-        ? "5%"
-        : sizeValue < 100
-          ? "15%"
-          : "25%"
+      ? '5%'
+      : sizeValue < 100
+      ? '15%'
+      : '25%';
 
   // Use more subtle contrast for very small sizes
   const finalContrast =
     sizeValue < 30
       ? 1.1 // Very subtle contrast for tiny sizes
       : sizeValue < 50
-        ? Math.max(contrastAmount * 1.2, 1.3) // Reduced contrast for small sizes
-        : contrastAmount
+      ? Math.max(contrastAmount * 1.2, 1.3) // Reduced contrast for small sizes
+      : contrastAmount;
 
   return (
     <div
-      className={cn("siri-orb", className)}
-      style={
-        {
-          width: size,
-          height: size,
-          "--bg": finalColors.bg,
-          "--c1": finalColors.c1,
-          "--c2": finalColors.c2,
-          "--c3": finalColors.c3,
-          "--animation-duration": `${animationDuration}s`,
-          "--blur-amount": `${blurAmount}px`,
-          "--contrast-amount": finalContrast,
-          "--dot-size": `${dotSize}px`,
-          "--shadow-spread": `${shadowSpread}px`,
-          "--mask-radius": maskRadius
-        }
-      }>
+      className={cn('siri-orb', className)}
+      style={{
+        width: size,
+        height: size,
+        '--bg': finalColors.bg,
+        '--c1': finalColors.c1,
+        '--c2': finalColors.c2,
+        '--c3': finalColors.c3,
+        '--animation-duration': `${animationDuration}s`,
+        '--blur-amount': `${blurAmount}px`,
+        '--contrast-amount': finalContrast,
+        '--dot-size': `${dotSize}px`,
+        '--shadow-spread': `${shadowSpread}px`,
+        '--mask-radius': maskRadius,
+      }}
+    >
       <style jsx>{`
         @property --angle {
-          syntax: "<angle>";
+          syntax: '<angle>';
           inherits: false;
           initial-value: 0deg;
         }
 
         .siri-orb {
           display: grid;
-          grid-template-areas: "stack";
+          grid-template-areas: 'stack';
           overflow: hidden;
           border-radius: 50%;
           position: relative;
@@ -94,7 +109,7 @@ const SiriOrb = ({
 
         .siri-orb::before,
         .siri-orb::after {
-          content: "";
+          content: '';
           display: block;
           grid-area: stack;
           width: 100%;
@@ -104,8 +119,7 @@ const SiriOrb = ({
         }
 
         .siri-orb::before {
-          background:
-            conic-gradient(
+          background: conic-gradient(
               from calc(var(--angle) * 2) at 25% 70%,
               var(--c3),
               transparent 20% 80%,
@@ -160,11 +174,11 @@ const SiriOrb = ({
         }
 
         /* Apply mask only when radius is greater than 0 */
-        .siri-orb[style*="--mask-radius: 0%"]::after {
+        .siri-orb[style*='--mask-radius: 0%']::after {
           mask-image: none;
         }
 
-        .siri-orb:not([style*="--mask-radius: 0%"])::after {
+        .siri-orb:not([style*='--mask-radius: 0%'])::after {
           mask-image: radial-gradient(
             black var(--mask-radius),
             transparent 75%
@@ -185,6 +199,6 @@ const SiriOrb = ({
       `}</style>
     </div>
   );
-}
+};
 
-export default SiriOrb
+export default SiriOrb;
