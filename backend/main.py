@@ -1,6 +1,6 @@
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
-from typing import List, Dict, Any, Optional
+from typing import List, Dict, Any
 import os
 import logging
 from neo4j import GraphDatabase
@@ -10,15 +10,15 @@ import google.generativeai as genai
 from fastapi.middleware.cors import CORSMiddleware
 import json
 import uvicorn
+from dotenv import load_dotenv
+load_dotenv()
 
-# Configure logging
+
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-# Initialize FastAPI app
 app = FastAPI(title="MediaGraphAI API", version="1.0.0")
 
-# Add CORS middleware
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
@@ -47,15 +47,18 @@ class EmbeddingResponse(BaseModel):
 # Configuration
 class Config:
     # Environment variables
-    NEO4J_URI = os.getenv("NEO4J_URI", "bolt://localhost:7687")
-    NEO4J_USER = os.getenv("NEO4J_USER", "neo4j")
-    NEO4J_PASSWORD = os.getenv("NEO4J_PASSWORD", "password")
-    GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "your-gemini-api-key")
-    EMBEDDING_SERVICE_URL = os.getenv("EMBEDDING_SERVICE_URL", "http://localhost:8005/embed")
+    NEO4J_URI = os.getenv("NEO4J_URI")
+    NEO4J_USER = os.getenv("NEO4J_USER")
+    NEO4J_PASSWORD = os.getenv("NEO4J_PASSWORD")
+    GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
+    EMBEDDING_SERVICE_URL = "http://localhost:8005/embed"
     
     # Model configuration
     TOP_K_RESULTS = 5
-
+print(Config.GEMINI_API_KEY)
+print(Config.NEO4J_URI)
+print(Config.NEO4J_USER)
+print(Config.NEO4J_PASSWORD)
 # Initialize services
 class ServiceManager:
     def __init__(self):
@@ -193,7 +196,7 @@ class QueryProcessor:
             return query
             
         try:
-            model = genai.GenerativeModel('gemini-pro')
+            model = genai.GenerativeModel(model_name='gemini-2.5-flash')
             prompt = f"""
             Enhance this movie search query to be more specific and detailed while keeping the original intent:
             
@@ -236,7 +239,7 @@ class QueryProcessor:
                 return 'movie'  # default
         
         try:
-            model = genai.GenerativeModel('gemini-pro')
+            model = genai.GenerativeModel(model_name='gemini-2.5-flash')
             prompt = f"""
             Classify this movie-related query into exactly one of these categories:
             - movie: queries about films, movies, or overall stories
@@ -356,7 +359,7 @@ class ResponseGenerator:
             return ResponseGenerator._generate_fallback_response(context, original_query)
         
         try:
-            model = genai.GenerativeModel('gemini-pro')
+            model = genai.GenerativeModel(model_name='gemini-2.5-flash')
             context_json = json.dumps(context, indent=2)
             
             prompt = f"""
@@ -494,4 +497,4 @@ async def shutdown_event():
     await services.close()
 
 if __name__ == "__main__":
-    uvicorn.run(app, host="0.0.0.0", port=8000)
+    uvicorn.run(app, host="0.0.0.0", port=8001)
