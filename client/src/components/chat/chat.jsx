@@ -9,6 +9,8 @@ import {
 import { ChatMessage } from '@/components/chat/chat-message';
 import { useRef, useEffect, useState, memo } from 'react';
 import SiriOrb from './SiriOrb';
+import { LoadingMessage } from './loading-animation';
+import { ChatService } from '@/services/chat-service';
 
 const orbThemes = {
   // Classic & Professional
@@ -277,6 +279,7 @@ function ChatMessages({
   selectedSize,
   animationDuration,
   messages,
+  isLoading,
 }) {
   const messagesEndRef = useRef(null);
 
@@ -291,23 +294,24 @@ function ChatMessages({
     />
   ) : (
     <div className="max-w-3xl mx-auto mt-6 space-y-6 relative z-10">
-      {messages.length > 0 && (
-        <div className="text-center my-8">
-          <div className="inline-flex items-center glass-morphism rounded-full text-xs font-medium py-2 px-4 text-foreground/80 dark:text-foreground/90 animate-fade-in border border-white/20 dark:border-white/10">
-            <RiShining2Line
-              className="me-1.5 text-muted-foreground/70 dark:text-muted-foreground/80 -ms-1"
-              size={14}
-              aria-hidden="true"
-            />
-            Recent Searches
-          </div>
-        </div>
-      )}
-      {messages.map((m) => (
-        <ChatMessage key={m.id} isUser={m.role === 'user'}>
-          <p>{m.content}</p>
-        </ChatMessage>
-      ))}
+      {Array.isArray(messages) &&
+        messages.map((m) => (
+          <ChatMessage key={m.id} isUser={m.role === 'user'}>
+            <div className="whitespace-pre-wrap">{m.content}</div>
+            {m.role === 'assistant' && m.query_metadata && (
+              <div className="mt-2 text-xs text-muted-foreground">
+                <p>Query type: {m.query_metadata.detected_label}</p>
+                {m.query_metadata.results &&
+                  m.query_metadata.results.length > 0 && (
+                    <p>
+                      Found {m.query_metadata.results.length} relevant results
+                    </p>
+                  )}
+              </div>
+            )}
+          </ChatMessage>
+        ))}
+      {isLoading && <LoadingMessage />}
       <div ref={messagesEndRef} aria-hidden="true" />
     </div>
   );
@@ -393,26 +397,59 @@ function ChatFooter({ inputValue, setInputValue, handleSend, isNewChat }) {
   );
 }
 
-export default function Chat({
-  isNewChat = false,
-  onStartChat,
-  messages = [],
-  onSend,
-}) {
+export default function Chat({ isNewChat = false, onStartChat, onSend }) {
+  const [messages, setMessages] = useState([]);
   const [inputValue, setInputValue] = useState('');
+  const [isLoading, setIsLoading] = useState(false);
+  const [sessionId, setSessionId] = useState(null);
   const selectedSize = '120px';
   const animationDuration = 15;
 
-  const handleSend = () => {
+  useEffect(() => {
+    const initializeChat = async () => {
+      try {
+        const session = await ChatService.createSession();
+        setSessionId(session._id);
+      } catch (error) {
+        console.error('Failed to initialize chat:', error);
+      }
+    };
+
+    if (isNewChat) {
+      initializeChat();
+    }
+  }, [isNewChat]);
+
+  const handleSend = async () => {
     const trimmed = inputValue.trim();
     if (!trimmed) return;
+
     if (isNewChat && onStartChat) {
       onStartChat();
     }
-    if (onSend) {
-      onSend(trimmed);
-    }
+
+    setIsLoading(true);
     setInputValue('');
+
+    try {
+      const response = await ChatService.sendMessage(trimmed, sessionId);
+      setSessionId(response.sessionId);
+
+      // Update local messages state
+      if (response.messages && Array.isArray(response.messages)) {
+        setMessages((prevMessages) => [...prevMessages, ...response.messages]);
+      }
+
+      // Only notify parent component of new messages if needed
+      if (onSend) {
+        onSend(response.messages || []);
+      }
+    } catch (error) {
+      console.error('Failed to send message:', error);
+      // You might want to show an error message to the user here
+    } finally {
+      setIsLoading(false);
+    }
   };
 
   return (
@@ -425,6 +462,7 @@ export default function Chat({
             selectedSize={selectedSize}
             animationDuration={animationDuration}
             messages={messages}
+            isLoading={isLoading}
           />
         </div>
         {/* Footer */}

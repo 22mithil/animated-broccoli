@@ -8,3 +8,5 @@ google-generativeai
 numpy
 dotenv
 httpx
+motor
+pymongo[srv]

@@ -91,7 +91,7 @@ const SiriOrb = ({
         '--mask-radius': maskRadius,
       }}
     >
-      <style jsx>{`
+      <style jsx="true">{`
         @property --angle {
           syntax: '<angle>';
           inherits: false;

@@ -11,11 +11,16 @@ from fastapi.middleware.cors import CORSMiddleware
 import json
 import uvicorn
 from dotenv import load_dotenv
+from config.database import Database
+from models.chat import Message, ChatSession
+from datetime import datetime
+from bson import ObjectId
+
 load_dotenv()
 
 
 logging.basicConfig(level=logging.INFO)
-logger = logging.getLogger(__name__)
+logger = logging.getLogger(__name__)    
 
 app = FastAPI(title="MediaGraphAI API", version="1.0.0")
 
@@ -51,6 +56,7 @@ class Config:
     NEO4J_USER = os.getenv("NEO4J_USER")
     NEO4J_PASSWORD = os.getenv("NEO4J_PASSWORD")
     GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
+    MONGODB_URL = os.getenv("MONGODB_URL")
     EMBEDDING_SERVICE_URL = "http://localhost:8005/embed"
     
     # Model configuration
@@ -65,9 +71,8 @@ class ServiceManager:
         self.neo4j_driver = None
         self.gemini_configured = False
         self.http_client = None
-        self.initialize_services()
     
-    def initialize_services(self):
+    async def initialize_services(self):
         try:
             # Initialize Neo4j
             self.neo4j_driver = GraphDatabase.driver(
@@ -75,6 +80,10 @@ class ServiceManager:
                 auth=(Config.NEO4J_USER, Config.NEO4J_PASSWORD)
             )
             logger.info("Neo4j connection initialized")
+            
+            # Initialize MongoDB
+            await Database.connect_db(Config.MONGODB_URL)
+            logger.info("MongoDB connection initialized")
             
             # Initialize HTTP client for embedding service
             self.http_client = httpx.AsyncClient(timeout=30.0)
@@ -97,61 +106,127 @@ class ServiceManager:
             await self.http_client.aclose()
         if self.neo4j_driver:
             self.neo4j_driver.close()
+        await Database.close_db()
 
 # Global service manager
 services = ServiceManager()
 
+# Initialize services on startup
+@app.on_event("startup")
+async def startup_event():
+    """Initialize services on startup"""
+    await services.initialize_services()
+
 # Hardcoded Cypher queries for each label
+# Definitive Cypher queries based on the visual graph schema
 CYPHER_QUERIES = {
     "movie": """
-        MATCH (m:Movie)-[:EXPLORES]->(theme)
-        WHERE id(m) = $node_id
-        OPTIONAL MATCH (m)-[:CONTAINS]->(c:Character)
-        OPTIONAL MATCH (m)-[:TAKES_PLACE_IN]->(l:Location)
-        OPTIONAL MATCH (m)-[:IN_SCENE]->(s:Scene)
-        RETURN m, collect(DISTINCT c) as characters, 
-               collect(DISTINCT l) as locations, 
-               collect(DISTINCT s) as scenes,
-               collect(DISTINCT theme) as themes
-    """,
-    "character": """
-        MATCH (c:Character)-[:APPEARS_IN]->(m:Movie)
-        WHERE id(c) = $node_id
-        OPTIONAL MATCH (c)-[:IN_SCENE]->(s:Scene)
-        OPTIONAL MATCH (c)-[:RELATES_TO]->(other:Character)
-        RETURN c, m, collect(DISTINCT s) as scenes, 
-               collect(DISTINCT other) as related_characters
-    """,
-    "scene": """
-        MATCH (s:Scene)-[:PART_OF]->(m:Movie)
-        WHERE id(s) = $node_id
-        OPTIONAL MATCH (s)<-[:IN_SCENE]-(c:Character)
+        // Find the Movie node by its unique elementId
+        MATCH (m:Movie)
+        WHERE elementId(m) = $node_id
+
+        // A Movie CONTAINS Scenes. We find other entities through the scenes.
+        OPTIONAL MATCH (m)-[:CONTAINS]->(s:Scene)
+        OPTIONAL MATCH (s)-[:APPEARS_IN]->(c:Character)
         OPTIONAL MATCH (s)-[:TAKES_PLACE_IN]->(l:Location)
-        OPTIONAL MATCH (s)-[:CONTAINS]->(o:Object)
-        RETURN s, m, collect(DISTINCT c) as characters,
-               collect(DISTINCT l) as locations,
-               collect(DISTINCT o) as objects
+
+        // Return the movie and collected lists of all related nodes
+        RETURN m,
+               collect(DISTINCT s) AS scenes,
+               collect(DISTINCT c) AS characters,
+               collect(DISTINCT l) AS locations
     """,
+
+    "character": """
+        // Find the Character node by its unique elementId
+        MATCH (c:Character)
+        WHERE elementId(c) = $node_id
+
+        // Find which scenes the character appears in, and through that, the movie
+        OPTIONAL MATCH (m:Movie)-[:CONTAINS]->(s:Scene)-[:APPEARS_IN]->(c)
+        
+        // Find other characters this one REPRESENTS or RELATES_TO
+        OPTIONAL MATCH (c)-[:REPRESENTS]->(represented:Character)
+        OPTIONAL MATCH (c)-[:RELATES_TO]-(related_char:Character)
+        
+        // Find related objects and locations
+        OPTIONAL MATCH (c)-[:RELATES_TO]-(o:Object)
+        OPTIONAL MATCH (c)-[:RELATES_TO]-(l:Location)
+
+        // Return the character and collected lists of all related nodes
+        RETURN c,
+               m AS movie,
+               collect(DISTINCT s) AS scenes,
+               collect(DISTINCT represented) AS represents,
+               // Combining related characters from both directions
+               collect(DISTINCT related_char) + collect(DISTINCT represented) AS related_characters,
+               collect(DISTINCT o) AS related_objects,
+               collect(DISTINCT l) AS related_locations
+    """,
+
+    "scene": """
+        // Find the Scene node by its unique elementId
+        MATCH (s:Scene)
+        WHERE elementId(s) = $node_id
+
+        // Find the movie that contains this scene
+        OPTIONAL MATCH (m:Movie)-[:CONTAINS]->(s)
+        
+        // Find characters, locations, and objects related to this scene
+        OPTIONAL MATCH (s)-[:APPEARS_IN]->(c:Character)
+        OPTIONAL MATCH (s)-[:TAKES_PLACE_IN]->(l:Location)
+        OPTIONAL MATCH (s)-[:IN_SCENE]->(o:Object)
+
+        // Return the scene and collected lists of all related nodes
+        RETURN s,
+               m AS movie,
+               collect(DISTINCT c) AS characters,
+               collect(DISTINCT l) AS locations,
+               collect(DISTINCT o) AS objects
+    """,
+
     "location": """
-        MATCH (l:Location)<-[:TAKES_PLACE_IN]-(m:Movie)
-        WHERE id(l) = $node_id
-        OPTIONAL MATCH (l)<-[:TAKES_PLACE_IN]-(s:Scene)
-        OPTIONAL MATCH (l)-[:CONTAINS]->(o:Object)
-        RETURN l, collect(DISTINCT m) as movies,
-               collect(DISTINCT s) as scenes,
-               collect(DISTINCT o) as objects
+        // Find the Location node by its unique elementId
+        MATCH (l:Location)
+        WHERE elementId(l) = $node_id
+
+        // Find scenes that take place in this location
+        OPTIONAL MATCH (s:Scene)-[:TAKES_PLACE_IN]->(l)
+        
+        // Find characters explored by this location (Note: unusual direction)
+        OPTIONAL MATCH (l)-[:EXPLORES]->(c:Character)
+        
+        // Find sub-locations (e.g., Paris CONTAINS Eiffel Tower)
+        OPTIONAL MATCH (l)-[:CONTAINS]->(sub_location:Location)
+
+        // Return the location and collected lists of all related nodes
+        RETURN l,
+               collect(DISTINCT s) AS scenes,
+               collect(DISTINCT c) AS characters_explored,
+               collect(DISTINCT sub_location) AS sub_locations
     """,
+
     "object": """
-        MATCH (o:Object)-[:APPEARS_IN]->(m:Movie)
-        WHERE id(o) = $node_id
-        OPTIONAL MATCH (o)<-[:CONTAINS]-(s:Scene)
-        OPTIONAL MATCH (o)<-[:CONTAINS]-(l:Location)
-        RETURN o, collect(DISTINCT m) as movies,
-               collect(DISTINCT s) as scenes,
-               collect(DISTINCT l) as locations
+        // Find the Object node by its unique elementId
+        MATCH (o:Object)
+        WHERE elementId(o) = $node_id
+
+        // Find scenes this object is in
+        OPTIONAL MATCH (s:Scene)-[:IN_SCENE]->(o)
+        
+        // Find characters related to this object
+        OPTIONAL MATCH (o)-[:RELATES_TO]->(c:Character)
+        
+        // Find sub-objects (e.g., Box CONTAINS Key)
+        OPTIONAL MATCH (o)-[:CONTAINS]->(sub_object:Object)
+
+        // Return the object and the scenes it's contained in
+        RETURN o,
+               collect(DISTINCT s) AS scenes,
+               collect(DISTINCT c) AS related_characters,
+               collect(DISTINCT sub_object) AS sub_objects
     """
 }
-
 class EmbeddingService:
     @staticmethod
     async def get_embedding(text: str) -> np.ndarray:
@@ -281,7 +356,7 @@ class Neo4jService:
         MATCH (n:{label.capitalize()})
         WHERE n.{field} IS NOT NULL
         WITH n, n.{field} as text
-        RETURN id(n) as node_id, text, n
+        RETURN elementId(n) as node_id, text, n
         """
     
     @staticmethod
@@ -308,7 +383,7 @@ class Neo4jService:
                         nodes.append({
                             'node_id': record['node_id'],
                             'similarity': float(similarity),
-                            'node': dict(record['n']),
+                            'node': {k: v for k, v in dict(record['n']).items() if k != 'embedding'},
                             'text': text
                         })
                 
@@ -320,37 +395,48 @@ class Neo4jService:
             logger.error(f"Failed to search similar nodes: {e}")
             return []
     
+    # In class Neo4jService:
+
     @staticmethod
-    async def get_node_details(node_id: int, label: str) -> Dict[str, Any]:
-        """Get detailed information about a node using predefined Cypher queries"""
+    def _remove_embeddings(obj: Any) -> Any:
+        """Recursively remove 'embedding' keys from dicts, lists, and Neo4j nodes."""
+        if isinstance(obj, dict):
+            return {k: Neo4jService._remove_embeddings(v) 
+                    for k, v in obj.items() if k != "embedding"}
+        elif isinstance(obj, list):
+            return [Neo4jService._remove_embeddings(item) for item in obj]
+        else:
+            try:
+                # Handle Neo4j Node or Relationship (castable to dict)
+                obj_dict = dict(obj)
+                return Neo4jService._remove_embeddings(obj_dict)
+            except Exception:
+                return obj
+
+    @staticmethod
+    async def get_node_details(node_id: str, label: str) -> Dict[str, Any]:
+        """Get detailed information about a node using predefined Cypher queries."""
         try:
             cypher_query = CYPHER_QUERIES.get(label)
             if not cypher_query:
                 return {}
-            
+
             with services.neo4j_driver.session() as session:
                 result = session.run(cypher_query, node_id=node_id)
                 record = result.single()
-                
+
                 if record:
-                    # Convert Neo4j record to dictionary
+                    # Recursively clean embeddings
                     details = {}
                     for key in record.keys():
-                        value = record[key]
-                        if hasattr(value, '__dict__'):
-                            details[key] = dict(value)
-                        elif isinstance(value, list):
-                            details[key] = [dict(item) if hasattr(item, '__dict__') else item for item in value]
-                        else:
-                            details[key] = value
+                        details[key] = Neo4jService._remove_embeddings(record[key])
                     return details
-                
+
                 return {}
-                
         except Exception as e:
             logger.error(f"Failed to get node details: {e}")
             return {}
-
+        
 class ResponseGenerator:
     @staticmethod
     async def generate_response(context: Dict[str, Any], original_query: str) -> str:
@@ -442,11 +528,73 @@ async def health_check():
         }
     }
 
+@app.post("/chat/session")
+async def create_chat_session():
+    """Create a new chat session"""
+    try:
+        # Create new session
+        session = ChatSession()
+        
+        # Get database connection
+        db = Database.get_db()
+        
+        # Convert session to dict and insert
+        session_dict = session.model_dump(by_alias=True)
+        logger.info(f"Creating new chat session with data: {session_dict}")
+        
+        result = await db.chat_sessions.insert_one(session_dict)
+        session.id = result.inserted_id
+        
+        # Verify the session was created
+        created_session = await db.chat_sessions.find_one({"_id": result.inserted_id})
+        if not created_session:
+            logger.error("Session created but not found in immediate verification")
+            raise HTTPException(status_code=500, detail="Failed to verify session creation")
+            
+        logger.info(f"Successfully created chat session with ID: {result.inserted_id}")
+        return session.model_dump(by_alias=True)
+        
+    except Exception as e:
+        logger.error(f"Failed to create chat session: {e}")
+        raise HTTPException(status_code=500, detail="Failed to create chat session")
+
+@app.get("/chat/session/{session_id}")
+async def get_chat_session(session_id: str):
+    """Get a chat session by ID"""
+    try:
+        db = Database.get_db()
+        try:
+            session_object_id = session_id
+            logger.info(f"Session object ID: {session_object_id}")
+            
+        except Exception:
+            raise HTTPException(status_code=400, detail="Invalid session ID format")
+            
+        session = await db.chat_sessions.find_one({"_id": session_object_id})
+        logger.info(f"Chat session found: {session}")
+    
+        if not session:
+            logger.info(f"Chat session not found: {session_id}")
+            raise HTTPException(status_code=404, detail="Chat session not found")
+            
+        return session
+    except HTTPException:
+        raise
+    except Exception as e:
+        logger.error(f"Failed to get chat session: {e}")
+        raise HTTPException(status_code=500, detail="Internal server error")
+
 @app.post("/query", response_model=QueryResponse)
-async def process_query(request: QueryRequest):
+async def process_query(request: QueryRequest, session_id: str = None):
     """Main endpoint to process user queries"""
     try:
         original_query = request.query
+        
+        # Create user message
+        user_message = Message(
+            role="user",
+            content=original_query
+        )
         
         # Step 1: Enhance query with Gemini
         enhanced_query = await QueryProcessor.enhance_query_with_gemini(original_query)
@@ -473,9 +621,39 @@ async def process_query(request: QueryRequest):
         node_details = await Neo4jService.get_node_details(
             top_result['node_id'], detected_label
         )
-        
+        print("node_details:", node_details)
         # Step 6: Generate response
         response_text = await ResponseGenerator.generate_response(node_details, original_query)
+        
+        # Create assistant message
+        assistant_message = Message(
+            role="assistant",
+            content=response_text,
+            query_metadata={
+                "enhanced_query": enhanced_query,
+                "detected_label": detected_label,
+                "results": similar_nodes
+            }
+        )
+        
+        # If session_id is provided, store messages in the session
+        if session_id:
+            try:
+                db = Database.get_db()
+                await db.chat_sessions.update_one(
+                    {"_id": ObjectId(session_id)},
+                    {
+                        "$push": {"messages": {
+                            "$each": [
+                                user_message.model_dump(by_alias=True),
+                                assistant_message.model_dump(by_alias=True)
+                            ]
+                        }},
+                        "$set": {"updated_at": datetime.utcnow()}
+                    }
+                )
+            except Exception as e:
+                logger.error(f"Failed to update chat session: {e}")
         
         return QueryResponse(
             original_query=original_query,
