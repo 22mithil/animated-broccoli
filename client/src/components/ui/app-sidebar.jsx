@@ -29,6 +29,7 @@ export function AppSidebar({
   onRename,
   onDelete,
   onNewChat,
+  isLoading = false,
   ...props
 }) {
   const handleRename = React.useCallback(
@@ -64,43 +65,64 @@ export function AppSidebar({
           </SidebarGroupLabel>
           <SidebarGroupContent className="px-2">
             <SidebarMenu>
-              {history.map((item) => (
-                <SidebarMenuItem key={item.id || item.title}>
-                  <SidebarMenuButton
-                    asChild
-                    className="group/menu-button font-medium gap-3 h-9 rounded-md data-[active=true]:hover:bg-transparent data-[active=true]:bg-gradient-to-b data-[active=true]:from-sidebar-primary data-[active=true]:to-sidebar-primary/70 data-[active=true]:shadow-[0_1px_2px_0_rgb(0_0_0/.05),inset_0_1px_0_0_rgb(255_255_255/.12)] [&>svg]:size-auto hover:bg-white/5 transition-all duration-300"
-                    isActive={
-                      (item.id && item.id === selectedId) || item.isActive
-                    }
+              {isLoading ? (
+                <div className="flex flex-col gap-2 px-2 py-1">
+                  <div className="h-8 w-full animate-pulse rounded-md bg-white/5"></div>
+                  <div className="h-8 w-full animate-pulse rounded-md bg-white/5"></div>
+                  <div className="h-8 w-full animate-pulse rounded-md bg-white/5"></div>
+                </div>
+              ) : history.length === 0 ? (
+                <div className="flex flex-col items-center justify-center gap-2 py-8 text-center text-sm text-sidebar-foreground/50">
+                  <p>No chat history yet</p>
+                  <button
+                    onClick={onNewChat}
+                    className="text-primary hover:text-primary/80 transition-colors"
                   >
-                    <button
-                      type="button"
-                      className="w-full text-left"
-                      onClick={() => onSelect && onSelect(item)}
+                    Start a new chat
+                  </button>
+                </div>
+              ) : (
+                history.map((item) => (
+                  <SidebarMenuItem key={item.id || item.title}>
+                    <SidebarMenuButton
+                      asChild
+                      className="group/menu-button font-medium gap-3 h-9 rounded-md data-[active=true]:hover:bg-transparent data-[active=true]:bg-gradient-to-b data-[active=true]:from-sidebar-primary data-[active=true]:to-sidebar-primary/70 data-[active=true]:shadow-[0_1px_2px_0_rgb(0_0_0/.05),inset_0_1px_0_0_rgb(255_255_255/.12)] [&>svg]:size-auto hover:bg-white/5 transition-all duration-300"
+                      isActive={
+                        (item.id && item.id === selectedId) || item.isActive
+                      }
                     >
-                      <span>{item.title}</span>
-                    </button>
-                  </SidebarMenuButton>
-                  <DropdownMenu>
-                    <DropdownMenuTrigger asChild>
-                      <SidebarMenuAction aria-label="Item actions" showOnHover>
-                        <RiMore2Fill size={16} aria-hidden="true" />
-                      </SidebarMenuAction>
-                    </DropdownMenuTrigger>
-                    <DropdownMenuContent align="start" sideOffset={6}>
-                      <DropdownMenuItem onSelect={() => handleRename(item)}>
-                        Rename
-                      </DropdownMenuItem>
-                      <DropdownMenuItem
-                        variant="destructive"
-                        onSelect={() => handleDelete(item)}
+                      <button
+                        type="button"
+                        className="w-full text-left"
+                        onClick={() => onSelect && onSelect(item)}
                       >
-                        Delete
-                      </DropdownMenuItem>
-                    </DropdownMenuContent>
-                  </DropdownMenu>
-                </SidebarMenuItem>
-              ))}
+                        <span>{item.title}</span>
+                      </button>
+                    </SidebarMenuButton>
+                    <DropdownMenu>
+                      <DropdownMenuTrigger asChild>
+                        <SidebarMenuAction
+                          aria-label="Item actions"
+                          showOnHover
+                        >
+                          <RiMore2Fill size={16} aria-hidden="true" />
+                        </SidebarMenuAction>
+                      </DropdownMenuTrigger>
+                      <DropdownMenuContent align="start" sideOffset={6}>
+                        <DropdownMenuItem onSelect={() => handleRename(item)}>
+                          Rename
+                        </DropdownMenuItem>
+                        <DropdownMenuItem
+                          variant="destructive"
+                          onSelect={() => handleDelete(item)}
+                        >
+                          Delete
+                        </DropdownMenuItem>
+                      </DropdownMenuContent>
+                    </DropdownMenu>
+                  </SidebarMenuItem>
+                ))
+              )}
             </SidebarMenu>
           </SidebarGroupContent>
         </SidebarGroup>

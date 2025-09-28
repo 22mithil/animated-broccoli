@@ -1,5 +1,6 @@
-import { useMemo, useState, useCallback } from 'react';
+import { useMemo, useState, useCallback, useEffect } from 'react';
 import { AppSidebar } from '@/components/ui/app-sidebar';
+import { ChatService } from '@/services/chat-service';
 import {
   SidebarInset,
   SidebarProvider,
@@ -15,32 +16,29 @@ import Chat from '@/components/chat/chat';
 import { ThemeToggle } from '@/components/theme-toggle';
 
 export default function ChatLayout() {
-  const [conversations, setConversations] = useState([
-    {
-      id: 'sample-1',
-      title: 'Movie Discovery',
-      messages: [
-        {
-          id: 'm1',
-          role: 'user',
-          content: 'Show me movies about betrayal and redemption',
-        },
-        {
-          id: 'm2',
-          role: 'assistant',
-          content:
-            'I found several movies that explore themes of betrayal and redemption. "The Shawshank Redemption" follows Andy Dufresne\'s journey from wrongful imprisonment to redemption. "Casino" shows the betrayal and eventual redemption of Sam Rothstein. "The Godfather Part II" explores Michael Corleone\'s moral descent and attempts at redemption. Would you like me to find more specific examples or explore similar themes?',
-        },
-        {
-          id: 'm3',
-          role: 'user',
-          content: 'What about movies that feel like Spirited Away?',
-        },
-      ],
-    },
-  ]);
-  const [selectedId, setSelectedId] = useState(conversations[0]?.id || null);
+  const [conversations, setConversations] = useState([]);
+  const [isLoading, setIsLoading] = useState(true);
+  const [selectedId, setSelectedId] = useState(null);
   const [isNewChat, setIsNewChat] = useState(false);
+
+  // Fetch chat history on component mount
+  useEffect(() => {
+    const fetchHistory = async () => {
+      try {
+        const history = await ChatService.getHistory();
+        setConversations(history);
+        if (history.length > 0 && !selectedId) {
+          setSelectedId(history[0].id);
+        }
+      } catch (error) {
+        console.error('Failed to fetch chat history:', error);
+      } finally {
+        setIsLoading(false);
+      }
+    };
+
+    fetchHistory();
+  }, []);
 
   const selectedConversation = useMemo(
     () => conversations.find((c) => c.id === selectedId) || null,
@@ -55,18 +53,25 @@ export default function ChatLayout() {
     setIsNewChat(true);
   }, []);
 
-  const handleSelect = useCallback(
-    (item) => {
-      if (item?.id) {
+  const handleSelect = useCallback(async (item) => {
+    if (item?.id) {
+      try {
+        setIsLoading(true);
+        const session = await ChatService.getSession(item.id);
         setSelectedId(item.id);
-        setIsNewChat(
-          (conversations.find((c) => c.id === item.id)?.messages?.length ||
-            0) === 0
+        setConversations((prev) =>
+          prev.map((conv) =>
+            conv.id === item.id ? { ...conv, messages: session.messages } : conv
+          )
         );
+        setIsNewChat(session.messages?.length === 0);
+      } catch (error) {
+        console.error('Failed to load chat session:', error);
+      } finally {
+        setIsLoading(false);
       }
-    },
-    [conversations]
-  );
+    }
+  }, []);
 
   const handleRename = useCallback((item) => {
     const name = window.prompt('Rename conversation', item.title || 'Untitled');
@@ -120,6 +125,7 @@ export default function ChatLayout() {
         onRename={handleRename}
         onDelete={handleDelete}
         onNewChat={handleNewChat}
+        isLoading={isLoading}
       />
       <SidebarInset className="bg-sidebar group/sidebar-inset">
         <header className="glass-morphism flex h-16 shrink-0 items-center gap-2 px-4 md:px-6 lg:px-8 text-sidebar-foreground relative border-b border-white/10 dark:border-white/5">
@@ -143,6 +149,8 @@ export default function ChatLayout() {
             onStartChat={() => setIsNewChat(false)}
             messages={selectedConversation?.messages || []}
             onSend={handleSend}
+            isLoading={isLoading}
+            sessionId={selectedId}
           />
         </div>
       </SidebarInset>

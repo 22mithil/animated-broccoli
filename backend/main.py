@@ -558,13 +558,30 @@ async def create_chat_session():
         logger.error(f"Failed to create chat session: {e}")
         raise HTTPException(status_code=500, detail="Failed to create chat session")
 
+@app.get("/chat/sessions")
+async def get_all_chat_sessions():
+    """Get all chat sessions"""
+    try:
+        db = Database.get_db()
+        cursor = db.chat_sessions.find().sort("updated_at", -1)
+        sessions = await cursor.to_list(length=None)
+        
+        # Convert ObjectId to string for JSON serialization
+        for session in sessions:
+            session["_id"] = str(session["_id"])
+            
+        return sessions
+    except Exception as e:
+        logger.error(f"Failed to get chat sessions: {e}")
+        raise HTTPException(status_code=500, detail="Failed to get chat sessions")
+
 @app.get("/chat/session/{session_id}")
 async def get_chat_session(session_id: str):
     """Get a chat session by ID"""
     try:
         db = Database.get_db()
         try:
-            session_object_id = session_id
+            session_object_id = ObjectId(session_id)
             logger.info(f"Session object ID: {session_object_id}")
             
         except Exception:
@@ -576,6 +593,9 @@ async def get_chat_session(session_id: str):
         if not session:
             logger.info(f"Chat session not found: {session_id}")
             raise HTTPException(status_code=404, detail="Chat session not found")
+            
+        # Convert ObjectId to string for JSON serialization
+        session["_id"] = str(session["_id"])
             
         return session
     except HTTPException:

@@ -1,6 +1,33 @@
 const API_BASE_URL = 'http://localhost:8001';
 
 export class ChatService {
+  static async getHistory() {
+    try {
+      const response = await fetch(`${API_BASE_URL}/chat/sessions`, {
+        method: 'GET',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+      });
+
+      if (!response.ok) {
+        throw new Error('Failed to fetch chat history');
+      }
+
+      const history = await response.json();
+      return history.map((session) => ({
+        id: session._id,
+        title:
+          session.title ||
+          `Chat ${new Date(session.created_at).toLocaleDateString()}`,
+        timestamp: session.created_at,
+        messages: session.messages || [],
+      }));
+    } catch (error) {
+      console.error('Error fetching chat history:', error);
+      throw error;
+    }
+  }
   static async createSession() {
     try {
       const response = await fetch(`${API_BASE_URL}/chat/session`, {
@@ -29,7 +56,22 @@ export class ChatService {
         throw new Error('Failed to get chat session');
       }
 
-      return await response.json();
+      const session = await response.json();
+
+      // Format messages for frontend use
+      const formattedMessages =
+        session.messages?.map((message) => ({
+          id: message._id || `${Date.now()}-${message.role}`,
+          role: message.role,
+          content: message.content,
+          timestamp: message.timestamp,
+          query_metadata: message.query_metadata,
+        })) || [];
+
+      return {
+        ...session,
+        messages: formattedMessages,
+      };
     } catch (error) {
       console.error('Error getting chat session:', error);
       throw error;
